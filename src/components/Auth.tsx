@@ -49,8 +49,12 @@ export const Auth: React.FC = () => {
         }
       }
     } catch (err: unknown) {
-      const errorVal = err as { message?: string };
-      setErrorMsg(errorVal.message || "A intervenit o eroare la autentificare.");
+      console.error("BeautyOS Auth Error:", err);
+      const errorVal = err as { message?: string; name?: string; status?: number; code?: string };
+      const detail = errorVal.message || "A intervenit o eroare la autentificare.";
+      const codeStr = errorVal.code ? ` [Cod: ${errorVal.code}]` : "";
+      const statusStr = errorVal.status ? ` (Status: ${errorVal.status})` : "";
+      setErrorMsg(`${detail}${codeStr}${statusStr}`);
     } finally {
       setLoading(false);
     }
