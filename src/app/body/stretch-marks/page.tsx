@@ -1,0 +1,21 @@
+import React from "react";
+import { editorialContent, EditorialArticle } from "../../../data/editorialContent";
+import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
+
+// The slug is always stretch-marks
+export default function StaticPage() {
+  const article = editorialContent["body-stretch-marks"];
+
+  if (!article) {
+    notFound();
+  }
+
+  return (
+    <EditorialTemplate 
+      article={article} 
+      backHref="/body" 
+      backLabel="Body Hub" 
+    />
+  );
+}

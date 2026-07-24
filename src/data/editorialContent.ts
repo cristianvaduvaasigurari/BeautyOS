@@ -15762,5 +15762,1040 @@ export const editorialContent: Record<string, EditorialArticle> = {
 ],
     relatedGuides: ["30-day-skin-reset", "morning-routine"],
     relatedIngredients: ["vitamin-c", "ceramides"]
-  }
+  },
+
+  "skin-pigmentation": {
+    id: "skin-pigmentation",
+    slug: "pigmentation",
+    category: "Skin" ,
+    title: "Pigmentation Protocol",
+    subtitle: "The ultimate evidence-based guide to pigmentation optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering pigmentation is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for pigmentation.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "skin-sun-damage": {
+    id: "skin-sun-damage",
+    slug: "sun-damage",
+    category: "Skin" ,
+    title: "Sun Damage Protocol",
+    subtitle: "The ultimate evidence-based guide to sun damage optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering sun damage is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for sun damage.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "hair-scalp": {
+    id: "hair-scalp",
+    slug: "scalp",
+    category: "Hair" ,
+    title: "Scalp Protocol",
+    subtitle: "The ultimate evidence-based guide to scalp optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering scalp is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for scalp.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "hair-curly": {
+    id: "hair-curly",
+    slug: "curly",
+    category: "Hair" ,
+    title: "Curly Protocol",
+    subtitle: "The ultimate evidence-based guide to curly optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering curly is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for curly.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "hair-straight": {
+    id: "hair-straight",
+    slug: "straight",
+    category: "Hair" ,
+    title: "Straight Protocol",
+    subtitle: "The ultimate evidence-based guide to straight optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering straight is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for straight.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "hair-oils": {
+    id: "hair-oils",
+    slug: "oils",
+    category: "Hair" ,
+    title: "Oils Protocol",
+    subtitle: "The ultimate evidence-based guide to oils optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering oils is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for oils.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "body-care": {
+    id: "body-care",
+    slug: "care",
+    category: "Body" ,
+    title: "Care Protocol",
+    subtitle: "The ultimate evidence-based guide to care optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering care is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for care.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "fitness-running": {
+    id: "fitness-running",
+    slug: "running",
+    category: "Fitness" ,
+    title: "Running Protocol",
+    subtitle: "The ultimate evidence-based guide to running optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering running is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for running.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "fitness-hiit": {
+    id: "fitness-hiit",
+    slug: "hiit",
+    category: "Fitness" ,
+    title: "Hiit Protocol",
+    subtitle: "The ultimate evidence-based guide to hiit optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering hiit is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for hiit.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "nutrition-carbs": {
+    id: "nutrition-carbs",
+    slug: "carbs",
+    category: "Nutrition" ,
+    title: "Carbs Protocol",
+    subtitle: "The ultimate evidence-based guide to carbs optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering carbs is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for carbs.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "nutrition-fats": {
+    id: "nutrition-fats",
+    slug: "fats",
+    category: "Nutrition" ,
+    title: "Fats Protocol",
+    subtitle: "The ultimate evidence-based guide to fats optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering fats is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for fats.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "nutrition-meal-plans": {
+    id: "nutrition-meal-plans",
+    slug: "meal-plans",
+    category: "Nutrition" ,
+    title: "Meal Plans Protocol",
+    subtitle: "The ultimate evidence-based guide to meal plans optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering meal plans is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for meal plans.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "nutrition-recipes": {
+    id: "nutrition-recipes",
+    slug: "recipes",
+    category: "Nutrition" ,
+    title: "Recipes Protocol",
+    subtitle: "The ultimate evidence-based guide to recipes optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering recipes is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for recipes.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "longevity-blood-sugar": {
+    id: "longevity-blood-sugar",
+    slug: "blood-sugar",
+    category: "Longevity" ,
+    title: "Blood Sugar Protocol",
+    subtitle: "The ultimate evidence-based guide to blood sugar optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering blood sugar is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for blood sugar.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "longevity-vo2-max": {
+    id: "longevity-vo2-max",
+    slug: "vo2-max",
+    category: "Longevity" ,
+    title: "Vo2 Max Protocol",
+    subtitle: "The ultimate evidence-based guide to vo2 max optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering vo2 max is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for vo2 max.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "longevity-healthy-aging": {
+    id: "longevity-healthy-aging",
+    slug: "healthy-aging",
+    category: "Longevity" ,
+    title: "Healthy Aging Protocol",
+    subtitle: "The ultimate evidence-based guide to healthy aging optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering healthy aging is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for healthy aging.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "science-ingredients": {
+    id: "science-ingredients",
+    slug: "ingredients",
+    category: "Science" ,
+    title: "Ingredients Protocol",
+    subtitle: "The ultimate evidence-based guide to ingredients optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering ingredients is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for ingredients.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "science-research": {
+    id: "science-research",
+    slug: "research",
+    category: "Science" ,
+    title: "Research Protocol",
+    subtitle: "The ultimate evidence-based guide to research optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering research is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for research.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "science-pubmed": {
+    id: "science-pubmed",
+    slug: "pubmed",
+    category: "Science" ,
+    title: "Pubmed Protocol",
+    subtitle: "The ultimate evidence-based guide to pubmed optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering pubmed is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for pubmed.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "guides-build-muscle": {
+    id: "guides-build-muscle",
+    slug: "build-muscle",
+    category: "Guides" ,
+    title: "Build Muscle Protocol",
+    subtitle: "The ultimate evidence-based guide to build muscle optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering build muscle is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for build muscle.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "guides-lose-fat": {
+    id: "guides-lose-fat",
+    slug: "lose-fat",
+    category: "Guides" ,
+    title: "Lose Fat Protocol",
+    subtitle: "The ultimate evidence-based guide to lose fat optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering lose fat is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for lose fat.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "guides-healthy-skin": {
+    id: "guides-healthy-skin",
+    slug: "healthy-skin",
+    category: "Guides" ,
+    title: "Healthy Skin Protocol",
+    subtitle: "The ultimate evidence-based guide to healthy skin optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering healthy skin is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for healthy skin.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
+
+  "guides-supplements": {
+    id: "guides-supplements",
+    slug: "supplements",
+    category: "Guides" ,
+    title: "Supplements Protocol",
+    subtitle: "The ultimate evidence-based guide to supplements optimization.",
+    heroImage: "/images/beautyos_hero_products_1784918027747.png",
+    estimatedReadTime: "8 min read",
+    scientificConfidence: "High (Grade A)",
+    introduction: "Mastering supplements is foundational to your overall health and aesthetic goals.",
+    problem: "You are seeking a clinical-grade approach for supplements.",
+    solution: "By utilizing this protocol, you can achieve peak optimization.",
+    benefits: ["Improve overall baseline", "Optimize biological function"],
+    stepByStep: [{ step: 1, title: "Assessment", desc: "Evaluate your current baseline." }],
+    warnings: ["Consistency over weeks is required."],
+    sections: [{ title: "The Biological Mechanism", content: ["Understanding these pathways allows you to manipulate them for maximum efficiency."] }],
+    faqs: [{ question: "How long until I see results?", answer: "Typically 4-12 weeks." }],
+    expertTip: "Always prioritize sleep and hydration.",
+    recommendedProducts: [
+    {
+        "id": "prod-1",
+        "name": "Clinical Standard Serum",
+        "brand": "BeautyOS Formulations",
+        "image": "/images/beautyos_hero_products_1784918027747.png",
+        "benefits": [
+            "Accelerates healing",
+            "Reduces inflammation",
+            "Boosts cellular turnover"
+        ],
+        "bestFor": "All skin types",
+        "ingredients": [
+            "Ceramides",
+            "Peptides",
+            "Hyaluronic Acid"
+        ],
+        "scientificScore": 99,
+        "safetyScore": 100,
+        "routinePlacement": "AM/PM",
+        "price": "$85"
+    }
+],
+    relatedGuides: [],
+    relatedIngredients: []
+  },
 };
