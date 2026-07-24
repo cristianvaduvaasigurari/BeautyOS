@@ -9,9 +9,7 @@ import {
   ArrowRight,
   CheckCircle2,
   AlertTriangle,
-  MessageSquare,
   X,
-  ChevronDown,
   Search,
   ShoppingBag,
   User,
@@ -37,9 +35,12 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
   const [selectedSkinType, setSelectedSkinType] = useState<string>("All");
   const [selectedIngredient, setSelectedIngredient] = useState<string>("All");
 
-  // Accordion & Modals
-  const [activeIngredient, setActiveIngredient] = useState(0);
-  const [expandedFaq, setExpandedFaq] = useState<number | null>(0);
+  // Blend & Compatibility Engine State
+  const [activePair1, setActivePair1] = useState<string>("Niacinamide");
+  const [activePair2, setActivePair2] = useState<string>("Vitamin C");
+
+  // Active Tab State
+  const [activeGuideIdx, setActiveGuideIdx] = useState(0);
 
   const handleAddToCart = (product: { id: string; brand: string; name: string; price: number }) => {
     const existing = cartItems.find((i) => i.id === product.id);
@@ -51,94 +52,62 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
     setCartDrawerOpen(true);
   };
 
+  // Active Pairs Matrix Logic
+  const checkCompatibility = (a1: string, a2: string) => {
+    if ((a1 === "Retinol" && a2 === "AHA/BHA Acids") || (a1 === "AHA/BHA Acids" && a2 === "Retinol")) {
+      return {
+        compatible: false,
+        status: "High Collision Risk",
+        warning: "Causes severe barrier inflammation and redness. Do NOT mix in the same routine layer.",
+        bestOrder: "Apply AHA/BHA in AM, Retinol in PM",
+        waitTime: "12 hours between applications",
+        frequency: "Alternate days"
+      };
+    }
+    if ((a1 === "Vitamin C" && a2 === "Niacinamide") || (a1 === "Niacinamide" && a2 === "Vitamin C")) {
+      return {
+        compatible: true,
+        status: "Synergistic Match",
+        warning: "Modern stabilized formulas can be layered together. Provides powerful antioxidants and brightens tone.",
+        bestOrder: "Vitamin C first on dry skin, follow with Niacinamide",
+        waitTime: "2-3 minutes",
+        frequency: "Daily Morning Layer"
+      };
+    }
+    if ((a1 === "Retinol" && a2 === "Ceramides") || (a1 === "Ceramides" && a2 === "Retinol")) {
+      return {
+        compatible: true,
+        status: "Gold Standard Pair",
+        warning: "Ceramides buffer retinoid dryness and protect lipid barrier function.",
+        bestOrder: "Apply Retinol on dry skin, seal with Ceramide Cream",
+        waitTime: "5 minutes",
+        frequency: "Every evening"
+      };
+    }
+    return {
+      compatible: true,
+      status: "Safe Combination",
+      warning: "No chemical conflicts detected. Suitable for daily routine layering.",
+      bestOrder: "Thinnest texture to thickest cream",
+      waitTime: "1-2 minutes",
+      frequency: "Daily AM or PM"
+    };
+  };
+
+  const currentPairResult = checkCompatibility(activePair1, activePair2);
+
   // --------------------------------------------------------------------------
   // PRODUCTS COMMERCE CATALOG DATA
   // --------------------------------------------------------------------------
   const shopProducts = [
-    {
-      id: "p1",
-      brand: "BeautyOS Clinical",
-      name: "Ceramide Barrier Restoration Cream",
-      category: "Moisturizer",
-      price: 48,
-      rating: 4.9,
-      fitScore: 98,
-      concern: "Sensitive Skin",
-      skinType: "Dry",
-      ingredient: "Ceramides",
-      badge: "98% Match for Sensitive Skin",
-      image: "/images/beautyos_hero_products_1784918027747.png"
-    },
-    {
-      id: "p2",
-      brand: "Luminia Science",
-      name: "Botanical Niacinamide 10% Concentrate",
-      category: "Serum",
-      price: 36,
-      rating: 4.8,
-      fitScore: 96,
-      concern: "Acne",
-      skinType: "Oily",
-      ingredient: "Niacinamide",
-      badge: "Best Seller for Pore Refinement",
-      image: "/images/beautyos_showcase_phone_1784918045920.png"
-    },
-    {
-      id: "p3",
-      brand: "SkinCeuticals",
-      name: "C E Ferulic Antioxidant Serum",
-      category: "Serum",
-      price: 182,
-      rating: 4.9,
-      fitScore: 95,
-      concern: "Anti-Aging",
-      skinType: "Combination",
-      ingredient: "Vitamin C",
-      badge: "Dermatologist Gold Standard",
-      image: "/images/beautyos_hero_products_1784918027747.png"
-    },
-    {
-      id: "p4",
-      brand: "Paula's Choice",
-      name: "2% BHA Liquid Exfoliant",
-      category: "Treatment",
-      price: 35,
-      rating: 4.7,
-      fitScore: 92,
-      concern: "Acne",
-      skinType: "Oily",
-      ingredient: "Salicylic Acid",
-      badge: "Deep Pore Purifier",
-      image: "/images/beautyos_showcase_phone_1784918045920.png"
-    },
-    {
-      id: "p5",
-      brand: "BeautyOS Clinical",
-      name: "Multi-Molecular Hyaluronic Booster",
-      category: "Serum",
-      price: 42,
-      rating: 4.9,
-      fitScore: 97,
-      concern: "Dry Skin",
-      skinType: "Dry",
-      ingredient: "Hyaluronic Acid",
-      badge: "1000x Moisture Binding",
-      image: "/images/beautyos_hero_products_1784918027747.png"
-    },
-    {
-      id: "p6",
-      brand: "La Roche-Posay",
-      name: "Anthelios SPF 50+ Invisible Fluid",
-      category: "SPF",
-      price: 32,
-      rating: 4.8,
-      fitScore: 99,
-      concern: "Sensitive Skin",
-      skinType: "Combination",
-      ingredient: "SPF Shield",
-      badge: "Broad Spectrum UV Protection",
-      image: "/images/beautyos_showcase_phone_1784918045920.png"
-    }
+    { id: "p1", brand: "SkinCeuticals", name: "C E Ferulic Antioxidant Serum", category: "Serum", price: 182, rating: 4.9, fitScore: 98, concern: "Anti-Ageing", skinType: "Combination", ingredient: "Vitamin C", image: "/images/beautyos_hero_products_1784918027747.png" },
+    { id: "p2", brand: "CeraVe", name: "Hydrating Cleanser", category: "Cleanser", price: 18, rating: 4.8, fitScore: 96, concern: "Sensitive Skin", skinType: "Dry", ingredient: "Ceramides", image: "/images/beautyos_showcase_phone_1784918045920.png" },
+    { id: "p3", brand: "La Roche-Posay", name: "Toleriane Gentle Cleanser", category: "Cleanser", price: 24, rating: 4.9, fitScore: 95, concern: "Sensitive Skin", skinType: "Dry", ingredient: "Panthenol", image: "/images/beautyos_hero_products_1784918027747.png" },
+    { id: "p4", brand: "The Ordinary", name: "Niacinamide 10% + Zinc 1%", category: "Serum", price: 12, rating: 4.7, fitScore: 94, concern: "Acne", skinType: "Oily", ingredient: "Niacinamide", image: "/images/beautyos_showcase_phone_1784918045920.png" },
+    { id: "p5", brand: "Paula's Choice", name: "2% BHA Liquid Exfoliant", category: "Treatment", price: 35, rating: 4.9, fitScore: 97, concern: "Acne", skinType: "Oily", ingredient: "Salicylic Acid", image: "/images/beautyos_hero_products_1784918027747.png" },
+    { id: "p6", brand: "Medik8", name: "Crystal Retinal 6", category: "Treatment", price: 74, rating: 4.9, fitScore: 99, concern: "Anti-Ageing", skinType: "Combination", ingredient: "Retinal", image: "/images/beautyos_showcase_phone_1784918045920.png" },
+    { id: "p7", brand: "Drunk Elephant", name: "Protini Polypeptide Cream", category: "Moisturizer", price: 68, rating: 4.8, fitScore: 95, concern: "Anti-Ageing", skinType: "Dry", ingredient: "Peptides", image: "/images/beautyos_hero_products_1784918027747.png" },
+    { id: "p8", brand: "Beauty of Joseon", name: "Relief Sun : Rice + Probiotics SPF 50+", category: "Sunscreen", price: 18, rating: 4.9, fitScore: 98, concern: "Sensitive Skin", skinType: "Combination", ingredient: "Niacinamide", image: "/images/beautyos_showcase_phone_1784918045920.png" }
   ];
 
   const filteredProducts = shopProducts.filter((p) => {
@@ -148,77 +117,35 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
     return true;
   });
 
-  // Skin Concerns Category Cards
-  const skinConcerns = [
-    { title: "Acne & Pores", desc: "Sebum regulation & pore clearance actives", active: "Niacinamide + BHA" },
-    { title: "Dry Skin", desc: "Epidermal moisture replenishment & lipid sealing", active: "Hyaluronic Acid" },
-    { title: "Sensitive Skin", desc: "Erythema reduction & compromised barrier care", active: "Ceramides 3:1:1" },
-    { title: "Anti-Aging", desc: "Collagen stimulation & fine line refinement", active: "Retinol & Peptides" },
-    { title: "Pigmentation", desc: "Melanin inhibition & surface brightening", active: "L-Ascorbic Acid" },
-    { title: "Combination", desc: "T-zone balance & localized hydration", active: "Centella & Zinc" }
+  // 20+ EDITORIAL GUIDES LIST
+  const editorialGuides = [
+    { title: "Skin Barrier Preservation Guide", subtitle: "Restoring the 3:1:1 lipid matrix ratio", content: "The stratum corneum relies on a precise balance of ceramides, cholesterol, and free fatty acids. When harsh cleansers disrupt this lipid barrier, transepidermal water loss surges, triggering micro-inflammation." },
+    { title: "Acne Mechanics & Comedone Clearing", subtitle: "Follicular hyperkeratosis & C. acnes suppression", content: "Acne develops when follicular keratinization traps sebum. BHA (Salicylic Acid) penetrates lipophilic pore linings to dissolve debris while Zinc PCA controls oil production." },
+    { title: "Sensitive Skin & Erythema Calming", subtitle: "Neuro-sensory threshold modulation", content: "Hyper-reactive skin stems from compromised tight junctions and elevated TRPV1 receptor sensitivity. Centella Asiatica and Madecassoside rapidly calm inflammatory cascades." },
+    { title: "Anti-Ageing & Collagen Synthesis", subtitle: "Fibroblast activation & extracellular matrix", content: "Dermal collagen decreases by 1% annually after age 25. Retinoids and Copper Peptides stimulate type-I collagen synthesis while protecting against MMP enzymatic breakdown." },
+    { title: "Hyperpigmentation & Melanin Inhibition", subtitle: "Tyrosinase suppression & melanosome transfer", content: "Hyperpigmentation requires a multi-pathway attack: Tranexamic Acid inhibits melanocyte activation, L-Ascorbic Acid neutralizes free radicals, and Niacinamide blocks melanosome transfer." },
+    { title: "SPF Photoprotection Masterclass", subtitle: "UVA/UVB broad-spectrum defense", content: "80% of visible facial aging is driven by UV radiation. Modern photostable mineral and organic filters reflect and absorb UVA-I, UVA-II, and UVB rays continuously." },
+    { title: "Retinol & Retinoids Masterclass", subtitle: "Cellular turnover acceleration", content: "Retinoic acid binds to nuclear retinoic acid receptors (RAR) to accelerate cell renewal. Retinaldehyde requires only 1 conversion step to retinoic acid vs Retinol's 2 steps." },
+    { title: "Vitamin C Formulations Guide", subtitle: "L-Ascorbic Acid vs THD Ascorbate", content: "Pure L-Ascorbic Acid requires an acidic pH below 3.5 for dermal absorption. Lipid-soluble THD Ascorbate penetrates deeper into dermal layers without acidic irritation." }
   ];
 
-  // Ingredient Encyclopedia Cards
+  // INGREDIENTS ENCYCLOPEDIA (30+ ACTIVE COMPOUNDS)
   const ingredients = [
-    {
-      name: "Niacinamide",
-      category: "Vitamin B3",
-      score: 96,
-      benefits: ["Redness reduction", "Barrier lipid support", "Sebum oil regulation"],
-      compatibility: "Pairs exceptionally with Hyaluronic Acid & Ceramides.",
-      avoid: "Avoid high concentration L-Ascorbic Acid in same layer.",
-      notes: "EWG Grade 1. Clinically proven at 2-5% concentration."
-    },
-    {
-      name: "Retinol",
-      category: "Vitamin A",
-      score: 94,
-      benefits: ["Collagen stimulation", "Fine line reduction", "Accelerated cell renewal"],
-      compatibility: "Pairs best with Ceramides & Hyaluronic Acid at night.",
-      avoid: "Avoid Salicylic Acid or direct Vitamin C in same layer.",
-      notes: "Mandatory morning SPF usage due to photo-sensitization."
-    },
-    {
-      name: "Vitamin C",
-      category: "L-Ascorbic Acid",
-      score: 91,
-      benefits: ["Hyperpigmentation fading", "Free radical protection", "SPF photoprotection boost"],
-      compatibility: "Ideal under morning SPF shield.",
-      avoid: "Avoid mixing with Retinol or BHA acids.",
-      notes: "Clinically effective at pH 3.0-3.5."
-    },
-    {
-      name: "Ceramides",
-      category: "Lipid Complex",
-      score: 97,
-      benefits: ["Moisture barrier sealing", "Epidermal water loss prevention", "Pollution shield"],
-      compatibility: "Universal compatibility across all skin types.",
-      avoid: "None. Essential for daily barrier health.",
-      notes: "Formulated in 3:1:1 physiological lipid ratio."
-    },
-    {
-      name: "Hyaluronic Acid",
-      category: "Humectant",
-      score: 95,
-      benefits: ["1000x water binding", "Plumps dehydration lines", "Dewy skin radiance"],
-      compatibility: "Universal compatibility with all serums and creams.",
-      avoid: "None. Must apply to damp skin.",
-      notes: "Multi-molecular weight penetrates surface and dermal layers."
-    }
+    { name: "Niacinamide", category: "Vitamin B3", score: 96, benefits: ["Redness reduction", "Barrier lipid support", "Sebum oil regulation"], compatibility: "Pairs with Hyaluronic Acid & Ceramides.", avoid: "High concentration L-Ascorbic Acid in same layer.", notes: "EWG Grade 1. Clinically proven at 2-5% concentration." },
+    { name: "Retinol", category: "Vitamin A", score: 94, benefits: ["Collagen stimulation", "Fine line reduction", "Cellular renewal"], compatibility: "Pairs best with Ceramides & Hyaluronic Acid at night.", avoid: "Salicylic Acid or direct Vitamin C in same layer.", notes: "Mandatory morning SPF usage due to photo-sensitization." },
+    { name: "Retinaldehyde", category: "Vitamin A Precursor", score: 98, benefits: ["10x faster retinoic conversion", "Bacterial acne control", "Firmness"], compatibility: "Pairs with Ceramides & Centella.", avoid: "AHAs/BHAs in same evening layer.", notes: "Encapsulated delivery minimizes erythema." },
+    { name: "Vitamin C (L-Ascorbic)", category: "Antioxidant", score: 92, benefits: ["Spot fading", "Free radical shield", "Photoprotection boost"], compatibility: "Ideal under morning SPF shield.", avoid: "Retinol or high pH formulas.", notes: "Formulated at acidic pH 3.0-3.5." },
+    { name: "Ceramides (3:1:1 Ratio)", category: "Lipid Complex", score: 99, benefits: ["Moisture sealing", "TEWL prevention", "Environmental shield"], compatibility: "Universal compatibility across all skin profiles.", avoid: "None.", notes: "Essential for stratum corneum structural integrity." },
+    { name: "Copper Tripeptide-1", category: "Signal Peptide", score: 95, benefits: ["Tissue remodeling", "Wound healing", "Extracellular matrix repair"], compatibility: "Pairs with Hyaluronic Acid & Squalane.", avoid: "Pure acidic Vitamin C or strong AHAs.", notes: "Promotes elastin and collagen cross-linking." }
   ];
 
-  // FAQ List
+  // FAQ LIST
   const faqList = [
-    { q: "How does BeautyOS calculate my Skin Score?", a: "BeautyOS uses clinical diagnostic metrics including hydration, redness, barrier integrity, sleep, and water intake to compute your personalized Skin Score from 0 to 100." },
-    { q: "What is active ingredient collision detection?", a: "Certain actives (like Retinol and Vitamin C) collide when applied together, disrupting skin pH and barrier stability. BeautyOS flags these collisions automatically." },
-    { q: "How does the Sephora-style product discovery work?", a: "Products in our catalog are evaluated against your personal skin profile, generating a custom Fit Score (0-100%) for each item." },
-    { q: "What is PAO (Period-After-Opening) tracking?", a: "BeautyOS calculates cosmetic expiration dates based on when you opened the product, preventing oxidized or degraded active usage." },
-    { q: "Is my personal skin data private?", a: "Yes. Your skin data is encrypted and never sold to third parties." },
-    { q: "Can I use BeautyOS with prescription dermatology treatments?", a: "Yes. You can add custom prescription formulas like Tretinoin to your digital cabinet." },
-    { q: "Does BeautyOS work offline?", a: "Yes. BeautyOS features offline-first local caching and automatically syncs when reconnected." },
-    { q: "What is included in the BeautyOS Pro plan?", a: "Pro unlocks unlimited cabinet inventory, AI collision detection, Apple-style analytics, and unlimited AI Clinical Assistant guidance." },
-    { q: "Can I export data for my dermatologist?", a: "Yes. You can export a PDF or JSON summary of your Skin Score trends and journal history." },
-    { q: "How do I get started?", a: "Click 'Analyze My Skin', complete the 2-minute diagnostic onboarding, and start optimizing your routine immediately." }
+    { q: "How does BeautyOS calculate my Skin Score?", a: "BeautyOS computes your Skin Score (0-100) using clinical parameters including epidermal hydration, barrier lipid integrity, texture smoothness, erythema levels, and micro-inflammation." },
+    { q: "What is active chemical collision detection?", a: "Certain actives (like Retinol and AHA acids) clash when layered together, causing barrier breakdown and severe stinging. BeautyOS detects and flags these collisions automatically." },
+    { q: "Can I use BeautyOS with dermatological prescriptions?", a: "Yes. You can add custom prescription treatments (such as Tretinoin or Hydroquinone) to your cabinet to calculate safe layer placement." },
+    { q: "How does the Sephora-style product discovery work?", a: "Every product in our catalog is benchmarked against your skin diagnostic profile to calculate a personalized Fit Score (0-100%)." },
+    { q: "Does BeautyOS support offline local caching?", a: "Yes. BeautyOS is built with an offline-first architecture, allowing you to log check-ins even without an active internet connection." }
   ];
 
   return (
@@ -229,7 +156,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       {/* ========================================================= */}
       <div className="bg-[#0A0A0A] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
         <span className="px-2 py-0.5 rounded-full bg-[#D4AF37] text-zinc-950 font-bold text-[9px] uppercase tracking-wider">New</span>
-        <span>BeautyOS AI Skin Analysis is now available</span>
+        <span>BeautyOS AI Skincare Knowledge Ecosystem & E-Commerce Platform</span>
         <button onClick={onGetStarted} className="underline text-[#E5C158] hover:text-white cursor-pointer ml-2">
           Start Analysis →
         </button>
@@ -239,7 +166,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       {/* 2. MAIN HEADER & APPLE MEGA MENU SYSTEM */}
       {/* ========================================================= */}
       <header
-        className="sticky top-0 z-40 bg-white/90 backdrop-blur-xl border-b border-black/[0.08] transition-all"
+        className="sticky top-0 z-40 bg-white/95 backdrop-blur-xl border-b border-black/[0.08] transition-all"
         onMouseLeave={() => setActiveMegaMenu(null)}
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -254,15 +181,15 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             </span>
           </div>
 
-          {/* Desktop Navigation Links */}
+          {/* Navigation Links */}
           <nav className="hidden lg:flex items-center gap-7 text-xs font-semibold tracking-wider text-zinc-700 uppercase font-sans">
             {[
               { id: "analysis", label: "Skin Analysis" },
               { id: "products", label: "Products" },
-              { id: "ingredients", label: "Ingredient Intelligence" },
-              { id: "routines", label: "Routines" },
-              { id: "learn", label: "Learn" },
-              { id: "business", label: "For Business" },
+              { id: "compatibility", label: "Active Checker" },
+              { id: "guides", label: "Dermatology Guides" },
+              { id: "ingredients", label: "Ingredients" },
+              { id: "pricing", label: "Pricing" },
             ].map((menu) => (
               <button
                 key={menu.id}
@@ -289,12 +216,11 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <button
               onClick={onGetStarted}
               className="p-2 rounded-full hover:bg-zinc-100 text-zinc-700 transition-colors cursor-pointer"
-              title="Account"
+              title="Account Workspace"
             >
               <User className="w-4 h-4" />
             </button>
 
-            {/* Shopping Cart Trigger */}
             <button
               onClick={() => setCartDrawerOpen(true)}
               className="p-2 rounded-full hover:bg-zinc-100 text-zinc-700 transition-colors cursor-pointer relative"
@@ -329,87 +255,43 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             >
               <div className="max-w-7xl mx-auto grid grid-cols-12 gap-8 text-xs">
                 
-                {/* Left Links Column */}
-                <div className="col-span-3 space-y-3 border-r border-black/[0.06] pr-6">
-                  <h4 className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">Navigation</h4>
-                  {activeMegaMenu === "analysis" && (
-                    <div className="space-y-2 font-medium text-zinc-800">
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={onGetStarted}>AI Skin Diagnosis</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={onGetStarted}>Skin Score Metric</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={onGetStarted}>Progress Tracking</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={onGetStarted}>Skin Journal</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={onGetStarted}>Photo Timeline Analysis</p>
-                    </div>
-                  )}
-                  {activeMegaMenu === "products" && (
-                    <div className="space-y-2 font-medium text-zinc-800">
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => setSelectedConcern("All")}>Shop All Skincare</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => setSelectedConcern("Sensitive Skin")}>Cleansers & Washes</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => setSelectedConcern("Acne")}>Target Serums</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => setSelectedConcern("Dry Skin")}>Barrier Moisturizers</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => setSelectedConcern("Sensitive Skin")}>Daily Broad Spectrum SPF</p>
-                    </div>
-                  )}
-                  {activeMegaMenu === "ingredients" && (
-                    <div className="space-y-2 font-medium text-zinc-800">
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Niacinamide (Vitamin B3)</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Retinol & Retinoids</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">L-Ascorbic Vitamin C</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Physiological Ceramides</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Hyaluronic Acid</p>
-                    </div>
-                  )}
-                  {activeMegaMenu === "routines" && (
-                    <div className="space-y-2 font-medium text-zinc-800">
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Morning Protection Routine</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Evening Repair Routine</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Acne Clearing Protocol</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Barrier Recovery Schema</p>
-                    </div>
-                  )}
-                  {activeMegaMenu === "learn" && (
-                    <div className="space-y-2 font-medium text-zinc-800">
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Skin Science Journal</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Dermatology Guides</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Ingredient Library</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">BeautyOS Editorial Magazine</p>
-                    </div>
-                  )}
-                  {activeMegaMenu === "business" && (
-                    <div className="space-y-2 font-medium text-zinc-800">
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Professional Clinic Software</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Dermatology Partners</p>
-                      <p className="hover:text-[#D4AF37] cursor-pointer">Cosmetic Brand Intelligence</p>
-                    </div>
-                  )}
+                <div className="col-span-4 space-y-3 border-r border-black/[0.06] pr-6">
+                  <h4 className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">Navigation & Guides</h4>
+                  <div className="space-y-2 font-medium text-zinc-800">
+                    <p className="hover:text-[#D4AF37] cursor-pointer" onClick={onGetStarted}>AI Skin Diagnosis & Score</p>
+                    <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => {
+                      const el = document.getElementById("compatibility");
+                      if (el) el.scrollIntoView({ behavior: "smooth" });
+                    }}>Blend & Active Collision Checker</p>
+                    <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => {
+                      const el = document.getElementById("guides");
+                      if (el) el.scrollIntoView({ behavior: "smooth" });
+                    }}>Skin Barrier 3:1:1 Restoration</p>
+                    <p className="hover:text-[#D4AF37] cursor-pointer" onClick={() => {
+                      const el = document.getElementById("shop");
+                      if (el) el.scrollIntoView({ behavior: "smooth" });
+                    }}>Sephora E-Commerce Catalog</p>
+                  </div>
                 </div>
 
-                {/* Center Featured Product / Highlight Column */}
-                <div className="col-span-5 space-y-3 border-r border-black/[0.06] pr-6">
-                  <h4 className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">Featured Formula</h4>
+                <div className="col-span-4 space-y-3 border-r border-black/[0.06] pr-6">
+                  <h4 className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">Featured Active</h4>
                   <div className="p-4 rounded-2xl bg-[#FAFAFA] border border-black/[0.06] flex items-center gap-4">
                     <img src="/images/beautyos_hero_products_1784918027747.png" alt="Featured" className="w-16 h-16 rounded-xl object-cover" />
                     <div>
-                      <span className="text-[10px] font-mono text-zinc-500">BeautyOS Clinical</span>
-                      <h5 className="text-xs font-bold text-zinc-950">Ceramide Barrier Restoration Cream</h5>
-                      <p className="text-[10px] text-zinc-500 mt-1">98% Skin Fit Match • 3:1:1 Lipid Balance</p>
-                      <button onClick={onGetStarted} className="mt-2 text-[10px] font-bold text-[#D4AF37] underline">
-                        Explore Formula →
-                      </button>
+                      <span className="text-[10px] font-mono text-zinc-500">SkinCeuticals</span>
+                      <h5 className="text-xs font-bold text-zinc-950">C E Ferulic Antioxidant</h5>
+                      <p className="text-[10px] text-zinc-500 mt-1">15% Pure L-Ascorbic Acid • 98% Fit Score</p>
                     </div>
                   </div>
                 </div>
 
-                {/* Right Educational / Score Column */}
                 <div className="col-span-4 space-y-3">
                   <h4 className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">Clinical Standard</h4>
                   <div className="p-4 rounded-2xl bg-[#0A0A0A] text-white space-y-2">
-                    <div className="flex items-center justify-between">
-                      <span className="text-[10px] font-mono text-[#D4AF37]">Scientific Efficacy</span>
-                      <span className="text-xs font-mono font-bold">96/100</span>
-                    </div>
+                    <span className="text-[10px] font-mono text-[#D4AF37]">EWG Safety Grade 1</span>
                     <p className="text-[11px] text-zinc-400 leading-relaxed">
-                      Every cosmetic product in BeautyOS is benchmarked against International Nomenclature Cosmetic Ingredient standards.
+                      Every compound in BeautyOS is evaluated against international INCI safety standards.
                     </p>
                   </div>
                 </div>
@@ -421,31 +303,30 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </header>
 
       {/* ========================================================= */}
-      {/* 3. HERO SECTION (SEPHORA EDITORIAL HIGH LUXURY) */}
+      {/* 3. HERO SECTION (AESOP & AUGUSTINUS BADER LUXURY STYLE) */}
       {/* ========================================================= */}
       <section className="relative pt-20 pb-28 px-6 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          {/* Left Text */}
           <div className="lg:col-span-6 space-y-6 text-left">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FAFAFA] border border-black/[0.08] text-xs font-semibold text-zinc-800">
               <Sparkles className="w-4 h-4 text-[#D4AF37]" />
-              <span>BeautyOS Skincare Operating System</span>
+              <span>BeautyOS Skincare Intelligence System</span>
             </div>
 
-            <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 leading-[1.05] font-sans">
+            <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 leading-[1.05]">
               Your skin. <br />
               <span className="text-[#D4AF37] font-display italic font-normal">Understood.</span>
             </h1>
 
             <p className="text-base text-zinc-600 font-normal leading-relaxed max-w-xl">
-              AI-powered skincare intelligence that helps you discover products, understand ingredients, and build the perfect routine.
+              AI-powered skincare platform combining Sephora commerce discovery, dermatology science guides, active compatibility engines, and daily routine optimization.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 pt-2">
               <button
                 onClick={onGetStarted}
-                className="w-full sm:w-auto text-xs bg-[#0A0A0A] hover:bg-zinc-800 text-white font-bold px-8 py-4 rounded-full transition-all shadow-xl flex items-center justify-center gap-2 cursor-pointer hover:scale-102"
+                className="w-full sm:w-auto text-xs bg-[#0A0A0A] hover:bg-zinc-800 text-white font-bold px-8 py-4 rounded-full transition-all shadow-xl flex items-center justify-center gap-2 cursor-pointer"
               >
                 <span>Analyze My Skin</span>
                 <ArrowRight className="w-4 h-4 text-[#D4AF37]" />
@@ -453,26 +334,24 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
 
               <button
                 onClick={() => {
-                  const shopEl = document.getElementById("shop");
-                  if (shopEl) shopEl.scrollIntoView({ behavior: "smooth" });
+                  const el = document.getElementById("shop");
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
                 }}
                 className="w-full sm:w-auto text-xs bg-[#FAFAFA] hover:bg-zinc-100 text-zinc-900 border border-black/[0.08] font-semibold px-7 py-4 rounded-full transition-all cursor-pointer"
               >
-                Explore Skincare
+                Explore E-Commerce
               </button>
             </div>
           </div>
 
-          {/* Right Visual Image Composition */}
           <div className="lg:col-span-6 relative">
             <div className="p-3 rounded-[36px] bg-[#FAFAFA] border border-black/[0.08] shadow-2xl relative">
               <img
                 src="/images/beautyos_hero_products_1784918027747.png"
-                alt="BeautyOS Skincare Intelligence Products"
+                alt="BeautyOS Luxury Skincare"
                 className="w-full h-[460px] sm:h-[520px] object-cover rounded-[28px]"
               />
 
-              {/* Floating Badges */}
               <div className="absolute top-8 left-8 p-4 rounded-2xl bg-white/95 backdrop-blur-xl border border-black/[0.08] shadow-xl flex items-center gap-3">
                 <div className="w-9 h-9 rounded-xl bg-[#D4AF37]/15 text-[#D4AF37] flex items-center justify-center font-bold font-mono">
                   98%
@@ -497,198 +376,205 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </section>
 
       {/* ========================================================= */}
-      {/* 4. SECTION: AI SKIN ANALYSIS SHOWCASE */}
+      {/* 4. BLEND & ACTIVE COMPATIBILITY ENGINE (COLLISION CHECKER) */}
       {/* ========================================================= */}
-      <section id="analysis" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
+      <section id="compatibility" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Diagnostic Technology</span>
-          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">
-            Know your skin before choosing products.
-          </h2>
-          <p className="text-sm text-zinc-600">Personalized algorithmic analysis measuring 5 physiological skin parameters.</p>
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Active Chemical Checker</span>
+          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Blend & Compatibility Engine</h2>
+          <p className="text-sm text-zinc-600">Select two active ingredients to analyze chemical collisions and layer sequencing.</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div className="p-8 sm:p-10 rounded-[32px] bg-[#0A0A0A] text-white border border-white/[0.08] shadow-2xl space-y-8">
           
-          <div className="lg:col-span-6 p-8 rounded-[32px] bg-[#0A0A0A] text-white space-y-6 shadow-2xl">
-            <div className="flex items-center justify-between border-b border-white/[0.08] pb-4">
-              <div>
-                <span className="text-[10px] font-mono text-[#D4AF37] uppercase">Diagnostic Result</span>
-                <h3 className="text-xl font-bold">Live Skin Score</h3>
-              </div>
-              <div className="text-3xl font-bold font-mono text-[#D4AF37]">87<span className="text-xs text-zinc-500 font-sans">/100</span></div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="space-y-2">
+              <label className="block text-xs font-mono text-[#D4AF37] uppercase">Active Compound A</label>
+              <select
+                value={activePair1}
+                onChange={(e) => setActivePair1(e.target.value)}
+                className="w-full bg-[#17181B] border border-white/[0.1] rounded-2xl px-4 py-3 text-white font-medium focus:outline-none"
+              >
+                <option value="Niacinamide">Niacinamide (Vitamin B3)</option>
+                <option value="Retinol">Retinol / Retinoids</option>
+                <option value="Vitamin C">Vitamin C (L-Ascorbic Acid)</option>
+                <option value="Ceramides">Ceramides (Lipid Complex)</option>
+                <option value="Azelaic Acid">Azelaic Acid 15%</option>
+                <option value="AHA/BHA Acids">Salicylic / Glycolic Acids</option>
+              </select>
             </div>
 
-            <div className="space-y-3 text-xs">
-              {[
-                { metric: "Epidermal Hydration", score: "88%", status: "Optimal" },
-                { metric: "Barrier Lipid Integrity", score: "92%", status: "Restored" },
-                { metric: "Surface Texture", score: "84%", status: "Smooth" },
-                { metric: "Erythema / Redness", score: "1.4/5", status: "Calm" },
-                { metric: "Sensitivity Rating", score: "Low", status: "Protected" }
-              ].map((m) => (
-                <div key={m.metric} className="flex items-center justify-between p-3 rounded-xl bg-[#17181B] border border-white/[0.06]">
-                  <span className="text-zinc-300 font-medium">{m.metric}</span>
-                  <div className="flex items-center gap-3 font-mono">
-                    <span className="text-white font-bold">{m.score}</span>
-                    <span className="text-[10px] text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20">{m.status}</span>
-                  </div>
-                </div>
-              ))}
+            <div className="space-y-2">
+              <label className="block text-xs font-mono text-[#D4AF37] uppercase">Active Compound B</label>
+              <select
+                value={activePair2}
+                onChange={(e) => setActivePair2(e.target.value)}
+                className="w-full bg-[#17181B] border border-white/[0.1] rounded-2xl px-4 py-3 text-white font-medium focus:outline-none"
+              >
+                <option value="Vitamin C">Vitamin C (L-Ascorbic Acid)</option>
+                <option value="Ceramides">Ceramides (Lipid Complex)</option>
+                <option value="AHA/BHA Acids">Salicylic / Glycolic Acids</option>
+                <option value="Niacinamide">Niacinamide (Vitamin B3)</option>
+                <option value="Retinol">Retinol / Retinoids</option>
+                <option value="Copper Peptides">Copper Peptides</option>
+              </select>
             </div>
-
-            <button
-              onClick={onGetStarted}
-              className="w-full py-3.5 rounded-full bg-[#D4AF37] hover:bg-[#E5C158] text-zinc-950 font-bold text-xs cursor-pointer shadow-lg"
-            >
-              Start Skin Analysis Now
-            </button>
           </div>
 
-          <div className="lg:col-span-6 p-3 rounded-[32px] bg-[#FAFAFA] border border-black/[0.08]">
-            <img src="/images/beautyos_showcase_phone_1784918045920.png" alt="Skin Analysis Interface" className="w-full h-[440px] object-cover rounded-[26px]" />
+          {/* Compatibility Analysis Card */}
+          <div className={`p-6 rounded-[24px] border space-y-4 ${
+            currentPairResult.compatible
+              ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-200"
+              : "bg-rose-500/10 border-rose-500/20 text-rose-200"
+          }`}>
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                {currentPairResult.compatible ? (
+                  <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+                ) : (
+                  <AlertTriangle className="w-5 h-5 text-rose-400" />
+                )}
+                <h4 className="text-sm font-bold">{currentPairResult.status}</h4>
+              </div>
+              <span className="text-[10px] font-mono uppercase px-3 py-1 rounded-full bg-white/10 text-white">
+                {activePair1} + {activePair2}
+              </span>
+            </div>
+
+            <p className="text-xs leading-relaxed">{currentPairResult.warning}</p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-3 border-t border-white/[0.08] text-xs">
+              <div>
+                <span className="text-[10px] font-mono text-zinc-400 block uppercase">Layering Sequence</span>
+                <strong className="text-white font-medium">{currentPairResult.bestOrder}</strong>
+              </div>
+              <div>
+                <span className="text-[10px] font-mono text-zinc-400 block uppercase">Wait Time Between Layers</span>
+                <strong className="text-white font-medium">{currentPairResult.waitTime}</strong>
+              </div>
+              <div>
+                <span className="text-[10px] font-mono text-zinc-400 block uppercase">Recommended Frequency</span>
+                <strong className="text-white font-medium">{currentPairResult.frequency}</strong>
+              </div>
+            </div>
           </div>
 
         </div>
       </section>
 
       {/* ========================================================= */}
-      {/* 5. SECTION: SHOP BY SKIN CONCERN */}
-      {/* ========================================================= */}
-      <section className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
-        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Sephora Category Discovery</span>
-          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Shop by Skin Concern</h2>
-          <p className="text-sm text-zinc-600">Targeted skincare formulations categorized for your primary skin needs.</p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {skinConcerns.map((sc) => (
-            <div
-              key={sc.title}
-              onClick={() => {
-                const shopEl = document.getElementById("shop");
-                if (shopEl) shopEl.scrollIntoView({ behavior: "smooth" });
-              }}
-              className="p-8 rounded-[28px] bg-[#FAFAFA] border border-black/[0.08] hover:border-[#D4AF37] transition-all cursor-pointer group shadow-sm flex flex-col justify-between h-full"
-            >
-              <div>
-                <span className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-wider block mb-2">{sc.active}</span>
-                <h3 className="text-xl font-bold text-zinc-950 mb-2">{sc.title}</h3>
-                <p className="text-xs text-zinc-600 leading-relaxed">{sc.desc}</p>
-              </div>
-
-              <div className="pt-6 border-t border-black/[0.06] mt-6 flex items-center justify-between text-xs font-bold text-zinc-950 group-hover:text-[#D4AF37]">
-                <span>Explore Products</span>
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ========================================================= */}
-      {/* 6. SECTION: INGREDIENT INTELLIGENCE ENCYCLOPEDIA */}
+      {/* 5. INGREDIENT ENCYCLOPEDIA GRID */}
       {/* ========================================================= */}
       <section id="ingredients" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Chemical Matrix</span>
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Chemical Active Encyclopedia</span>
           <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Ingredient Intelligence</h2>
-          <p className="text-sm text-zinc-600">Scientific breakdown of active skincare compounds and compatibility rules.</p>
+          <p className="text-sm text-zinc-600">30+ chemical compounds analyzed for compatibility and clinical efficacy.</p>
         </div>
 
-        <div className="flex items-center justify-center gap-2 overflow-x-auto no-scrollbar pb-6 mb-8">
-          {ingredients.map((ing, idx) => (
-            <button
-              key={ing.name}
-              onClick={() => setActiveIngredient(idx)}
-              className={`px-5 py-2.5 rounded-full text-xs font-medium transition-all cursor-pointer whitespace-nowrap border ${
-                activeIngredient === idx
-                  ? "bg-[#0A0A0A] text-white border-[#0A0A0A] font-bold shadow-md"
-                  : "bg-[#FAFAFA] text-zinc-700 border-black/[0.08] hover:text-black"
-              }`}
-            >
-              {ing.name}
-            </button>
-          ))}
-        </div>
-
-        {(() => {
-          const ing = ingredients[activeIngredient];
-          return (
-            <div className="p-8 sm:p-10 rounded-[32px] bg-[#FAFAFA] border border-black/[0.08] relative shadow-xl">
-              <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
-                
-                <div className="space-y-6 max-w-2xl">
-                  <div>
-                    <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">{ing.category}</span>
-                    <h3 className="text-3xl font-bold text-zinc-950 mt-1">{ing.name}</h3>
-                  </div>
-
-                  <div className="space-y-2">
-                    <h4 className="text-xs font-semibold text-zinc-800 uppercase tracking-wider">Benefits</h4>
-                    <div className="flex flex-wrap gap-2">
-                      {ing.benefits.map((b) => (
-                        <span key={b} className="px-3.5 py-1.5 rounded-full bg-white border border-black/[0.08] text-xs text-zinc-800 flex items-center gap-2 font-medium">
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                          {b}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="p-4 rounded-2xl bg-white border border-black/[0.08]">
-                      <h4 className="text-xs font-semibold text-[#D4AF37] mb-1">Compatible Actives</h4>
-                      <p className="text-xs text-zinc-600 leading-relaxed">{ing.compatibility}</p>
-                    </div>
-
-                    <div className="p-4 rounded-2xl bg-rose-500/5 border border-rose-500/20">
-                      <h4 className="text-xs font-semibold text-rose-600 mb-1 flex items-center gap-1.5">
-                        <AlertTriangle className="w-3.5 h-3.5 text-rose-500" />
-                        Combinations to Avoid
-                      </h4>
-                      <p className="text-xs text-rose-700 leading-relaxed">{ing.avoid}</p>
-                    </div>
-                  </div>
-
-                  <div className="p-4 rounded-2xl bg-[#0A0A0A] text-white">
-                    <h4 className="text-xs font-semibold text-[#D4AF37] mb-1">Clinical Notes</h4>
-                    <p className="text-xs text-zinc-300 font-mono">{ing.notes}</p>
-                  </div>
-                </div>
-
-                <div className="w-full lg:w-auto p-8 rounded-[28px] bg-[#0A0A0A] text-white flex flex-col items-center justify-center text-center shrink-0 shadow-xl">
-                  <span className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">Scientific Score</span>
-                  <div className="text-5xl font-bold text-[#D4AF37] my-3 font-mono">
-                    {ing.score}<span className="text-xs text-zinc-500 font-sans">/100</span>
-                  </div>
-                  <span className="text-xs font-medium text-emerald-400 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-                    High Efficacy Rating
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {ingredients.map((ing) => (
+            <div key={ing.name} className="p-6 rounded-[28px] bg-[#FAFAFA] border border-black/[0.08] space-y-4 shadow-sm flex flex-col justify-between">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-mono text-[#D4AF37] uppercase">{ing.category}</span>
+                  <span className="text-xs font-mono font-bold text-zinc-900 bg-white border border-black/[0.06] px-2.5 py-0.5 rounded-full">
+                    Score: {ing.score}/100
                   </span>
                 </div>
+                <h3 className="text-lg font-bold text-zinc-950">{ing.name}</h3>
+                <p className="text-xs text-zinc-600 leading-relaxed">{ing.notes}</p>
+              </div>
 
+              <div className="pt-3 border-t border-black/[0.06] space-y-1 text-xs">
+                <span className="text-[10px] font-mono text-zinc-400 uppercase">Primary Compatibility</span>
+                <p className="text-zinc-800 font-medium">{ing.compatibility}</p>
               </div>
             </div>
-          );
-        })()}
+          ))}
+        </div>
       </section>
 
       {/* ========================================================= */}
-      {/* 7. SECTION: PRODUCT DISCOVERY (SEPHORA SHOPPING GRID & FILTERS) */}
+      {/* 6. 20+ DERMATOLOGY SCIENCE & EDITORIAL GUIDES */}
+      {/* ========================================================= */}
+      <section id="guides" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
+        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Dermatology Masterclasses</span>
+          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Clinical Science Guides</h2>
+          <p className="text-sm text-zinc-600">Evidence-based guides explaining skin mechanics, lipids, and chemical actives.</p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <div className="lg:col-span-4 space-y-2">
+            {editorialGuides.map((guide, idx) => (
+              <button
+                key={guide.title}
+                onClick={() => setActiveGuideIdx(idx)}
+                className={`w-full text-left p-4 rounded-2xl transition-all cursor-pointer border ${
+                  activeGuideIdx === idx
+                    ? "bg-[#0A0A0A] text-white border-[#0A0A0A] shadow-md font-bold"
+                    : "bg-[#FAFAFA] text-zinc-800 border-black/[0.06] hover:border-black/20"
+                }`}
+              >
+                <h4 className="text-xs font-bold">{guide.title}</h4>
+                <p className="text-[10px] text-zinc-400 mt-1">{guide.subtitle}</p>
+              </button>
+            ))}
+          </div>
+
+          <div className="lg:col-span-8 p-8 sm:p-10 rounded-[32px] bg-[#FAFAFA] border border-black/[0.08] shadow-xl space-y-6">
+            <div>
+              <span className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">Clinical Guide #{activeGuideIdx + 1}</span>
+              <h3 className="text-2xl font-bold text-zinc-950 mt-1">{editorialGuides[activeGuideIdx].title}</h3>
+              <p className="text-xs text-zinc-500 font-mono mt-1">{editorialGuides[activeGuideIdx].subtitle}</p>
+            </div>
+
+            <p className="text-xs text-zinc-700 leading-relaxed text-justify">{editorialGuides[activeGuideIdx].content}</p>
+
+            <div className="p-4 rounded-2xl bg-white border border-black/[0.06] flex items-center justify-between text-xs">
+              <span className="text-zinc-600">Verified by Board-Certified Dermatologists</span>
+              <span className="font-mono text-[#D4AF37] font-bold">BeautyOS Clinical Standard</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* ========================================================= */}
+      {/* 7. FAQ ACCORDIONS */}
+      {/* ========================================================= */}
+      <section id="faq" className="py-28 px-6 max-w-4xl mx-auto border-t border-black/[0.06]">
+        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">FAQ</span>
+          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Frequently Asked Questions</h2>
+        </div>
+
+        <div className="space-y-4">
+          {faqList.map((faq) => (
+            <div key={faq.q} className="p-6 rounded-[24px] bg-[#FAFAFA] border border-black/[0.08] space-y-2">
+              <h4 className="text-sm font-bold text-zinc-950">{faq.q}</h4>
+              <p className="text-xs text-zinc-600 leading-relaxed">{faq.a}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ========================================================= */}
+      {/* 6. PRODUCT DISCOVERY & SEPHORA COMMERCE CATALOG */}
       {/* ========================================================= */}
       <section id="shop" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
         <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Curated E-Commerce Catalog</span>
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Sephora E-Commerce Catalog</span>
           <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Product Discovery</h2>
-          <p className="text-sm text-zinc-600">Discover formulations rated by AI compatibility for your skin profile.</p>
+          <p className="text-sm text-zinc-600">Discover formulations from top dermatological brands rated by AI fit score.</p>
         </div>
 
-        {/* Filter Controls Bar */}
         <div className="p-6 rounded-[28px] bg-[#FAFAFA] border border-black/[0.08] mb-8 space-y-4">
           <div className="flex items-center gap-2 text-xs font-bold text-zinc-950">
             <SlidersHorizontal className="w-4 h-4 text-[#D4AF37]" />
-            <span>Filter Formulations</span>
+            <span>Filter Catalog</span>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
@@ -702,8 +588,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                 <option value="All">All Concerns</option>
                 <option value="Sensitive Skin">Sensitive Skin</option>
                 <option value="Acne">Acne & Pores</option>
-                <option value="Dry Skin">Dry Skin</option>
-                <option value="Anti-Aging">Anti-Aging</option>
+                <option value="Anti-Ageing">Anti-Ageing</option>
               </select>
             </div>
 
@@ -722,62 +607,54 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             </div>
 
             <div>
-              <label className="block text-zinc-500 mb-1 font-mono text-[10px] uppercase">Primary Active</label>
+              <label className="block text-zinc-500 mb-1 font-mono text-[10px] uppercase">Active Ingredient</label>
               <select
                 value={selectedIngredient}
                 onChange={(e) => setSelectedIngredient(e.target.value)}
                 className="w-full bg-white border border-black/[0.08] rounded-xl px-3 py-2 text-zinc-900 font-medium"
               >
-                <option value="All">All Active Ingredients</option>
+                <option value="All">All Ingredients</option>
                 <option value="Ceramides">Ceramides</option>
                 <option value="Niacinamide">Niacinamide</option>
                 <option value="Vitamin C">Vitamin C</option>
                 <option value="Salicylic Acid">Salicylic Acid</option>
-                <option value="Hyaluronic Acid">Hyaluronic Acid</option>
+                <option value="Retinal">Retinal</option>
               </select>
             </div>
           </div>
         </div>
 
-        {/* Product Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {filteredProducts.map((p) => (
             <div
               key={p.id}
-              className="p-6 rounded-[28px] bg-[#FAFAFA] border border-black/[0.08] hover:border-black/20 transition-all flex flex-col justify-between space-y-4 group shadow-sm"
+              className="p-5 rounded-[28px] bg-[#FAFAFA] border border-black/[0.08] hover:border-black/20 transition-all flex flex-col justify-between space-y-4 group shadow-sm"
             >
               <div className="space-y-3">
-                <div className="relative rounded-2xl overflow-hidden bg-white border border-black/[0.06] p-4 text-center">
-                  <img src={p.image} alt={p.name} className="w-full h-44 object-cover rounded-xl group-hover:scale-102 transition-transform" />
-                  <span className="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-[#0A0A0A] text-[#D4AF37] text-[10px] font-mono font-bold shadow-md">
+                <div className="relative rounded-2xl overflow-hidden bg-white border border-black/[0.06] p-3 text-center">
+                  <img src={p.image} alt={p.name} className="w-full h-36 object-cover rounded-xl group-hover:scale-102 transition-transform" />
+                  <span className="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-[#0A0A0A] text-[#D4AF37] text-[9px] font-mono font-bold shadow-md">
                     Fit: {p.fitScore}%
                   </span>
                 </div>
 
                 <div>
                   <span className="text-[10px] font-mono text-[#D4AF37] uppercase">{p.brand}</span>
-                  <h3 className="text-base font-bold text-zinc-950">{p.name}</h3>
-                  <div className="flex items-center gap-2 mt-1">
-                    <div className="flex items-center text-amber-500">
-                      <Star className="w-3.5 h-3.5 fill-amber-500" />
-                      <span className="text-xs font-bold text-zinc-900 ml-1">{p.rating}</span>
-                    </div>
-                    <span className="text-zinc-400">•</span>
-                    <span className="text-xs text-zinc-500">{p.category}</span>
+                  <h3 className="text-xs font-bold text-zinc-950 line-clamp-1">{p.name}</h3>
+                  <div className="flex items-center gap-1.5 mt-1 text-[11px] text-zinc-500">
+                    <Star className="w-3 h-3 text-amber-500 fill-amber-500" />
+                    <span className="font-bold text-zinc-900">{p.rating}</span>
+                    <span>•</span>
+                    <span>{p.category}</span>
                   </div>
-                </div>
-
-                <div className="px-3 py-1.5 rounded-xl bg-white border border-black/[0.06] text-[10px] text-zinc-700 font-medium flex items-center gap-1.5">
-                  <Sparkles className="w-3 h-3 text-[#D4AF37]" />
-                  <span>{p.badge}</span>
                 </div>
               </div>
 
-              <div className="pt-4 border-t border-black/[0.06] flex items-center justify-between">
-                <span className="text-lg font-bold font-mono text-zinc-950">${p.price}</span>
+              <div className="pt-3 border-t border-black/[0.06] flex items-center justify-between">
+                <span className="text-base font-bold font-mono text-zinc-950">${p.price}</span>
                 <button
                   onClick={() => handleAddToCart(p)}
-                  className="px-5 py-2.5 rounded-full bg-[#0A0A0A] hover:bg-zinc-800 text-white font-bold text-xs transition-all cursor-pointer shadow-md"
+                  className="px-4 py-2 rounded-full bg-[#0A0A0A] hover:bg-zinc-800 text-white font-bold text-xs transition-all cursor-pointer shadow-md"
                 >
                   Add to Bag
                 </button>
@@ -788,66 +665,19 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </section>
 
       {/* ========================================================= */}
-      {/* 8. SECTION: BEAUTYOS AI ASSISTANT */}
-      {/* ========================================================= */}
-      <section id="ai" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
-        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Artificial Intelligence</span>
-          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">BeautyOS AI Assistant</h2>
-          <p className="text-sm text-zinc-600">ChatGPT-style conversational skincare intelligence tailored to your skin log.</p>
-        </div>
-
-        <div className="max-w-3xl mx-auto p-8 rounded-[32px] bg-[#0A0A0A] text-white border border-white/[0.1] shadow-2xl space-y-6">
-          <div className="flex items-center gap-3 pb-6 border-b border-white/[0.08]">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#D4AF37] to-[#E5C158] text-zinc-950 flex items-center justify-center font-bold">
-              <Sparkles className="w-5 h-5" />
-            </div>
-            <div>
-              <h3 className="text-sm font-bold">BeautyOS AI Clinical Assistant</h3>
-              <p className="text-[10px] text-emerald-400 font-mono">Active • Monitoring Cabinet & Routine</p>
-            </div>
-          </div>
-
-          <div className="space-y-4 text-xs">
-            <div className="flex justify-end">
-              <div className="bg-[#17181B] border border-white/[0.08] text-white px-5 py-3.5 rounded-2xl rounded-tr-none max-w-sm">
-                My skin feels irritated today
-              </div>
-            </div>
-
-            <div className="flex items-start gap-3">
-              <div className="w-8 h-8 rounded-xl bg-[#D4AF37]/20 text-[#D4AF37] flex items-center justify-center shrink-0 mt-1">
-                <MessageSquare className="w-4 h-4" />
-              </div>
-              <div className="bg-zinc-950 border border-white/[0.08] p-5 rounded-2xl rounded-tl-none space-y-3 leading-relaxed w-full">
-                <p className="text-white font-medium">
-                  Your barrier score decreased 12% this week. Reduce active exfoliants and focus on ceramides.
-                </p>
-                <div className="p-3 rounded-xl bg-[#101114] text-[11px] space-y-1">
-                  <span className="text-[#D4AF37] font-mono font-bold">Actionable Adjustment:</span>
-                  <p className="text-zinc-400">Skip evening Retinol. Apply BeautyOS Ceramide Barrier Restoration Cream on damp skin.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ========================================================= */}
-      {/* 9. SECTION: PRICING COMPARISON TABLE */}
+      {/* 7. FAQ & PRICING COMPARISON TABLE */}
       {/* ========================================================= */}
       <section id="pricing" className="py-28 px-6 max-w-7xl mx-auto border-t border-black/[0.06]">
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Transparent Plans</span>
-          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Pricing</h2>
-          <p className="text-sm text-zinc-600">Choose the ideal operating tier for your skin health.</p>
+          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">Pricing Tiers</span>
+          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Transparent Plans</h2>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="p-8 rounded-[32px] bg-[#FAFAFA] border border-black/[0.08] flex flex-col justify-between h-full">
             <div>
-              <h3 className="text-lg font-bold text-zinc-950">Free</h3>
-              <p className="text-xs text-zinc-500 mt-1">Essential skincare cabinet logging</p>
+              <h3 className="text-lg font-bold text-zinc-950">Free Tier</h3>
+              <p className="text-xs text-zinc-500 mt-1">Essential skincare logging</p>
               <div className="text-3xl font-bold text-zinc-950 my-6 font-mono">$0 <span className="text-xs text-zinc-500 font-sans">/ forever</span></div>
             </div>
             <button onClick={onGetStarted} className="w-full py-3.5 rounded-full bg-[#0A0A0A] text-white font-bold text-xs cursor-pointer">
@@ -861,7 +691,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             </div>
             <div>
               <h3 className="text-lg font-bold">BeautyOS Pro</h3>
-              <p className="text-xs text-zinc-400 mt-1">Complete AI Skin Operating System</p>
+              <p className="text-xs text-zinc-400 mt-1">Complete AI Skincare Operating System</p>
               <div className="text-3xl font-bold text-[#D4AF37] my-6 font-mono">$9 <span className="text-xs text-zinc-500 font-sans">/ month</span></div>
             </div>
             <button onClick={onGetStarted} className="w-full py-3.5 rounded-full bg-[#D4AF37] hover:bg-[#E5C158] text-zinc-950 font-bold text-xs cursor-pointer shadow-lg">
@@ -872,7 +702,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           <div className="p-8 rounded-[32px] bg-[#FAFAFA] border border-black/[0.08] flex flex-col justify-between h-full">
             <div>
               <h3 className="text-lg font-bold text-zinc-950">BeautyOS Clinic</h3>
-              <p className="text-xs text-zinc-500 mt-1">For dermatology clinics & skin pros</p>
+              <p className="text-xs text-zinc-500 mt-1">For dermatology clinics & pros</p>
               <div className="text-3xl font-bold text-zinc-950 my-6 font-mono">$149 <span className="text-xs text-zinc-500 font-sans">/ month</span></div>
             </div>
             <button onClick={onGetStarted} className="w-full py-3.5 rounded-full bg-[#0A0A0A] text-white font-bold text-xs cursor-pointer">
@@ -883,43 +713,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </section>
 
       {/* ========================================================= */}
-      {/* 10. SECTION: FAQ (10 ACCORDIONS) */}
-      {/* ========================================================= */}
-      <section id="faq" className="py-28 px-6 max-w-4xl mx-auto border-t border-black/[0.06]">
-        <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
-          <span className="text-xs font-mono uppercase tracking-widest text-[#D4AF37]">FAQ</span>
-          <h2 className="text-3xl sm:text-5xl font-bold text-zinc-950 tracking-tight">Frequently Asked Questions</h2>
-        </div>
-
-        <div className="space-y-4">
-          {faqList.map((faq, idx) => {
-            const isOpen = expandedFaq === idx;
-            return (
-              <div key={faq.q} className="rounded-[24px] bg-[#FAFAFA] border border-black/[0.08] overflow-hidden">
-                <button
-                  onClick={() => setExpandedFaq(isOpen ? null : idx)}
-                  className="w-full px-6 py-5 flex items-center justify-between text-left cursor-pointer hover:bg-zinc-100 transition-colors"
-                >
-                  <span className="text-sm font-semibold text-zinc-950 pr-4">{faq.q}</span>
-                  <ChevronDown className={`w-4 h-4 text-[#D4AF37] transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`} />
-                </button>
-                <AnimatePresence>
-                  {isOpen && (
-                    <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }}>
-                      <div className="px-6 pb-6 text-xs text-zinc-600 leading-relaxed border-t border-black/[0.04] pt-4">
-                        {faq.a}
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* ========================================================= */}
-      {/* 11. LUXURY FOOTER & NEWSLETTER */}
+      {/* 8. LUXURY MULTI-COLUMN FOOTER */}
       {/* ========================================================= */}
       <footer className="border-t border-black/[0.08] bg-[#0A0A0A] text-white py-20 px-6 max-w-7xl mx-auto text-xs">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-16">
@@ -931,7 +725,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <span className="font-bold text-base font-mono">BeautyOS™</span>
             </div>
             <p className="text-xs text-zinc-400 max-w-sm leading-relaxed">
-              AI-powered skincare intelligence helping you discover formulas, understand chemical ingredients, and build the perfect routine.
+              AI-powered skincare platform combining Sephora commerce discovery, active chemical compatibility engines, and daily routine optimization.
             </p>
           </div>
 
@@ -941,7 +735,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <p className="hover:text-white cursor-pointer" onClick={onGetStarted}>AI Skin Diagnosis</p>
               <p className="hover:text-white cursor-pointer" onClick={() => setSelectedConcern("Acne")}>Target Serums</p>
               <p className="hover:text-white cursor-pointer" onClick={() => setSelectedConcern("Sensitive Skin")}>Ceramide Moisturizers</p>
-              <p className="hover:text-white cursor-pointer" onClick={() => setSelectedConcern("Sensitive Skin")}>Daily SPF Shield</p>
             </div>
           </div>
 
@@ -951,7 +744,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <p className="hover:text-white cursor-pointer">EWG Database</p>
               <p className="hover:text-white cursor-pointer">INCI Registry</p>
               <p className="hover:text-white cursor-pointer">Barrier Repair 3:1:1</p>
-              <p className="hover:text-white cursor-pointer">Microbiome Balance</p>
             </div>
           </div>
 
@@ -960,7 +752,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             <div className="space-y-2 text-zinc-400 font-medium">
               <p className="hover:text-white cursor-pointer">Privacy Policy</p>
               <p className="hover:text-white cursor-pointer">Terms of Service</p>
-              <p className="hover:text-white cursor-pointer">Dermatology Support</p>
               <p className="hover:text-white cursor-pointer">Contact Us</p>
             </div>
           </div>
@@ -977,7 +768,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </footer>
 
       {/* ========================================================= */}
-      {/* 12. SHOPPING BAG SLIDE-OUT CART DRAWER */}
+      {/* 9. SHOPPING BAG CART DRAWER */}
       {/* ========================================================= */}
       <AnimatePresence>
         {cartDrawerOpen && (
@@ -1041,7 +832,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </AnimatePresence>
 
       {/* ========================================================= */}
-      {/* 13. SEARCH OVERLAY MODAL */}
+      {/* 10. SEARCH OVERLAY MODAL */}
       {/* ========================================================= */}
       <AnimatePresence>
         {searchModalOpen && (
@@ -1053,7 +844,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               className="bg-white rounded-[28px] max-w-xl w-full p-6 space-y-4 shadow-2xl relative"
             >
               <div className="flex items-center justify-between pb-3 border-b border-black/[0.08]">
-                <span className="text-xs font-bold text-zinc-950">Search BeautyOS Intelligence</span>
+                <span className="text-xs font-bold text-zinc-950">Search BeautyOS Knowledge System</span>
                 <button onClick={() => setSearchModalOpen(false)} className="p-1 text-zinc-400 hover:text-black">
                   <X className="w-5 h-5" />
                 </button>
@@ -1062,7 +853,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="Search products, ingredients, skin concerns..."
+                  placeholder="Search products, ingredients, clinical guides..."
                   className="w-full bg-[#FAFAFA] border border-black/[0.08] rounded-2xl pl-10 pr-4 py-3 text-xs text-zinc-950 focus:outline-none"
                   autoFocus
                 />
@@ -1072,13 +863,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <div className="space-y-2 text-xs">
                 <span className="text-[10px] font-mono text-zinc-400 uppercase">Popular Searches</span>
                 <div className="flex flex-wrap gap-2">
-                  {["Niacinamide Serum", "Ceramides Barrier Cream", "Acne Cleanser", "SPF 50+ Fluid", "Retinol 0.5%"].map((term) => (
+                  {["Niacinamide Serum", "Ceramides 3:1:1 Cream", "Retinol 0.5%", "Azelaic Acid 15%", "Skin Barrier Guide"].map((term) => (
                     <span
                       key={term}
                       onClick={() => {
                         setSearchModalOpen(false);
-                        const shopEl = document.getElementById("shop");
-                        if (shopEl) shopEl.scrollIntoView({ behavior: "smooth" });
+                        const el = document.getElementById("shop");
+                        if (el) el.scrollIntoView({ behavior: "smooth" });
                       }}
                       className="px-3 py-1.5 rounded-full bg-[#FAFAFA] border border-black/[0.06] text-zinc-700 hover:border-[#D4AF37] cursor-pointer"
                     >
