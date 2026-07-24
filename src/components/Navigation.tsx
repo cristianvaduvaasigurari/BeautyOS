@@ -8,15 +8,15 @@ export const Navigation: React.FC = () => {
   const { activeTab, setActiveTab } = useBeautyOS();
 
   const navItems = [
-    { id: "today" as const, label: "Astăzi", icon: Calendar },
-    { id: "products" as const, label: "Produse", icon: Package },
-    { id: "progress" as const, label: "Evoluție", icon: TrendingUp },
-    { id: "profile" as const, label: "Profil", icon: User },
+    { id: "today" as const, label: "Today", icon: Calendar },
+    { id: "products" as const, label: "Products", icon: Package },
+    { id: "progress" as const, label: "Progress", icon: TrendingUp },
+    { id: "profile" as const, label: "Profile", icon: User },
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 z-50 bg-[#09090b]/80 border-t border-white/5 backdrop-blur-xl py-3 px-6 shadow-2xl">
-      <div className="max-w-md mx-auto flex justify-between items-center">
+    <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 bg-[#101114]/90 border border-white/[0.08] backdrop-blur-xl py-2 px-4 rounded-full shadow-2xl max-w-sm w-[92%]">
+      <div className="flex justify-around items-center">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;
@@ -25,20 +25,20 @@ export const Navigation: React.FC = () => {
             <button
               key={item.id}
               onClick={() => setActiveTab(item.id)}
-              className="flex flex-col items-center gap-1 py-1 px-3 rounded-xl transition-all duration-200 group active:scale-95 cursor-pointer"
+              className="flex flex-col items-center gap-1 py-1.5 px-3 rounded-full transition-all duration-200 group active:scale-95 cursor-pointer"
             >
               <div
-                className={`p-1.5 rounded-xl transition-all duration-300 ${
+                className={`p-1.5 rounded-full transition-all duration-300 ${
                   isActive
-                    ? "bg-emerald-500/10 text-emerald-400 scale-110"
+                    ? "bg-[#E5C158]/20 text-[#E5C158] scale-110 shadow-sm"
                     : "text-zinc-500 group-hover:text-zinc-300"
                 }`}
               >
-                <Icon className="w-5 h-5" />
+                <Icon className="w-4 h-4" />
               </div>
               <span
                 className={`text-[9px] font-sans tracking-wide transition-all ${
-                  isActive ? "text-emerald-400 font-semibold" : "text-zinc-500 font-light"
+                  isActive ? "text-[#E5C158] font-bold" : "text-zinc-500 font-medium"
                 }`}
               >
                 {item.label}

@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import { useBeautyOS, PRODUCTS_CATALOG } from "../context/BeautyOSContext";
-import { designSystem } from "../styles/designSystem";
-import { Check, Sun, Moon, Droplets, Heart, HelpCircle, Activity, Sparkles, AlertCircle, X, ChevronRight } from "lucide-react";
+import { Check, Sun, Moon, Sparkles, X, ChevronRight, Plus } from "lucide-react";
 
 export const TodayTab: React.FC = () => {
   const {
@@ -19,9 +19,9 @@ export const TodayTab: React.FC = () => {
   // Bottom Sheet Routines Trigger
   const [activeRoutineSheet, setActiveRoutineSheet] = useState<"morning" | "evening" | null>(null);
 
-  // Checkin states
+  // Checkin modal state
   const [showCheckin, setShowCheckin] = useState(false);
-  const [hydration, setHydration] = useState(3);
+  const [hydration, setHydration] = useState(4);
   const [redness, setRedness] = useState(1);
   const [irritation, setIrritation] = useState(1);
   const [sleep, setSleep] = useState(8);
@@ -48,339 +48,334 @@ export const TodayTab: React.FC = () => {
     return catalogItem ? { userProduct, catalogItem } : null;
   };
 
-  const circumference = 2 * Math.PI * 40;
+  const circumference = 2 * Math.PI * 44;
   const strokeDashoffset = circumference - (currentSkinIndex / 100) * circumference;
 
   const completedMorningCount = morningSteps.filter((s) => s.isCompleted).length;
   const completedEveningCount = eveningSteps.filter((s) => s.isCompleted).length;
 
-
   return (
-    <div className="flex flex-col gap-6 pb-24 animate-fadeIn max-w-md mx-auto relative font-sans text-xs">
+    <div className="flex flex-col gap-6 pb-28 animate-fadeIn max-w-xl mx-auto relative font-sans text-xs">
       
-      {/* 1. Health Score Visual Circle */}
-      <div className={designSystem.card + " flex items-center justify-between overflow-hidden relative"}>
-        <div className="space-y-1.5 z-10">
-          <span className="text-[10px] font-mono tracking-widest text-zinc-500 uppercase">Index Sanatate</span>
-          <h1 className="text-xl font-extrabold text-white font-sans">Tenul Tau</h1>
-          <p className="text-[10.5px] text-zinc-400 font-sans max-w-[200px] leading-relaxed">
-            {currentSkinIndex >= 85 && "Ten hidratat si echilibrat. Mentine protectia SPF zilnica."}
-            {currentSkinIndex >= 70 && currentSkinIndex < 85 && "Stare generala stabila. Continua schema de ingrijire."}
-            {currentSkinIndex < 70 && "Bariera compromisa. Limiteaza exfolianti activi."}
+      {/* 1. Health Score Visual Circle Card */}
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="p-6 rounded-[28px] bg-[#101114] border border-white/[0.08] backdrop-blur-xl shadow-xl flex items-center justify-between relative overflow-hidden"
+      >
+        <div className="space-y-2 z-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E5C158]/10 text-[#E5C158] text-[10px] font-mono uppercase tracking-widest">
+            <Sparkles className="w-3 h-3" />
+            <span>Skin Index Metric</span>
+          </div>
+          <h1 className="text-2xl font-bold text-white font-sans tracking-tight">Today&apos;s Barrier Status</h1>
+          <p className="text-xs text-[#A1A1AA] max-w-[240px] leading-relaxed">
+            {currentSkinIndex >= 85 && "Skin barrier is hydrated and balanced. Maintain daily SPF photoprotection."}
+            {currentSkinIndex >= 70 && currentSkinIndex < 85 && "Overall skin status is stable. Continue prescribed AM/PM routine."}
+            {currentSkinIndex < 70 && "Skin barrier is compromised. Pause active exfoliants and layer ceramides."}
           </p>
         </div>
 
-        <div className="relative flex items-center justify-center w-24 h-24 mr-2">
+        <div className="relative flex items-center justify-center w-28 h-28 shrink-0">
           <svg className="w-full h-full transform -rotate-90">
-            <circle cx="48" cy="48" r="40" className="stroke-white/5 fill-none" strokeWidth="5" />
+            <circle cx="56" cy="56" r="44" className="stroke-white/[0.06] fill-none" strokeWidth="6" />
             <circle
-              cx="48"
-              cy="48"
-              r="40"
-              className="stroke-emerald-500 fill-none transition-all duration-500 ease-out"
-              strokeWidth="5"
+              cx="56"
+              cy="56"
+              r="44"
+              className="stroke-[#E5C158] fill-none transition-all duration-700 ease-out"
+              strokeWidth="6"
               strokeDasharray={circumference}
               strokeDashoffset={strokeDashoffset}
               strokeLinecap="round"
             />
           </svg>
           <div className="absolute flex flex-col items-center justify-center font-mono">
-            <span className="text-xl font-bold text-white">{currentSkinIndex}</span>
-            <span className="text-[8px] text-zinc-500 -mt-1">PUNCTAJ</span>
+            <span className="text-2xl font-bold text-white">{currentSkinIndex}</span>
+            <span className="text-[8px] text-[#A1A1AA] tracking-widest uppercase">Score</span>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* 2. AI Skincare Insights */}
-      {recommendations.map((rec) => (
-        <div
+      {/* 2. Quick Check-In Action Card */}
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
+        className="p-6 rounded-[28px] bg-[#101114] border border-white/[0.08] backdrop-blur-xl flex items-center justify-between"
+      >
+        <div className="space-y-1">
+          <h3 className="text-sm font-bold text-white">Daily Skin Check-In</h3>
+          <p className="text-xs text-[#A1A1AA]">Log hydration, redness, sleep & water intake.</p>
+        </div>
+
+        <button
+          onClick={() => setShowCheckin(true)}
+          className="px-5 py-2.5 rounded-full bg-[#E5C158] hover:bg-[#F7E7B4] text-zinc-950 font-bold text-xs transition-all shadow-lg shadow-[#E5C158]/15 cursor-pointer flex items-center gap-1.5 shrink-0"
+        >
+          <Plus className="w-4 h-4" />
+          <span>Log Check-In</span>
+        </button>
+      </motion.div>
+
+      {/* 3. AI Recommendations Stream */}
+      {recommendations.map((rec, idx) => (
+        <motion.div
           key={rec.id}
-          className={`p-4 rounded-3xl border flex gap-3.5 items-start transition-all duration-300 ${
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.15 + idx * 0.05 }}
+          className={`p-5 rounded-[24px] border flex gap-3.5 items-start transition-all ${
             rec.category === "alert"
-              ? "bg-rose-500/5 border-rose-500/10 text-rose-200"
-              : "bg-emerald-500/5 border-emerald-500/15 text-emerald-200"
+              ? "bg-rose-500/10 border-rose-500/20 text-rose-200"
+              : "bg-[#101114] border-white/[0.08] text-zinc-200"
           }`}
         >
-          <div className="mt-0.5 shrink-0">
-            {rec.category === "alert" ? (
-              <AlertCircle className="w-4 h-4 text-rose-400" />
-            ) : (
-              <Sparkles className="w-4 h-4 text-emerald-400 animate-pulse" />
-            )}
+          <div className="w-8 h-8 rounded-xl bg-[#E5C158]/10 text-[#E5C158] flex items-center justify-center shrink-0 mt-0.5">
+            <Sparkles className="w-4 h-4" />
           </div>
           <div className="space-y-1">
-            <div className="text-xs font-bold text-white font-sans">{rec.title}</div>
-            <p className="text-[10px] text-zinc-400 leading-relaxed font-sans">{rec.content}</p>
+            <h4 className="text-xs font-bold text-white">{rec.title}</h4>
+            <p className="text-xs text-[#A1A1AA] leading-relaxed">{rec.content}</p>
           </div>
-        </div>
+        </motion.div>
       ))}
 
-      {/* 3. Primary action on screen: Daily Log checkin */}
-      <button
-        onClick={() => setShowCheckin(true)}
-        className="w-full py-4 rounded-3xl bg-zinc-950 border border-white/5 hover:border-emerald-500/25 text-emerald-400 font-semibold text-xs flex items-center justify-center gap-2 hover:bg-zinc-900/40 active:scale-98 transition-all cursor-pointer shadow-lg"
-      >
-        <Activity className="w-4 h-4 text-emerald-400" />
-        <span>Înregistrează starea tenului de astăzi</span>
-      </button>
-
-      {/* 4. Routine Sheets launchers */}
-      <div className="space-y-3.5">
-        <span className="text-[10px] font-mono tracking-widest text-zinc-500 uppercase px-1">Rutine Zilnice</span>
-
-        {/* Morning routine sheet button */}
-        <button
+      {/* 4. Routine Cards (Morning & Evening) */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        
+        {/* Morning Routine Card */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2 }}
           onClick={() => setActiveRoutineSheet("morning")}
-          className="w-full p-5 rounded-3xl bg-zinc-900/60 border border-white/5 hover:bg-zinc-900/80 flex items-center justify-between text-left cursor-pointer transition-all active:scale-99 shadow-lg"
+          className="p-6 rounded-[28px] bg-[#101114] border border-white/[0.08] hover:border-[#E5C158]/30 transition-all cursor-pointer space-y-4 group shadow-sm"
         >
-          <div className="flex items-center gap-4">
-            <div className="p-3 rounded-2xl bg-amber-500/10 border border-amber-500/25 text-amber-400">
+          <div className="flex items-center justify-between">
+            <div className="w-10 h-10 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center">
               <Sun className="w-5 h-5" />
             </div>
-            <div>
-              <h3 className="text-sm font-bold text-white">Rutina de Dimineata</h3>
-              <p className="text-[10.5px] text-zinc-500 mt-0.5">
-                {completedMorningCount} din {morningSteps.length} produse aplicate
-              </p>
-            </div>
+            <span className="text-[10px] font-mono text-[#E5C158]">
+              {completedMorningCount} / {morningSteps.length} Done
+            </span>
           </div>
-          <ChevronRight className="w-5 h-5 text-zinc-600" />
-        </button>
 
-        {/* Evening routine sheet button */}
-        <button
+          <div>
+            <h3 className="text-base font-bold text-white">Morning Routine</h3>
+            <p className="text-xs text-[#A1A1AA] mt-1">Cleansing & SPF photoprotection</p>
+          </div>
+
+          <div className="pt-3 border-t border-white/[0.04] flex items-center justify-between text-xs text-[#E5C158] font-medium">
+            <span>Inspect Steps</span>
+            <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </motion.div>
+
+        {/* Evening Routine Card */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.25 }}
           onClick={() => setActiveRoutineSheet("evening")}
-          className="w-full p-5 rounded-3xl bg-zinc-900/60 border border-white/5 hover:bg-zinc-900/80 flex items-center justify-between text-left cursor-pointer transition-all active:scale-99 shadow-lg"
+          className="p-6 rounded-[28px] bg-[#101114] border border-white/[0.08] hover:border-[#E5C158]/30 transition-all cursor-pointer space-y-4 group shadow-sm"
         >
-          <div className="flex items-center gap-4">
-            <div className="p-3 rounded-2xl bg-indigo-500/10 border border-indigo-500/25 text-indigo-400">
+          <div className="flex items-center justify-between">
+            <div className="w-10 h-10 rounded-2xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center">
               <Moon className="w-5 h-5" />
             </div>
-            <div>
-              <h3 className="text-sm font-bold text-white">Rutina de Seara</h3>
-              <p className="text-[10.5px] text-zinc-500 mt-0.5">
-                {completedEveningCount} din {eveningSteps.length} produse aplicate
-              </p>
-            </div>
+            <span className="text-[10px] font-mono text-[#E5C158]">
+              {completedEveningCount} / {eveningSteps.length} Done
+            </span>
           </div>
-          <ChevronRight className="w-5 h-5 text-zinc-600" />
-        </button>
+
+          <div>
+            <h3 className="text-base font-bold text-white">Evening Routine</h3>
+            <p className="text-xs text-[#A1A1AA] mt-1">Deep restoration & barrier repair</p>
+          </div>
+
+          <div className="pt-3 border-t border-white/[0.04] flex items-center justify-between text-xs text-[#E5C158] font-medium">
+            <span>Inspect Steps</span>
+            <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </div>
+        </motion.div>
+
       </div>
 
-      {/* 5. Routines iOS-Style Slide-Up Bottom Sheet */}
+      {/* Routine Detail Sheet Modal */}
       {activeRoutineSheet && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-end justify-center animate-fadeIn">
-          {/* Backdrop dismissal */}
-          <div className="absolute inset-0" onClick={() => setActiveRoutineSheet(null)} />
-          
-          <div className="w-full max-w-md bg-zinc-950 border-t border-white/10 rounded-t-[32px] p-6 shadow-2xl z-10 max-h-[75vh] overflow-y-auto transform transition-transform duration-300 animate-slideUp">
-            {/* Drag Handle */}
-            <div className="w-10 h-1 bg-white/10 rounded-full mx-auto mb-5" />
-
-            <div className="flex justify-between items-center mb-5 pb-3 border-b border-white/5">
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-6 animate-fadeIn">
+          <div className="bg-[#101114] border border-white/[0.08] rounded-[28px] max-w-lg w-full p-6 space-y-6 relative shadow-2xl">
+            <div className="flex items-center justify-between pb-4 border-b border-white/[0.08]">
               <div className="flex items-center gap-2">
                 {activeRoutineSheet === "morning" ? (
-                  <Sun className="w-4 h-4 text-amber-400" />
+                  <Sun className="w-5 h-5 text-amber-400" />
                 ) : (
-                  <Moon className="w-4 h-4 text-indigo-400" />
+                  <Moon className="w-5 h-5 text-indigo-400" />
                 )}
-                <span className="text-sm font-bold text-white uppercase tracking-wide">
-                  {activeRoutineSheet === "morning" ? "Pasii Rutinei de Dimineata" : "Pasii Rutinei de Seara"}
-                </span>
+                <h3 className="text-base font-bold text-white capitalize">{activeRoutineSheet} Routine</h3>
               </div>
               <button
                 onClick={() => setActiveRoutineSheet(null)}
-                className="p-1 rounded-full bg-zinc-900 border border-white/5 text-zinc-400 hover:text-white cursor-pointer"
+                className="p-1 rounded-lg text-zinc-400 hover:text-white cursor-pointer"
               >
-                <X className="w-4 h-4" />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
-            <div className="space-y-4">
-              {activeRoutineSheet === "morning" ? (
-                morningSteps.length === 0 ? (
-                  <p className="text-center text-zinc-500 text-xs py-8">Cabinetul tau nu are produse plasate dimineata.</p>
-                ) : (
-                  morningSteps.map((step) => {
-                    const details = getProductDetails(step.userProductId);
-                    if (!details) return null;
-                    const { catalogItem } = details;
+            <div className="space-y-3">
+              {(activeRoutineSheet === "morning" ? morningSteps : eveningSteps).map((step, idx) => {
+                const details = getProductDetails(step.userProductId);
+                if (!details) return null;
+                const { catalogItem } = details;
 
-                    return (
-                      <div key={step.id} className="flex justify-between items-center p-3 rounded-2xl bg-zinc-900 border border-white/5 gap-3">
-                        <div className="flex-1 min-w-0">
-                          <h4 className="text-xs font-bold text-white truncate">{catalogItem.brand}</h4>
-                          <p className="text-[10px] text-zinc-500 truncate">{catalogItem.name}</p>
-                        </div>
-                        <button
-                          onClick={() => toggleRoutineStep(step.id, true)}
-                          className={`w-6 h-6 rounded-lg border flex items-center justify-center transition-all cursor-pointer ${
-                            step.isCompleted
-                              ? "bg-emerald-500 border-emerald-500 text-black"
-                              : "border-white/10 hover:border-zinc-700"
-                          }`}
-                        >
-                          {step.isCompleted && <Check className="w-4 h-4 stroke-[3]" />}
-                        </button>
+                return (
+                  <div
+                    key={step.id}
+                    onClick={() => toggleRoutineStep(step.id, activeRoutineSheet === "morning")}
+                    className={`p-4 rounded-2xl border transition-all cursor-pointer flex items-center justify-between ${
+                      step.isCompleted
+                        ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-300"
+                        : "bg-[#17181B] border-white/[0.08] text-white"
+                    }`}
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold ${
+                        step.isCompleted ? "bg-emerald-500 text-zinc-950" : "bg-zinc-800 text-zinc-400"
+                      }`}>
+                        {step.isCompleted ? <Check className="w-4 h-4" /> : idx + 1}
                       </div>
-                    );
-                  })
-                )
-              ) : (
-                eveningSteps.length === 0 ? (
-                  <p className="text-center text-zinc-500 text-xs py-8">Cabinetul tau nu are produse plasate seara.</p>
-                ) : (
-                  eveningSteps.map((step) => {
-                    const details = getProductDetails(step.userProductId);
-                    if (!details) return null;
-                    const { catalogItem } = details;
+                      <div>
+                        <h4 className="text-xs font-bold text-white">{catalogItem.brand}</h4>
+                        <p className="text-xs text-[#A1A1AA]">{catalogItem.name}</p>
+                      </div>
+                    </div>
 
-                    return (
-                      <div key={step.id} className="flex justify-between items-center p-3 rounded-2xl bg-zinc-900 border border-white/5 gap-3">
-                        <div className="flex-1 min-w-0">
-                          <h4 className="text-xs font-bold text-white truncate">{catalogItem.brand}</h4>
-                          <p className="text-[10px] text-zinc-500 truncate">{catalogItem.name}</p>
-                        </div>
-                        <button
-                          onClick={() => toggleRoutineStep(step.id, false)}
-                          className={`w-6 h-6 rounded-lg border flex items-center justify-center transition-all cursor-pointer ${
-                            step.isCompleted
-                              ? "bg-emerald-500 border-emerald-500 text-black"
-                              : "border-white/10 hover:border-zinc-700"
-                          }`}
-                        >
-                          {step.isCompleted && <Check className="w-4 h-4 stroke-[3]" />}
-                        </button>
-                      </div>
-                    );
-                  })
-                )
-              )}
+                    <span className="text-[10px] font-mono text-[#E5C158] bg-[#E5C158]/10 px-2.5 py-1 rounded-full border border-[#E5C158]/20">
+                      {catalogItem.category}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
+
+            <button
+              onClick={() => setActiveRoutineSheet(null)}
+              className="w-full py-3 rounded-full bg-[#E5C158] text-zinc-950 font-bold text-xs cursor-pointer hover:bg-[#F7E7B4]"
+            >
+              Done Inspecting
+            </button>
           </div>
         </div>
       )}
 
-      {/* 6. Check-in Form Modal */}
+      {/* Check-In Modal */}
       {showCheckin && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-6 animate-fadeIn">
-          <div className="bg-zinc-950 border border-white/5 rounded-[32px] p-6 w-full max-w-sm max-h-[85vh] overflow-y-auto shadow-2xl relative space-y-5">
-            <div className="flex justify-between items-center border-b border-white/5 pb-3">
-              <span className="text-xs font-mono text-emerald-400 font-semibold uppercase">CHECK-IN ZILNIC</span>
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-6 animate-fadeIn">
+          <form onSubmit={handleCheckinSubmit} className="bg-[#101114] border border-white/[0.08] rounded-[28px] max-w-lg w-full p-6 space-y-5 relative shadow-2xl">
+            <div className="flex items-center justify-between pb-4 border-b border-white/[0.08]">
+              <div className="flex items-center gap-2">
+                <Sparkles className="w-5 h-5 text-[#E5C158]" />
+                <h3 className="text-base font-bold text-white">Daily Skin Check-In</h3>
+              </div>
               <button
+                type="button"
                 onClick={() => setShowCheckin(false)}
-                className="text-zinc-500 hover:text-white text-xs cursor-pointer font-bold"
+                className="p-1 rounded-lg text-zinc-400 hover:text-white cursor-pointer"
               >
-                Inchide
+                <X className="w-5 h-5" />
               </button>
             </div>
 
-            <form onSubmit={handleCheckinSubmit} className="space-y-4 font-sans text-xs">
-              
-              {/* Hydration Slider */}
-              <div className="space-y-1">
-                <div className="flex justify-between text-zinc-300">
-                  <span className="flex items-center gap-1.5">
-                    <Droplets className="w-3.5 h-3.5 text-cyan-400" /> Nivel Hidratare
-                  </span>
-                  <span className="font-mono text-cyan-400 font-semibold">{hydration}/5</span>
-                </div>
+            <div className="space-y-4 text-xs">
+              <div className="space-y-2">
+                <label className="block text-zinc-300 font-semibold flex justify-between">
+                  <span>Hydration Level</span>
+                  <span className="text-[#E5C158] font-mono">{hydration} / 5</span>
+                </label>
                 <input
                   type="range"
                   min="1"
                   max="5"
                   value={hydration}
                   onChange={(e) => setHydration(Number(e.target.value))}
-                  className="w-full accent-cyan-400"
+                  className="w-full accent-[#E5C158] cursor-pointer"
                 />
               </div>
 
-              {/* Redness Slider */}
-              <div className="space-y-1">
-                <div className="flex justify-between text-zinc-300">
-                  <span className="flex items-center gap-1.5">
-                    <Heart className="w-3.5 h-3.5 text-rose-400" /> Roșeață Ten
-                  </span>
-                  <span className="font-mono text-rose-400 font-semibold">{redness}/5</span>
-                </div>
+              <div className="space-y-2">
+                <label className="block text-zinc-300 font-semibold flex justify-between">
+                  <span>Redness Index</span>
+                  <span className="text-rose-400 font-mono">{redness} / 5</span>
+                </label>
                 <input
                   type="range"
                   min="1"
                   max="5"
                   value={redness}
                   onChange={(e) => setRedness(Number(e.target.value))}
-                  className="w-full accent-rose-400"
+                  className="w-full accent-rose-500 cursor-pointer"
                 />
               </div>
 
-              {/* Irritation Slider */}
-              <div className="space-y-1">
-                <div className="flex justify-between text-zinc-300">
-                  <span className="flex items-center gap-1.5">
-                    <HelpCircle className="w-3.5 h-3.5 text-amber-400" /> Iritatie / Prurit
-                  </span>
-                  <span className="font-mono text-amber-400 font-semibold">{irritation}/5</span>
-                </div>
+              <div className="space-y-2">
+                <label className="block text-zinc-300 font-semibold flex justify-between">
+                  <span>Irritation Rating</span>
+                  <span className="text-amber-400 font-mono">{irritation} / 5</span>
+                </label>
                 <input
                   type="range"
                   min="1"
                   max="5"
                   value={irritation}
                   onChange={(e) => setIrritation(Number(e.target.value))}
-                  className="w-full accent-amber-400"
+                  className="w-full accent-amber-500 cursor-pointer"
                 />
               </div>
 
-              {/* Sleep Hour Slider */}
-              <div className="space-y-1">
-                <div className="flex justify-between text-zinc-300">
-                  <span>Ore de Somn</span>
-                  <span className="font-mono text-emerald-400 font-semibold">{sleep} ore</span>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="space-y-1.5">
+                  <label className="block text-zinc-400 font-medium">Sleep (Hours)</label>
+                  <input
+                    type="number"
+                    min="1"
+                    max="16"
+                    value={sleep}
+                    onChange={(e) => setSleep(Number(e.target.value))}
+                    className="w-full bg-zinc-950 border border-white/[0.08] rounded-xl px-3 py-2 text-white font-mono"
+                  />
                 </div>
-                <input
-                  type="range"
-                  min="4"
-                  max="12"
-                  step="0.5"
-                  value={sleep}
-                  onChange={(e) => setSleep(Number(e.target.value))}
-                  className="w-full accent-emerald-500"
-                />
+
+                <div className="space-y-1.5">
+                  <label className="block text-zinc-400 font-medium">Water (ml)</label>
+                  <input
+                    type="number"
+                    step="250"
+                    value={water}
+                    onChange={(e) => setWater(Number(e.target.value))}
+                    className="w-full bg-zinc-950 border border-white/[0.08] rounded-xl px-3 py-2 text-white font-mono"
+                  />
+                </div>
               </div>
 
-              {/* Water Intake Input */}
               <div className="space-y-1.5">
-                <label className="block text-zinc-300">Apa consumata (ml)</label>
-                <input
-                  type="number"
-                  step="250"
-                  value={water}
-                  onChange={(e) => setWater(Number(e.target.value))}
-                  className="w-full bg-zinc-900 border border-white/5 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:border-emerald-500/50"
-                />
-              </div>
-
-              {/* Notes Area */}
-              <div className="space-y-1.5">
-                <label className="block text-zinc-300">Observatii / Alimentatie</label>
+                <label className="block text-zinc-400 font-medium">Notes</label>
                 <textarea
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
-                  placeholder="Ex: Oboseala acumulata, am consumat produse lactate."
-                  rows={2}
-                  className="w-full bg-zinc-900 border border-white/5 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:border-emerald-500/50"
+                  placeholder="Notes on symptoms or diet..."
+                  className="w-full bg-zinc-950 border border-white/[0.08] rounded-xl p-3 text-white h-20"
                 />
               </div>
+            </div>
 
-              <button
-                type="submit"
-                className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 text-white font-semibold text-xs transition-all hover:brightness-110 active:scale-98 cursor-pointer"
-              >
-                Salveaza check-in
-              </button>
-
-            </form>
-          </div>
+            <button
+              type="submit"
+              className="w-full py-3.5 rounded-full bg-[#E5C158] hover:bg-[#F7E7B4] text-zinc-950 font-bold text-xs cursor-pointer shadow-lg shadow-[#E5C158]/15"
+            >
+              Save Skin Check-In
+            </button>
+          </form>
         </div>
       )}
 
