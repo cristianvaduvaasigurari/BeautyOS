@@ -10,14 +10,12 @@ import {
   X,
   Search,
   ShoppingBag,
-  User,
   Star,
   SlidersHorizontal,
   Scissors,
   Dumbbell,
   Apple,
-  Pill,
-  ChevronDown
+  Pill
 } from "lucide-react";
 
 interface LandingPageProps {
@@ -26,7 +24,6 @@ interface LandingPageProps {
 
 export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
   // Navigation & Mega Menu State
-  const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
   const [searchModalOpen, setSearchModalOpen] = useState(false);
   const [cartDrawerOpen, setCartDrawerOpen] = useState(false);
   const [cartItems, setCartItems] = useState<{ id: string; name: string; brand: string; price: number; count: number }[]>([
@@ -112,145 +109,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
     <div className="bg-[#FFFFFF] text-[#111111] font-sans selection:bg-[#D4AF37]/30 selection:text-black relative overflow-hidden">
       
       {/* ========================================================= */}
-      {/* 1. TOP ANNOUNCEMENT BAR */}
-      {/* ========================================================= */}
-      <div className="bg-[#0A0A0A] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
-        <span className="px-2 py-0.5 rounded-full bg-[#D4AF37] text-zinc-950 font-bold text-[9px] uppercase tracking-wider">BeautyOS Infinity</span>
-        <span>The World&apos;s Best Beauty, Skincare, Wellness & Longevity Platform</span>
-        <button onClick={onGetStarted} className="underline text-[#E5C158] hover:text-white cursor-pointer ml-2">
-          Start Journey →
-        </button>
-      </div>
-
-      {/* ========================================================= */}
-      {/* 2. MAIN HEADER & APPLE MEGA MENU SYSTEM */}
-      {/* ========================================================= */}
-      <header
-        className="sticky top-0 z-40 bg-white/95 backdrop-blur-xl border-b border-black/[0.08] transition-all"
-        onMouseLeave={() => setActiveMegaMenu(null)}
-      >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-          
-          <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-[#0A0A0A] to-[#17181B] text-[#D4AF37] flex items-center justify-center font-bold shadow-md">
-              <Sparkles className="w-5 h-5" />
-            </div>
-            <span className="text-base font-bold tracking-tight font-mono text-zinc-950">
-              BeautyOS<span className="text-[#D4AF37]">∞</span>
-            </span>
-          </div>
-
-          <nav className="hidden lg:flex items-center gap-6 text-xs font-semibold tracking-wider text-zinc-700 uppercase font-sans">
-            {[
-              { id: "skin", label: "Skin" },
-              { id: "hair", label: "Hair" },
-              { id: "body", label: "Body" },
-              { id: "fitness", label: "Fitness" },
-              { id: "nutrition", label: "Nutrition" },
-              { id: "supplements", label: "Supplements" },
-            ].map((menu) => (
-              <button
-                key={menu.id}
-                onMouseEnter={() => setActiveMegaMenu(menu.id)}
-                className={`py-2 transition-colors cursor-pointer relative flex items-center gap-1 ${
-                  activeMegaMenu === menu.id ? "text-[#D4AF37]" : "hover:text-black"
-                }`}
-              >
-                <span>{menu.label}</span>
-                <ChevronDown className="w-3 h-3 opacity-50" />
-              </button>
-            ))}
-          </nav>
-
-          <div className="flex items-center gap-4">
-            <button
-              onClick={() => setSearchModalOpen(true)}
-              className="p-2 rounded-full hover:bg-zinc-100 text-zinc-700 transition-colors cursor-pointer"
-            >
-              <Search className="w-4 h-4" />
-            </button>
-
-            <button
-              onClick={onGetStarted}
-              className="p-2 rounded-full hover:bg-zinc-100 text-zinc-700 transition-colors cursor-pointer"
-            >
-              <User className="w-4 h-4" />
-            </button>
-
-            <button
-              onClick={() => setCartDrawerOpen(true)}
-              className="p-2 rounded-full hover:bg-zinc-100 text-zinc-700 transition-colors cursor-pointer relative"
-            >
-              <ShoppingBag className="w-4 h-4" />
-              {cartItems.length > 0 && (
-                <span className="absolute top-1 right-1 w-4 h-4 rounded-full bg-[#D4AF37] text-zinc-950 font-bold text-[9px] flex items-center justify-center font-mono">
-                  {cartItems.reduce((acc, item) => acc + item.count, 0)}
-                </span>
-              )}
-            </button>
-          </div>
-        </div>
-
-        {/* MEGA MENU */}
-        <AnimatePresence>
-          {activeMegaMenu && (
-            <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.2 }}
-              className="absolute top-full left-0 right-0 bg-white/98 backdrop-blur-2xl border-b border-black/[0.08] shadow-2xl z-50 p-8"
-            >
-              <div className="max-w-7xl mx-auto grid grid-cols-12 gap-8 text-xs">
-                
-                <div className="col-span-3 space-y-3 border-r border-black/[0.06] pr-6">
-                  <h4 className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">{activeMegaMenu} Encyclopedia</h4>
-                  <div className="space-y-2 font-medium text-zinc-800">
-                    <p className="hover:text-[#D4AF37] cursor-pointer">View All {activeMegaMenu}</p>
-                    <p className="hover:text-[#D4AF37] cursor-pointer">AI Diagnostic Tool</p>
-                    <p className="hover:text-[#D4AF37] cursor-pointer">Routine Builder</p>
-                    <p className="hover:text-[#D4AF37] cursor-pointer">Expert Advice</p>
-                  </div>
-                </div>
-
-                <div className="col-span-9 grid grid-cols-3 gap-6">
-                   <div className="space-y-3">
-                     <h4 className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">Top Concerns</h4>
-                     <div className="space-y-2 text-zinc-600">
-                        <p className="hover:text-black cursor-pointer">Acne & Breakouts</p>
-                        <p className="hover:text-black cursor-pointer">Anti-ageing & Wrinkles</p>
-                        <p className="hover:text-black cursor-pointer">Hyperpigmentation</p>
-                        <p className="hover:text-black cursor-pointer">Sensitivity & Redness</p>
-                     </div>
-                   </div>
-                   <div className="space-y-3">
-                     <h4 className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">Key Ingredients</h4>
-                     <div className="space-y-2 text-zinc-600">
-                        <p className="hover:text-black cursor-pointer">Retinol & Retinoids</p>
-                        <p className="hover:text-black cursor-pointer">Vitamin C & Antioxidants</p>
-                        <p className="hover:text-black cursor-pointer">Ceramides & Lipids</p>
-                        <p className="hover:text-black cursor-pointer">Peptides</p>
-                     </div>
-                   </div>
-                   <div className="space-y-3">
-                     <div className="p-4 rounded-2xl bg-[#FAFAFA] border border-black/[0.06] h-full flex flex-col justify-between">
-                       <div>
-                         <span className="text-[10px] font-mono text-[#D4AF37]">Featured Science</span>
-                         <h5 className="text-xs font-bold text-zinc-950 mt-1">The Skin Barrier 3:1:1 Ratio</h5>
-                         <p className="text-[10px] text-zinc-500 mt-1 leading-relaxed">Understanding the crucial balance of ceramides, cholesterol, and fatty acids.</p>
-                       </div>
-                       <button className="text-[10px] font-bold text-zinc-900 flex items-center gap-1 mt-4">
-                         Read Guide <ArrowRight className="w-3 h-3" />
-                       </button>
-                     </div>
-                   </div>
-                </div>
-
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </header>
 
       {/* ========================================================= */}
       {/* 3. HERO SECTION */}
@@ -566,62 +424,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </section>
 
       {/* ========================================================= */}
-      {/* 10. LUXURY MULTI-COLUMN FOOTER */}
-      {/* ========================================================= */}
-      <footer className="border-t border-black/[0.08] bg-[#0A0A0A] text-white py-20 px-6 max-w-7xl mx-auto text-xs">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-16">
-          <div className="md:col-span-2 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded-xl bg-[#D4AF37] text-zinc-950 flex items-center justify-center font-bold">
-                <Sparkles className="w-4 h-4" />
-              </div>
-              <span className="font-bold text-base font-mono">BeautyOS<span className="text-[#D4AF37]">∞</span></span>
-            </div>
-            <p className="text-xs text-zinc-400 max-w-sm leading-relaxed">
-              The world&apos;s AI beauty, skincare, HairOS, nutricosmetics, fitness, and longevity ecosystem.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="text-xs font-mono uppercase text-[#D4AF37] tracking-widest mb-4">Ecosystem</h4>
-            <div className="space-y-2 text-zinc-400 font-medium">
-              <p className="hover:text-white cursor-pointer" onClick={onGetStarted}>AI Coach Workspace</p>
-              <p className="hover:text-white cursor-pointer" onClick={() => setSelectedCategory("Haircare & Tools")}>HairOS Devices</p>
-              <p className="hover:text-white cursor-pointer" onClick={() => setSelectedCategory("Supplements")}>Supplements</p>
-              <p className="hover:text-white cursor-pointer">Fitness Hub</p>
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-xs font-mono uppercase text-[#D4AF37] tracking-widest mb-4">Demographics</h4>
-            <div className="space-y-2 text-zinc-400 font-medium">
-              <p className="hover:text-white cursor-pointer">Women&apos;s Health</p>
-              <p className="hover:text-white cursor-pointer">Men&apos;s Grooming</p>
-              <p className="hover:text-white cursor-pointer">Teen Skincare</p>
-              <p className="hover:text-white cursor-pointer">Longevity Focus</p>
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-xs font-mono uppercase text-[#D4AF37] tracking-widest mb-4">Company</h4>
-            <div className="space-y-2 text-zinc-400 font-medium">
-              <p className="hover:text-white cursor-pointer">Privacy Center</p>
-              <p className="hover:text-white cursor-pointer">Terms of Service</p>
-              <p className="hover:text-white cursor-pointer">Clinical Studies</p>
-              <p className="hover:text-white cursor-pointer">Contact Us</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="pt-8 border-t border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-500">
-          <span>© {new Date().getFullYear()} BeautyOS Infinity Inc. All rights reserved.</span>
-          <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-white transition-colors">Instagram</a>
-            <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-            <a href="#" className="hover:text-white transition-colors">YouTube</a>
-          </div>
-        </div>
-      </footer>
 
       {/* ========================================================= */}
       {/* 11. SHOPPING BAG CART DRAWER */}

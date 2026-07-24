@@ -247,6 +247,15 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white font-sans selection:bg-[#D4AF37]/30 selection:text-white flex flex-col">
       
+      {/* 1. TOP ANNOUNCEMENT BAR */}
+      <div className="bg-[#0A0A0A] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
+        <span className="px-2 py-0.5 rounded-full bg-[#D4AF37] text-zinc-950 font-bold text-[9px] uppercase tracking-wider">BeautyOS Infinity</span>
+        <span>The World&apos;s Best Beauty, Skincare, Wellness & Longevity Platform</span>
+        <Link href="/dashboard" className="underline text-[#E5C158] hover:text-white cursor-pointer ml-2">
+          Start Journey →
+        </Link>
+      </div>
+
       {/* HEADER */}
       <header 
         className="sticky top-0 z-50 bg-[#0A0A0A]/80 backdrop-blur-2xl border-b border-white/[0.08] transition-all"
