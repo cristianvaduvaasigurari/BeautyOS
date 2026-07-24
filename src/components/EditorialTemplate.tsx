@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { ArrowLeft, Clock, Sparkles, CheckCircle2, MessageSquare, AlertTriangle, ListChecks, Target, ShieldCheck, Zap, Activity, Info, Beaker, Star, Droplets, Sun, Moon } from "lucide-react";
 import { EditorialArticle } from "../data/editorialContent";
+import { NewsletterBlock } from "./NewsletterBlock";
 
 export const EditorialTemplate = ({ article, backHref, backLabel }: { article: EditorialArticle, backHref: string, backLabel: string }) => {
   return (
@@ -447,6 +448,10 @@ export const EditorialTemplate = ({ article, backHref, backLabel }: { article: E
             <Sparkles className="w-4 h-4" /> Start Your Optimization Journey
           </Link>
         </div>
+      </div>
+
+      <div className="mt-16 border-t border-white/[0.05] pt-16">
+        <NewsletterBlock />
       </div>
 
     </div>

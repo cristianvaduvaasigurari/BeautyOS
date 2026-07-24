@@ -5,6 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles, Search, User, Menu, X, ChevronDown, ChevronRight, Home, ShoppingBag, LayoutDashboard } from "lucide-react";
+import { FloatingActionButton } from "./FloatingActionButton";
+import { NewsletterBlock } from "./NewsletterBlock";
 
 export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -297,6 +299,9 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
           </nav>
 
           <div className="flex items-center gap-3 sm:gap-5">
+            <Link href="/contact" className="hidden xl:flex bg-[#D4AF37] hover:bg-white text-black text-[10px] font-bold uppercase tracking-widest px-5 py-2.5 rounded-full transition-colors">
+              Book Consultation
+            </Link>
             <button className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
               <Search className="w-5 h-5" />
             </button>
@@ -454,6 +459,9 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                     <User className="w-4 h-4 text-[#D4AF37]" /> Account
                   </Link>
                 </div>
+                <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="mt-4 block w-full p-4 rounded-2xl bg-[#D4AF37] text-black text-center text-sm font-bold transition-colors">
+                  Book Consultation
+                </Link>
               </div>
             </div>
           </motion.div>
@@ -485,8 +493,13 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
         {children}
       </main>
 
+      <FloatingActionButton />
+
       {/* FOOTER */}
       <footer className="border-t border-white/[0.08] bg-[#0A0A0A] pt-24 pb-12 px-6">
+        <div className="max-w-[1440px] mx-auto mb-20">
+          <NewsletterBlock />
+        </div>
         <div className="max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-12 mb-16">
           <div className="sm:col-span-2 space-y-6">
             <div className="flex items-center gap-2.5">
