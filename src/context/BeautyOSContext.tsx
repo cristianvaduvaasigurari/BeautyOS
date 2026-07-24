@@ -42,7 +42,7 @@ export interface Product {
   id: string;
   brand: string;
   name: string;
-  category: "Cleanser" | "Toner" | "Serum" | "Moisturizer" | "Sunscreen" | "Treatment";
+  category: "Cleanser" | "Toner" | "Serum" | "Moisturizer" | "Sunscreen" | "Treatment" | "Supplements" | "Nutrition" | "Fitness" | "Beauty Devices" | "Haircare & Tools";
   ingredients: string[];
   description: string;
   paoMonths: number;
@@ -168,7 +168,11 @@ export const PRODUCTS_CATALOG: Product[] = [
   { id: "p16", brand: "Estée Lauder", name: "Advanced Night Repair Synchronized Serum", category: "Serum", ingredients: ["Tripeptide-32", "Hyaluronic Acid"], description: "Deep night repair serum reducing multiple signs of aging.", paoMonths: 12 },
   { id: "p17", brand: "Tatcha", name: "The Dewy Skin Cream", category: "Moisturizer", ingredients: ["Japanese Purple Rice", "Hyaluronic Acid"], description: "Rich moisturizing cream feeding skin with hydration and antioxidants.", paoMonths: 12 },
   { id: "p18", brand: "Foreo", name: "BEAR 2 Facial Microcurrent Device", category: "Treatment", ingredients: ["Microcurrent T-Sonic Pulsations"], description: "FDA-cleared microcurrent device lifting facial muscles and boosting collagen.", paoMonths: 36 },
-  { id: "p19", brand: "CurrentBody", name: "Skin LED Light Therapy Face Mask", category: "Treatment", ingredients: ["Red 633nm & Near-Infrared 830nm LED"], description: "Clinical grade flexible LED face mask reducing wrinkles and acne.", paoMonths: 36 }
+  { id: "p19", brand: "CurrentBody", name: "Skin LED Light Therapy Face Mask", category: "Treatment", ingredients: ["Red 633nm & Near-Infrared 830nm LED"], description: "Clinical grade flexible LED face mask reducing wrinkles and acne.", paoMonths: 36 },
+  { id: "p20", brand: "BeautyOS", name: "Hydrolyzed Marine Collagen", category: "Supplements", ingredients: ["Type-I Collagen Peptides"], description: "Premium marine collagen for dermal elasticity and hair strength.", paoMonths: 24 },
+  { id: "p21", brand: "BeautyOS", name: "NAD+ Longevity Activator", category: "Supplements", ingredients: ["Resveratrol", "NMN"], description: "Sirtuin activator for mitochondrial energy and cellular DNA repair.", paoMonths: 24 },
+  { id: "p22", brand: "BeautyOS", name: "Grass-Fed Whey Protein Isolate", category: "Nutrition", ingredients: ["Whey Isolate", "Leucine"], description: "Ultra-pure protein for muscle protein synthesis and recovery.", paoMonths: 24 },
+  { id: "p23", brand: "BeautyOS", name: "Micronized Creatine Monohydrate", category: "Fitness", ingredients: ["Creatine Monohydrate"], description: "Performance enhancer for ATP production and muscle strength.", paoMonths: 36 }
 ];
 
 // ==========================================
