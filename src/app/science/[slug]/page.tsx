@@ -4,24 +4,24 @@ import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
   return Object.values(editorialContent)
-    .filter(article => article.category === "Longevity")
+    .filter(article => article.category === "Science")
     .map(article => ({
       slug: article.slug,
     }));
 }
 
-export default function LongevityPage({ params }: { params: { slug: string } }) {
-  const article = Object.values(editorialContent).find(a => a.slug === params.slug && a.category === "Longevity");
+export default function SciencePage({ params }: { params: { slug: string } }) {
+  const article = Object.values(editorialContent).find(a => a.slug === params.slug && a.category === "Science");
 
-  if (!article || article.category !== "Longevity") {
+  if (!article || article.category !== "Science") {
     notFound();
   }
 
   return (
     <EditorialTemplate 
       article={article} 
-      backHref="/longevity" 
-      backLabel="Longevity Hub" 
+      backHref="/science" 
+      backLabel="Science Hub" 
     />
   );
 }

@@ -11,7 +11,7 @@ export function generateStaticParams() {
 }
 
 export default function IngredientPage({ params }: { params: { slug: string } }) {
-  const article = editorialContent[params.slug];
+  const article = Object.values(editorialContent).find(a => a.slug === params.slug && a.category === "Ingredients");
 
   if (!article || article.category !== "Ingredients") {
     notFound();

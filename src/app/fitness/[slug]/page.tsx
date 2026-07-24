@@ -11,7 +11,7 @@ export function generateStaticParams() {
 }
 
 export default function FitnessPage({ params }: { params: { slug: string } }) {
-  const article = editorialContent[params.slug];
+  const article = Object.values(editorialContent).find(a => a.slug === params.slug && a.category === "Fitness");
 
   if (!article || article.category !== "Fitness") {
     notFound();
