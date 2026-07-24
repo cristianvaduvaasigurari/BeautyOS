@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { BeautyOSProvider } from "../context/BeautyOSContext";
+import { GlobalLayout } from "../components/GlobalLayout";
 import "./globals.css";
-
 export const metadata: Metadata = {
   title: "BeautyOS™ – Skincare Intelligence System",
   description: "Advanced skincare diagnostics, ingredients fit score metrics, progress photo capture, and daily routine management inspired by Oura & Apple Health.",
@@ -16,10 +16,12 @@ export default function RootLayout({
     children: React.ReactNode;
   }>) {
   return (
-    <html lang="ro" className="h-full bg-black">
-      <body className="h-full overflow-hidden antialiased bg-black text-zinc-100 selection:bg-amber-500/30 selection:text-white">
+    <html lang="en" className="h-full bg-[#0A0A0A]">
+      <body className="h-full antialiased bg-[#0A0A0A] text-white selection:bg-[#D4AF37]/30 selection:text-white">
         <BeautyOSProvider>
-          {children}
+          <GlobalLayout>
+            {children}
+          </GlobalLayout>
         </BeautyOSProvider>
       </body>
     </html>
