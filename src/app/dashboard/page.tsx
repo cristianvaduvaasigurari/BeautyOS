@@ -1,12 +1,25 @@
 "use client";
 
 import React, { useState } from "react";
+import dynamic from "next/dynamic";
 import { useBeautyOS } from "../../context/BeautyOSContext";
-import { TodayTab } from "../../components/TodayTab";
-import { ProductsTab } from "../../components/ProductsTab";
-import { ProgressTab } from "../../components/ProgressTab";
-import { ProfileTab } from "../../components/ProfileTab";
 import { Calendar, Package, TrendingUp, User, Sparkles, RefreshCw } from "lucide-react";
+
+// Lazy load heavy dashboard components
+const LoadingSkeleton = () => (
+  <div className="animate-pulse space-y-6">
+    <div className="h-48 bg-[#101114] rounded-3xl w-full"></div>
+    <div className="grid grid-cols-2 gap-4">
+      <div className="h-32 bg-[#101114] rounded-2xl w-full"></div>
+      <div className="h-32 bg-[#101114] rounded-2xl w-full"></div>
+    </div>
+  </div>
+);
+
+const TodayTab = dynamic(() => import("../../components/TodayTab").then((mod) => mod.TodayTab), { loading: () => <LoadingSkeleton /> });
+const ProductsTab = dynamic(() => import("../../components/ProductsTab").then((mod) => mod.ProductsTab), { loading: () => <LoadingSkeleton /> });
+const ProgressTab = dynamic(() => import("../../components/ProgressTab").then((mod) => mod.ProgressTab), { loading: () => <LoadingSkeleton /> });
+const ProfileTab = dynamic(() => import("../../components/ProfileTab").then((mod) => mod.ProfileTab), { loading: () => <LoadingSkeleton /> });
 
 export default function Dashboard() {
   const { currentSkinIndex, syncStatus, offlineQueueLength } = useBeautyOS();

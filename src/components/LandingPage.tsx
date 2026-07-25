@@ -444,7 +444,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                     <ShoppingBag className="w-5 h-5 text-[#D4AF37]" />
                     <h3 className="text-base font-bold">Your Ecosystem Cart</h3>
                   </div>
-                  <button onClick={() => setCartDrawerOpen(false)} className="p-1 rounded-lg text-zinc-400 hover:text-black">
+                  <button aria-label="Close Cart" onClick={() => setCartDrawerOpen(false)} className="p-1 rounded-lg text-zinc-400 hover:text-black">
                     <X className="w-5 h-5" />
                   </button>
                 </div>
@@ -461,6 +461,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                           <span className="text-xs font-mono font-bold text-zinc-900">${item.price} x {item.count}</span>
                         </div>
                         <button
+                          aria-label="Remove Item"
                           onClick={() => setCartItems(cartItems.filter((i) => i.id !== item.id))}
                           className="p-1.5 rounded-lg text-zinc-400 hover:text-rose-500"
                         >
@@ -503,7 +504,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
             >
               <div className="flex items-center justify-between pb-3 border-b border-black/[0.08]">
                 <span className="text-xs font-bold text-zinc-950">Search BeautyOS Infinity</span>
-                <button onClick={() => setSearchModalOpen(false)} className="p-1 text-zinc-400 hover:text-black">
+                <button aria-label="Close Search" onClick={() => setSearchModalOpen(false)} className="p-1 text-zinc-400 hover:text-black">
                   <X className="w-5 h-5" />
                 </button>
               </div>

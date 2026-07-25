@@ -302,19 +302,20 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             <Link href="/contact" className="hidden xl:flex bg-[#D4AF37] hover:bg-white text-black text-[10px] font-bold uppercase tracking-widest px-5 py-2.5 rounded-full transition-colors">
               Book Consultation
             </Link>
-            <button className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
+            <button aria-label="Search" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
               <Search className="w-5 h-5" />
             </button>
             <Link href="/dashboard" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block" title="Dashboard">
               <LayoutDashboard className="w-5 h-5" />
             </Link>
-            <button className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
+            <button aria-label="Shopping Bag" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
               <ShoppingBag className="w-5 h-5" />
             </button>
             <Link href="/account" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block" title="Account">
               <User className="w-5 h-5" />
             </Link>
             <button 
+              aria-label="Open Mobile Menu"
               className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer lg:hidden"
               onClick={() => setMobileMenuOpen(true)}
             >
@@ -402,7 +403,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               <span className="text-xl font-bold tracking-tight font-mono text-white">
                 BeautyOS<span className="text-[#D4AF37]">∞</span>
               </span>
-              <button onClick={() => setMobileMenuOpen(false)} className="p-2 text-zinc-400 hover:text-white">
+              <button aria-label="Close Mobile Menu" onClick={() => setMobileMenuOpen(false)} className="p-2 text-zinc-400 hover:text-white">
                 <X className="w-6 h-6" />
               </button>
             </div>
@@ -481,7 +482,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                 {pathname.substring(1).replace(/-/g, " ")}
               </span>
             </div>
-            <button onClick={() => window.history.back()} className="hover:text-white transition-colors ml-4 shrink-0">
+            <button aria-label="Go Back" onClick={() => window.history.back()} className="hover:text-white transition-colors ml-4 shrink-0">
               ← Back
             </button>
           </div>

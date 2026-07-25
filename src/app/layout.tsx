@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import { BeautyOSProvider } from "../context/BeautyOSContext";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 import { GlobalLayout } from "../components/GlobalLayout";
 import "./globals.css";
 export const metadata: Metadata = {
@@ -80,7 +83,7 @@ export default function RootLayout({
   }>) {
   return (
     <html lang="en" className="h-full bg-[#0A0A0A]">
-      <body className="h-full antialiased bg-[#0A0A0A] text-white selection:bg-[#D4AF37]/30 selection:text-white">
+      <body className={`${inter.variable} font-sans h-full antialiased bg-[#0A0A0A] text-white selection:bg-[#D4AF37]/30 selection:text-white`}>
         <BeautyOSProvider>
           <GlobalLayout>
             <script
