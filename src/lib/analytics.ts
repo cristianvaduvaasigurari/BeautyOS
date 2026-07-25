@@ -31,10 +31,7 @@ export const trackBetaEvent = (eventName: BetaEventName, metadata?: Record<strin
 
   // 1. Console auditing for beta debuggers
   if (typeof window !== "undefined") {
-    console.groupCollapsed(`[BeautyOS Beta Analytics] Event: ${eventName}`);
-    console.log("Timestamp:", timestamp);
-    if (metadata) console.log("Metadata:", metadata);
-    console.groupEnd();
+    // Console auditing removed for production
 
     // 2. Persistent storage log for beta testers export
     try {
@@ -46,8 +43,8 @@ export const trackBetaEvent = (eventName: BetaEventName, metadata?: Record<strin
         existingLogs.shift();
       }
       localStorage.setItem("beta_analytics_logs", JSON.stringify(existingLogs));
-    } catch (e) {
-      console.error("Failed to append beta analytics log:", e);
+    } catch {
+      // Silently fail in production
     }
   }
 };

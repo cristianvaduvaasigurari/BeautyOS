@@ -2,7 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowLeft, Clock, Sparkles, CheckCircle2, MessageSquare, AlertTriangle, ListChecks, Target, ShieldCheck, Zap, Activity, Info, Beaker, Star, Droplets, Sun, Moon } from "lucide-react";
+import { ArrowLeft, Clock, Sparkles, CheckCircle2, MessageSquare, AlertTriangle, ListChecks, Target, ShieldCheck, Zap, Activity, Info, Beaker, Droplets, Sun, Moon } from "lucide-react";
+import Image from "next/image";
 import { EditorialArticle } from "../data/editorialContent";
 import { NewsletterBlock } from "./NewsletterBlock";
 
@@ -347,7 +348,7 @@ export const EditorialTemplate = ({ article, backHref, backLabel }: { article: E
                   <div>
                     <div className="flex gap-4 mb-6 pb-6 border-b border-white/[0.05]">
                       <div className="w-24 h-24 rounded-xl bg-[#0A0A0A] p-2 flex-shrink-0">
-                        <img src={product.image} alt={product.name} className="w-full h-full object-cover rounded-lg" />
+                        <Image src={product.image} alt={product.name} width={96} height={96} className="w-full h-full object-cover rounded-lg" />
                       </div>
                       <div>
                         <span className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">{product.brand}</span>

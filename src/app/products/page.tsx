@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { ArrowRight, Sparkles, Star, ShieldCheck, Beaker, CheckCircle2 } from "lucide-react";
+import { Sparkles, Star, ShieldCheck, Beaker, CheckCircle2 } from "lucide-react";
+import Image from "next/image";
 
 export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -145,7 +146,7 @@ export default function ProductsPage() {
                 <div className="absolute top-4 right-4 bg-[#D4AF37] text-black px-2 py-0.5 rounded-full text-[10px] font-bold font-mono">
                   {p.category}
                 </div>
-                <img src={p.image} alt={p.name} className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500" />
+                <Image src={p.image} alt={p.name} width={400} height={400} className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500" />
               </div>
               
               <div className="grid grid-cols-2 gap-3">

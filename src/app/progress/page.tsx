@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Sparkles, Activity, Target, TrendingUp, Calendar, ArrowRight } from "lucide-react";
+import { Activity, Target, TrendingUp, Calendar, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function ProgressPage() {

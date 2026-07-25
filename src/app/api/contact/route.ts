@@ -22,6 +22,19 @@ export async function POST(request: Request) {
       device
     } = body;
 
+    // Basic security: enforce max lengths to prevent payload abuse
+    const MAX_LENGTH = 2000;
+    const isTooLong = Object.values(body).some(
+      (val) => typeof val === "string" && val.length > MAX_LENGTH
+    );
+
+    if (isTooLong) {
+      return NextResponse.json(
+        { error: 'Payload too large.' },
+        { status: 413 }
+      );
+    }
+
     // Validate required fields
     if (!firstName || !lastName || !email || !message) {
       return NextResponse.json(

@@ -19,7 +19,7 @@ export const NewsletterBlock = () => {
       await new Promise(resolve => setTimeout(resolve, 1500));
       setStatus("success");
       setEmail("");
-    } catch (err) {
+    } catch {
       setStatus("error");
       setErrorMessage("Failed to subscribe. Please try again.");
     }
