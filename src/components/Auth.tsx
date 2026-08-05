@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { supabase } from "../lib/supabaseClient";
-import { Sparkles, Mail, Lock, AlertCircle, X, ArrowRight } from "lucide-react";
+import { Sparkles, Mail, Lock, AlertCircle, X, ArrowRight, Activity } from "lucide-react";
 
 interface AuthProps {
   onClose?: () => void;
@@ -36,7 +36,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         });
         if (error) throw error;
         if (data.user && !data.session) {
-          setErrorMsg("Înregistrare reușită! Verifică emailul pentru confirmare.");
+          setErrorMsg("Registration successful! Check your email inbox to confirm your account.");
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({
@@ -44,7 +44,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
           password,
         });
         if (error) {
-          if (email === "admin@beautyos.local" && password === "beautyos123") {
+          if (email === "admin@healthos.local" && password === "healthos123") {
             localStorage.setItem("sb-access-token", "mock-token-123");
             window.dispatchEvent(new Event("storage"));
             if (onClose) onClose();
@@ -54,12 +54,10 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         }
       }
     } catch (err: unknown) {
-      console.error("BeautyOS Auth Error:", err);
+      console.error("HealthOS Auth Error:", err);
       const errorVal = err as { message?: string; name?: string; status?: number; code?: string };
-      const detail = errorVal.message || "A intervenit o eroare la autentificare.";
-      const codeStr = errorVal.code ? ` [Cod: ${errorVal.code}]` : "";
-      const statusStr = errorVal.status ? ` (Status: ${errorVal.status})` : "";
-      setErrorMsg(`${detail}${codeStr}${statusStr}`);
+      const detail = errorVal.message || "An authentication error occurred.";
+      setErrorMsg(detail);
     } finally {
       setLoading(false);
     }
@@ -67,7 +65,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
 
   const handleBypass = () => {
     localStorage.setItem("sb-access-token", "mock-token-123");
-    localStorage.setItem("user_fullname", "Evaluator Oura");
+    localStorage.setItem("user_fullname", "HealthOS Member");
     window.location.reload();
   };
 
@@ -79,7 +77,6 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
       transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
       className="w-full max-w-md bg-[#101114] border border-white/[0.08] rounded-[28px] p-8 shadow-2xl flex flex-col gap-6 relative overflow-hidden backdrop-blur-xl"
     >
-      {/* Top right close button if modal */}
       {isModal && onClose && (
         <button
           onClick={onClose}
@@ -91,14 +88,14 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
 
       {/* Brand Header */}
       <div className="flex flex-col items-center text-center gap-2">
-        <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#E5C158]/20 to-[#D4AF37]/10 border border-[#E5C158]/30 flex items-center justify-center text-[#E5C158] mb-1">
-          <Sparkles className="w-6 h-6" />
+        <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-1">
+          <Activity className="w-6 h-6" />
         </div>
-        <h2 className="text-xl font-bold tracking-tight text-white font-sans">
-          BeautyOS<span className="text-[#E5C158]">™</span>
+        <h2 className="text-xl font-bold tracking-tight text-white font-mono">
+          HealthOS<span className="text-emerald-400">∞</span>
         </h2>
-        <p className="text-[11px] text-[#A1A1AA] font-mono uppercase tracking-widest">
-          {isSignUp ? "Create your personal account" : "Access your skincare operating system"}
+        <p className="text-[11px] text-zinc-400 font-mono uppercase tracking-widest">
+          {isSignUp ? "Create your personal account" : "Access your health operating system"}
         </p>
       </div>
 
@@ -113,27 +110,27 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
       <form onSubmit={handleSubmit} className="space-y-4 text-xs font-sans">
         {isSignUp && (
           <div className="space-y-1.5">
-            <label className="block text-zinc-300 font-medium">Nume Complet</label>
+            <label className="block text-zinc-300 font-medium">Full Name</label>
             <input
               type="text"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
-              placeholder="Numele tău complet"
-              className="w-full bg-zinc-950 border border-white/[0.08] rounded-2xl px-4 py-3 text-white focus:outline-none focus:border-[#E5C158]/50"
+              placeholder="Alex Morgan"
+              className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-2xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50"
               required
             />
           </div>
         )}
 
         <div className="space-y-1.5">
-          <label className="block text-zinc-300 font-medium">Adresă Email</label>
+          <label className="block text-zinc-300 font-medium">Email Address</label>
           <div className="relative">
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="nume@exemplu.com"
-              className="w-full bg-zinc-950 border border-white/[0.08] rounded-2xl pl-10 pr-4 py-3 text-white focus:outline-none focus:border-[#E5C158]/50"
+              placeholder="alex@example.com"
+              className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-2xl pl-10 pr-4 py-3 text-white focus:outline-none focus:border-emerald-500/50"
               required
             />
             <Mail className="absolute left-3.5 top-3.5 w-4 h-4 text-zinc-500" />
@@ -141,14 +138,14 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         </div>
 
         <div className="space-y-1.5">
-          <label className="block text-zinc-300 font-medium">Parolă</label>
+          <label className="block text-zinc-300 font-medium">Password</label>
           <div className="relative">
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="••••••••••••"
-              className="w-full bg-zinc-950 border border-white/[0.08] rounded-2xl pl-10 pr-4 py-3 text-white focus:outline-none focus:border-[#E5C158]/50"
+              className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-2xl pl-10 pr-4 py-3 text-white focus:outline-none focus:border-emerald-500/50"
               required
             />
             <Lock className="absolute left-3.5 top-3.5 w-4 h-4 text-zinc-500" />
@@ -158,20 +155,20 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         <button
           type="submit"
           disabled={loading}
-          className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-[#E5C158] to-[#D4AF37] hover:brightness-110 text-zinc-950 font-bold text-xs transition-all cursor-pointer shadow-lg shadow-[#E5C158]/15 disabled:opacity-50 flex items-center justify-center gap-2"
+          className="w-full py-3.5 rounded-2xl bg-emerald-500 text-zinc-950 font-bold text-xs hover:bg-emerald-400 transition-all cursor-pointer shadow-lg shadow-emerald-500/20 disabled:opacity-50 flex items-center justify-center gap-2 font-mono"
         >
-          <span>{loading ? "Se încarcă..." : isSignUp ? "Creează contul" : "Conectează-te"}</span>
+          <span>{loading ? "Authenticating..." : isSignUp ? "Create Account" : "Sign In"}</span>
           <ArrowRight className="w-4 h-4" />
         </button>
       </form>
 
       {/* Footer Switch & Bypass */}
-      <div className="space-y-3 text-center text-xs font-sans text-[#A1A1AA] border-t border-white/[0.06] pt-4">
+      <div className="space-y-3 text-center text-xs font-sans text-zinc-400 border-t border-white/[0.08] pt-4">
         <button
           onClick={() => setIsSignUp(!isSignUp)}
-          className="text-[#E5C158] hover:underline cursor-pointer font-medium"
+          className="text-emerald-400 hover:underline cursor-pointer font-medium"
         >
-          {isSignUp ? "Ai deja cont? Conectează-te" : "Nu ai cont? Creează un cont nou"}
+          {isSignUp ? "Already have an account? Sign In" : "Don't have an account? Create one"}
         </button>
 
         <div>
@@ -179,8 +176,8 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
             onClick={handleBypass}
             className="text-zinc-500 hover:text-zinc-300 flex items-center justify-center gap-1.5 mx-auto cursor-pointer font-mono text-[10px]"
           >
-            <Sparkles className="w-3.5 h-3.5 text-[#E5C158]" />
-            <span>Bypass / Test Offline Mode</span>
+            <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Instant Demo / Test Offline Mode</span>
           </button>
         </div>
       </div>

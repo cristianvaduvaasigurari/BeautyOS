@@ -1,37 +1,49 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { BeautyOSProvider } from "../context/BeautyOSContext";
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+import { HealthOSProvider } from "../context/HealthOSContext";
 import { GlobalLayout } from "../components/GlobalLayout";
 import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://beautyos.com"),
+  metadataBase: new URL("https://health.cristianvaduva.com"),
   title: {
-    template: "%s | BeautyOS Infinity",
-    default: "BeautyOS Infinity – The World's Best Skincare & Longevity Platform",
+    template: "%s | HealthOS∞",
+    default: "HealthOS∞ – Complete Digital Health, Longevity & Performance Platform",
   },
-  description: "The world's most premium operating system for skin health, beauty, wellness, fitness, nutrition, supplements, longevity, and body optimization. Inspired by the clinical rigor of Oura, WHOOP, and Apple Health.",
-  keywords: ["skincare", "longevity", "wellness", "fitness", "supplements", "beauty tech", "health optimization"],
-  authors: [{ name: "BeautyOS Clinical Board" }],
-  creator: "BeautyOS",
-  publisher: "BeautyOS",
+  description: "The world's leading operating system for skin health, longevity, fitness, nutrition, supplements, recovery, hormones, and body optimization. Engineered for both women and men.",
+  keywords: [
+    "health platform",
+    "longevity",
+    "fitness",
+    "nutrition",
+    "supplements",
+    "skincare",
+    "biohacking",
+    "recovery",
+    "hormones",
+    "health optimization"
+  ],
+  authors: [{ name: "HealthOS Science & Clinical Board" }],
+  creator: "HealthOS",
+  publisher: "HealthOS",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "BeautyOS Infinity – Optimize Your Biology",
-    description: "Clinical-grade protocols for skin health, longevity, and metabolic fitness.",
-    url: "https://beautyos.com",
-    siteName: "BeautyOS Infinity",
+    title: "HealthOS∞ – Complete Digital Health Ecosystem",
+    description: "Clinical-grade protocols for skin health, cellular longevity, fitness, and human optimization.",
+    url: "https://health.cristianvaduva.com",
+    siteName: "HealthOS",
     images: [
       {
-        url: "/images/beautyos_hero_products_1784918027747.png",
+        url: "/images/healthos_hero_products_1784918027747.png",
         width: 1200,
         height: 630,
-        alt: "BeautyOS Infinity Platform",
+        alt: "HealthOS Platform Overview",
       },
     ],
     locale: "en_US",
@@ -39,10 +51,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BeautyOS Infinity",
-    description: "The World's Best Skincare & Longevity Platform.",
-    images: ["/images/beautyos_hero_products_1784918027747.png"],
-    creator: "@beautyos",
+    title: "HealthOS∞ – Human Health & Longevity Platform",
+    description: "The complete ecosystem for skincare, fitness, nutrition, supplements, and biohacking.",
+    images: ["/images/healthos_hero_products_1784918027747.png"],
+    creator: "@healthos",
   },
   icons: {
     icon: "/favicon.ico",
@@ -66,25 +78,25 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "BeautyOS",
-  url: "https://beautyos.com",
-  logo: "https://beautyos.com/favicon.ico",
-  description: "The world's most premium operating system for skin health, beauty, wellness, fitness, nutrition, supplements, longevity, and body optimization.",
+  name: "HealthOS",
+  url: "https://health.cristianvaduva.com",
+  logo: "https://health.cristianvaduva.com/favicon.ico",
+  description: "The world's leading operating system for skin health, longevity, fitness, nutrition, supplements, recovery, hormones, and body optimization.",
   sameAs: [
-    "https://twitter.com/beautyos",
-    "https://instagram.com/beautyos"
+    "https://twitter.com/healthos",
+    "https://instagram.com/healthos"
   ]
 };
 
 export default function RootLayout({
   children,
-  }: Readonly<{
-    children: React.ReactNode;
-  }>) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en" className="h-full bg-[#0A0A0A]">
-      <body className={`${inter.variable} font-sans h-full antialiased bg-[#0A0A0A] text-white selection:bg-[#D4AF37]/30 selection:text-white`}>
-        <BeautyOSProvider>
+      <body className={`${inter.variable} font-sans h-full antialiased bg-[#0A0A0A] text-white selection:bg-emerald-500/30 selection:text-white`}>
+        <HealthOSProvider>
           <GlobalLayout>
             <script
               type="application/ld+json"
@@ -92,7 +104,7 @@ export default function RootLayout({
             />
             {children}
           </GlobalLayout>
-        </BeautyOSProvider>
+        </HealthOSProvider>
       </body>
     </html>
   );

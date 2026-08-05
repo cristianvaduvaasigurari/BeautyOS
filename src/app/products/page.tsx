@@ -12,7 +12,7 @@ export default function ProductsPage() {
   const products = [
     {
       id: "p1",
-      image: "/images/beautyos_showcase_phone_1784918045920.png",
+      image: "/images/healthos_showcase_phone_1784918045920.png",
       brand: "Augustinus Bader",
       name: "The Rich Cream with TFC8®",
       category: "Skincare",
@@ -27,7 +27,7 @@ export default function ProductsPage() {
     },
     {
       id: "p2",
-      image: "/images/beautyos_hero_products_1784918027747.png",
+      image: "/images/healthos_hero_products_1784918027747.png",
       brand: "SkinCeuticals",
       name: "C E Ferulic Antioxidant Serum",
       category: "Skincare",
@@ -42,7 +42,7 @@ export default function ProductsPage() {
     },
     {
       id: "p3",
-      image: "/images/beautyos_hero_products_1784918027747.png",
+      image: "/images/healthos_hero_products_1784918027747.png",
       brand: "Dyson Beauty",
       name: "Airwrap Multi-Styler Complete",
       category: "Devices",
@@ -57,8 +57,8 @@ export default function ProductsPage() {
     },
     {
       id: "p4",
-      image: "/images/beautyos_showcase_phone_1784918045920.png",
-      brand: "BeautyOS Nutrition",
+      image: "/images/healthos_showcase_phone_1784918045920.png",
+      brand: "HealthOS Nutrition",
       name: "Hydrolyzed Marine Collagen Peptides",
       category: "Supplements",
       whoItsFor: "Those targeting skin elasticity, joint health, and hair density.",
@@ -72,7 +72,7 @@ export default function ProductsPage() {
     },
     {
       id: "p5",
-      image: "/images/beautyos_hero_products_1784918027747.png",
+      image: "/images/healthos_hero_products_1784918027747.png",
       brand: "K18",
       name: "Leave-In Molecular Repair Hair Mask",
       category: "Haircare",
@@ -87,7 +87,7 @@ export default function ProductsPage() {
     },
     {
       id: "p6",
-      image: "/images/beautyos_showcase_phone_1784918045920.png",
+      image: "/images/healthos_showcase_phone_1784918045920.png",
       brand: "Oura",
       name: "Oura Ring Gen3 Horizon",
       category: "Devices",

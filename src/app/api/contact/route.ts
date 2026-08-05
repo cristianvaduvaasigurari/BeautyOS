@@ -22,7 +22,6 @@ export async function POST(request: Request) {
       device
     } = body;
 
-    // Basic security: enforce max lengths to prevent payload abuse
     const MAX_LENGTH = 2000;
     const isTooLong = Object.values(body).some(
       (val) => typeof val === "string" && val.length > MAX_LENGTH
@@ -35,7 +34,6 @@ export async function POST(request: Request) {
       );
     }
 
-    // Validate required fields
     if (!firstName || !lastName || !email || !message) {
       return NextResponse.json(
         { error: 'Missing required fields.' },
@@ -46,10 +44,9 @@ export async function POST(request: Request) {
     const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
     const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
-    // Build the Telegram message text
     const text = `
 ━━━━━━━━━━━━━━
-🆕 <b>NEW BEAUTYOS LEAD</b>
+🆕 <b>NEW HEALTHOS LEAD</b>
 ━━━━━━━━━━━━━━
 <b>Name:</b> ${firstName} ${lastName}
 <b>Email:</b> ${email}
@@ -92,7 +89,6 @@ ${message}
         throw new Error('Failed to send message to Telegram.');
       }
     } else {
-      // Fallback: If no token is provided, we just log it successfully to simulate success in dev mode
       console.warn('No Telegram Bot Token provided. Lead saved to local logs only.', text);
     }
 

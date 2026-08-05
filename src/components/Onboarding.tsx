@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { useBeautyOS } from "../context/BeautyOSContext";
-import { Sparkles, ArrowRight, Check } from "lucide-react";
+import { useHealthOS } from "../context/HealthOSContext";
+import { ArrowRight, Check, Activity } from "lucide-react";
 
 export const Onboarding: React.FC = () => {
-  const { submitOnboarding } = useBeautyOS();
+  const { submitOnboarding } = useHealthOS();
   const [step, setStep] = useState(1);
   const [fullName, setFullName] = useState("");
   const [skinType, setSkinType] = useState<"Normal" | "Dry" | "Oily" | "Combination">("Normal");
@@ -13,8 +13,27 @@ export const Onboarding: React.FC = () => {
   const [selectedConcerns, setSelectedConcerns] = useState<string[]>([]);
   const [selectedGoals, setSelectedGoals] = useState<string[]>([]);
 
-  const concernsList = ["Acne", "Redness", "Aging", "Hyperpigmentation", "Dehydration", "Dullness"];
-  const goalsList = ["Hydration", "Clear Skin", "Brightening", "Barrier Repair", "Anti-Aging", "Texture Smoothing"];
+  const concernsList = [
+    "Acne & Skin Clarity",
+    "Redness & Inflammation",
+    "Hair Loss & Scalp Density",
+    "Fatigue & Low Energy",
+    "Sleep Disruption",
+    "Slow Muscle Recovery",
+    "Body Fat Retention",
+    "Hormonal Imbalance"
+  ];
+  
+  const goalsList = [
+    "Maximum Hydration & Glow",
+    "Clear & Radiant Skin",
+    "Muscle Hypertrophy & Strength",
+    "Body Fat Reduction",
+    "Mitochondrial Longevity",
+    "Deep Sleep Optimization",
+    "Cortisol & Stress Control",
+    "Gut Microbiome Repair"
+  ];
 
   const handleNext = () => {
     if (step < 4) {
@@ -26,8 +45,7 @@ export const Onboarding: React.FC = () => {
         concerns: selectedConcerns,
         goals: selectedGoals,
       });
-      // Optionally save user name globally
-      localStorage.setItem("user_fullname", fullName || "Skincare Explorer");
+      localStorage.setItem("user_fullname", fullName || "HealthOS Member");
     }
   };
 
@@ -48,207 +66,138 @@ export const Onboarding: React.FC = () => {
       case 1:
         return (
           <div className="space-y-5 animate-fadeIn">
-            <div>
-              <label className="block text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">
-                Cum te numești?
-              </label>
-              <input
-                type="text"
-                value={fullName}
-                onChange={(e) => setFullName(e.target.value)}
-                placeholder="Numele tău complet"
-                className="w-full bg-zinc-900 border border-white/10 rounded-2xl px-5 py-4 text-zinc-100 text-sm focus:outline-none focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/30 transition-all font-sans"
-              />
-            </div>
-            <div>
-              <p className="text-[11px] text-zinc-500 font-sans leading-relaxed">
-                BeautyOS folosește datele tale doar la nivel local pe acest dispozitiv pentru a-ți personaliza sugestiile din cabinetul de îngrijire.
-              </p>
-            </div>
+            <h2 className="text-xl font-bold text-white tracking-tight">Welcome to HealthOS</h2>
+            <p className="text-xs text-zinc-400 font-sans leading-relaxed">
+              Let&apos;s configure your biological baseline. What should we call you?
+            </p>
+            <input
+              type="text"
+              value={fullName}
+              onChange={(e) => setFullName(e.target.value)}
+              placeholder="Your Full Name"
+              className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-2xl px-4 py-3.5 text-white placeholder-zinc-500 focus:outline-none focus:border-emerald-500/50 text-sm font-sans"
+            />
           </div>
         );
-
       case 2:
         return (
-          <div className="space-y-6 animate-fadeIn">
-            <div>
-              <label className="block text-xs font-mono uppercase tracking-widest text-zinc-500 mb-3">
-                Care este tipul tău de ten?
-              </label>
-              <div className="grid grid-cols-2 gap-3">
-                {(["Normal", "Dry", "Oily", "Combination"] as const).map((type) => (
+          <div className="space-y-5 animate-fadeIn">
+            <h2 className="text-xl font-bold text-white tracking-tight">Tissue & Sensitivity Profile</h2>
+            <p className="text-xs text-zinc-400 font-sans leading-relaxed">Select your skin / tissue type and reactivity level.</p>
+            
+            <div className="space-y-3">
+              <label className="text-[10px] font-mono text-emerald-400 uppercase tracking-widest font-bold">Skin / Tissue Type</label>
+              <div className="grid grid-cols-2 gap-2">
+                {(["Normal", "Dry", "Oily", "Combination"] as const).map((t) => (
                   <button
-                    key={type}
-                    onClick={() => setSkinType(type)}
-                    className={`p-4 rounded-2xl border text-left font-sans transition-all duration-300 ${
-                      skinType === type
-                        ? "bg-emerald-500/10 border-emerald-500 text-emerald-400 font-medium"
-                        : "bg-zinc-900 border-white/5 text-zinc-400 hover:border-zinc-800"
+                    key={t}
+                    type="button"
+                    onClick={() => setSkinType(t)}
+                    className={`py-3 px-4 rounded-xl border text-xs font-semibold transition-all ${
+                      skinType === t ? "bg-emerald-500 text-zinc-950 border-emerald-500" : "bg-[#0A0A0A] text-zinc-300 border-white/[0.08] hover:border-white/20"
                     }`}
                   >
-                    <div className="text-sm font-semibold">{type === "Dry" ? "Dry (Uscat)" : type === "Oily" ? "Oily (Sec)" : type === "Combination" ? "Combination (Mixt)" : "Normal"}</div>
-                    <span className="text-[10px] text-zinc-500 font-light mt-0.5 block">
-                      {type === "Dry" && "Senzație de strângere, zone descuamate"}
-                      {type === "Oily" && "Exces de sebum, luciu persistent"}
-                      {type === "Combination" && "Zona T grasă, obrajii normali/uscacți"}
-                      {type === "Normal" && "Echilibrat, textură uniformă"}
-                    </span>
+                    {t}
                   </button>
                 ))}
               </div>
             </div>
 
-            <div>
-              <label className="block text-xs font-mono uppercase tracking-widest text-zinc-500 mb-3">
-                Nivelul de sensibilitate:
-              </label>
-              <div className="grid grid-cols-3 gap-2.5">
-                {(["Low", "Medium", "High"] as const).map((lvl) => (
+            <div className="space-y-3 pt-2">
+              <label className="text-[10px] font-mono text-emerald-400 uppercase tracking-widest font-bold">Sensitivity Index</label>
+              <div className="grid grid-cols-3 gap-2">
+                {(["Low", "Medium", "High"] as const).map((s) => (
                   <button
-                    key={lvl}
-                    onClick={() => setSensitivity(lvl)}
-                    className={`py-3 px-4 rounded-xl border text-center text-xs font-sans font-medium transition-all ${
-                      sensitivity === lvl
-                        ? "bg-emerald-500/10 border-emerald-500 text-emerald-400"
-                        : "bg-zinc-900 border-white/5 text-zinc-500 hover:border-zinc-800"
+                    key={s}
+                    type="button"
+                    onClick={() => setSensitivity(s)}
+                    className={`py-3 px-4 rounded-xl border text-xs font-semibold transition-all ${
+                      sensitivity === s ? "bg-emerald-500 text-zinc-950 border-emerald-500" : "bg-[#0A0A0A] text-zinc-300 border-white/[0.08] hover:border-white/20"
                     }`}
                   >
-                    {lvl === "Low" ? "Scăzută" : lvl === "Medium" ? "Medie" : "Ridicată"}
+                    {s}
                   </button>
                 ))}
               </div>
             </div>
           </div>
         );
-
       case 3:
         return (
-          <div className="space-y-4 animate-fadeIn">
-            <div>
-              <label className="block text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">
-                Alege problemele tenului pe care vrei să le adresezi:
-              </label>
-              <p className="text-[10px] text-zinc-500 font-sans mb-4">Poți selecta mai multe opțiuni.</p>
-              <div className="grid grid-cols-2 gap-2.5">
-                {concernsList.map((concern) => {
-                  const isSelected = selectedConcerns.includes(concern);
-                  return (
-                    <button
-                      key={concern}
-                      onClick={() => toggleConcern(concern)}
-                      className={`p-3.5 rounded-2xl border text-left flex items-center justify-between font-sans transition-all ${
-                        isSelected
-                          ? "bg-emerald-500/10 border-emerald-500 text-emerald-400 font-medium"
-                          : "bg-zinc-900 border-white/5 text-zinc-400 hover:border-zinc-800"
-                      }`}
-                    >
-                      <span className="text-xs">{concern}</span>
-                      {isSelected && <Check className="w-3.5 h-3.5 text-emerald-400" />}
-                    </button>
-                  );
-                })}
-              </div>
+          <div className="space-y-5 animate-fadeIn">
+            <h2 className="text-xl font-bold text-white tracking-tight">Health & Physiological Concerns</h2>
+            <p className="text-xs text-zinc-400 font-sans leading-relaxed">Select all areas you want to optimize or target.</p>
+            <div className="grid grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
+              {concernsList.map((c) => {
+                const active = selectedConcerns.includes(c);
+                return (
+                  <button
+                    key={c}
+                    type="button"
+                    onClick={() => toggleConcern(c)}
+                    className={`py-3 px-3 rounded-xl border text-xs font-medium text-left transition-all flex items-center justify-between ${
+                      active ? "bg-emerald-500/20 text-emerald-300 border-emerald-500/40" : "bg-[#0A0A0A] text-zinc-400 border-white/[0.08]"
+                    }`}
+                  >
+                    <span className="truncate">{c}</span>
+                    {active && <Check className="w-3.5 h-3.5 text-emerald-400 shrink-0" />}
+                  </button>
+                );
+              })}
             </div>
           </div>
         );
-
       case 4:
         return (
-          <div className="space-y-4 animate-fadeIn">
-            <div>
-              <label className="block text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">
-                Alege obiectivele tale pentru rutina zilnică:
-              </label>
-              <p className="text-[10px] text-zinc-500 font-sans mb-4">Acestea vor ajusta scorul de compatibilitate al produselor.</p>
-              <div className="grid grid-cols-2 gap-2.5">
-                {goalsList.map((goal) => {
-                  const isSelected = selectedGoals.includes(goal);
-                  return (
-                    <button
-                      key={goal}
-                      onClick={() => toggleGoal(goal)}
-                      className={`p-3.5 rounded-2xl border text-left flex items-center justify-between font-sans transition-all ${
-                        isSelected
-                          ? "bg-emerald-500/10 border-emerald-500 text-emerald-400 font-medium"
-                          : "bg-zinc-900 border-white/5 text-zinc-400 hover:border-zinc-800"
-                      }`}
-                    >
-                      <span className="text-xs">{goal}</span>
-                      {isSelected && <Check className="w-3.5 h-3.5 text-emerald-400" />}
-                    </button>
-                  );
-                })}
-              </div>
+          <div className="space-y-5 animate-fadeIn">
+            <h2 className="text-xl font-bold text-white tracking-tight">Primary Optimization Goals</h2>
+            <p className="text-xs text-zinc-400 font-sans leading-relaxed">Choose the outcomes you want HealthOS to help you achieve.</p>
+            <div className="grid grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
+              {goalsList.map((g) => {
+                const active = selectedGoals.includes(g);
+                return (
+                  <button
+                    key={g}
+                    type="button"
+                    onClick={() => toggleGoal(g)}
+                    className={`py-3 px-3 rounded-xl border text-xs font-medium text-left transition-all flex items-center justify-between ${
+                      active ? "bg-emerald-500/20 text-emerald-300 border-emerald-500/40" : "bg-[#0A0A0A] text-zinc-400 border-white/[0.08]"
+                    }`}
+                  >
+                    <span className="truncate">{g}</span>
+                    {active && <Check className="w-3.5 h-3.5 text-emerald-400 shrink-0" />}
+                  </button>
+                );
+              })}
             </div>
           </div>
         );
-
       default:
         return null;
     }
   };
 
   return (
-    <div className="min-h-screen bg-[#09090b] flex flex-col items-center justify-center p-6 text-zinc-100 font-sans select-none">
-      <div className="w-full max-w-md bg-zinc-950 border border-white/5 rounded-[32px] p-8 shadow-2xl flex flex-col gap-6 relative overflow-hidden">
+    <div className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center p-6 text-zinc-100 font-sans">
+      <div className="w-full max-w-md bg-[#101114] border border-white/[0.08] rounded-[32px] p-8 shadow-2xl flex flex-col gap-6 relative overflow-hidden backdrop-blur-xl">
         
-        {/* Glow effect background */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 h-48 bg-emerald-500/10 blur-[80px] rounded-full pointer-events-none" />
-
-        {/* Progress indicator */}
-        <div className="flex justify-between items-center text-xs">
-          <div className="flex items-center gap-1 text-emerald-400 font-semibold font-mono tracking-wider">
-            <Sparkles className="w-4 h-4 text-emerald-400" />
-            <span>DIAGNOSTIC TEN</span>
+        <div className="flex items-center justify-between pb-4 border-b border-white/[0.08]">
+          <div className="flex items-center gap-2">
+            <Activity className="w-5 h-5 text-emerald-400" />
+            <span className="text-sm font-bold font-mono text-white">HealthOS Setup</span>
           </div>
-          <span className="font-mono text-zinc-500">Pasul {step} din 4</span>
+          <span className="text-[10px] font-mono text-emerald-400 uppercase font-bold">Step 0{step} / 04</span>
         </div>
 
-        <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-          <div
-            style={{ width: `${(step / 4) * 100}%` }}
-            className="h-full bg-gradient-to-r from-emerald-500 to-emerald-400 transition-all duration-300 rounded-full"
-          />
-        </div>
+        {renderStep()}
 
-        {/* Dynamic header text */}
-        <div className="space-y-1.5">
-          <h2 className="text-xl font-bold tracking-tight text-white font-sans">
-            {step === 1 && "Bun venit la BeautyOS"}
-            {step === 2 && "Tipul de ten și sensibilitatea"}
-            {step === 3 && "Preocupările tenului"}
-            {step === 4 && "Obiectivele tale"}
-          </h2>
-          <p className="text-[11px] text-zinc-400 font-sans leading-relaxed">
-            {step === 1 && "Analiza ingredientelor și scorul Oura/Apple Health pentru tenul tău, integrate într-o singură aplicație locală."}
-            {step === 2 && "Tenul uscat, mixt sau sensibil are nevoi diferite și ingredient incompatibilități distincte."}
-            {step === 3 && "Alegem doar produsele care tratează eficient problemele identificate de tine."}
-            {step === 4 && "Creăm o potrivire perfectă bazată pe ingrediente active, aciditate și compatibilitate."}
-          </p>
-        </div>
-
-        {/* Form area */}
-        <div className="flex-1 py-2">{renderStep()}</div>
-
-        {/* Control row */}
-        <div className="flex gap-3 mt-4">
-          {step > 1 && (
-            <button
-              onClick={() => setStep(step - 1)}
-              className="px-5 py-3.5 rounded-2xl bg-zinc-900 border border-white/5 text-zinc-400 hover:text-white transition-all text-xs font-semibold cursor-pointer"
-            >
-              Înapoi
-            </button>
-          )}
-          <button
-            onClick={handleNext}
-            className="flex-1 py-3.5 rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 text-white font-semibold text-xs flex items-center justify-center gap-1.5 shadow-lg shadow-emerald-600/10 hover:brightness-110 active:scale-98 transition-all cursor-pointer"
-          >
-            <span>{step === 4 ? "Finalizează diagnostic" : "Continuă"}</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </button>
-        </div>
-
+        <button
+          onClick={handleNext}
+          className="w-full py-4 rounded-xl bg-emerald-500 text-zinc-950 font-bold text-xs hover:bg-emerald-400 transition-all font-mono flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20"
+        >
+          <span>{step === 4 ? "Complete Setup & Launch Dashboard" : "Continue"}</span>
+          <ArrowRight className="w-4 h-4" />
+        </button>
       </div>
     </div>
   );

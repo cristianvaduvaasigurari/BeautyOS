@@ -4,14 +4,20 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Sparkles, Search, User, Menu, X, ChevronDown, ChevronRight, Home, ShoppingBag, LayoutDashboard } from "lucide-react";
+import { Activity, Search, User, Menu, X, ChevronDown, ChevronRight, Zap } from "lucide-react";
 import { FloatingActionButton } from "./FloatingActionButton";
 import { NewsletterBlock } from "./NewsletterBlock";
+import { useHealthOS } from "../context/HealthOSContext";
 
 export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
   const pathname = usePathname();
+  const { userSession } = useHealthOS();
+
+  const isDashboardRoute = pathname.startsWith("/dashboard") || pathname.startsWith("/progress") || pathname.startsWith("/products");
 
   const navLinks = [
     { label: "Skin", href: "/skin" },
@@ -28,254 +34,330 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
 
   const megaMenuData: Record<string, { title: string; subtitle: string; columns: { title: string; links: { label: string; href: string }[] }[] }> = {
     Skin: {
-      title: "Skincare Encyclopedia",
-      subtitle: "Medical-grade protocols for biological youth.",
+      title: "Skin Physiology & Health",
+      subtitle: "Clinical protocols, dermal barrier integrity & cellular rejuvenation.",
       columns: [
         {
-          title: "Top Concerns",
+          title: "Dermal Concerns",
           links: [
-            { label: "Acne", href: "/skin/acne" },
-            { label: "Rosacea", href: "/skin/rosacea" },
-            { label: "Dry Skin", href: "/skin/dry-skin" },
-            { label: "Oily Skin", href: "/skin/oily-skin" },
-            { label: "Sensitive Skin", href: "/skin/sensitive-skin" },
-            { label: "Combination Skin", href: "/skin/combination-skin" },
-            { label: "Anti Aging", href: "/skin/anti-aging" },
-            { label: "Pigmentation", href: "/skin/pigmentation" },
+            { label: "Acne Program", href: "/skin/acne" },
             { label: "Barrier Repair", href: "/skin/barrier-repair" },
-            { label: "Sun Damage", href: "/skin/sun-damage" }
+            { label: "Rosacea & Redness", href: "/skin/rosacea" },
+            { label: "Sensitive Skin", href: "/skin/sensitive-skin" },
+            { label: "Anti-Aging & Collagen", href: "/skin/anti-aging" },
+            { label: "Hyperpigmentation", href: "/skin/pigmentation" },
+            { label: "Sun Damage", href: "/skin/sun-damage" },
+            { label: "Dry & Dehydrated", href: "/skin/dry-skin" },
+            { label: "Oily & Sebum Control", href: "/skin/oily-skin" },
+            { label: "Combination Skin", href: "/skin/combination-skin" }
           ]
         },
         {
-          title: "Key Ingredients",
+          title: "Actives & Ingredients",
           links: [
-            { label: "Retinol Guide", href: "/ingredients/retinol" },
-            { label: "Vitamin C Guide", href: "/ingredients/vitamin-c" },
-            { label: "Ceramides", href: "/ingredients/ceramides" },
-            { label: "Niacinamide", href: "/ingredients/niacinamide" },
+            { label: "Retinol & Retinoids", href: "/skin/retinol" },
+            { label: "Vitamin C Formulations", href: "/skin/vitamin-c" },
+            { label: "Ceramides Complex", href: "/ingredients/ceramides" },
+            { label: "Niacinamide (B3)", href: "/ingredients/niacinamide" },
             { label: "Azelaic Acid", href: "/ingredients/azelaic-acid" },
-            { label: "Peptides", href: "/ingredients/peptides" },
+            { label: "Peptide Complexes", href: "/ingredients/peptides" },
             { label: "Hyaluronic Acid", href: "/ingredients/hyaluronic-acid" },
-            { label: "SPF Guide", href: "/ingredients/spf" }
+            { label: "Broad-Spectrum SPF", href: "/ingredients/spf" }
           ]
         }
       ]
     },
     Hair: {
       title: "Hair & Scalp Science",
-      subtitle: "Molecular repair and follicle optimization.",
+      subtitle: "Molecular repair, follicle density, and hormonal hair support.",
       columns: [
         {
-          title: "Hair Concerns",
+          title: "Hair & Scalp Concerns",
           links: [
-            { label: "Hair Loss", href: "/hair/hair-loss" },
-            { label: "Hair Growth", href: "/hair/hair-growth" },
-            { label: "Scalp Health", href: "/hair/scalp" },
-            { label: "Dandruff", href: "/hair/dandruff" }
+            { label: "Hair Loss & Thinning", href: "/hair/hair-loss" },
+            { label: "Scalp Microbiome", href: "/hair/scalp-health" },
+            { label: "Growth Stimulation", href: "/hair/hair-growth" },
+            { label: "Dandruff & Flaking", href: "/hair/dandruff" }
           ]
         },
         {
-          title: "Hair Types",
+          title: "Follicle Care & Types",
           links: [
-            { label: "Curly Hair", href: "/hair/curly" },
-            { label: "Straight Hair", href: "/hair/straight" },
-            { label: "Hair Oils", href: "/hair/oils" }
+            { label: "Curly & Textured Hair", href: "/hair/curly" },
+            { label: "Fine & Straight Hair", href: "/hair/straight" },
+            { label: "Hair Oils & Serums", href: "/hair/oils" }
           ]
         }
       ]
     },
     Body: {
-      title: "Body Optimization",
-      subtitle: "Total physical restoration and maintenance.",
+      title: "Body Composition & Restoration",
+      subtitle: "Physical structural health, posture, and tissue elasticity.",
       columns: [
         {
-          title: "Body Care",
+          title: "Body Physiology",
           links: [
-            { label: "Stretch Marks", href: "/body/stretch-marks" },
-            { label: "Cellulite", href: "/body/cellulite" },
-            { label: "Hydration", href: "/body/hydration" },
-            { label: "General Body Care", href: "/body/care" },
-            { label: "Hands", href: "/body/hands" },
-            { label: "Feet", href: "/body/feet" }
+            { label: "Body Composition", href: "/body/body-composition" },
+            { label: "Posture & Spine", href: "/body/posture" },
+            { label: "Tissue Recovery", href: "/body/recovery" },
+            { label: "Stretch Marks & Scars", href: "/body/stretch-marks" },
+            { label: "Cellulite & Microcirculation", href: "/body/cellulite" },
+            { label: "Systemic Hydration", href: "/body/hydration" },
+            { label: "Body Care Routines", href: "/body/care" },
+            { label: "Hand & Nail Care", href: "/body/hands" },
+            { label: "Foot & Gait Health", href: "/body/feet" }
           ]
         }
       ]
     },
     Fitness: {
-      title: "Fitness & Performance",
-      subtitle: "Protocols for progressive overload and metabolic health.",
+      title: "Movement, Strength & Recovery",
+      subtitle: "Metabolic conditioning, hypertrophy, and neural adaptation.",
       columns: [
         {
-          title: "Training Goals",
+          title: "Hypertrophy & Strength",
           links: [
             { label: "Build Muscle", href: "/fitness/build-muscle" },
-            { label: "Lose Fat", href: "/fitness/lose-fat" },
-            { label: "Strength", href: "/fitness/strength" },
-            { label: "Hypertrophy", href: "/fitness/hypertrophy" }
+            { label: "Fat Loss Protocols", href: "/fitness/lose-fat" },
+            { label: "Strength Training", href: "/fitness/strength" },
+            { label: "Hypertrophy Blueprint", href: "/fitness/hypertrophy" }
           ]
         },
         {
-          title: "Cardio & Recovery",
+          title: "Cardio & Restorative",
           links: [
-            { label: "Running", href: "/fitness/running" },
-            { label: "HIIT", href: "/fitness/hiit" },
-            { label: "Recovery", href: "/fitness/recovery" },
-            { label: "Mobility", href: "/fitness/mobility" },
-            { label: "Cardio Base", href: "/fitness/cardio" }
+            { label: "Cardio Foundation", href: "/fitness/cardio" },
+            { label: "Running & Endurance", href: "/fitness/running" },
+            { label: "HIIT & Conditioning", href: "/fitness/hiit" },
+            { label: "Muscle Recovery", href: "/fitness/recovery" },
+            { label: "Mobility & Joint Health", href: "/fitness/mobility" }
           ]
         }
       ]
     },
     Nutrition: {
-      title: "Clinical Nutrition",
-      subtitle: "Fueling metabolic flexibility and gut health.",
+      title: "Metabolic & Cellular Nutrition",
+      subtitle: "Nutrient timing, gut microbiome balance, and macro composition.",
       columns: [
         {
-          title: "Macronutrients",
+          title: "Macronutrient Science",
           links: [
-            { label: "Calories", href: "/nutrition/calories" },
-            { label: "Protein", href: "/nutrition/protein" },
-            { label: "Carbohydrates", href: "/nutrition/carbs" },
-            { label: "Fats", href: "/nutrition/fats" }
+            { label: "Gut Health & Microbiome", href: "/nutrition/gut-health" },
+            { label: "Muscle Fuel Nutrition", href: "/nutrition/muscle" },
+            { label: "Fat Loss Nutrition", href: "/nutrition/fat-loss" },
+            { label: "Calorie & Energy Balance", href: "/nutrition/calories" },
+            { label: "Protein Synthesis", href: "/nutrition/protein" },
+            { label: "Carbohydrates & Glycogen", href: "/nutrition/carbs" },
+            { label: "Essential Fatty Acids", href: "/nutrition/fats" }
           ]
         },
         {
-          title: "Diet & Wellness",
+          title: "Dietary Engineering",
           links: [
-            { label: "Meal Plans", href: "/nutrition/meal-plans" },
-            { label: "Healthy Recipes", href: "/nutrition/recipes" },
-            { label: "Hydration", href: "/nutrition/hydration" },
-            { label: "Micronutrients", href: "/nutrition/micronutrients" }
+            { label: "Structured Meal Plans", href: "/nutrition/meal-plans" },
+            { label: "Nutrient-Dense Recipes", href: "/nutrition/recipes" },
+            { label: "Cellular Hydration", href: "/nutrition/hydration" },
+            { label: "Micronutrients & Minerals", href: "/nutrition/micronutrients" }
           ]
         }
       ]
     },
     Supplements: {
-      title: "Supplement Ecosystem",
-      subtitle: "Evidence-based protocols for biological enhancement.",
+      title: "Clinical Supplementation Library",
+      subtitle: "Bioavailable nutrients, ergogenic aids, and sirtuin activators.",
       columns: [
         {
-          title: "Core Stack",
+          title: "Performance & Strength",
           links: [
-            { label: "Protein", href: "/supplements/protein" },
-            { label: "Creatine", href: "/supplements/creatine" },
-            { label: "Omega 3", href: "/supplements/omega-3" },
-            { label: "Vitamin D", href: "/supplements/vitamin-d" },
-            { label: "Magnesium", href: "/supplements/magnesium" },
-            { label: "Electrolytes", href: "/supplements/electrolytes" }
+            { label: "Creatine Monohydrate", href: "/supplements/creatine" },
+            { label: "Whey & Plant Protein", href: "/supplements/protein" },
+            { label: "Magnesium Glycinate", href: "/supplements/magnesium" },
+            { label: "Omega-3 EPA/DHA", href: "/supplements/omega-3" },
+            { label: "Vitamin D3 + K2", href: "/supplements/vitamin-d" },
+            { label: "Electrolytes Complex", href: "/supplements/electrolytes" },
+            { label: "Pre-Workout Formulation", href: "/supplements/pre-workout" },
+            { label: "Post-Workout Recovery", href: "/supplements/post-workout" }
           ]
         },
         {
-          title: "Advanced Stack",
+          title: "Longevity & Healthspan",
           links: [
-            { label: "Collagen", href: "/supplements/collagen" },
-            { label: "Ashwagandha", href: "/supplements/ashwagandha" },
-            { label: "Pre Workout", href: "/supplements/pre-workout" },
-            { label: "Post Workout", href: "/supplements/post-workout" },
-            { label: "Fiber", href: "/supplements/fiber" },
-            { label: "Probiotics", href: "/supplements/probiotics" }
+            { label: "Hydrolyzed Collagen", href: "/supplements/collagen" },
+            { label: "Ashwagandha KSM-66", href: "/supplements/ashwagandha" },
+            { label: "NMN & NAD+ Boosters", href: "/supplements/nmn" },
+            { label: "CoQ10 & Mito Energy", href: "/supplements/coq10" },
+            { label: "Berberine & Glucose", href: "/supplements/berberine" },
+            { label: "Rhodiola Rosea", href: "/supplements/rhodiola" },
+            { label: "Curcumin & Turmeric", href: "/supplements/turmeric" },
+            { label: "Zinc Picolinate", href: "/supplements/zinc" },
+            { label: "Liposomal Vitamin C", href: "/supplements/vitamin-c" },
+            { label: "Dietary Fiber Complex", href: "/supplements/fiber" },
+            { label: "Probiotics & Prebiotics", href: "/supplements/probiotics" }
           ]
         }
       ]
     },
     Longevity: {
-      title: "Longevity & Anti-Aging",
-      subtitle: "Strategies for healthspan extension.",
+      title: "Longevity & Biohacking",
+      subtitle: "Biomarker optimization, cellular senolytics, and circadian health.",
       columns: [
         {
-          title: "Metrics & Markers",
+          title: "Biomarkers & Physiology",
           links: [
-            { label: "Blood Sugar", href: "/longevity/blood-sugar" },
-            { label: "VO2 Max", href: "/longevity/vo2-max" },
-            { label: "Heart Health", href: "/longevity/heart-health" },
-            { label: "Hormones", href: "/longevity/hormones" }
+            { label: "NAD+ & Cellular Energy", href: "/longevity/nad" },
+            { label: "Biohacking Blueprint", href: "/longevity/biohacking" },
+            { label: "Autophagy & Fasting", href: "/longevity/fasting" },
+            { label: "Blood Sugar & CGM", href: "/longevity/blood-sugar" },
+            { label: "VO2 Max & Aerobic Base", href: "/longevity/vo2-max" },
+            { label: "Cardiovascular Health", href: "/longevity/heart-health" }
           ]
         },
         {
-          title: "Lifestyle Protocols",
+          title: "Restorative Protocols",
           links: [
-            { label: "Sleep", href: "/longevity/sleep" },
-            { label: "Stress Management", href: "/longevity/stress" },
-            { label: "Healthy Aging", href: "/longevity/healthy-aging" },
-            { label: "Recovery", href: "/longevity/recovery" }
+            { label: "Hormone Optimization", href: "/longevity/hormones" },
+            { label: "Sleep Architecture", href: "/longevity/sleep" },
+            { label: "Stress & Cortisol", href: "/longevity/stress" },
+            { label: "Healthy Aging Framework", href: "/longevity/healthy-aging" },
+            { label: "Systemic Recovery", href: "/longevity/recovery" }
           ]
         }
       ]
     },
     Science: {
-      title: "Scientific Research",
-      subtitle: "The clinical evidence behind BeautyOS.",
+      title: "Evidence-Based Medical Science",
+      subtitle: "Peer-reviewed literature, physiological mechanisms, and lab studies.",
       columns: [
         {
-          title: "Databases",
+          title: "Core Disciplines",
           links: [
-            { label: "Clinical Studies", href: "/science/clinical-studies" },
-            { label: "Ingredient Database", href: "/science/ingredients" },
-            { label: "EWG Ratings", href: "/science/ewg" },
-            { label: "INCI Decoder", href: "/science/inci" },
-            { label: "Research", href: "/science/research" },
-            { label: "PubMed Index", href: "/science/pubmed" }
+            { label: "Hormonal Systems", href: "/science/hormones" },
+            { label: "Cellular Biochemistry", href: "/science/biochemistry" },
+            { label: "Muscle Protein Synthesis", href: "/science/muscle-protein-synthesis" },
+            { label: "Skin Barrier Physiology", href: "/science/skin-physiology" },
+            { label: "Clinical Trial Database", href: "/science/clinical-studies" },
+            { label: "Ingredient Library", href: "/science/ingredients" }
+          ]
+        },
+        {
+          title: "Research Tools",
+          links: [
+            { label: "EWG Safety Ratings", href: "/science/ewg" },
+            { label: "INCI Chemical Decoder", href: "/science/inci" },
+            { label: "Published Research", href: "/science/research" },
+            { label: "PubMed Index", href: "/science/pubmed" },
+            { label: "Dermal Science Hub", href: "/science/skin" },
+            { label: "Skeletal Muscle Research", href: "/science/muscle" },
+            { label: "Metabolic Nutrition Studies", href: "/science/nutrition" },
+            { label: "Longevity Science Hub", href: "/science/longevity" }
           ]
         }
       ]
     },
     Guides: {
-      title: "Premium Guides",
-      subtitle: "Step-by-step blueprints for optimization.",
+      title: "Step-by-Step Optimization Masterclasses",
+      subtitle: "Actionable 90-day protocols for transformative health outcomes.",
       columns: [
         {
-          title: "Routines",
+          title: "Transformation Protocols",
           links: [
-            { label: "Morning Routine", href: "/guides/morning-routine" },
-            { label: "Night Routine", href: "/guides/night-routine" },
-            { label: "Build Muscle", href: "/guides/build-muscle" },
-            { label: "Lose Fat", href: "/guides/lose-fat" }
+            { label: "90-Day Acne Protocol", href: "/guides/90-day-acne-program" },
+            { label: "90-Day Fat Loss Masterclass", href: "/guides/90-day-fat-loss" },
+            { label: "Muscle Building Blueprint", href: "/guides/build-muscle" },
+            { label: "Morning Health Routine", href: "/guides/morning-routine" },
+            { label: "Evening Sleep Routine", href: "/guides/evening-routine" },
+            { label: "Night Recovery Protocol", href: "/guides/night-routine" }
           ]
         },
         {
-          title: "Demographics",
+          title: "Foundational Guides",
           links: [
-            { label: "Healthy Skin", href: "/guides/healthy-skin" },
-            { label: "Supplement Guide", href: "/guides/supplements" },
-            { label: "Women's Health", href: "/guides/women" },
-            { label: "Men's Health", href: "/guides/men" },
-            { label: "Teen Skincare", href: "/guides/teens" }
+            { label: "Healthy Skin Guide", href: "/guides/healthy-skin" },
+            { label: "Supplement Stacking Guide", href: "/guides/supplements" },
+            { label: "Women's Health Blueprint", href: "/guides/women" },
+            { label: "Men's Health Blueprint", href: "/guides/men" },
+            { label: "Teen Skin & Growth", href: "/guides/teens" },
+            { label: "How to Build Muscle", href: "/guides/how-to-build-muscle" },
+            { label: "How to Lose Fat", href: "/guides/how-to-lose-fat" },
+            { label: "Beginner Skincare", href: "/guides/beginner-skincare" },
+            { label: "Sleep Optimization", href: "/guides/sleep-optimization" }
+          ]
+        }
+      ]
+    },
+    Community: {
+      title: "HealthOS Member Community",
+      subtitle: "Verified protocol sharing, expert Q&A, and user metrics.",
+      columns: [
+        {
+          title: "Community Access",
+          links: [
+            { label: "Community Hub", href: "/community" },
+            { label: "Protocol Discussions", href: "/community#discussions" },
+            { label: "Verified Member Reviews", href: "/community#reviews" },
+            { label: "Talk with an Expert", href: "/contact" }
           ]
         }
       ]
     }
   };
 
+  const allSearchItems = [
+    { title: "Creatine Monohydrate Protocol", category: "Supplements", href: "/supplements/creatine" },
+    { title: "Whey Protein & Leucine Synthesis", category: "Supplements", href: "/supplements/protein" },
+    { title: "Magnesium Glycinate for Sleep & Cortisol", category: "Supplements", href: "/supplements/magnesium" },
+    { title: "Omega-3 EPA/DHA Anti-Inflammatory", category: "Supplements", href: "/supplements/omega-3" },
+    { title: "Vitamin D3 + K2 Calcium Transport", category: "Supplements", href: "/supplements/vitamin-d" },
+    { title: "Hydrolyzed Marine Collagen", category: "Supplements", href: "/supplements/collagen" },
+    { title: "Ashwagandha KSM-66 Cortisol Control", category: "Supplements", href: "/supplements/ashwagandha" },
+    { title: "Electrolyte Balance & Muscle Function", category: "Supplements", href: "/supplements/electrolytes" },
+    { title: "NMN & NAD+ Mitochondrial Catalyst", category: "Longevity", href: "/longevity/nad" },
+    { title: "90-Day Acne Clearing Masterclass", category: "Guides", href: "/guides/90-day-acne-program" },
+    { title: "90-Day Body Fat Reduction Protocol", category: "Guides", href: "/guides/90-day-fat-loss" },
+    { title: "Hypertrophy & Skeletal Muscle Building", category: "Fitness", href: "/fitness/build-muscle" },
+    { title: "Skin Barrier Physiology & Ceramides", category: "Science", href: "/science/skin-physiology" },
+    { title: "Retinol & Cell Turnover Science", category: "Skin", href: "/skin/retinol" },
+    { title: "Hormones & Metabolic Flexibility", category: "Science", href: "/science/hormones" },
+    { title: "Gut Microbiome & Systemic Immunity", category: "Nutrition", href: "/nutrition/gut-health" }
+  ];
+
+  const filteredSearchResults = searchQuery.trim() === "" 
+    ? allSearchItems.slice(0, 6)
+    : allSearchItems.filter(item => 
+        item.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+        item.category.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+
   return (
-    <div className="min-h-screen bg-[#0A0A0A] text-white font-sans selection:bg-[#D4AF37]/30 selection:text-white flex flex-col">
+    <div className="min-h-screen bg-[#0A0A0A] text-white font-sans selection:bg-emerald-500/30 selection:text-white flex flex-col">
       
-      {/* 1. TOP ANNOUNCEMENT BAR */}
-      <div className="bg-[#0A0A0A] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
-        <span className="px-2 py-0.5 rounded-full bg-[#D4AF37] text-zinc-950 font-bold text-[9px] uppercase tracking-wider">BeautyOS Infinity</span>
-        <span>The World&apos;s Best Beauty, Skincare, Wellness & Longevity Platform</span>
-        <Link href="/dashboard" className="underline text-[#E5C158] hover:text-white cursor-pointer ml-2">
-          Start Journey →
+      {/* TOP ANNOUNCEMENT BAR */}
+      <div className="bg-[#0D0E12] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
+        <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-[9px] uppercase tracking-wider">HealthOS∞</span>
+        <span>The Apple-Grade Platform for Human Longevity, Fitness, Nutrition & Skincare</span>
+        <Link href="/contact" className="underline text-emerald-400 hover:text-white cursor-pointer ml-2">
+          Talk with an Expert →
         </Link>
       </div>
 
       {/* HEADER */}
       <header 
-        className="sticky top-0 z-50 bg-[#0A0A0A]/80 backdrop-blur-2xl border-b border-white/[0.08] transition-all"
+        className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-2xl border-b border-white/[0.08] transition-all"
         onMouseLeave={() => setActiveMegaMenu(null)}
       >
         <div className="max-w-[1920px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
           
           <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#101114] to-[#1F2023] text-[#D4AF37] flex items-center justify-center font-bold shadow-[0_4px_20px_rgba(212,175,55,0.15)] group-hover:scale-105 transition-transform">
-              <Sparkles className="w-5 h-5" />
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center font-bold shadow-[0_4px_20px_rgba(16,185,129,0.15)] group-hover:scale-105 transition-transform">
+              <Activity className="w-5 h-5" />
             </div>
             <span className="text-xl font-bold tracking-tight font-mono text-white">
-              BeautyOS<span className="text-[#D4AF37]">∞</span>
+              HealthOS<span className="text-emerald-400">∞</span>
             </span>
           </Link>
 
           {/* DESKTOP NAV */}
-          <nav className="hidden lg:flex items-center gap-4 xl:gap-6 text-[10px] xl:text-[11px] font-bold tracking-widest uppercase font-mono">
+          <nav className="hidden lg:flex items-center gap-3 xl:gap-5 text-[10px] xl:text-[11px] font-bold tracking-widest uppercase font-mono">
             {navLinks.map((link) => (
               <div 
                 key={link.label}
@@ -284,105 +366,108 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               >
                 <Link
                   href={link.href}
-                  className={`py-6 transition-colors flex items-center gap-1 ${pathname.startsWith(link.href) ? "text-[#D4AF37]" : "text-zinc-400 hover:text-white"}`}
+                  className={`py-6 transition-colors flex items-center gap-1 ${pathname.startsWith(link.href) ? "text-emerald-400" : "text-zinc-400 hover:text-white"}`}
                 >
                   {link.label}
                   {megaMenuData[link.label] && <ChevronDown className="w-3 h-3 opacity-50" />}
                 </Link>
                 
-                {/* Active Indicator */}
                 {pathname.startsWith(link.href) && (
-                  <motion.div layoutId="navIndicator" className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#D4AF37]" />
+                  <motion.div layoutId="navIndicator" className="absolute bottom-0 left-0 right-0 h-0.5 bg-emerald-400" />
                 )}
               </div>
             ))}
           </nav>
 
-          <div className="flex items-center gap-3 sm:gap-5">
-            <Link href="/contact" className="hidden xl:flex bg-[#D4AF37] hover:bg-white text-black text-[10px] font-bold uppercase tracking-widest px-5 py-2.5 rounded-full transition-colors">
-              Book Consultation
-            </Link>
-            <button aria-label="Search" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
-              <Search className="w-5 h-5" />
-            </button>
-            <Link href="/dashboard" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block" title="Dashboard">
-              <LayoutDashboard className="w-5 h-5" />
-            </Link>
-            <button aria-label="Shopping Bag" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block">
-              <ShoppingBag className="w-5 h-5" />
-            </button>
-            <Link href="/account" className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer hidden sm:block" title="Account">
-              <User className="w-5 h-5" />
-            </Link>
+          {/* HEADER RIGHT UTILITIES */}
+          <div className="flex items-center gap-3 md:gap-4">
             <button 
-              aria-label="Open Mobile Menu"
-              className="p-2 rounded-full hover:bg-white/5 text-zinc-400 hover:text-white transition-colors cursor-pointer lg:hidden"
-              onClick={() => setMobileMenuOpen(true)}
+              onClick={() => setSearchOpen(true)}
+              className="p-2 rounded-xl bg-zinc-900/80 border border-white/[0.08] hover:border-emerald-500/40 text-zinc-400 hover:text-white transition-colors flex items-center gap-2 text-xs font-mono"
             >
-              <Menu className="w-6 h-6" />
+              <Search className="w-4 h-4" />
+              <span className="hidden sm:inline">Search...</span>
+            </button>
+
+            <Link href="/contact" className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-500 text-zinc-950 text-xs font-bold font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20">
+              <Zap className="w-3.5 h-3.5" />
+              Consultation
+            </Link>
+
+            <Link href={userSession ? "/dashboard" : "/dashboard"} className="p-2 rounded-xl bg-zinc-900 border border-white/[0.08] hover:border-white/20 text-zinc-300 hover:text-white transition-colors">
+              <User className="w-4 h-4" />
+            </Link>
+
+            <button 
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden p-2 rounded-xl bg-zinc-900 border border-white/[0.08] text-zinc-300"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
+
         </div>
 
-        {/* MEGA MENU (DESKTOP) */}
+        {/* MEGA MENU DROPDOWN */}
         <AnimatePresence>
           {activeMegaMenu && megaMenuData[activeMegaMenu] && (
             <motion.div
-              initial={{ opacity: 0, y: -10, scale: 0.98 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: -10, scale: 0.98 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-              className="absolute top-full left-0 right-0 bg-[#0A0A0A]/95 backdrop-blur-3xl border-b border-white/[0.08] shadow-2xl z-40 p-10 overflow-hidden"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute top-full left-0 right-0 bg-[#0E0F14]/95 backdrop-blur-3xl border-b border-white/[0.1] shadow-2xl overflow-hidden z-50"
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-[#101114]/50 to-transparent pointer-events-none" />
-              <div className="max-w-[1440px] mx-auto grid grid-cols-12 gap-12 relative z-10">
-                
-                {/* Mega Menu Intro */}
-                <div className="col-span-3 border-r border-white/[0.08] pr-8">
-                  <h4 className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest mb-6">{activeMegaMenu} Domain</h4>
-                  <h3 className="text-2xl font-bold text-white mb-2">{megaMenuData[activeMegaMenu].title}</h3>
-                  <p className="text-xs text-zinc-400 leading-relaxed mb-6">{megaMenuData[activeMegaMenu].subtitle}</p>
-                  <Link href={`/${activeMegaMenu.toLowerCase()}`} className="text-xs font-bold text-white flex items-center gap-2 hover:text-[#D4AF37] transition-colors">
-                    Explore All <ChevronRight className="w-4 h-4" />
+              <div className="max-w-[1920px] mx-auto px-8 py-10">
+                <div className="flex items-start justify-between border-b border-white/[0.08] pb-6 mb-8">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white tracking-tight">{megaMenuData[activeMegaMenu].title}</h3>
+                    <p className="text-sm text-zinc-400 mt-1 font-sans">{megaMenuData[activeMegaMenu].subtitle}</p>
+                  </div>
+                  <Link 
+                    href={navLinks.find(n => n.label === activeMegaMenu)?.href || "/"}
+                    className="text-xs font-mono text-emerald-400 hover:underline flex items-center gap-1"
+                  >
+                    View All {activeMegaMenu} Hub →
                   </Link>
                 </div>
-                
-                {/* Mega Menu Links */}
-                <div className="col-span-6 grid grid-cols-2 gap-8">
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                   {megaMenuData[activeMegaMenu].columns.map((col, idx) => (
                     <div key={idx} className="space-y-4">
-                      <h4 className="text-[10px] font-mono text-zinc-500 uppercase tracking-widest">{col.title}</h4>
-                      <div className="grid grid-cols-1 gap-3">
-                        {col.links.map(link => (
-                          <Link key={link.label} href={link.href} className="block text-sm text-zinc-300 hover:text-white hover:translate-x-1 transition-all">
-                            {link.label}
-                          </Link>
+                      <h4 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">{col.title}</h4>
+                      <ul className="space-y-2.5 text-sm">
+                        {col.links.map((link) => (
+                          <li key={link.href}>
+                            <Link 
+                              href={link.href}
+                              onClick={() => setActiveMegaMenu(null)}
+                              className="text-zinc-400 hover:text-white transition-colors flex items-center justify-between group"
+                            >
+                              <span>{link.label}</span>
+                              <ChevronRight className="w-3 h-3 opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all text-emerald-400" />
+                            </Link>
+                          </li>
                         ))}
-                      </div>
+                      </ul>
                     </div>
                   ))}
-                </div>
 
-                {/* Mega Menu Featured Card */}
-                <div className="col-span-3">
-                  <div className="h-full rounded-[24px] bg-gradient-to-br from-[#101114] to-[#17181B] border border-white/[0.05] p-6 relative overflow-hidden group cursor-pointer">
-                    <div className="absolute inset-0 bg-[#D4AF37]/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <div className="relative z-10 h-full flex flex-col justify-between">
-                      <div>
-                        <span className="text-[10px] font-mono text-[#D4AF37] uppercase tracking-widest">AI Integration</span>
-                        <h4 className="text-lg font-bold text-white mt-2">{activeMegaMenu} Routine Builder</h4>
-                        <p className="text-xs text-zinc-400 mt-2 max-w-sm">Analyze your current protocols and get scientifically-backed recommendations tailored to your unique biology.</p>
-                      </div>
-                      <div className="flex items-center gap-2 mt-6">
-                        <div className="w-8 h-8 rounded-full bg-[#D4AF37] flex items-center justify-center">
-                          <Sparkles className="w-4 h-4 text-black" />
-                        </div>
-                        <span className="text-xs font-bold text-white group-hover:text-[#D4AF37] transition-colors">Launch AI Assistant</span>
-                      </div>
-                    </div>
+                  {/* FEATURED PROTOCOL SPOTLIGHT CARD */}
+                  <div className="hidden lg:block bg-gradient-to-br from-emerald-950/40 to-zinc-900 border border-emerald-500/20 rounded-2xl p-6 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-400 px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">Featured Protocol</span>
+                    <h5 className="text-base font-bold text-white mt-3">HealthOS 90-Day Optimization</h5>
+                    <p className="text-xs text-zinc-400 mt-2 line-clamp-3">Evidence-based system for cellular rejuvenation, muscle hypertrophy, and skin clarity.</p>
+                    <Link 
+                      href="/guides/90-day-acne-program" 
+                      onClick={() => setActiveMegaMenu(null)}
+                      className="mt-4 inline-flex items-center gap-1 text-xs font-mono text-emerald-400 font-bold hover:underline"
+                    >
+                      Start Protocol →
+                    </Link>
                   </div>
                 </div>
-
               </div>
             </motion.div>
           )}
@@ -393,176 +478,194 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, x: "100%" }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: "100%" }}
-            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed inset-0 z-[100] bg-[#0A0A0A] flex flex-col"
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: "auto" }}
+            exit={{ opacity: 0, height: 0 }}
+            className="lg:hidden bg-[#0D0E12] border-b border-white/[0.08] px-6 py-8 space-y-6"
           >
-            <div className="p-6 flex items-center justify-between border-b border-white/[0.08] bg-[#0A0A0A]/90 backdrop-blur-xl sticky top-0 z-10">
-              <span className="text-xl font-bold tracking-tight font-mono text-white">
-                BeautyOS<span className="text-[#D4AF37]">∞</span>
-              </span>
-              <button aria-label="Close Mobile Menu" onClick={() => setMobileMenuOpen(false)} className="p-2 text-zinc-400 hover:text-white">
-                <X className="w-6 h-6" />
-              </button>
-            </div>
-            
-            <div className="flex-1 overflow-y-auto p-6 space-y-8">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Search ecosystem..."
-                  className="w-full bg-[#101114] border border-white/[0.08] rounded-2xl pl-10 pr-4 py-4 text-sm text-white focus:outline-none focus:border-[#D4AF37]"
-                />
-                <Search className="absolute left-4 top-4 w-5 h-5 text-zinc-500" />
-              </div>
-              
-              <div className="space-y-6">
-                {navLinks.map((link) => (
-                  <div key={link.label} className="border-b border-white/[0.05] pb-4">
-                    <Link
-                      href={link.href}
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="text-2xl font-bold text-white hover:text-[#D4AF37] block mb-4"
-                    >
-                      {link.label}
-                    </Link>
-                    {megaMenuData[link.label] && (
-                      <div className="grid grid-cols-2 gap-4">
-                        {megaMenuData[link.label].columns.map((col, idx) => (
-                          <div key={idx} className="space-y-2">
-                            <span className="text-[9px] font-mono uppercase tracking-widest text-zinc-500">{col.title}</span>
-                            <div className="flex flex-col gap-2">
-                              {col.links.slice(0, 4).map(sublink => (
-                                <Link 
-                                  key={sublink.label} 
-                                  href={sublink.href}
-                                  onClick={() => setMobileMenuOpen(false)}
-                                  className="text-xs text-zinc-400 hover:text-white"
-                                >
-                                  {sublink.label}
-                                </Link>
-                              ))}
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
-                
-                <div className="pt-4 grid grid-cols-2 gap-4">
-                  <Link href="/dashboard" onClick={() => setMobileMenuOpen(false)} className="p-4 rounded-2xl bg-[#101114] border border-white/[0.08] flex items-center justify-center gap-2 text-sm font-bold text-white hover:border-[#D4AF37] transition-colors">
-                    <LayoutDashboard className="w-4 h-4 text-[#D4AF37]" /> Dashboard
-                  </Link>
-                  <Link href="/account" onClick={() => setMobileMenuOpen(false)} className="p-4 rounded-2xl bg-[#101114] border border-white/[0.08] flex items-center justify-center gap-2 text-sm font-bold text-white hover:border-[#D4AF37] transition-colors">
-                    <User className="w-4 h-4 text-[#D4AF37]" /> Account
-                  </Link>
-                </div>
-                <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="mt-4 block w-full p-4 rounded-2xl bg-[#D4AF37] text-black text-center text-sm font-bold transition-colors">
-                  Book Consultation
+            <div className="grid grid-cols-2 gap-4">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="p-3 rounded-xl bg-zinc-900/60 border border-white/[0.06] text-sm font-medium text-zinc-200 hover:text-emerald-400 hover:border-emerald-500/30 transition-all flex items-center justify-between"
+                >
+                  <span>{link.label}</span>
+                  <ChevronRight className="w-4 h-4 text-zinc-500" />
                 </Link>
-              </div>
+              ))}
+            </div>
+
+            <div className="pt-4 border-t border-white/[0.08] flex flex-col gap-3">
+              <Link 
+                href="/contact" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full text-center py-3 rounded-xl bg-emerald-500 text-zinc-950 font-bold font-mono text-sm"
+              >
+                Book a Health Consultation
+              </Link>
+              <Link 
+                href="/dashboard" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full text-center py-3 rounded-xl bg-zinc-900 border border-white/[0.08] text-white font-bold font-mono text-sm"
+              >
+                Go to Dashboard
+              </Link>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
 
-      {/* BREADCRUMBS & CONTEXT BAR (Except on Home) */}
-      {pathname !== "/" && (
-        <div className="bg-[#101114] border-b border-white/[0.05] py-2 px-4 md:px-8">
-          <div className="max-w-[1920px] mx-auto flex items-center justify-between text-[10px] font-mono uppercase tracking-widest text-zinc-500 overflow-x-auto whitespace-nowrap">
-            <div className="flex items-center gap-2">
-              <Link href="/" className="hover:text-white flex items-center gap-1 transition-colors">
-                <Home className="w-3 h-3" /> Home
-              </Link>
-              <span>/</span>
-              <span className="text-[#D4AF37]">
-                {pathname.substring(1).replace(/-/g, " ")}
-              </span>
-            </div>
-            <button aria-label="Go Back" onClick={() => window.history.back()} className="hover:text-white transition-colors ml-4 shrink-0">
-              ← Back
-            </button>
-          </div>
-        </div>
-      )}
+      {/* SEARCH MODAL */}
+      <AnimatePresence>
+        {searchOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xl flex items-start justify-center pt-20 px-4"
+            onClick={() => setSearchOpen(false)}
+          >
+            <motion.div
+              initial={{ scale: 0.95, y: -10 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.95, y: -10 }}
+              className="bg-[#0E0F14] border border-white/[0.12] rounded-3xl w-full max-w-2xl overflow-hidden shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="p-6 border-b border-white/[0.08] flex items-center gap-3">
+                <Search className="w-5 h-5 text-emerald-400" />
+                <input 
+                  type="text"
+                  placeholder="Search articles, guides, supplements, science..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="bg-transparent w-full text-white placeholder-zinc-500 focus:outline-none text-base font-sans"
+                  autoFocus
+                />
+                <button 
+                  onClick={() => setSearchOpen(false)}
+                  className="p-1 rounded-lg bg-zinc-800 text-zinc-400 hover:text-white"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
 
-      {/* MAIN CONTENT */}
-      <main className="flex-1 w-full bg-[#0A0A0A] relative z-10">
+              <div className="p-6 max-h-[400px] overflow-y-auto space-y-3">
+                <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">
+                  {searchQuery ? "Search Results" : "Popular Health OS Topics"}
+                </p>
+
+                {filteredSearchResults.map((item, i) => (
+                  <Link
+                    key={i}
+                    href={item.href}
+                    onClick={() => setSearchOpen(false)}
+                    className="p-3.5 rounded-xl bg-zinc-900/50 hover:bg-emerald-950/30 border border-white/[0.04] hover:border-emerald-500/30 transition-all flex items-center justify-between group"
+                  >
+                    <div>
+                      <h4 className="text-sm font-semibold text-white group-hover:text-emerald-400 transition-colors">{item.title}</h4>
+                      <span className="text-[10px] font-mono text-zinc-500 uppercase">{item.category}</span>
+                    </div>
+                    <ChevronRight className="w-4 h-4 text-zinc-600 group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+                  </Link>
+                ))}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* MAIN CONTENT AREA */}
+      <main className="flex-grow">
         {children}
       </main>
 
-      <FloatingActionButton />
+      {/* FLOATING ACTION BUTTON */}
+      {!isDashboardRoute && <FloatingActionButton />}
 
-      {/* FOOTER */}
-      <footer className="border-t border-white/[0.08] bg-[#0A0A0A] pt-24 pb-12 px-6">
-        <div className="max-w-[1440px] mx-auto mb-20">
+      {/* GLOBAL FOOTER */}
+      <footer className="bg-[#050506] border-t border-white/[0.08] pt-16 pb-12 mt-20">
+        <div className="max-w-[1920px] mx-auto px-4 md:px-8 space-y-12">
+          
           <NewsletterBlock />
-        </div>
-        <div className="max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-12 mb-16">
-          <div className="sm:col-span-2 space-y-6">
-            <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[#101114] to-[#1F2023] text-[#D4AF37] flex items-center justify-center font-bold">
-                <Sparkles className="w-5 h-5" />
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-8 pt-8 border-t border-white/[0.06]">
+            
+            <div className="col-span-2 space-y-4">
+              <Link href="/" className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
+                  <Activity className="w-4 h-4" />
+                </div>
+                <span className="text-lg font-bold font-mono text-white">
+                  HealthOS<span className="text-emerald-400">∞</span>
+                </span>
+              </Link>
+              <p className="text-xs text-zinc-400 max-w-sm font-sans leading-relaxed">
+                The flagship Apple-quality ecosystem for biological youth, skincare science, fitness, nutrition, supplements, longevity, and clinical protocols for men and women.
+              </p>
+              <div className="flex items-center gap-3 pt-2 text-xs text-zinc-500 font-mono">
+                <span>Domain: health.cristianvaduva.com</span>
               </div>
-              <span className="text-xl font-bold tracking-tight font-mono text-white">
-                BeautyOS<span className="text-[#D4AF37]">∞</span>
-              </span>
             </div>
-            <p className="text-xs text-zinc-400 max-w-sm leading-relaxed">
-              The world&apos;s most premium operating system for skin health, beauty, wellness, fitness, nutrition, supplements, longevity, and body optimization.
-            </p>
+
+            <div className="space-y-3">
+              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Verticals</h5>
+              <ul className="space-y-2 text-xs text-zinc-400">
+                <li><Link href="/skin" className="hover:text-white transition-colors">Skin Health</Link></li>
+                <li><Link href="/hair" className="hover:text-white transition-colors">Hair & Scalp</Link></li>
+                <li><Link href="/body" className="hover:text-white transition-colors">Body Care</Link></li>
+                <li><Link href="/fitness" className="hover:text-white transition-colors">Fitness</Link></li>
+                <li><Link href="/nutrition" className="hover:text-white transition-colors">Nutrition</Link></li>
+                <li><Link href="/supplements" className="hover:text-white transition-colors">Supplements</Link></li>
+                <li><Link href="/longevity" className="hover:text-white transition-colors">Longevity</Link></li>
+              </ul>
+            </div>
+
+            <div className="space-y-3">
+              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Science & Guides</h5>
+              <ul className="space-y-2 text-xs text-zinc-400">
+                <li><Link href="/science" className="hover:text-white transition-colors">Science Hub</Link></li>
+                <li><Link href="/guides" className="hover:text-white transition-colors">All Guides</Link></li>
+                <li><Link href="/guides/90-day-acne-program" className="hover:text-white transition-colors">90-Day Acne</Link></li>
+                <li><Link href="/guides/90-day-fat-loss" className="hover:text-white transition-colors">90-Day Fat Loss</Link></li>
+                <li><Link href="/guides/build-muscle" className="hover:text-white transition-colors">Build Muscle</Link></li>
+              </ul>
+            </div>
+
+            <div className="space-y-3">
+              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Demographics</h5>
+              <ul className="space-y-2 text-xs text-zinc-400">
+                <li><Link href="/guides/women" className="hover:text-white transition-colors">Women&apos;s Health</Link></li>
+                <li><Link href="/guides/men" className="hover:text-white transition-colors">Men&apos;s Health</Link></li>
+                <li><Link href="/community" className="hover:text-white transition-colors">Community Hub</Link></li>
+                <li><Link href="/dashboard" className="hover:text-white transition-colors">Member Dashboard</Link></li>
+              </ul>
+            </div>
+
+            <div className="space-y-3">
+              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Company & Legal</h5>
+              <ul className="space-y-2 text-xs text-zinc-400">
+                <li><Link href="/about" className="hover:text-white transition-colors">About HealthOS</Link></li>
+                <li><Link href="/contact" className="hover:text-white transition-colors">Contact & Support</Link></li>
+                <li><Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
+                <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+              </ul>
+            </div>
+
           </div>
 
-          <div>
-            <h4 className="text-[10px] font-mono uppercase text-white tracking-widest mb-6">Ecosystem</h4>
-            <div className="space-y-4 text-xs text-zinc-400">
-              <Link href="/products" className="block hover:text-[#D4AF37]">Products</Link>
-              <Link href="/science" className="block hover:text-[#D4AF37]">Science</Link>
-              <Link href="/guides" className="block hover:text-[#D4AF37]">Guides</Link>
-              <Link href="/community" className="block hover:text-[#D4AF37]">Community</Link>
+          <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 font-mono gap-4">
+            <p>© {new Date().getFullYear()} HealthOS. All rights reserved. Medical & Evidence-Based Digital Health Platform.</p>
+            <div className="flex items-center gap-6">
+              <Link href="/privacy" className="hover:text-zinc-300">Privacy</Link>
+              <Link href="/terms" className="hover:text-zinc-300">Terms</Link>
+              <a href="https://t.me/cristianvaduva" target="_blank" rel="noreferrer" className="text-emerald-400 hover:underline">Telegram Support</a>
             </div>
           </div>
 
-          <div>
-            <h4 className="text-[10px] font-mono uppercase text-white tracking-widest mb-6">Optimization</h4>
-            <div className="space-y-4 text-xs text-zinc-400">
-              <Link href="/fitness" className="block hover:text-[#D4AF37]">Fitness</Link>
-              <Link href="/nutrition" className="block hover:text-[#D4AF37]">Nutrition</Link>
-              <Link href="/supplements" className="block hover:text-[#D4AF37]">Supplements</Link>
-              <Link href="/longevity" className="block hover:text-[#D4AF37]">Longevity</Link>
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-[10px] font-mono uppercase text-white tracking-widest mb-6">Demographics</h4>
-            <div className="space-y-4 text-xs text-zinc-400">
-              <Link href="/men" className="block hover:text-[#D4AF37]">Men&apos;s Health</Link>
-              <Link href="/women" className="block hover:text-[#D4AF37]">Women&apos;s Health</Link>
-              <Link href="/teens" className="block hover:text-[#D4AF37]">Teen Skincare</Link>
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-[10px] font-mono uppercase text-white tracking-widest mb-6">Legal & Support</h4>
-            <div className="space-y-4 text-xs text-zinc-400">
-              <Link href="/support" className="block hover:text-[#D4AF37]">Support</Link>
-              <Link href="/contact" className="block hover:text-[#D4AF37]">Contact</Link>
-              <Link href="/privacy" className="block hover:text-[#D4AF37]">Privacy Policy</Link>
-              <Link href="/terms" className="block hover:text-[#D4AF37]">Terms of Service</Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="max-w-[1440px] mx-auto pt-8 border-t border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-600 font-mono uppercase tracking-widest">
-          <span>© {new Date().getFullYear()} BeautyOS Infinity. All rights reserved.</span>
-          <div className="flex items-center gap-6">
-            <Link href="/newsletter" className="hover:text-white transition-colors">Newsletter</Link>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Twitter</a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">Instagram</a>
-          </div>
         </div>
       </footer>
 

@@ -2,11 +2,11 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useBeautyOS } from "../context/BeautyOSContext";
-import { Download, Trash2, LogOut, Sparkles, ChevronRight, X, AlertTriangle } from "lucide-react";
+import { useHealthOS } from "../context/HealthOSContext";
+import { Download, Trash2, LogOut, ChevronRight, AlertTriangle, ShieldCheck } from "lucide-react";
 
 export const ProfileTab: React.FC = () => {
-  const { skinProfile, signOutUser, clearAllUserData } = useBeautyOS();
+  const { skinProfile, signOutUser, clearAllUserData } = useHealthOS();
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [exportNotice, setExportNotice] = useState(false);
 
@@ -20,7 +20,7 @@ export const ProfileTab: React.FC = () => {
       
       {/* Header Bar */}
       <div>
-        <span className="text-[10px] font-mono text-[#E5C158] uppercase tracking-widest">Account & Diagnostic Settings</span>
+        <span className="text-[10px] font-mono text-emerald-400 uppercase tracking-widest font-bold">Account & Diagnostic Settings</span>
         <h1 className="text-2xl font-bold text-white tracking-tight">Profile & Operating Preferences</h1>
       </div>
 
@@ -31,128 +31,102 @@ export const ProfileTab: React.FC = () => {
         className="p-8 rounded-[32px] bg-[#101114] border border-white/[0.08] backdrop-blur-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 shadow-2xl"
       >
         <div className="flex items-center gap-4">
-          <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#E5C158]/20 to-[#D4AF37]/10 border border-[#E5C158]/30 flex items-center justify-center text-[#E5C158] font-bold text-xl font-mono">
-            OS
+          <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-xl font-mono">
+            HOS
           </div>
           <div>
-            <h3 className="text-lg font-bold text-white">BeautyOS User</h3>
-            <p className="text-xs text-[#A1A1AA]">Evaluation & Testing Workspace</p>
-            <div className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] font-mono border border-emerald-500/20">
-              <Sparkles className="w-3 h-3" />
-              <span>Pro Active Plan</span>
+            <h3 className="text-lg font-bold text-white">HealthOS Member</h3>
+            <p className="text-xs text-zinc-400 font-sans">Biological Optimization Workspace</p>
+            <div className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] font-mono border border-emerald-500/20 font-bold">
+              <ShieldCheck className="w-3 h-3" /> HealthOS Pro Member
             </div>
           </div>
         </div>
 
         <button
           onClick={signOutUser}
-          className="px-5 py-2.5 rounded-full bg-zinc-950 hover:bg-zinc-900 border border-white/[0.08] text-rose-400 font-semibold text-xs transition-all cursor-pointer flex items-center gap-2"
+          className="px-4 py-2.5 rounded-xl bg-zinc-900 border border-white/[0.08] text-zinc-300 hover:text-white hover:border-rose-500/40 transition-colors flex items-center gap-2 cursor-pointer text-xs font-mono"
         >
-          <LogOut className="w-4 h-4" />
+          <LogOut className="w-4 h-4 text-zinc-400" />
           <span>Sign Out</span>
         </button>
       </motion.div>
 
-      {/* Diagnostic Profile Card */}
-      <motion.div
-        initial={{ opacity: 0, y: 15 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="p-8 rounded-[32px] bg-[#101114] border border-white/[0.08] space-y-6 shadow-xl"
-      >
-        <div className="flex items-center justify-between border-b border-white/[0.06] pb-4">
-          <div>
-            <span className="text-[10px] font-mono text-[#E5C158] uppercase">Diagnostic Baseline</span>
-            <h3 className="text-base font-bold text-white">Skin Diagnostic Profile</h3>
+      {/* Diagnostic Baseline */}
+      {skinProfile && (
+        <div className="p-8 rounded-[32px] bg-[#101114] border border-white/[0.08] space-y-4">
+          <div className="flex items-center justify-between">
+            <h4 className="text-sm font-bold text-white uppercase font-mono">Health & Diagnostic Baseline</h4>
+            <span className="text-[10px] font-mono text-emerald-400 uppercase">Active Profile</span>
           </div>
-          <span className="px-3 py-1 rounded-full bg-[#E5C158]/10 text-[#E5C158] text-xs font-mono font-bold border border-[#E5C158]/20">
-            {skinProfile?.skinType || "Combination"} Skin
-          </span>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="p-4 rounded-2xl bg-zinc-950 border border-white/[0.08] space-y-1">
-            <span className="text-[10px] font-mono text-zinc-500 uppercase">Sensitivity Index</span>
-            <p className="text-sm font-bold text-white">{skinProfile?.sensitivity || "Medium"} Sensitivity</p>
-          </div>
-
-          <div className="p-4 rounded-2xl bg-zinc-950 border border-white/[0.08] space-y-1">
-            <span className="text-[10px] font-mono text-zinc-500 uppercase">Primary Skin Goals</span>
-            <p className="text-xs font-semibold text-emerald-400">
-              {skinProfile?.goals?.join(", ") || "Barrier Repair, Hydration Boost"}
-            </p>
+          <div className="grid grid-cols-2 gap-4 text-xs">
+            <div className="p-4 rounded-2xl bg-[#0A0A0A] border border-white/[0.06]">
+              <span className="text-[10px] font-mono text-zinc-500 uppercase">Skin / Tissue Type</span>
+              <p className="text-sm font-bold text-white mt-1">{skinProfile.skinType}</p>
+            </div>
+            <div className="p-4 rounded-2xl bg-[#0A0A0A] border border-white/[0.06]">
+              <span className="text-[10px] font-mono text-zinc-500 uppercase">Sensitivity Index</span>
+              <p className="text-sm font-bold text-white mt-1">{skinProfile.sensitivity}</p>
+            </div>
           </div>
         </div>
-      </motion.div>
+      )}
 
-      {/* Settings Grid */}
-      <div className="space-y-3">
-        <h4 className="text-xs font-semibold text-zinc-400 uppercase tracking-wider px-2">Data & Privacy Options</h4>
-
-        <div className="p-4 rounded-2xl bg-[#101114] border border-white/[0.08] space-y-3">
-          
+      {/* Data Management Actions */}
+      <div className="p-8 rounded-[32px] bg-[#101114] border border-white/[0.08] space-y-4">
+        <h4 className="text-sm font-bold text-white uppercase font-mono">Data Sovereignty</h4>
+        <div className="flex flex-col gap-3">
           <button
             onClick={handleExportData}
-            className="w-full flex items-center justify-between p-2 rounded-xl hover:bg-zinc-950 transition-colors text-left cursor-pointer"
+            className="w-full p-4 rounded-2xl bg-[#0A0A0A] border border-white/[0.06] hover:border-emerald-500/40 text-left text-zinc-300 hover:text-white transition-colors flex items-center justify-between group"
           >
             <div className="flex items-center gap-3">
-              <Download className="w-4 h-4 text-[#E5C158]" />
+              <Download className="w-4 h-4 text-emerald-400" />
               <div>
-                <h5 className="text-xs font-bold text-white">Export Clinical Skin Journal</h5>
-                <p className="text-[10px] text-[#A1A1AA]">Download complete JSON & PDF report</p>
+                <p className="text-xs font-bold text-white">Export HealthOS Data</p>
+                <p className="text-[10px] text-zinc-500">Download routine logs and progress entries in JSON format</p>
               </div>
             </div>
-            <ChevronRight className="w-4 h-4 text-zinc-600" />
+            <ChevronRight className="w-4 h-4 text-zinc-600 group-hover:text-emerald-400" />
           </button>
 
           {exportNotice && (
-            <div className="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-[11px] font-mono">
-              ✓ Clinical diagnostic data exported successfully.
-            </div>
+            <p className="text-[10px] font-mono text-emerald-400 text-center animate-fadeIn">Export payload prepared. Downloading encrypted backup archive.</p>
           )}
 
           <button
             onClick={() => setShowDeleteModal(true)}
-            className="w-full flex items-center justify-between p-2 rounded-xl hover:bg-zinc-950 transition-colors text-left cursor-pointer border-t border-white/[0.04] pt-3"
+            className="w-full p-4 rounded-2xl bg-rose-950/20 border border-rose-500/20 hover:border-rose-500/50 text-left text-rose-300 transition-colors flex items-center justify-between group"
           >
             <div className="flex items-center gap-3">
               <Trash2 className="w-4 h-4 text-rose-400" />
               <div>
-                <h5 className="text-xs font-bold text-rose-300">Reset Local Skin Data</h5>
-                <p className="text-[10px] text-zinc-500">Purge local cache and reset diagnostic profile</p>
+                <p className="text-xs font-bold text-rose-300">Purge Workspace Data</p>
+                <p className="text-[10px] text-rose-400/60">Permanently erase cabinet products, check-in history, and goals</p>
               </div>
             </div>
-            <ChevronRight className="w-4 h-4 text-zinc-600" />
+            <ChevronRight className="w-4 h-4 text-rose-500" />
           </button>
-
         </div>
       </div>
 
-      {/* Delete Account Modal */}
+      {/* Delete Confirmation Modal */}
       {showDeleteModal && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-6 animate-fadeIn">
-          <div className="bg-[#101114] border border-white/[0.08] rounded-[28px] max-w-md w-full p-6 space-y-5 relative shadow-2xl">
-            <div className="flex items-center justify-between pb-4 border-b border-white/[0.08]">
-              <div className="flex items-center gap-2">
-                <AlertTriangle className="w-5 h-5 text-rose-400" />
-                <h3 className="text-base font-bold text-white">Reset Local Workspace?</h3>
-              </div>
-              <button
-                onClick={() => setShowDeleteModal(false)}
-                className="p-1 rounded-lg text-zinc-400 hover:text-white cursor-pointer"
-              >
-                <X className="w-5 h-5" />
-              </button>
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-xl flex items-center justify-center p-6">
+          <div className="bg-[#101114] border border-white/[0.1] rounded-[32px] p-8 max-w-md w-full text-center space-y-6">
+            <div className="w-12 h-12 rounded-2xl bg-rose-500/10 border border-rose-500/20 text-rose-400 flex items-center justify-center mx-auto">
+              <AlertTriangle className="w-6 h-6" />
             </div>
-
-            <p className="text-xs text-[#A1A1AA] leading-relaxed">
-              This action will clear all local cabinet items, routine completion logs, check-in journal entries, and diagnostic skin settings.
-            </p>
-
-            <div className="flex items-center gap-3">
+            <div className="space-y-2">
+              <h3 className="text-xl font-bold text-white">Purge All Workspace Data?</h3>
+              <p className="text-xs text-zinc-400 leading-relaxed font-sans">
+                This action is irreversible. All local routines, supplement cabinets, check-ins, and progress photos will be deleted.
+              </p>
+            </div>
+            <div className="flex gap-4">
               <button
                 onClick={() => setShowDeleteModal(false)}
-                className="flex-1 py-3 rounded-full bg-zinc-900 border border-white/[0.08] text-white text-xs font-semibold cursor-pointer"
+                className="flex-1 py-3 rounded-xl bg-zinc-900 border border-white/[0.08] text-white font-bold"
               >
                 Cancel
               </button>
@@ -160,11 +134,10 @@ export const ProfileTab: React.FC = () => {
                 onClick={() => {
                   clearAllUserData();
                   setShowDeleteModal(false);
-                  window.location.reload();
                 }}
-                className="flex-1 py-3 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs cursor-pointer shadow-lg shadow-rose-600/20"
+                className="flex-1 py-3 rounded-xl bg-rose-500 text-white font-bold"
               >
-                Reset Data
+                Confirm Purge
               </button>
             </div>
           </div>

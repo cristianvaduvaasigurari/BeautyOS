@@ -1,5 +1,5 @@
 /**
- * BeautyOS Lightweight Beta Analytics Logger
+ * HealthOS Lightweight Analytics Logger
  * Respects user privacy. No personally identifiable information (PII) is captured.
  */
 
@@ -9,7 +9,10 @@ export type BetaEventName =
   | "routine_completed"
   | "checkin_completed"
   | "photo_added"
-  | "weekly_review_opened";
+  | "weekly_review_opened"
+  | "skin_checkin_logged"
+  | "product_added_to_cabinet"
+  | "product_deleted_from_cabinet";
 
 export interface BetaAnalyticsLog {
   id: string;
@@ -29,16 +32,11 @@ export const trackBetaEvent = (eventName: BetaEventName, metadata?: Record<strin
     metadata,
   };
 
-  // 1. Console auditing for beta debuggers
   if (typeof window !== "undefined") {
-    // Console auditing removed for production
-
-    // 2. Persistent storage log for beta testers export
     try {
       const existingLogs = JSON.parse(localStorage.getItem("beta_analytics_logs") || "[]");
       existingLogs.push(logEntry);
       
-      // Limit to last 200 logs to prevent LocalStorage bloat
       if (existingLogs.length > 200) {
         existingLogs.shift();
       }

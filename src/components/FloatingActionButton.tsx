@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { MessageCircle, X, Sparkles, Send, Calendar } from "lucide-react";
+import { MessageCircle, X, Send, Calendar, Zap } from "lucide-react";
 
 export const FloatingActionButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,29 +17,29 @@ export const FloatingActionButton = () => {
         }`}
       >
         <Link href="/contact" className="flex items-center gap-3 group">
-          <span className="bg-[#101114] text-white text-xs font-bold px-4 py-2 rounded-xl border border-white/[0.05] group-hover:border-white/[0.15] shadow-lg transition-colors whitespace-nowrap">
-            Book Consultation
+          <span className="bg-[#101114] text-white text-xs font-bold px-4 py-2 rounded-xl border border-white/[0.08] group-hover:border-emerald-500/40 shadow-lg transition-colors whitespace-nowrap">
+            Book Health Consultation
           </span>
-          <div className="w-12 h-12 rounded-full bg-[#101114] border border-white/[0.05] group-hover:border-white/[0.15] flex items-center justify-center shadow-lg transition-colors">
-            <Calendar className="w-5 h-5 text-white" />
+          <div className="w-12 h-12 rounded-full bg-[#101114] border border-white/[0.08] group-hover:border-emerald-500/40 flex items-center justify-center shadow-lg transition-colors">
+            <Calendar className="w-5 h-5 text-emerald-400" />
           </div>
         </Link>
 
-        <a href="https://t.me/beautyos" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
-          <span className="bg-[#101114] text-white text-xs font-bold px-4 py-2 rounded-xl border border-white/[0.05] group-hover:border-white/[0.15] shadow-lg transition-colors whitespace-nowrap">
+        <a href="https://t.me/cristianvaduva" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 group">
+          <span className="bg-[#101114] text-white text-xs font-bold px-4 py-2 rounded-xl border border-white/[0.08] group-hover:border-emerald-500/40 shadow-lg transition-colors whitespace-nowrap">
             Telegram Support
           </span>
-          <div className="w-12 h-12 rounded-full bg-[#101114] border border-white/[0.05] group-hover:border-white/[0.15] flex items-center justify-center shadow-lg transition-colors">
+          <div className="w-12 h-12 rounded-full bg-[#101114] border border-white/[0.08] group-hover:border-emerald-500/40 flex items-center justify-center shadow-lg transition-colors">
             <Send className="w-5 h-5 text-sky-400" />
           </div>
         </a>
 
         <Link href="/ai-coach" className="flex items-center gap-3 group">
-          <span className="bg-[#101114] text-white text-xs font-bold px-4 py-2 rounded-xl border border-white/[0.05] group-hover:border-[#D4AF37]/50 shadow-lg transition-colors whitespace-nowrap">
-            AI Assistant
+          <span className="bg-[#101114] text-white text-xs font-bold px-4 py-2 rounded-xl border border-white/[0.08] group-hover:border-emerald-500/40 shadow-lg transition-colors whitespace-nowrap">
+            AI Health Coach
           </span>
-          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#101114] to-[#1F2023] border border-white/[0.05] group-hover:border-[#D4AF37]/50 flex items-center justify-center shadow-[0_0_20px_rgba(212,175,55,0.15)] transition-colors">
-            <Sparkles className="w-5 h-5 text-[#D4AF37]" />
+          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#101114] to-[#1F2023] border border-white/[0.08] group-hover:border-emerald-500/40 flex items-center justify-center shadow-[0_0_20px_rgba(16,185,129,0.15)] transition-colors">
+            <Zap className="w-5 h-5 text-emerald-400" />
           </div>
         </Link>
       </div>
@@ -49,8 +49,8 @@ export const FloatingActionButton = () => {
         onClick={() => setIsOpen(!isOpen)}
         className={`w-14 h-14 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 ${
           isOpen 
-            ? "bg-[#101114] border border-white/[0.05] text-white rotate-90" 
-            : "bg-[#D4AF37] hover:bg-white text-black hover:scale-105"
+            ? "bg-[#101114] border border-white/[0.08] text-white rotate-90" 
+            : "bg-emerald-500 hover:bg-emerald-400 text-zinc-950 hover:scale-105 shadow-emerald-500/20"
         }`}
         aria-label="Contact Menu"
       >

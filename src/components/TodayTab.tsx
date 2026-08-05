@@ -2,19 +2,19 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useBeautyOS, PRODUCTS_CATALOG } from "../context/BeautyOSContext";
-import { Check, Sun, Moon, Sparkles, X, ChevronRight, Plus } from "lucide-react";
+import { useHealthOS, PRODUCTS_CATALOG } from "../context/HealthOSContext";
+import { Sun, Moon, Sparkles, ChevronRight, Plus, Check, X } from "lucide-react";
 
 export const TodayTab: React.FC = () => {
   const {
-    currentSkinIndex,
     morningSteps,
     eveningSteps,
-    userCabinet,
     toggleRoutineStep,
     logSkinCheckin,
+    currentSkinIndex,
+    userCabinet,
     recommendations,
-  } = useBeautyOS();
+  } = useHealthOS();
 
   // Bottom Sheet Routines Trigger
   const [activeRoutineSheet, setActiveRoutineSheet] = useState<"morning" | "evening" | null>(null);

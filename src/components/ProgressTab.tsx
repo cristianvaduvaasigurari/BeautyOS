@@ -3,11 +3,11 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useBeautyOS } from "../context/BeautyOSContext";
+import { useHealthOS } from "../context/HealthOSContext";
 import { Award, Droplets, Heart, Camera } from "lucide-react";
 
 export const ProgressTab: React.FC = () => {
-  const { journalEntries, progressPhotos } = useBeautyOS();
+  const { journalEntries, progressPhotos } = useHealthOS();
   const [chartHorizon, setChartHorizon] = useState<"weekly" | "monthly" | "yearly">("weekly");
 
   return (

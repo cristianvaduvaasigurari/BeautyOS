@@ -16,7 +16,6 @@ const isValidUrl = (url?: string): boolean => {
 let cachedClient: SupabaseClient | null = null;
 
 const getClient = (): SupabaseClient | null => {
-  // If we are on server-side Next.js build step, avoid instantiating to prevent prerender crash
   if (typeof window === "undefined" && !getUrl()) {
     return null;
   }
@@ -40,13 +39,12 @@ const getClient = (): SupabaseClient | null => {
     return cachedClient;
   } catch (e) {
     if (typeof window !== "undefined") {
-      console.error("BeautyOS: Error instantiating Supabase client", e);
+      console.error("HealthOS: Error instantiating Supabase client", e);
     }
     return null;
   }
 };
 
-// Safe fallback mockup mock matching the Supabase API signature to prevent build/runtime crashes
 const createMockSupabase = () => {
   const mockAuth = {
     signUp: async () => ({
@@ -90,7 +88,6 @@ const createMockSupabase = () => {
   } as unknown as SupabaseClient;
 };
 
-// Export proxy that delegates calls to client if ready, or mock fallback otherwise
 export const supabase = new Proxy({} as SupabaseClient, {
   get(_, prop) {
     const client = getClient() || createMockSupabase();
