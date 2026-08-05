@@ -3,7 +3,6 @@ import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
 import { notFound } from "next/navigation";
 
-// The slug is always strength
 export default function StaticPage() {
   const article = editorialContent["fitness-strength"];
 

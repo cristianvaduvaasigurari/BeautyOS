@@ -1,79 +1,161 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import { Users, Star, ShieldCheck, Zap } from "lucide-react";
+import { Users, ShieldCheck, Zap, Heart, MessageSquare, Bookmark } from "lucide-react";
 
 export default function CommunityPage() {
-  const verifiedReviews = [
+  const [activeTab, setActiveTab] = useState<"stories" | "discussions" | "expert">("stories");
+  const [likedPosts, setLikedPosts] = useState<Record<number, boolean>>({});
+  const [savedPosts, setSavedPosts] = useState<Record<number, boolean>>({});
+
+  const toggleLike = (idx: number) => {
+    setLikedPosts(prev => ({ ...prev, [idx]: !prev[idx] }));
+  };
+
+  const toggleSave = (idx: number) => {
+    setSavedPosts(prev => ({ ...prev, [idx]: !prev[idx] }));
+  };
+
+  const communityPosts = [
     {
       author: "Dr. Marcus Vance",
-      role: "Sports Biochemist",
-      protocol: "90-Day Hypertrophy & Collagen Protocol",
-      text: "HealthOS provides the cleanest separation of anabolic stimulus, nutrient timing, and active dermal recovery I've used in clinical practice."
+      role: "Sports Biochemist & Clinical Researcher",
+      avatar: "MV",
+      badge: "Clinical Advisor",
+      title: "90-Day Hypertrophy & Collagen Protocol Results",
+      text: "HealthOS provides the cleanest separation of anabolic stimulus, protein timing, and active dermal recovery I've used in clinical practice. In 90 days, test subjects averaged 3.2kg lean mass gain while lowering systemic CRP.",
+      protocol: "90-Day Muscle Growth",
+      likesCount: 142,
+      commentsCount: 28,
+      category: "expert"
     },
     {
       author: "Elena Rostova",
       role: "Biohacking Researcher",
-      protocol: "NMN + Glycinate Sleep Stacking",
-      text: "Tracking deep sleep duration against supplement stacks in the HealthOS dashboard revealed a 24% increase in slow-wave sleep within 3 weeks."
+      avatar: "ER",
+      badge: "Verified Member",
+      title: "NMN + Magnesium Glycinate Sleep Stacking Experiment",
+      text: "Tracking deep sleep duration against supplement stacks in the HealthOS dashboard revealed a 24% increase in slow-wave sleep within 3 weeks of consistent PM dosing.",
+      protocol: "Longevity Protocol",
+      likesCount: 98,
+      commentsCount: 19,
+      category: "stories"
     },
     {
       author: "David Chen",
       role: "Competitive Athlete",
-      protocol: "Creatine & Electrolyte Hydration",
-      text: "The clash detection system saved me from combining incompatible recovery peptides. The ecosystem is Apple-level smooth."
+      avatar: "DC",
+      badge: "Verified Member",
+      title: "Creatine Monohydrate & Electrolyte Saturation",
+      text: "Saturating 5g creatine monohydrate daily with 500ml electrolyte hydration produced immediate force output increases on heavy squat sessions.",
+      protocol: "Athletic Performance",
+      likesCount: 115,
+      commentsCount: 14,
+      category: "discussions"
     }
   ];
 
   return (
-    <div className="min-h-screen pt-24 pb-32 px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
+    <div className="min-h-screen pt-28 pb-32 px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
       
-      <div className="max-w-3xl space-y-6 mb-16">
-        <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">
-          <Users className="w-4 h-4" /> HealthOS Community
+      {/* Header */}
+      <div className="max-w-4xl space-y-6 mb-12">
+        <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
+          <Users className="w-4 h-4" /> HealthOS Member Community
         </span>
-        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.05]">
+        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
           Verified Member Protocols &amp; Intelligence.
         </h1>
-        <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
-          Connect with biohackers, clinicians, and fitness enthusiasts sharing data-backed protocols for human performance and longevity.
+        <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl font-sans">
+          Connect with clinicians, biohackers, and high-performance members sharing empirical bio-feedback, transformation journeys, and stack reviews.
         </p>
+
+        {/* Tab selector */}
+        <div className="pt-4 flex gap-3 border-t border-white/[0.08]">
+          {(["stories", "discussions", "expert"] as const).map(tab => (
+            <button
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`px-5 py-2 rounded-full text-xs font-mono uppercase font-bold tracking-wider transition-all cursor-pointer ${
+                activeTab === tab 
+                  ? "bg-emerald-500 text-zinc-950 shadow-md shadow-emerald-500/20" 
+                  : "bg-[#101114] text-zinc-400 border border-white/[0.08] hover:text-white"
+              }`}
+            >
+              {tab === "stories" ? "Transformation Stories" : tab === "discussions" ? "Protocol Discussions" : "Expert Posts"}
+            </button>
+          ))}
+        </div>
       </div>
 
-      {/* Verified Reviews / Protocols */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-        {verifiedReviews.map((r, i) => (
-          <div key={i} className="p-8 rounded-[32px] bg-[#101114] border border-white/[0.08] flex flex-col justify-between space-y-6">
-            <div className="space-y-4">
-              <div className="flex items-center gap-1 text-emerald-400">
-                {[...Array(5)].map((_, idx) => (
-                  <Star key={idx} className="w-4 h-4 fill-current" />
-                ))}
+      {/* Posts List */}
+      <div className="space-y-8 max-w-4xl mb-16">
+        {communityPosts.map((post, idx) => (
+          <div key={idx} className="p-8 sm:p-10 rounded-[36px] bg-gradient-to-br from-[#101114] via-[#141519] to-[#0A0A0A] border border-white/[0.08] hover:border-emerald-500/40 transition-all space-y-6">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="w-11 h-11 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-mono font-bold flex items-center justify-center">
+                  {post.avatar}
+                </div>
+                <div>
+                  <h4 className="text-sm font-bold text-white flex items-center gap-2">
+                    {post.author} <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                  </h4>
+                  <p className="text-xs text-zinc-500 font-sans">{post.role}</p>
+                </div>
               </div>
-              <p className="text-sm text-zinc-300 italic font-sans leading-relaxed">&quot;{r.text}&quot;</p>
+
+              <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-mono font-bold uppercase">
+                {post.badge}
+              </span>
             </div>
 
-            <div className="pt-4 border-t border-white/[0.08] space-y-1">
-              <p className="text-sm font-bold text-white font-mono flex items-center gap-1.5">
-                {r.author} <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              </p>
-              <p className="text-xs text-zinc-500 font-sans">{r.role}</p>
-              <p className="text-[10px] text-emerald-400 font-mono pt-1">Protocol: {r.protocol}</p>
+            <div className="space-y-2">
+              <h3 className="text-xl font-bold text-white">{post.title}</h3>
+              <p className="text-sm text-zinc-300 leading-relaxed font-sans">{post.text}</p>
+            </div>
+
+            <div className="pt-4 border-t border-white/[0.06] flex items-center justify-between text-xs font-mono text-zinc-400">
+              <span className="text-emerald-400 font-bold">Protocol: {post.protocol}</span>
+
+              <div className="flex items-center gap-4">
+                <button 
+                  onClick={() => toggleLike(idx)}
+                  className={`flex items-center gap-1.5 transition-colors ${likedPosts[idx] ? "text-rose-400 font-bold" : "hover:text-white"}`}
+                >
+                  <Heart className={`w-4 h-4 ${likedPosts[idx] ? "fill-current" : ""}`} />
+                  <span>{post.likesCount + (likedPosts[idx] ? 1 : 0)}</span>
+                </button>
+
+                <div className="flex items-center gap-1.5 hover:text-white cursor-pointer">
+                  <MessageSquare className="w-4 h-4" />
+                  <span>{post.commentsCount}</span>
+                </div>
+
+                <button 
+                  onClick={() => toggleSave(idx)}
+                  className={`transition-colors ${savedPosts[idx] ? "text-emerald-400 font-bold" : "hover:text-white"}`}
+                >
+                  <Bookmark className={`w-4 h-4 ${savedPosts[idx] ? "fill-current" : ""}`} />
+                </button>
+              </div>
             </div>
           </div>
         ))}
       </div>
 
       {/* CTA Box */}
-      <div className="p-12 rounded-[40px] bg-gradient-to-br from-[#101114] to-[#0A0A0A] border border-emerald-500/30 text-center relative overflow-hidden">
-        <h2 className="text-3xl font-bold text-white mb-4">Share Your HealthOS Protocol</h2>
-        <p className="text-xs text-zinc-400 max-w-md mx-auto mb-8 font-sans">
-          Log your check-ins in the dashboard, generate your bio-score, and submit your verified routine to the community.
+      <div className="max-w-4xl p-12 rounded-[40px] bg-gradient-to-br from-[#101114] to-[#0A0A0A] border border-emerald-500/30 text-center space-y-6">
+        <h2 className="text-3xl font-bold text-white">Share Your HealthOS Transformation</h2>
+        <p className="text-sm text-zinc-400 max-w-md mx-auto font-sans">
+          Log your check-ins in the dashboard, generate your health score, and submit your verified routine to the community.
         </p>
-        <Link href="/dashboard" className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20">
-          <Zap className="w-4 h-4" /> Open Member Dashboard
-        </Link>
+        <div className="flex justify-center gap-4">
+          <Link href="/dashboard" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20 flex items-center gap-2">
+            <Zap className="w-4 h-4" /> Open Member Dashboard
+          </Link>
+        </div>
       </div>
 
     </div>

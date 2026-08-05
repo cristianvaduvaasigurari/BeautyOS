@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function SkinPhysiologyPage() {
-  const article = getEditorialArticle("science-skin-physiology", "Science", "skin-physiology");
+export default function StaticPage() {
+  const article = editorialContent["science-skin-physiology"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

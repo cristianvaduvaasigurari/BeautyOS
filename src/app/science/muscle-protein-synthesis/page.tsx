@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function MPSPage() {
-  const article = getEditorialArticle("science-muscle-protein-synthesis", "Science", "muscle-protein-synthesis");
+export default function StaticPage() {
+  const article = editorialContent["science-muscle-protein-synthesis"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

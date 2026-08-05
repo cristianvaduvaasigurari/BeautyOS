@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function SleepOptimizationPage() {
-  const article = getEditorialArticle("guides-sleep-optimization", "Guides", "sleep-optimization");
+export default function StaticPage() {
+  const article = editorialContent["guides-sleep-optimization"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

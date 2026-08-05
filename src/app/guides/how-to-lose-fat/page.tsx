@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function HowToLoseFatPage() {
-  const article = getEditorialArticle("guides-how-to-lose-fat", "Guides", "how-to-lose-fat");
+export default function StaticPage() {
+  const article = editorialContent["guides-how-to-lose-fat"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

@@ -1,15 +1,20 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function RecoverySupplementsPage() {
-  const article = getEditorialArticle("supplements-recovery", "Supplements", "recovery");
+export default function Page() {
+  const article = editorialContent["supplements-recovery"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 
       article={article} 
       backHref="/supplements" 
-      backLabel="Supplements Library" 
+      backLabel="Supplements Hub" 
     />
   );
 }

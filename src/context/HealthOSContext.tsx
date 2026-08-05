@@ -42,7 +42,7 @@ export interface Product {
   id: string;
   brand: string;
   name: string;
-  category: "Cleanser" | "Toner" | "Serum" | "Moisturizer" | "Sunscreen" | "Treatment" | "Supplements" | "Nutrition" | "Fitness" | "Beauty Devices" | "Haircare & Tools";
+  category: "Cleanser" | "Toner" | "Serum" | "Moisturizer" | "Sunscreen" | "Treatment" | "Supplements" | "Nutrition" | "Fitness" | "Health Devices" | "Haircare & Tools";
   ingredients: string[];
   description: string;
   paoMonths: number;

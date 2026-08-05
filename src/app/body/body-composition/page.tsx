@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function BodyCompositionPage() {
-  const article = getEditorialArticle("body-body-composition", "Body", "body-composition");
+export default function StaticPage() {
+  const article = editorialContent["body-body-composition"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

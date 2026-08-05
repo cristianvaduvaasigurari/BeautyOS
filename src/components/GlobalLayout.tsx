@@ -582,6 +582,30 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
         {children}
       </main>
 
+      {/* MOBILE BOTTOM NAVIGATION BAR */}
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#0E0F14]/95 border-t border-white/[0.08] backdrop-blur-2xl px-2 py-2 flex items-center justify-around font-mono text-[10px] uppercase">
+        <Link href="/" className={`flex flex-col items-center gap-1 px-3 py-1 rounded-xl transition-colors ${pathname === "/" ? "text-emerald-400 font-bold" : "text-zinc-400 hover:text-white"}`}>
+          <Activity className="w-4 h-4" />
+          <span>Home</span>
+        </Link>
+        <Link href="/dashboard" className={`flex flex-col items-center gap-1 px-3 py-1 rounded-xl transition-colors ${pathname.startsWith("/dashboard") ? "text-emerald-400 font-bold" : "text-zinc-400 hover:text-white"}`}>
+          <User className="w-4 h-4" />
+          <span>Today</span>
+        </Link>
+        <Link href="/ai-coach" className={`flex flex-col items-center gap-1 px-3 py-1 rounded-xl transition-colors ${pathname.startsWith("/ai-coach") ? "text-emerald-400 font-bold" : "text-zinc-400 hover:text-white"}`}>
+          <Zap className="w-4 h-4" />
+          <span>Coach</span>
+        </Link>
+        <Link href="/protocols" className={`flex flex-col items-center gap-1 px-3 py-1 rounded-xl transition-colors ${pathname.startsWith("/protocols") ? "text-emerald-400 font-bold" : "text-zinc-400 hover:text-white"}`}>
+          <Search className="w-4 h-4" />
+          <span>Protocols</span>
+        </Link>
+        <Link href="/onboarding" className={`flex flex-col items-center gap-1 px-3 py-1 rounded-xl transition-colors ${pathname.startsWith("/onboarding") ? "text-emerald-400 font-bold" : "text-zinc-400 hover:text-white"}`}>
+          <User className="w-4 h-4" />
+          <span>Profile</span>
+        </Link>
+      </div>
+
       {/* FLOATING ACTION BUTTON */}
       {!isDashboardRoute && <FloatingActionButton />}
 

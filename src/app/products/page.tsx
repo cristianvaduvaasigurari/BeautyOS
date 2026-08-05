@@ -43,7 +43,7 @@ export default function ProductsPage() {
     {
       id: "p3",
       image: "/images/healthos_hero_products_1784918027747.png",
-      brand: "Dyson Beauty",
+      brand: "Dyson Haircare",
       name: "Airwrap Multi-Styler Complete",
       category: "Devices",
       whoItsFor: "Individuals seeking heat-damage-free styling.",

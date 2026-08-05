@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function ScienceLongevityPage() {
-  const article = getEditorialArticle("science-longevity", "Science", "longevity");
+export default function StaticPage() {
+  const article = editorialContent["science-longevity"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

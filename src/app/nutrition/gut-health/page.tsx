@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function GutHealthPage() {
-  const article = getEditorialArticle("nutrition-gut-health", "Nutrition", "gut-health");
+export default function StaticPage() {
+  const article = editorialContent["nutrition-gut-health"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

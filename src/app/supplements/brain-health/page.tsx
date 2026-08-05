@@ -1,15 +1,20 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function BrainHealthSupplementsPage() {
-  const article = getEditorialArticle("supplements-brain-health", "Supplements", "brain-health");
+export default function Page() {
+  const article = editorialContent["supplements-brain-health"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 
       article={article} 
       backHref="/supplements" 
-      backLabel="Supplements Library" 
+      backLabel="Supplements Hub" 
     />
   );
 }

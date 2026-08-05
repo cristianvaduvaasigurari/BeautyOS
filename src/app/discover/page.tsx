@@ -15,7 +15,7 @@ export default function Page() {
           Discover
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl">
-          Editorial homepage. The latest in beauty, wellness, and scientific research.
+          Editorial homepage. The latest in health, longevity, skincare, fitness, nutrition, and scientific research.
         </p>
       </div>
 

@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function BeginnerSkincarePage() {
-  const article = getEditorialArticle("guides-beginner-skincare", "Guides", "beginner-skincare");
+export default function StaticPage() {
+  const article = editorialContent["guides-beginner-skincare"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

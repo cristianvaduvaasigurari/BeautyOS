@@ -1,15 +1,20 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function ImmuneSupplementsPage() {
-  const article = getEditorialArticle("supplements-immune", "Supplements", "immune");
+export default function Page() {
+  const article = editorialContent["supplements-immune"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 
       article={article} 
       backHref="/supplements" 
-      backLabel="Supplements Library" 
+      backLabel="Supplements Hub" 
     />
   );
 }

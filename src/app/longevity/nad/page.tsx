@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function NADLongevityPage() {
-  const article = getEditorialArticle("longevity-nad", "Longevity", "nad");
+export default function StaticPage() {
+  const article = editorialContent["longevity-nad"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function EveningRoutinePage() {
-  const article = getEditorialArticle("guides-evening-routine", "Guides", "evening-routine");
+export default function StaticPage() {
+  const article = editorialContent["guides-evening-routine"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 

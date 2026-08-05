@@ -1,9 +1,14 @@
 import React from "react";
-import { getEditorialArticle } from "../../../data/editorialContent";
+import { editorialContent } from "../../../data/editorialContent";
 import { EditorialTemplate } from "../../../components/EditorialTemplate";
+import { notFound } from "next/navigation";
 
-export default function MuscleNutritionPage() {
-  const article = getEditorialArticle("nutrition-muscle", "Nutrition", "muscle");
+export default function StaticPage() {
+  const article = editorialContent["nutrition-muscle"];
+
+  if (!article) {
+    notFound();
+  }
 
   return (
     <EditorialTemplate 
