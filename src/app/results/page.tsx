@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowLeft, Award, CheckCircle2, ShieldCheck, Zap, TrendingUp, Sparkles, User, ArrowRight } from "lucide-react";
+import { ArrowLeft, Award, CheckCircle2, ShieldCheck, Zap, TrendingUp } from "lucide-react";
 
 export default function TransformationResultsPage() {
   const transformations = [

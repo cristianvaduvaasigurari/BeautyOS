@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Sparkles, ArrowRight, CheckCircle2, ShieldCheck, Zap, Layers, Activity } from "lucide-react";
+import { ArrowLeft, BookOpen, ArrowRight } from "lucide-react";
 import { editorialContent } from "../../data/editorialContent";
 
 export default function AcademyPage() {
@@ -74,7 +74,7 @@ export default function AcademyPage() {
       <div className="space-y-8">
         <h2 className="text-3xl font-bold text-white tracking-tight border-b border-white/[0.08] pb-4">Latest Authority Masterclasses</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {academyArticles.map((art, idx) => (
+          {academyArticles.map((art) => (
             <Link 
               key={art.id} 
               href={`/${art.category.toLowerCase()}/${art.slug}`}
