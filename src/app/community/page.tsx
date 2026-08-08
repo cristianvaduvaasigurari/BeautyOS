@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { Users, ShieldCheck, Zap, Heart, MessageSquare, Bookmark } from "lucide-react";
+import { Users, Zap, Heart, MessageSquare, Bookmark, BookOpen } from "lucide-react";
 
 export default function CommunityPage() {
   const [activeTab, setActiveTab] = useState<"stories" | "discussions" | "expert">("stories");
@@ -19,37 +19,37 @@ export default function CommunityPage() {
 
   const communityPosts = [
     {
-      author: "Dr. Marcus Vance",
-      role: "Sports Biochemist & Clinical Researcher",
-      avatar: "MV",
-      badge: "Clinical Advisor",
-      title: "90-Day Hypertrophy & Collagen Protocol Results",
-      text: "AiX Health provides the cleanest separation of anabolic stimulus, protein timing, and active dermal recovery I've used in clinical practice. In 90 days, test subjects averaged 3.2kg lean mass gain while lowering systemic CRP.",
-      protocol: "90-Day Muscle Growth",
+      author: "Educational Research Review",
+      role: "Sports Biochemistry & Physiology Literature",
+      avatar: "ER",
+      badge: "Research Review",
+      title: "Hypertrophy Programming & Protein Timing Research",
+      text: "Reviewing muscle protein synthesis literature on leucine threshold distribution, progressive mechanical overload, and recovery signaling in active populations.",
+      protocol: "Muscle Physiology Science",
       likesCount: 142,
       commentsCount: 28,
       category: "expert"
     },
     {
-      author: "Elena Rostova",
-      role: "Biohacking Researcher",
-      avatar: "ER",
-      badge: "Verified Member",
-      title: "NMN + Magnesium Glycinate Sleep Stacking Experiment",
-      text: "Tracking deep sleep duration against supplement stacks in the AiX Health dashboard revealed a 24% increase in slow-wave sleep within 3 weeks of consistent PM dosing.",
-      protocol: "Longevity Protocol",
+      author: "Illustrative Educational Example",
+      role: "Longevity Education",
+      avatar: "EX",
+      badge: "Educational Reference",
+      title: "NMN + Magnesium Glycinate — Educational Review",
+      text: "An illustrative example of how sleep-related outcomes may be discussed when reviewing research on supplement combinations. This example is provided for educational purposes only and does not represent a verified individual, clinical outcome, or personal health result.",
+      protocol: "Longevity Science",
       likesCount: 98,
       commentsCount: 19,
       category: "stories"
     },
     {
-      author: "David Chen",
-      role: "Competitive Athlete",
-      avatar: "DC",
-      badge: "Verified Member",
-      title: "Creatine Monohydrate & Electrolyte Saturation",
-      text: "Saturating 5g creatine monohydrate daily with 500ml electrolyte hydration produced immediate force output increases on heavy squat sessions.",
-      protocol: "Athletic Performance",
+      author: "Educational Discussion",
+      role: "Athletic Performance Science",
+      avatar: "ED",
+      badge: "Discussion Context",
+      title: "Creatine Monohydrate & Intracellular Hydration Literature",
+      text: "Discussing published research on creatine monohydrate loading strategies, phosphocreatine ATP resynthesis, and intracellular osmolality responses in exercise literature.",
+      protocol: "Athletic Science",
       likesCount: 115,
       commentsCount: 14,
       category: "discussions"
@@ -62,13 +62,13 @@ export default function CommunityPage() {
       {/* Header */}
       <div className="max-w-4xl space-y-6 mb-12">
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Users className="w-4 h-4" /> AiX Health Member Community
+          <Users className="w-4 h-4" /> AiX Health Community Research
         </span>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
-          Verified Member Protocols &amp; Intelligence.
+          Educational Discussions &amp; Research Reviews.
         </h1>
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl font-sans">
-          Connect with clinicians, biohackers, and high-performance members sharing empirical bio-feedback, transformation journeys, and stack reviews.
+          Explore scientific literature reviews, educational research topics, and evidence-based health intelligence.
         </p>
 
         {/* Tab selector */}
@@ -83,7 +83,7 @@ export default function CommunityPage() {
                   : "bg-[#101114] text-zinc-400 border border-white/[0.08] hover:text-white"
               }`}
             >
-              {tab === "stories" ? "Transformation Stories" : tab === "discussions" ? "Protocol Discussions" : "Expert Posts"}
+              {tab === "stories" ? "Educational Reviews" : tab === "discussions" ? "Protocol Discussions" : "Literature Overviews"}
             </button>
           ))}
         </div>
@@ -100,7 +100,7 @@ export default function CommunityPage() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-white flex items-center gap-2">
-                    {post.author} <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                    {post.author} <BookOpen className="w-4 h-4 text-emerald-400" />
                   </h4>
                   <p className="text-xs text-zinc-500 font-sans">{post.role}</p>
                 </div>
@@ -117,7 +117,7 @@ export default function CommunityPage() {
             </div>
 
             <div className="pt-4 border-t border-white/[0.06] flex items-center justify-between text-xs font-mono text-zinc-400">
-              <span className="text-emerald-400 font-bold">Protocol: {post.protocol}</span>
+              <span className="text-emerald-400 font-bold">Topic: {post.protocol}</span>
 
               <div className="flex items-center gap-4">
                 <button 
@@ -147,13 +147,13 @@ export default function CommunityPage() {
 
       {/* CTA Box */}
       <div className="max-w-4xl p-12 rounded-[40px] bg-gradient-to-br from-[#101114] to-[#0A0A0A] border border-emerald-500/30 text-center space-y-6">
-        <h2 className="text-3xl font-bold text-white">Share Your AiX Health Transformation</h2>
+        <h2 className="text-3xl font-bold text-white">Explore Educational Health Intelligence</h2>
         <p className="text-sm text-zinc-400 max-w-md mx-auto font-sans">
-          Log your check-ins in the dashboard, generate your health score, and submit your verified routine to the community.
+          Access evidence-based educational frameworks, scientific research breakdowns, and transparent methodology.
         </p>
         <div className="flex justify-center gap-4">
-          <Link href="/dashboard" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20 flex items-center gap-2">
-            <Zap className="w-4 h-4" /> Open Member Dashboard
+          <Link href="/protocols" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20 flex items-center gap-2">
+            <Zap className="w-4 h-4" /> Explore Educational Protocols
           </Link>
         </div>
       </div>

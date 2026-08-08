@@ -15,10 +15,10 @@ export default function AdminDashboardPage() {
   ];
 
   const mockUsers = [
-    { name: "Alex Morgan", email: "alex@example.com", tier: "AiX Health Pro", goal: "Build Muscle", healthScore: 92, status: "Active" },
-    { name: "Elena Rostova", email: "elena@example.com", tier: "AiX Health Elite", goal: "Improve Skin", healthScore: 88, status: "Active" },
-    { name: "Marcus Vance", email: "marcus@example.com", tier: "AiX Health Pro", goal: "Lose Fat", healthScore: 85, status: "Active" },
-    { name: "David Kim", email: "david@example.com", tier: "Free Tier", goal: "Longevity", healthScore: 78, status: "Trialing" }
+    { name: "User #1042", email: "user1042@example.com", tier: "AiX Health Pro", goal: "Build Muscle", healthScore: 92, status: "Active" },
+    { name: "User #1043", email: "user1043@example.com", tier: "AiX Health Elite", goal: "Improve Skin", healthScore: 88, status: "Active" },
+    { name: "User #1044", email: "user1044@example.com", tier: "AiX Health Pro", goal: "Lose Fat", healthScore: 85, status: "Active" },
+    { name: "User #1045", email: "user1045@example.com", tier: "Free Tier", goal: "Longevity", healthScore: 78, status: "Trialing" }
   ];
 
   return (

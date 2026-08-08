@@ -2,39 +2,48 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowLeft, Award, CheckCircle2, ShieldCheck, Zap, TrendingUp } from "lucide-react";
+import { ArrowLeft, Award, CheckCircle2, BookOpen, ShieldAlert } from "lucide-react";
 
 export default function TransformationResultsPage() {
-  const transformations = [
+  const educationalExamples = [
     {
-      name: "Marcus Vance",
-      age: 34,
-      role: "Software Executive",
-      protocol: "90-Day Muscle Hypertrophy & Creatine Saturation",
-      beforeMetric: "74.2 kg (19.8% Body Fat)",
-      afterMetric: "81.5 kg (13.5% Body Fat)",
-      outcomes: ["+7.3 kg Lean Skeletal Muscle Mass", "-6.3% Visceral Body Fat", "+24% Intracellular Hydration Index"],
-      quote: "Tracking protein synthesis timing and creatine phosphocreatine loading in AiX Health delivered the most significant physique change of my life."
+      title: "Illustrative Educational Example 01",
+      subtitle: "Skeletal Muscle Physiology & Intracellular Saturation",
+      framework: "Muscle Physiology Education",
+      evidenceLevel: "Educational reference only",
+      summary: "Research literature evaluates phosphocreatine loading and high-protein distribution in active cohorts over 8–12 weeks.",
+      observations: [
+        "Studies observe intracellular hydration responses during creatine saturation phases.",
+        "Literature evaluates protein intake thresholds (~1.6–2.2g/kg) for supporting nitrogen balance.",
+        "Progressive mechanical tension serves as the primary driver for myofibrillar adaptations."
+      ],
+      disclaimer: "This example is provided for educational purposes only. It does not represent a verified individual, clinical outcome, medical recommendation, treatment protocol, or personal health result."
     },
     {
-      name: "Elena Rostova",
-      age: 29,
-      role: "Biohacking Researcher",
-      protocol: "90-Day Dermal Barrier & Sleep Architecture Reset",
-      beforeMetric: "Severe Acne & Sleep Score 62",
-      afterMetric: "Clear Skin & Sleep Score 94",
-      outcomes: ["100% Elimination of Inflammatory Comedones", "+28% Deep REM Sleep Duration", "Restored Stratum Corneum Barrier Matrix"],
-      quote: "Discontinuing harsh active exfoliants and layering ceramides with PM chelated magnesium completely cleared my hormonal skin within 8 weeks."
+      title: "Illustrative Educational Example 02",
+      subtitle: "NMN + Magnesium Glycinate — Educational Review",
+      framework: "Longevity & Circadian Education",
+      evidenceLevel: "Educational reference only",
+      summary: "An illustrative example of how sleep-related outcomes and circadian parameters may be discussed when reviewing research on supplement combinations.",
+      observations: [
+        "Research literature examines how chelated magnesium forms (such as Magnesium Glycinate) support neuromuscular relaxation and slow-wave sleep architecture.",
+        "NADH/NAD+ substrate mechanisms are studied in daytime mitochondrial energetic literature.",
+        "Circadian entrainment protocols evaluate sleep hygiene factors alongside dietary supplementation."
+      ],
+      disclaimer: "This example is provided for educational purposes only. It does not represent a verified individual, clinical outcome, medical recommendation, treatment protocol, or personal health result."
     },
     {
-      name: "David Chen",
-      age: 31,
-      role: "Competitive Triathlete",
-      protocol: "90-Day Metabolic Fat Loss & VO2 Max Protocol",
-      beforeMetric: "88.0 kg (22.5% Body Fat)",
-      afterMetric: "76.0 kg (11.2% Body Fat)",
-      outcomes: ["-12.0 kg Fat Mass Reduction", "+14.2% VO2 Max Aerobic Base", "Zero Muscle Tissue Degradation"],
-      quote: "Maintaining 2.2g/kg protein density during a 500 kcal deficit allowed me to shed 12kg of fat while increasing my power output."
+      title: "Illustrative Educational Example 03",
+      subtitle: "Dermal Barrier Integrity & Lipid Reset",
+      framework: "Dermal Physiology Education",
+      evidenceLevel: "Educational reference only",
+      summary: "Research literature evaluates stratum corneum lipid restoration when gentle cleansing is paired with ceramide and niacinamide topicals.",
+      observations: [
+        "Studies measure trans-epidermal water loss (TEWL) reduction following lipid barrier restoration.",
+        "Exfoliant restriction strategies are evaluated in clinical trials for sensitive or compromised skin barriers.",
+        "Systemic inflammation modulation (e.g. Omega-3 EPA/DHA research) is reviewed for skin hydration markers."
+      ],
+      disclaimer: "This example is provided for educational purposes only. It does not represent a verified individual, clinical outcome, medical recommendation, treatment protocol, or personal health result."
     }
   ];
 
@@ -48,65 +57,56 @@ export default function TransformationResultsPage() {
         </Link>
         
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Award className="w-4 h-4 text-emerald-400" /> Empirical Transformation Results
+          <Award className="w-4 h-4 text-emerald-400" /> Illustrative Educational Frameworks
         </span>
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
-          Real Member Data. <br />
-          <span className="text-emerald-400">Compounding Outcomes.</span>
+          Educational Case Studies &amp; <br />
+          <span className="text-emerald-400">Literature Synthesis.</span>
         </h1>
 
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl font-sans">
-          Verified member case studies documenting before/after metrics, protocol adherence, lean mass evolution, and dermal barrier recovery.
+          Illustrative educational examples demonstrating how research literature evaluates biological parameters such as body composition, sleep architecture, and dermal barrier markers.
         </p>
       </div>
 
-      {/* Transformations Grid */}
+      {/* Educational Examples Grid */}
       <div className="space-y-12 max-w-5xl mb-20">
-        {transformations.map((t, idx) => (
+        {educationalExamples.map((ex, idx) => (
           <div key={idx} className="p-10 sm:p-12 rounded-[44px] bg-gradient-to-br from-[#101114] via-[#141519] to-[#0A0A0A] border border-emerald-500/30 space-y-8 shadow-2xl relative overflow-hidden">
             
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/[0.08] pb-6">
               <div>
-                <h3 className="text-2xl font-bold text-white flex items-center gap-2">
-                  {t.name} <ShieldCheck className="w-5 h-5 text-emerald-400" />
-                </h3>
-                <p className="text-xs text-zinc-400 font-sans mt-0.5">{t.role} • Age {t.age}</p>
+                <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">{ex.title}</span>
+                <h3 className="text-2xl font-bold text-white mt-1">{ex.subtitle}</h3>
+                <p className="text-xs text-zinc-400 font-sans mt-0.5">{ex.framework}</p>
               </div>
               <span className="px-3.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold uppercase w-fit">
-                {t.protocol}
+                {ex.evidenceLevel}
               </span>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="p-6 rounded-3xl bg-[#0A0A0A] border border-white/[0.06] space-y-2">
-                <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 font-bold">Baseline Metric (Day 1)</span>
-                <p className="text-xl font-bold font-mono text-zinc-300">{t.beforeMetric}</p>
-              </div>
-
-              <div className="p-6 rounded-3xl bg-emerald-950/30 border border-emerald-500/30 space-y-2">
-                <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">Outcome Metric (Day 90)</span>
-                <p className="text-xl font-bold font-mono text-white flex items-center gap-2">
-                  {t.afterMetric} <TrendingUp className="w-5 h-5 text-emerald-400" />
-                </p>
-              </div>
+            <div className="p-6 rounded-3xl bg-[#0A0A0A] border border-white/[0.06] space-y-2">
+              <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 font-bold">Research Summary Context</span>
+              <p className="text-sm text-zinc-300 leading-relaxed font-sans">{ex.summary}</p>
             </div>
 
             <div className="space-y-3 pt-2">
-              <span className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Verified Biological Outcomes:</span>
+              <span className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Key Literature Observations:</span>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                {t.outcomes.map((o, i) => (
-                  <div key={i} className="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] flex items-center gap-2 text-xs text-zinc-200 font-sans">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                    <span>{o}</span>
+                {ex.observations.map((obs, i) => (
+                  <div key={i} className="p-4 rounded-2xl bg-white/[0.02] border border-white/[0.06] flex items-start gap-2 text-xs text-zinc-300 font-sans">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                    <span>{obs}</span>
                   </div>
                 ))}
               </div>
             </div>
 
-            <p className="text-sm text-zinc-300 italic font-sans border-l-2 border-emerald-500 pl-4 py-1">
-              &quot;{t.quote}&quot;
-            </p>
+            <div className="p-4 rounded-2xl bg-emerald-950/20 border border-emerald-500/20 text-xs text-zinc-400 font-sans flex items-start gap-2.5">
+              <ShieldAlert className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+              <p>{ex.disclaimer}</p>
+            </div>
 
           </div>
         ))}
@@ -114,13 +114,13 @@ export default function TransformationResultsPage() {
 
       {/* CTA Box */}
       <div className="max-w-5xl p-12 rounded-[40px] bg-gradient-to-br from-[#101114] to-[#0A0A0A] border border-emerald-500/30 text-center space-y-6">
-        <h2 className="text-3xl font-bold text-white">Start Your 90-Day Transformation Journey</h2>
+        <h2 className="text-3xl font-bold text-white">Explore Educational Health Protocols</h2>
         <p className="text-sm text-zinc-400 max-w-md mx-auto font-sans">
-          Build your personalized profile, access evidence-based protocols, and track your compounding outcomes over time.
+          Access evidence-based educational frameworks, scientific literature syntheses, and transparent health intelligence.
         </p>
         <div className="flex justify-center gap-4">
-          <Link href="/onboarding" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20 flex items-center gap-2">
-            <Zap className="w-4 h-4" /> Start AiX Health Onboarding
+          <Link href="/protocols" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20 flex items-center gap-2">
+            <BookOpen className="w-4 h-4" /> Explore Educational Protocols
           </Link>
         </div>
       </div>

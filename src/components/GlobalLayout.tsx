@@ -290,15 +290,15 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
       ]
     },
     Community: {
-      title: "AiX Health Member Community",
-      subtitle: "Verified protocol sharing, expert Q&A, and user metrics.",
+      title: "AiX Health Community Research",
+      subtitle: "Educational protocol sharing, research literature reviews, and science Q&A.",
       columns: [
         {
           title: "Community Access",
           links: [
             { label: "Community Hub", href: "/community" },
             { label: "Protocol Discussions", href: "/community#discussions" },
-            { label: "Verified Member Reviews", href: "/community#reviews" },
+            { label: "Community Research Reviews", href: "/community#reviews" },
             { label: "Talk with an Expert", href: "/contact" }
           ]
         }
