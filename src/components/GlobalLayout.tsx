@@ -573,31 +573,39 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
 
             {/* MOBILE ECOSYSTEM SECTION */}
-            <div className="pt-4 border-t border-white/[0.08] space-y-3">
+            <div className="pt-4 border-t border-white/[0.08] space-y-4">
               <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h5>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                {ECOSYSTEM_CONFIG.map((item) => (
-                  <a
-                    key={item.id}
-                    href={item.href}
-                    target={item.target}
-                    rel={item.rel}
-                    onClick={() => {
-                      setMobileMenuOpen(false);
-                      sendTelemetryEvent({
-                        event: "ECOSYSTEM_CLICK",
-                        sourceRoute: pathname,
-                        category: item.category,
-                        metadata: { service: item.name, href: item.href },
-                      });
-                    }}
-                    className="p-2.5 rounded-xl bg-zinc-900/40 border border-white/[0.06] flex items-center justify-between text-zinc-300 hover:text-emerald-400"
-                  >
-                    <span className="font-semibold">{item.name}</span>
-                    <span className="text-[10px] text-zinc-500 font-mono">{item.category}</span>
-                  </a>
-                ))}
-              </div>
+              {(["INTELLIGENCE", "FINANCE", "REAL ESTATE", "MEDIA", "PERSONAL"] as const).map((cat) => {
+                const items = ECOSYSTEM_CONFIG.filter((item) => item.category === cat);
+                return (
+                  <div key={cat} className="space-y-2">
+                    <h6 className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 font-bold">{cat}</h6>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                      {items.map((item) => (
+                        <a
+                          key={item.id}
+                          href={item.href}
+                          target={item.target}
+                          rel={item.rel}
+                          onClick={() => {
+                            setMobileMenuOpen(false);
+                            sendTelemetryEvent({
+                              event: "ECOSYSTEM_CLICK",
+                              sourceRoute: pathname,
+                              category: item.category,
+                              metadata: { service: item.name, href: item.href },
+                            });
+                          }}
+                          className="p-2.5 rounded-xl bg-zinc-900/40 border border-white/[0.06] flex items-center justify-between text-zinc-300 hover:text-emerald-400"
+                        >
+                          <span className="font-semibold">{item.name}</span>
+                          <span className="text-[10px] text-zinc-500 font-mono">{item.description}</span>
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
 
             <div className="pt-4 border-t border-white/[0.08] flex flex-col gap-3">

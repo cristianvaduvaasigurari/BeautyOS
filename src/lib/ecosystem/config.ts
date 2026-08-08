@@ -83,17 +83,6 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
 
   // REAL ESTATE
   {
-    id: "real-estate",
-    name: "REAL ESTATE",
-    category: "REAL ESTATE",
-    description: "Real Estate Advisory & Property Intelligence",
-    href: "https://cristianvaduva.com/real-estate",
-    external: true,
-    target: "_blank",
-    rel: "noopener noreferrer",
-    verified: true,
-  },
-  {
     id: "homefind",
     name: "HomeFind",
     category: "REAL ESTATE",
@@ -118,11 +107,11 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
 
   // MEDIA
   {
-    id: "media",
-    name: "MEDIA",
+    id: "aix-media",
+    name: "AiX Media",
     category: "MEDIA",
-    description: "Media & Content Intelligence",
-    href: "https://cristianvaduva.com/media",
+    description: "Media & Information Ecosystem",
+    href: "https://aixmedia.cristianvaduva.com",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",
