@@ -2,8 +2,8 @@ import { TelegramNotificationPayload } from './types';
 
 /**
  * Server-side Telegram Notification Service
- * Sends structured events to Telegram bot.
- * NEVER exposes secrets to client-side.
+ * Formats and dispatches visitor intelligence and high-intent alerts to Telegram.
+ * NEVER exposes secrets to client-side code.
  */
 export async function sendTelegramNotification(
   payload: TelegramNotificationPayload
@@ -13,34 +13,52 @@ export async function sendTelegramNotification(
     const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 
     if (!TELEGRAM_BOT_TOKEN || !TELEGRAM_CHAT_ID) {
-      console.warn('[Telegram Notify] TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID missing in environment variables.');
+      console.warn('[Telegram Notify] TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID missing in server env.');
       return false;
     }
 
-    let icon = '🔔';
+    let headerTitle = 'HEALTHOS EVENT';
+    let icon = '📊';
+
     switch (payload.event) {
-      case 'LEAD_SUBMISSION':
-      case 'FORM_SUBMISSION':
-      case 'CONTACT_REQUEST':
-        icon = '🆕';
+      case 'VISITOR_SESSION_STARTED':
+        headerTitle = 'HEALTHOS — NEW VISITOR';
+        icon = '🟢';
         break;
-      case 'ELIGIBILITY_COMPLETED':
-        icon = '✅';
+      case 'VISITOR_PAGE_VIEW':
+        headerTitle = 'HEALTHOS — VISITOR NAVIGATION';
+        icon = '👁️';
         break;
       case 'AI_HIGH_INTENT':
+        headerTitle = 'HEALTHOS — HIGH INTENT';
         icon = '⚡';
         break;
       case 'ECOSYSTEM_CLICK':
+        headerTitle = 'AIX ECOSYSTEM CLICK';
         icon = '🌐';
         break;
-      case 'VISITOR_PAGE_VIEW':
-        icon = '👁️';
+      case 'CONTACT_REQUEST':
+      case 'LEAD_SUBMISSION':
+      case 'FORM_SUBMISSION':
+        headerTitle = 'HEALTHOS — LEAD / FORM SUBMISSION';
+        icon = '🔥';
+        break;
+      case 'ELIGIBILITY_COMPLETED':
+        headerTitle = 'HEALTHOS — ELIGIBILITY COMPLETED';
+        icon = '✅';
+        break;
+      case 'VISITOR_PRODUCT_VIEW':
+      case 'VISITOR_PROGRAM_VIEW':
+        headerTitle = 'HEALTHOS — HIGH-VALUE PRODUCT / PROGRAM VIEW';
+        icon = '💊';
         break;
       case 'VISITOR_SEARCH':
+        headerTitle = 'HEALTHOS — VISITOR SEARCH';
         icon = '🔍';
         break;
       default:
-        icon = '📊';
+        headerTitle = `HEALTHOS — ${payload.event}`;
+        icon = '📌';
     }
 
     let fieldsText = '';
@@ -50,14 +68,22 @@ export async function sendTelegramNotification(
         .join('\n');
     }
 
+    let journeyText = '';
+    if (payload.journey && payload.journey.length > 0) {
+      journeyText = `\n<b>Recent Journey:</b>\n` + payload.journey.map((step, idx) => `${idx + 1}. <code>${step}</code>`).join('\n');
+    }
+
     const text = `
-━━━━━━━━━━━━━━
-${icon} <b>AiX HEALTH EVENT: ${payload.event}</b>
-━━━━━━━━━━━━━━
-<b>Source Route:</b> <code>${payload.sourceRoute}</code>
-${payload.category ? `<b>Category:</b> ${payload.category}\n` : ''}<b>Session:</b> <code>${payload.anonymousSessionId || 'N/A'}</code>
-<b>Timestamp:</b> ${payload.timestamp}${fieldsText}
-━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
+${icon} <b>${headerTitle}</b>
+━━━━━━━━━━━━━━━━━━
+
+<b>Visitor:</b> <code>${payload.anonymousSessionId || 'visitor_anon'}</code>
+${payload.pageTitle ? `<b>Page:</b> ${payload.pageTitle}\n` : ''}<b>Route:</b> <code>${payload.sourceRoute}</code>
+${payload.previousPage ? `<b>Previous Page:</b> <code>${payload.previousPage}</code>\n` : ''}${payload.category ? `<b>Category:</b> ${payload.category}\n` : ''}${payload.sessionDuration ? `<b>Session Duration:</b> ${payload.sessionDuration}\n` : ''}${payload.referrerSource ? `<b>Source:</b> ${payload.referrerSource}\n` : ''}<b>Event:</b> <code>${payload.event}</code>
+<b>Time:</b> ${payload.timestamp}${fieldsText}${journeyText}
+
+━━━━━━━━━━━━━━━━━━
 `;
 
     const telegramUrl = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;

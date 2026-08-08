@@ -1,57 +1,133 @@
 /**
  * Client-Side Telemetry & Visitor Intelligence Helper
- * Handles anonymous session persistence, anti-spam throttling, page tracking & ecosystem click tracking.
+ * Anonymous session management, journey tracking, traffic source detection & anti-spam throttling.
  */
 
-export function getOrCreateAnonymousSessionId(): string {
-  if (typeof window === "undefined") return "visitor_server";
+import { TelegramEventType } from "../telegram/types";
+
+export function getOrCreateAnonymousSession(): {
+  sessionId: string;
+  isNewSession: boolean;
+  startTime: number;
+} {
+  if (typeof window === "undefined") {
+    return { sessionId: "visitor_server", isNewSession: false, startTime: Date.now() };
+  }
+
   try {
-    let session = localStorage.getItem("aix_visitor_session");
-    if (!session) {
+    let sessionData = sessionStorage.getItem("aix_visitor_session_data");
+    let isNewSession = false;
+
+    if (!sessionData) {
       const rand = Math.random().toString(36).substring(2, 7).toUpperCase();
-      session = `visitor_${rand}`;
-      localStorage.setItem("aix_visitor_session", session);
+      const sessionId = `visitor_${rand}`;
+      const startTime = Date.now();
+      sessionData = JSON.stringify({ sessionId, startTime });
+      sessionStorage.setItem("aix_visitor_session_data", sessionData);
+      isNewSession = true;
     }
-    return session;
+
+    const parsed = JSON.parse(sessionData);
+    return {
+      sessionId: parsed.sessionId || "visitor_anon",
+      isNewSession,
+      startTime: parsed.startTime || Date.now(),
+    };
   } catch {
-    return "visitor_anon";
+    return { sessionId: "visitor_anon", isNewSession: false, startTime: Date.now() };
   }
 }
 
-interface TelemetryEventPayload {
-  event:
-    | "VISITOR_PAGE_VIEW"
-    | "VISITOR_SEARCH"
-    | "VISITOR_PROGRAM_VIEW"
-    | "ECOSYSTEM_CLICK"
-    | "AI_HIGH_INTENT"
-    | "RESOURCE_DOWNLOAD"
-    | "ELIGIBILITY_COMPLETED";
+export function updateAndGetJourney(currentRoute: string): { journey: string[]; previousPage: string } {
+  if (typeof window === "undefined") return { journey: [currentRoute], previousPage: "" };
+
+  try {
+    let journey: string[] = JSON.parse(sessionStorage.getItem("aix_visitor_journey") || "[]");
+    const previousPage = journey.length > 0 ? journey[journey.length - 1] : "";
+
+    // Append current route if different from last
+    if (journey[journey.length - 1] !== currentRoute) {
+      journey.push(currentRoute);
+      if (journey.length > 5) {
+        journey = journey.slice(-5); // Keep last 5 pages
+      }
+      sessionStorage.setItem("aix_visitor_journey", JSON.stringify(journey));
+    }
+
+    return { journey, previousPage };
+  } catch {
+    return { journey: [currentRoute], previousPage: "" };
+  }
+}
+
+export function detectTrafficSource(): string {
+  if (typeof window === "undefined") return "DIRECT";
+
+  try {
+    const referrer = document.referrer;
+    if (!referrer) return "DIRECT";
+
+    const url = new URL(referrer);
+    const host = url.hostname.toLowerCase();
+
+    if (host.includes("google")) return "GOOGLE";
+    if (host.includes("instagram")) return "INSTAGRAM";
+    if (host.includes("facebook")) return "FACEBOOK";
+    if (host.includes("linkedin")) return "LINKEDIN";
+    if (host.includes("t.me") || host.includes("telegram")) return "TELEGRAM";
+    if (host.includes("twitter") || host.includes("x.com")) return "TWITTER";
+
+    return host.toUpperCase();
+  } catch {
+    return "DIRECT";
+  }
+}
+
+export function formatSessionDuration(startTime: number): string {
+  const elapsedSec = Math.floor((Date.now() - startTime) / 1000);
+  const minutes = Math.floor(elapsedSec / 60);
+  const seconds = elapsedSec % 60;
+  return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+
+export interface TelemetryEventPayload {
+  event: TelegramEventType;
   sourceRoute: string;
   category?: string;
+  pageTitle?: string;
   metadata?: Record<string, unknown>;
 }
 
-// In-memory throttling cache to prevent duplicate notifications
+// Client-side throttling cache
 const lastEventCache: Record<string, number> = {};
-const COOLDOWN_MS = 60000; // 60 seconds per unique route/event key
+const COOLDOWN_PAGE_VIEW_MS = 60000; // 60 seconds for same page view
+const COOLDOWN_MEDIUM_MS = 15000; // 15 seconds for medium-intent events
 
 export async function sendTelemetryEvent(payload: TelemetryEventPayload): Promise<void> {
   if (typeof window === "undefined") return;
 
-  const eventKey = `${payload.event}:${payload.sourceRoute}:${payload.category || ""}`;
+  const { sessionId, isNewSession, startTime } = getOrCreateAnonymousSession();
+  const { journey, previousPage } = updateAndGetJourney(payload.sourceRoute);
+  const referrerSource = detectTrafficSource();
+  const sessionDuration = formatSessionDuration(startTime);
+
+  const eventKey = `${payload.event}:${payload.sourceRoute}`;
   const now = Date.now();
 
-  // Throttle ordinary page views heavily to avoid Telegram spam
-  if (payload.event === "VISITOR_PAGE_VIEW") {
+  // Throttling rules on client side
+  if (payload.event === "VISITOR_PAGE_VIEW" && !isNewSession) {
     const lastSent = lastEventCache[eventKey] || 0;
-    if (now - lastSent < COOLDOWN_MS) {
-      return; // Cooldown active, skip duplicate tracking call
+    if (now - lastSent < COOLDOWN_PAGE_VIEW_MS) {
+      return; // Cooldown active for exact same page refresh
+    }
+    lastEventCache[eventKey] = now;
+  } else if (payload.event === "ECOSYSTEM_CLICK" || payload.event === "VISITOR_PRODUCT_VIEW") {
+    const lastSent = lastEventCache[eventKey] || 0;
+    if (now - lastSent < COOLDOWN_MEDIUM_MS) {
+      return;
     }
     lastEventCache[eventKey] = now;
   }
-
-  const anonymousSessionId = getOrCreateAnonymousSessionId();
 
   try {
     await fetch("/api/telemetry", {
@@ -61,7 +137,12 @@ export async function sendTelemetryEvent(payload: TelemetryEventPayload): Promis
       },
       body: JSON.stringify({
         ...payload,
-        anonymousSessionId,
+        anonymousSessionId: sessionId,
+        isNewSession,
+        journey,
+        previousPage,
+        referrerSource,
+        sessionDuration,
         timestamp: new Date().toISOString(),
       }),
     });
