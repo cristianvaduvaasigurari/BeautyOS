@@ -1,4 +1,17 @@
-export const ECOSYSTEM_CONFIG = [
+export interface EcosystemItem {
+  id: string;
+  name: string;
+  category: "INTELLIGENCE" | "FINANCE" | "REAL ESTATE" | "MEDIA" | "PERSONAL";
+  description: string;
+  href: string;
+  external: boolean;
+  target?: string;
+  rel?: string;
+  verified: boolean;
+}
+
+export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
+  // INTELLIGENCE
   {
     id: "os",
     name: "OS",
@@ -33,6 +46,19 @@ export const ECOSYSTEM_CONFIG = [
     verified: true,
   },
   {
+    id: "market-pulse",
+    name: "Market Pulse",
+    category: "INTELLIGENCE",
+    description: "Market & Economic Intelligence",
+    href: "https://cristianvaduva.com/market-pulse",
+    external: true,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    verified: true,
+  },
+
+  // FINANCE
+  {
     id: "credite",
     name: "Credite",
     category: "FINANCE",
@@ -54,10 +80,23 @@ export const ECOSYSTEM_CONFIG = [
     rel: "noopener noreferrer",
     verified: true,
   },
+
+  // REAL ESTATE
+  {
+    id: "real-estate",
+    name: "REAL ESTATE",
+    category: "REAL ESTATE",
+    description: "Real Estate Advisory & Property Intelligence",
+    href: "https://cristianvaduva.com/real-estate",
+    external: true,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    verified: true,
+  },
   {
     id: "homefind",
     name: "HomeFind",
-    category: "REAL_ESTATE",
+    category: "REAL ESTATE",
     description: "Real Estate Intelligence",
     href: "https://homefind.cristianvaduva.com",
     external: true,
@@ -68,7 +107,7 @@ export const ECOSYSTEM_CONFIG = [
   {
     id: "aixluxury",
     name: "AiX Luxury",
-    category: "REAL_ESTATE",
+    category: "REAL ESTATE",
     description: "Luxury Real Estate Intelligence",
     href: "https://aixluxury.com",
     external: true,
@@ -76,28 +115,30 @@ export const ECOSYSTEM_CONFIG = [
     rel: "noopener noreferrer",
     verified: true,
   },
+
+  // MEDIA
   {
-    id: "marketpulse",
-    name: "Market Pulse",
-    category: "INTELLIGENCE",
-    description: "Market & Economic Intelligence",
-    href: "https://cristianvaduva.com/market-pulse",
+    id: "media",
+    name: "MEDIA",
+    category: "MEDIA",
+    description: "Media & Content Intelligence",
+    href: "https://cristianvaduva.com/media",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",
     verified: true,
   },
+
+  // PERSONAL
   {
     id: "cristian",
     name: "Cristian Văduva",
     category: "PERSONAL",
-    description: "Personal Brand",
+    description: "Personal Brand & Advisory",
     href: "https://cristianvaduva.com",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",
     verified: true,
-  }
-] as const;
-
-export type EcosystemItem = typeof ECOSYSTEM_CONFIG[number];
+  },
+];

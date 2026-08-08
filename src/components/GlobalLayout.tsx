@@ -453,34 +453,27 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                         <ul className="space-y-3 text-sm">
                           {items.map((item) => (
                             <li key={item.id}>
-                              {item.verified ? (
-                                <a
-                                  href={item.href}
-                                  target={item.target}
-                                  rel={item.rel}
-                                  onClick={() => {
-                                    setActiveMegaMenu(null);
-                                    sendTelemetryEvent({
-                                      event: "ECOSYSTEM_CLICK",
-                                      sourceRoute: pathname,
-                                      category: item.category,
-                                      metadata: { service: item.name, href: item.href },
-                                    });
-                                  }}
-                                  className="text-zinc-300 hover:text-emerald-400 transition-colors flex items-center justify-between group"
-                                >
-                                  <div>
-                                    <span className="font-semibold block">{item.name}</span>
-                                    <span className="text-[10px] text-zinc-500 block font-sans">{item.description}</span>
-                                  </div>
-                                  <ChevronRight className="w-3 h-3 text-zinc-600 group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
-                                </a>
-                              ) : (
-                                <div className="opacity-50 cursor-not-allowed">
-                                  <span className="font-semibold block text-zinc-400">{item.name}</span>
-                                  <span className="text-[10px] text-zinc-500 block font-sans">AiX Media: NOT VERIFIED — NOT LINKED</span>
+                              <a
+                                href={item.href}
+                                target={item.target}
+                                rel={item.rel}
+                                onClick={() => {
+                                  setActiveMegaMenu(null);
+                                  sendTelemetryEvent({
+                                    event: "ECOSYSTEM_CLICK",
+                                    sourceRoute: pathname,
+                                    category: item.category,
+                                    metadata: { service: item.name, href: item.href },
+                                  });
+                                }}
+                                className="text-zinc-300 hover:text-emerald-400 transition-colors flex items-center justify-between group"
+                              >
+                                <div>
+                                  <span className="font-semibold block">{item.name}</span>
+                                  <span className="text-[10px] text-zinc-500 block font-sans">{item.description}</span>
                                 </div>
-                              )}
+                                <ChevronRight className="w-3 h-3 text-zinc-600 group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
+                              </a>
                             </li>
                           ))}
                         </ul>
@@ -584,32 +577,25 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h5>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                 {ECOSYSTEM_CONFIG.map((item) => (
-                  item.verified ? (
-                    <a
-                      key={item.id}
-                      href={item.href}
-                      target={item.target}
-                      rel={item.rel}
-                      onClick={() => {
-                        setMobileMenuOpen(false);
-                        sendTelemetryEvent({
-                          event: "ECOSYSTEM_CLICK",
-                          sourceRoute: pathname,
-                          category: item.category,
-                          metadata: { service: item.name, href: item.href },
-                        });
-                      }}
-                      className="p-2.5 rounded-xl bg-zinc-900/40 border border-white/[0.06] flex items-center justify-between text-zinc-300 hover:text-emerald-400"
-                    >
-                      <span className="font-semibold">{item.name}</span>
-                      <span className="text-[10px] text-zinc-500 font-mono">{item.category}</span>
-                    </a>
-                  ) : (
-                    <div key={item.id} className="p-2.5 rounded-xl bg-zinc-900/20 border border-white/[0.04] text-zinc-500 opacity-50 flex items-center justify-between">
-                      <span className="font-semibold">AiX Media</span>
-                      <span className="text-[9px] font-mono">UNVERIFIED</span>
-                    </div>
-                  )
+                  <a
+                    key={item.id}
+                    href={item.href}
+                    target={item.target}
+                    rel={item.rel}
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      sendTelemetryEvent({
+                        event: "ECOSYSTEM_CLICK",
+                        sourceRoute: pathname,
+                        category: item.category,
+                        metadata: { service: item.name, href: item.href },
+                      });
+                    }}
+                    className="p-2.5 rounded-xl bg-zinc-900/40 border border-white/[0.06] flex items-center justify-between text-zinc-300 hover:text-emerald-400"
+                  >
+                    <span className="font-semibold">{item.name}</span>
+                    <span className="text-[10px] text-zinc-500 font-mono">{item.category}</span>
+                  </a>
                 ))}
               </div>
             </div>
@@ -777,27 +763,22 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               <ul className="space-y-2 text-xs text-zinc-400">
                 {ECOSYSTEM_CONFIG.map((item) => (
                   <li key={item.id}>
-                    {item.verified ? (
-                      <a
-                        href={item.href}
-                        target={item.target}
-                        rel={item.rel}
-                        onClick={() => {
-                          sendTelemetryEvent({
-                            event: "ECOSYSTEM_CLICK",
-                            sourceRoute: pathname,
-                            category: item.category,
-                            metadata: { service: item.name, href: item.href },
-                          });
-                        }}
-                        className="hover:text-white transition-colors flex items-center justify-between"
-                      >
-                        <span>{item.name}</span>
-                        <span className="text-[9px] text-zinc-600 font-mono">{item.category[0]}</span>
-                      </a>
-                    ) : (
-                      <span className="text-zinc-600 cursor-not-allowed">{item.name}</span>
-                    )}
+                    <a
+                      href={item.href}
+                      target={item.target}
+                      rel={item.rel}
+                      onClick={() => {
+                        sendTelemetryEvent({
+                          event: "ECOSYSTEM_CLICK",
+                          sourceRoute: pathname,
+                          category: item.category,
+                          metadata: { service: item.name, href: item.href },
+                        });
+                      }}
+                      className="hover:text-white transition-colors block"
+                    >
+                      <span>{item.name}</span>
+                    </a>
                   </li>
                 ))}
               </ul>

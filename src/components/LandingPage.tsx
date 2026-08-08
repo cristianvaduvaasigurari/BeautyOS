@@ -321,11 +321,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                   <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/20">
                     {service.category}
                   </span>
-                  {service.verified ? (
-                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  ) : (
-                    <span className="text-[9px] font-mono text-zinc-600">UNVERIFIED</span>
-                  )}
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                 </div>
 
                 <div>
@@ -339,29 +335,23 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               </div>
 
               <div className="pt-6 mt-6 border-t border-white/[0.06]">
-                {service.verified ? (
-                  <a
-                    href={service.href}
-                    target={service.target}
-                    rel={service.rel}
-                    onClick={() => {
-                      sendTelemetryEvent({
-                        event: "ECOSYSTEM_CLICK",
-                        sourceRoute: "/",
-                        category: service.category,
-                        metadata: { service: service.name, href: service.href },
-                      });
-                    }}
-                    className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 font-bold hover:underline"
-                  >
-                    <span>Launch Destination</span>
-                    <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                  </a>
-                ) : (
-                  <span className="text-xs font-mono text-zinc-600 cursor-not-allowed">
-                    AiX Media: NOT VERIFIED — NOT LINKED
-                  </span>
-                )}
+                <a
+                  href={service.href}
+                  target={service.target}
+                  rel={service.rel}
+                  onClick={() => {
+                    sendTelemetryEvent({
+                      event: "ECOSYSTEM_CLICK",
+                      sourceRoute: "/",
+                      category: service.category,
+                      metadata: { service: service.name, href: service.href },
+                    });
+                  }}
+                  className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 font-bold hover:underline"
+                >
+                  <span>Launch Destination</span>
+                  <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </a>
               </div>
             </div>
           ))}
