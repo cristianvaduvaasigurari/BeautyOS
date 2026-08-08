@@ -3,11 +3,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useHealthOS } from "../../context/HealthOSContext";
+import { useAiXHealth } from "../../context/HealthOSContext";
 import { ArrowRight, Check, Activity, Zap, Award, Heart, Flame, Dumbbell, Droplets, Sparkles } from "lucide-react";
 
 export default function OnboardingPage() {
-  const { submitOnboarding } = useHealthOS();
+  const { submitOnboarding } = useAiXHealth();
   
   const [step, setStep] = useState(1);
 
@@ -102,7 +102,7 @@ export default function OnboardingPage() {
             <div className="space-y-2">
               <span className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Step 1 — Core Objective</span>
               <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">What is your primary health goal?</h1>
-              <p className="text-sm text-zinc-400 font-sans">Select the main outcome you want to achieve with HealthOS.</p>
+              <p className="text-sm text-zinc-400 font-sans">Select the main outcome you want to achieve with AiX Health.</p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -318,15 +318,15 @@ export default function OnboardingPage() {
             {isGenerating ? (
               <div className="p-16 rounded-[40px] bg-[#101114] border border-emerald-500/30 space-y-6 flex flex-col items-center justify-center">
                 <Sparkles className="w-12 h-12 text-emerald-400 animate-spin" />
-                <h2 className="text-2xl font-bold text-white tracking-tight">Synthesizing Your HealthOS Profile...</h2>
+                <h2 className="text-2xl font-bold text-white tracking-tight">Synthesizing Your AiX Health Profile...</h2>
                 <p className="text-xs text-zinc-400 font-mono">Calculating protein targets, metabolic rate, supplement stacks, and 90-day protocols...</p>
               </div>
             ) : (
               <div className="p-12 sm:p-16 rounded-[40px] bg-gradient-to-br from-[#101114] via-[#141519] to-[#0A0A0A] border border-emerald-500/30 space-y-8 text-left relative overflow-hidden">
                 <div className="flex items-center justify-between border-b border-white/[0.08] pb-6">
                   <div>
-                    <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">HealthOS Profile Activated</span>
-                    <h2 className="text-3xl font-bold text-white tracking-tight mt-1">Welcome to HealthOS, Member</h2>
+                    <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Health Profile Activated</span>
+                    <h2 className="text-3xl font-bold text-white tracking-tight mt-1">Welcome to AiX Health, Member</h2>
                   </div>
                   <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold font-mono">
                     100%
@@ -350,7 +350,7 @@ export default function OnboardingPage() {
 
                 <div className="pt-4 flex flex-col sm:flex-row gap-4">
                   <Link href="/dashboard" className="w-full text-center py-4 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs font-mono uppercase tracking-widest hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20">
-                    Enter HealthOS Dashboard →
+                    Enter AiX Health Dashboard →
                   </Link>
                 </div>
               </div>

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
 
+
 export function VisitorTracker() {
   const pathname = usePathname();
 
@@ -11,9 +12,9 @@ export function VisitorTracker() {
     if (!pathname) return;
 
     // Format page title from pathname
-    let pageTitle = "HealthOS";
+    let pageTitle = "AiX Health";
     if (pathname === "/") {
-      pageTitle = "HealthOS Homepage";
+      pageTitle = "AiX Health Homepage";
     } else {
       const parts = pathname.split("/").filter(Boolean);
       pageTitle = parts.map(p => p.charAt(0).toUpperCase() + p.slice(1).replace(/-/g, " ")).join(" > ");
@@ -47,8 +48,8 @@ export function VisitorTracker() {
     sendTelemetryEvent({
       event: eventType,
       sourceRoute: pathname,
-      pageTitle,
       category,
+      pageTitle,
     });
   }, [pathname]);
 

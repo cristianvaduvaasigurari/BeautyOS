@@ -1,27 +1,9 @@
-/**
- * AiX Ecosystem Configuration
- * Single Source of Truth for ecosystem destinations across the application.
- */
-
-export interface EcosystemItem {
-  id: string;
-  name: string;
-  category: "INTELLIGENCE" | "FINANCE" | "REAL ESTATE" | "MEDIA" | "PERSONAL";
-  description: string;
-  href: string;
-  external: boolean;
-  target?: string;
-  rel?: string;
-  verified: boolean;
-}
-
-export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
-  // INTELLIGENCE
+export const ECOSYSTEM_CONFIG = [
   {
     id: "os",
     name: "OS",
     category: "INTELLIGENCE",
-    description: "AI & Intelligence Operating System",
+    description: "Operating System Intelligence",
     href: "https://os.cristianvaduva.com",
     external: true,
     target: "_blank",
@@ -32,7 +14,7 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
     id: "health",
     name: "Health",
     category: "INTELLIGENCE",
-    description: "AI-powered health intelligence",
+    description: "Health Education & Intelligence",
     href: "https://health.cristianvaduva.com",
     external: true,
     target: "_blank",
@@ -43,7 +25,7 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
     id: "subventii",
     name: "Subvenții",
     category: "INTELLIGENCE",
-    description: "Public funding intelligence",
+    description: "Funding Intelligence",
     href: "https://subventii.cristianvaduva.com",
     external: true,
     target: "_blank",
@@ -51,23 +33,10 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
     verified: true,
   },
   {
-    id: "market-pulse",
-    name: "Market Pulse",
-    category: "INTELLIGENCE",
-    description: "Market & economic intelligence",
-    href: "https://cristianvaduva.com/market-pulse",
-    external: true,
-    target: "_blank",
-    rel: "noopener noreferrer",
-    verified: true,
-  },
-
-  // FINANCE
-  {
     id: "credite",
     name: "Credite",
     category: "FINANCE",
-    description: "Credit advisory & financing",
+    description: "Credit Intelligence",
     href: "https://credite.cristianvaduva.com",
     external: true,
     target: "_blank",
@@ -78,20 +47,18 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
     id: "insurance",
     name: "Insurance",
     category: "FINANCE",
-    description: "Insurance advisory & protection",
+    description: "Insurance Intelligence",
     href: "https://insurance.cristianvaduva.com",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",
     verified: true,
   },
-
-  // REAL ESTATE
   {
     id: "homefind",
     name: "HomeFind",
-    category: "REAL ESTATE",
-    description: "Real estate intelligence",
+    category: "REAL_ESTATE",
+    description: "Real Estate Intelligence",
     href: "https://homefind.cristianvaduva.com",
     external: true,
     target: "_blank",
@@ -99,40 +66,38 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
     verified: true,
   },
   {
-    id: "aix-luxury",
+    id: "aixluxury",
     name: "AiX Luxury",
-    category: "REAL ESTATE",
-    description: "Luxury real estate",
+    category: "REAL_ESTATE",
+    description: "Luxury Real Estate Intelligence",
     href: "https://aixluxury.com",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",
     verified: true,
   },
-
-  // MEDIA
   {
-    id: "aix-media",
-    name: "AiX Media",
-    category: "MEDIA",
-    description: "Media & information ecosystem (Unverified)",
-    href: "",
-    external: true,
-    target: "_blank",
-    rel: "noopener noreferrer",
-    verified: false,
-  },
-
-  // PERSONAL
-  {
-    id: "cristian-vaduva",
-    name: "Cristian Văduva",
-    category: "PERSONAL",
-    description: "Personal advisory & professional profile",
-    href: "https://cristianvaduva.com",
+    id: "marketpulse",
+    name: "Market Pulse",
+    category: "INTELLIGENCE",
+    description: "Market & Economic Intelligence",
+    href: "https://cristianvaduva.com/market-pulse",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",
     verified: true,
   },
-];
+  {
+    id: "cristian",
+    name: "Cristian Văduva",
+    category: "PERSONAL",
+    description: "Personal Brand",
+    href: "https://cristianvaduva.com",
+    external: true,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    verified: true,
+  }
+] as const;
+
+export type EcosystemItem = typeof ECOSYSTEM_CONFIG[number];

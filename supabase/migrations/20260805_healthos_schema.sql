@@ -1,4 +1,4 @@
--- HealthOS Enterprise Supabase Migration Schema
+-- AiX Health Enterprise Supabase Migration Schema
 -- File: supabase/migrations/20260805_healthos_schema.sql
 
 CREATE TABLE IF NOT EXISTS public.users_profile (

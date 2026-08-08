@@ -17,47 +17,47 @@ export async function sendTelegramNotification(
       return false;
     }
 
-    let headerTitle = 'HEALTHOS EVENT';
+    let headerTitle = 'AiX Health EVENT';
     let icon = '📊';
 
     switch (payload.event) {
       case 'VISITOR_SESSION_STARTED':
-        headerTitle = 'HEALTHOS — NEW VISITOR';
+        headerTitle = 'AiX Health — NEW VISITOR';
         icon = '🟢';
         break;
       case 'VISITOR_PAGE_VIEW':
-        headerTitle = 'HEALTHOS — VISITOR NAVIGATION';
+        headerTitle = 'AiX Health — VISITOR NAVIGATION';
         icon = '👁️';
         break;
       case 'AI_HIGH_INTENT':
-        headerTitle = 'HEALTHOS — HIGH INTENT';
+        headerTitle = 'AiX Health — HIGH INTENT';
         icon = '⚡';
         break;
       case 'ECOSYSTEM_CLICK':
-        headerTitle = 'AIX ECOSYSTEM CLICK';
+        headerTitle = 'AiX Health — ECOSYSTEM CLICK';
         icon = '🌐';
         break;
       case 'CONTACT_REQUEST':
       case 'LEAD_SUBMISSION':
       case 'FORM_SUBMISSION':
-        headerTitle = 'HEALTHOS — LEAD / FORM SUBMISSION';
+        headerTitle = 'AiX Health — LEAD / FORM SUBMISSION';
         icon = '🔥';
         break;
       case 'ELIGIBILITY_COMPLETED':
-        headerTitle = 'HEALTHOS — ELIGIBILITY COMPLETED';
+        headerTitle = 'AiX Health — ELIGIBILITY COMPLETED';
         icon = '✅';
         break;
       case 'VISITOR_PRODUCT_VIEW':
       case 'VISITOR_PROGRAM_VIEW':
-        headerTitle = 'HEALTHOS — HIGH-VALUE PRODUCT / PROGRAM VIEW';
+        headerTitle = 'AiX Health — HIGH-VALUE PRODUCT / PROGRAM VIEW';
         icon = '💊';
         break;
       case 'VISITOR_SEARCH':
-        headerTitle = 'HEALTHOS — VISITOR SEARCH';
+        headerTitle = 'AiX Health — VISITOR SEARCH';
         icon = '🔍';
         break;
       default:
-        headerTitle = `HEALTHOS — ${payload.event}`;
+        headerTitle = `AiX Health — ${payload.event}`;
         icon = '📌';
     }
 

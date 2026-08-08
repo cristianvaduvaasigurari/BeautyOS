@@ -10,7 +10,7 @@ interface ErrorProps {
 
 export default function ErrorBoundary({ error, reset }: ErrorProps) {
   useEffect(() => {
-    console.error("HealthOS Router Exception:", error);
+    console.error("AiX Health Router Exception:", error);
   }, [error]);
 
   return (
@@ -26,7 +26,7 @@ export default function ErrorBoundary({ error, reset }: ErrorProps) {
         <div className="space-y-2">
           <h2 className="text-xl font-bold text-white font-sans">System Recovery Required</h2>
           <p className="text-xs text-zinc-400 leading-relaxed font-sans">
-            HealthOS encountered an unanticipated state loading this view. This may be due to a transient network interruption.
+            AiX Health encountered an unanticipated state loading this view. This may be due to a transient network interruption.
           </p>
         </div>
 

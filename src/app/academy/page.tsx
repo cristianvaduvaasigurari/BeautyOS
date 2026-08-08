@@ -29,7 +29,7 @@ export default function AcademyPage() {
         </Link>
         
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <BookOpen className="w-4 h-4 text-emerald-400" /> HealthOS Clinical Academy
+          <BookOpen className="w-4 h-4 text-emerald-400" /> AiX Health Clinical Academy
         </span>
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">

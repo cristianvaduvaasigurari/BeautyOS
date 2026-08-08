@@ -150,7 +150,7 @@ export default function AccountSecurityPage() {
 
             <button 
               onClick={() => {
-                if (confirm("Are you sure you want to delete your HealthOS account? All data will be permanently purged.")) {
+                if (confirm("Are you sure you want to delete your AiX Health account? All data will be permanently purged.")) {
                   alert("Account deletion request transmitted.");
                 }
               }}

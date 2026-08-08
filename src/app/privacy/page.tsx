@@ -25,7 +25,7 @@ export default function PrivacyPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-white font-mono">1. Commitment to Data Sovereignty</h2>
           <p>
-            HealthOS (&quot;the Platform&quot;) is engineered with privacy as a foundational biological boundary. We process health data, check-ins, routine parameters, and diagnostic profiles solely to deliver personalized health insights and optimize platform performance.
+            AiX Health (&quot;the Platform&quot;) is engineered with privacy as a foundational biological boundary. We process health data, check-ins, routine parameters, and diagnostic profiles solely to deliver personalized health insights and optimize platform performance.
           </p>
         </section>
 
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-white font-mono">3. No Third-Party Data Monetization</h2>
           <p>
-            HealthOS never sells, rents, or monetizes personal health metrics or biometric data to third-party ad brokers or data aggregators. Data processed via our AI health coach or contact integrations is transmitted via TLS 1.3 encryption.
+            AiX Health never sells, rents, or monetizes personal health metrics or biometric data to third-party ad brokers or data aggregators. Data processed via our AI health coach or contact integrations is transmitted via TLS 1.3 encryption.
           </p>
         </section>
 

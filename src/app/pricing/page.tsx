@@ -10,7 +10,7 @@ export default function PricingPage() {
 
   const plans = [
     {
-      name: "HealthOS Free",
+      name: "AiX Health Free",
       priceMonthly: "€0",
       priceAnnual: "€0",
       badge: "Starter",
@@ -27,7 +27,7 @@ export default function PricingPage() {
       buttonStyle: "bg-zinc-900 border border-white/[0.08] text-white hover:bg-white/10"
     },
     {
-      name: "HealthOS Pro",
+      name: "AiX Health Pro",
       priceMonthly: "€19",
       priceAnnual: "€15",
       badge: "Most Popular",
@@ -41,25 +41,25 @@ export default function PricingPage() {
         "Progress Photo Journal & Habit Streaks",
         "Priority Lead & Support Ticket Processing"
       ],
-      cta: "Upgrade to HealthOS Pro",
+      cta: "Upgrade to AiX Health Pro",
       isPopular: true,
       buttonStyle: "bg-emerald-500 text-zinc-950 hover:bg-emerald-400 font-bold shadow-lg shadow-emerald-500/20"
     },
     {
-      name: "HealthOS Elite",
+      name: "AiX Health Elite",
       priceMonthly: "€49",
       priceAnnual: "€39",
       badge: "Flagship",
       description: "Direct expert consultation, personalized longevity protocols, & high-touch guidance.",
       features: [
-        "Everything in HealthOS Pro Plan",
+        "Everything in AiX Health Pro Plan",
         "1-on-1 Monthly Telehealth Expert Review",
         "Advanced Longevity & Genomic Sirtuin Protocols",
         "Direct Telegram Concierge Support Channel",
         "Early Access to Clinical Formulations",
         "Custom Biomarker Lab Integration (Blood/CGM)"
       ],
-      cta: "Join HealthOS Elite",
+      cta: "Join AiX Health Elite",
       isPopular: false,
       buttonStyle: "bg-gradient-to-r from-emerald-400 to-teal-400 text-zinc-950 hover:opacity-90 font-bold shadow-lg shadow-emerald-500/20"
     }

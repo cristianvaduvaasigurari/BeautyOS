@@ -9,15 +9,15 @@ export default function AdminDashboardPage() {
 
   const stats = [
     { title: "Active Platform Members", count: "1,420", label: "+12% this month", icon: Users },
-    { title: "HealthOS Pro & Elite Subscribers", count: "488", label: "€14.2k MRR", icon: CreditCard },
+    { title: "AiX Health Pro & Elite Subscribers", count: "488", label: "€14.2k MRR", icon: CreditCard },
     { title: "Consultation Leads Captured", count: "89", label: "Telegram Sent", icon: Send },
     { title: "Active 90-Day Protocols", count: "1,105", label: "94% Completion", icon: BookOpen }
   ];
 
   const mockUsers = [
-    { name: "Alex Morgan", email: "alex@example.com", tier: "HealthOS Pro", goal: "Build Muscle", healthScore: 92, status: "Active" },
-    { name: "Elena Rostova", email: "elena@example.com", tier: "HealthOS Elite", goal: "Improve Skin", healthScore: 88, status: "Active" },
-    { name: "Marcus Vance", email: "marcus@example.com", tier: "HealthOS Pro", goal: "Lose Fat", healthScore: 85, status: "Active" },
+    { name: "Alex Morgan", email: "alex@example.com", tier: "AiX Health Pro", goal: "Build Muscle", healthScore: 92, status: "Active" },
+    { name: "Elena Rostova", email: "elena@example.com", tier: "AiX Health Elite", goal: "Improve Skin", healthScore: 88, status: "Active" },
+    { name: "Marcus Vance", email: "marcus@example.com", tier: "AiX Health Pro", goal: "Lose Fat", healthScore: 85, status: "Active" },
     { name: "David Kim", email: "david@example.com", tier: "Free Tier", goal: "Longevity", healthScore: 78, status: "Trialing" }
   ];
 
@@ -32,7 +32,7 @@ export default function AdminDashboardPage() {
         
         <div className="flex items-center gap-3">
           <span className="px-3.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold uppercase tracking-wider flex items-center gap-2">
-            <Lock className="w-4 h-4" /> HealthOS Executive Admin Portal
+            <Lock className="w-4 h-4" /> AiX Health Executive Admin Portal
           </span>
         </div>
 

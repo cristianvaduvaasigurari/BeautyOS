@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useHealthOS, PRODUCTS_CATALOG } from "../context/HealthOSContext";
+import { useAiXHealth, PRODUCTS_CATALOG } from "../context/HealthOSContext";
 import { Sun, Moon, Sparkles, ChevronRight, Plus, Check, X } from "lucide-react";
 
 export const TodayTab: React.FC = () => {
@@ -14,7 +14,7 @@ export const TodayTab: React.FC = () => {
     currentSkinIndex,
     userCabinet,
     recommendations,
-  } = useHealthOS();
+  } = useAiXHealth();
 
   // Bottom Sheet Routines Trigger
   const [activeRoutineSheet, setActiveRoutineSheet] = useState<"morning" | "evening" | null>(null);

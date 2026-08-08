@@ -13,19 +13,19 @@ export async function POST(request: Request) {
     let notificationText = '';
     switch (type) {
       case 'DAILY_CHECKIN_REMINDER':
-        notificationText = 'HealthOS Reminder: Complete your daily check-in to maintain your compounding health score streak.';
+        notificationText = 'AiX Health Reminder: Complete your daily check-in to maintain your compounding health score streak.';
         break;
       case 'WEEKLY_HEALTH_REPORT':
-        notificationText = 'Your HealthOS Weekly Biomarker Report is ready. Review your lean mass and sleep efficiency metrics.';
+        notificationText = 'Your AiX Health Weekly Biomarker Report is ready. Review your lean mass and sleep efficiency metrics.';
         break;
       case 'PROTOCOL_MILESTONE':
-        notificationText = `Congratulations! You completed Day ${payload?.day || 30} of your HealthOS ${payload?.protocol || '90-Day Transformation'} Protocol.`;
+        notificationText = `Congratulations! You completed Day ${payload?.day || 30} of your AiX Health ${payload?.protocol || '90-Day Transformation'} Protocol.`;
         break;
       default:
-        notificationText = 'HealthOS Notification update.';
+        notificationText = 'AiX Health Notification update.';
     }
 
-    console.log(`[HealthOS Email/Notification Dispatcher] Sent to User ${userId}: ${notificationText}`);
+    console.log(`[AiX Health Email/Notification Dispatcher] Sent to User ${userId}: ${notificationText}`);
 
     return NextResponse.json({
       success: true,

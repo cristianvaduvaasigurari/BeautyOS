@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Activity, Search, User, Menu, X, ChevronDown, ChevronRight, Zap } from "lucide-react";
 import { FloatingActionButton } from "./FloatingActionButton";
 import { NewsletterBlock } from "./NewsletterBlock";
-import { useHealthOS } from "../context/HealthOSContext";
+import { useAiXHealth } from "../context/HealthOSContext";
 import { CONTACT_CONFIG } from "@/lib/contact/config";
 import { SOCIAL_CONFIG } from "@/lib/contact/social";
 import { ECOSYSTEM_CONFIG } from "@/lib/ecosystem/config";
@@ -19,7 +19,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const pathname = usePathname();
-  const { userSession } = useHealthOS();
+  const { userSession } = useAiXHealth();
 
   const isDashboardRoute = pathname.startsWith("/dashboard") || pathname.startsWith("/progress") || pathname.startsWith("/products");
 
@@ -290,7 +290,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
       ]
     },
     Community: {
-      title: "HealthOS Member Community",
+      title: "AiX Health Member Community",
       subtitle: "Verified protocol sharing, expert Q&A, and user metrics.",
       columns: [
         {
@@ -337,7 +337,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
       
       {/* TOP ANNOUNCEMENT BAR */}
       <div className="bg-[#0D0E12] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
-        <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-[9px] uppercase tracking-wider">HealthOS∞</span>
+        <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-[9px] uppercase tracking-wider">AiX Health</span>
         <span>The Apple-Grade Platform for Human Longevity, Fitness, Nutrition & Skincare</span>
         <Link href="/contact" className="underline text-emerald-400 hover:text-white cursor-pointer ml-2">
           Talk with an Expert →
@@ -356,7 +356,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               <Activity className="w-5 h-5" />
             </div>
             <span className="text-xl font-bold tracking-tight font-mono text-white">
-              HealthOS<span className="text-emerald-400">∞</span>
+              AiX Health
             </span>
           </Link>
 
@@ -539,7 +539,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                   <div className="hidden lg:block bg-gradient-to-br from-emerald-950/40 to-zinc-900 border border-emerald-500/20 rounded-2xl p-6 relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
                     <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-400 px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">Featured Protocol</span>
-                    <h5 className="text-base font-bold text-white mt-3">HealthOS 90-Day Optimization</h5>
+                    <h5 className="text-base font-bold text-white mt-3">AiX Health 90-Day Optimization</h5>
                     <p className="text-xs text-zinc-400 mt-2 line-clamp-3">Evidence-based system for cellular rejuvenation, muscle hypertrophy, and skin clarity.</p>
                     <Link 
                       href="/guides/90-day-acne-program" 
@@ -740,7 +740,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                   <Activity className="w-4 h-4" />
                 </div>
                 <span className="text-lg font-bold font-mono text-white">
-                  HealthOS<span className="text-emerald-400">∞</span>
+                  AiX Health
                 </span>
               </Link>
               <p className="text-xs text-zinc-400 max-w-sm font-sans leading-relaxed">
@@ -796,7 +796,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                         <span className="text-[9px] text-zinc-600 font-mono">{item.category[0]}</span>
                       </a>
                     ) : (
-                      <span className="text-zinc-600 cursor-not-allowed">AiX Media (Unverified)</span>
+                      <span className="text-zinc-600 cursor-not-allowed">{item.name}</span>
                     )}
                   </li>
                 ))}
@@ -830,7 +830,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             <div className="space-y-3">
               <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Company & Legal</h5>
               <ul className="space-y-2 text-xs text-zinc-400">
-                <li><Link href="/about" className="hover:text-white transition-colors">About HealthOS</Link></li>
+                <li><Link href="/about" className="hover:text-white transition-colors">About AiX Health</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact & Support</Link></li>
                 <li><Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
                 <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
@@ -841,7 +841,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
           </div>
 
           <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 font-mono gap-4">
-            <p>© {new Date().getFullYear()} HealthOS. All rights reserved. Medical & Evidence-Based Digital Health Platform.</p>
+            <p>© {new Date().getFullYear()} AiX Health. All rights reserved. Educational & Evidence-Based Digital Health Platform.</p>
             <div className="flex items-center gap-6">
               <Link href="/privacy" className="hover:text-zinc-300">Privacy</Link>
               <Link href="/terms" className="hover:text-zinc-300">Terms</Link>

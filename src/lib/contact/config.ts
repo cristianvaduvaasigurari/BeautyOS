@@ -1,5 +1,5 @@
 /**
- * AiX Health / HealthOS Centralized Contact Configuration
+ * AiX Health / AiX Health Centralized Contact Configuration
  * Single Source of Truth for contact metrics & links across the application.
  */
 

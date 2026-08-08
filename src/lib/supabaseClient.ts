@@ -39,7 +39,7 @@ const getClient = (): SupabaseClient | null => {
     return cachedClient;
   } catch (e) {
     if (typeof window !== "undefined") {
-      console.error("HealthOS: Error instantiating Supabase client", e);
+      console.error("AiX Health: Error instantiating Supabase client", e);
     }
     return null;
   }

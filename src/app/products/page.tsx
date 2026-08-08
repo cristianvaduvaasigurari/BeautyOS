@@ -58,7 +58,7 @@ export default function ProductsPage() {
     {
       id: "p4",
       image: "/images/healthos_showcase_phone_1784918045920.png",
-      brand: "HealthOS Nutrition",
+      brand: "AiX Health Nutrition",
       name: "Hydrolyzed Marine Collagen Peptides",
       category: "Supplements",
       whoItsFor: "Those targeting skin elasticity, joint health, and hair density.",

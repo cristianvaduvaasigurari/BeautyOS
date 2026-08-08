@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
-import { useHealthOS } from "../../context/HealthOSContext";
+import { useAiXHealth } from "../../context/HealthOSContext";
 import { Calendar, Package, TrendingUp, User, Sparkles, RefreshCw } from "lucide-react";
 
 // Lazy load heavy dashboard components
@@ -22,7 +22,7 @@ const ProgressTab = dynamic(() => import("../../components/ProgressTab").then((m
 const ProfileTab = dynamic(() => import("../../components/ProfileTab").then((mod) => mod.ProfileTab), { loading: () => <LoadingSkeleton /> });
 
 export default function Dashboard() {
-  const { currentSkinIndex, syncStatus, offlineQueueLength } = useHealthOS();
+  const { currentSkinIndex, syncStatus, offlineQueueLength } = useAiXHealth();
   const [activeTab, setActiveTab] = useState<"today" | "products" | "progress" | "profile">("today");
 
   const tabs = [

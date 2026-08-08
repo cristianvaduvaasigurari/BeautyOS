@@ -26,12 +26,12 @@ export default function AICoachPage() {
     recovery: string[];
   }> = {
     "I want to lose 10kg while keeping my muscle.": {
-      title: "HealthOS 90-Day Fat Loss & Muscle Preservation Protocol",
+      title: "AiX Health 90-Day Fat Loss & Muscle Preservation Protocol",
       summary: "Caloric deficit combined with high protein density (2.2g/kg), heavy strength preservation work, and non-fatiguing Zone 2 cardio.",
       nutrition: [
         "Caloric Deficit: 400-500 kcal below baseline maintenance.",
         "Protein Target: 2.2g per kg bodyweight daily divided across 4 meals.",
-        "Hydration: 4L water + 1 scoop HealthOS Electrolytes."
+        "Hydration: 4L water + 1 scoop AiX Health Electrolytes."
       ],
       training: [
         "4-Day Upper/Lower Strength Split (Targeting 6-10 rep range).",
@@ -49,7 +49,7 @@ export default function AICoachPage() {
       ]
     },
     "How to build muscle & increase strength as a busy professional?": {
-      title: "HealthOS High-Efficiency Hypertrophy Protocol",
+      title: "AiX Health High-Efficiency Hypertrophy Protocol",
       summary: "3-day full-body or 4-day push-pull-legs routine maximizing mechanical tension per set.",
       nutrition: [
         "Caloric Surplus: +250-300 kcal above maintenance.",
@@ -69,7 +69,7 @@ export default function AICoachPage() {
       ]
     },
     "90-Day acne clearing protocol for sensitive skin.": {
-      title: "HealthOS Dermal Barrier & Acne Reset Blueprint",
+      title: "AiX Health Dermal Barrier & Acne Reset Blueprint",
       summary: "Eliminating harsh cleansers, repairing stratum corneum lipid matrix, and modulating sebum inflammatory markers.",
       nutrition: [
         "Reduce high-glycemic carbohydrates and artificial whey additives.",
@@ -88,7 +88,7 @@ export default function AICoachPage() {
       ]
     },
     "Best longevity & sleep stack for deep recovery.": {
-      title: "HealthOS Cellular Rejuvenation & Sleep Architecture Stack",
+      title: "AiX Health Cellular Rejuvenation & Sleep Architecture Stack",
       summary: "Sirtuin activation, mitochondrial ATP generation, and circadian melatonin optimization.",
       nutrition: [
         "Intermittent Fasting 14:10 window.",
@@ -143,7 +143,7 @@ export default function AICoachPage() {
       {/* Header */}
       <div className="max-w-3xl space-y-6 mb-12">
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Sparkles className="w-4 h-4 text-emerald-400" /> Ask HealthOS Neural Engine
+          <Sparkles className="w-4 h-4 text-emerald-400" /> Ask AiX Health Neural Engine
         </span>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
           AI Health Coach & Protocol Generator.
@@ -181,7 +181,7 @@ export default function AICoachPage() {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ask HealthOS (e.g. 'How to optimize deep sleep and lower cortisol?')"
+            placeholder="Ask AiX Health (e.g. 'How to optimize deep sleep and lower cortisol?')"
             className="w-full bg-[#101114] border border-white/[0.12] focus:border-emerald-500/50 rounded-3xl pl-14 pr-36 py-5 text-white placeholder-zinc-500 text-base font-sans focus:outline-none shadow-2xl transition-colors"
           />
           <button

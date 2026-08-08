@@ -104,7 +104,7 @@ for (const [category, slugs] of Object.entries(ecosystemMap)) {
     seenGlobalKeys.add(globalKey);
     
     let problem = `You are struggling with optimizing ${title.toLowerCase()} and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.`;
-    let solution = `By utilizing the ${title} protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.`;
+    let solution = `By utilizing the ${title} protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.`;
     
     let benefits = [
       `Dramatically improve baseline markers related to ${title.toLowerCase()}.`,
@@ -116,8 +116,8 @@ for (const [category, slugs] of Object.entries(ecosystemMap)) {
     const mockProducts = [
       {
         id: `prod-${globalKey}-1`,
-        name: `HealthOS ${title} Clinical Formula`,
-        brand: "HealthOS Clinical Formulations",
+        name: `AiX Health ${title} Clinical Formula`,
+        brand: "AiX Health Clinical Formulations",
         image: "/images/healthos_hero_products_1784918027747.png",
         benefits: ["Accelerates tissue repair", "Reduces micro-inflammation", "Enhances bio-availability"],
         bestFor: "All baseline profiles seeking rapid optimization",
@@ -129,8 +129,8 @@ for (const [category, slugs] of Object.entries(ecosystemMap)) {
       },
       {
         id: `prod-${globalKey}-2`,
-        name: `HealthOS Advanced Recovery Matrix (${title})`,
-        brand: "HealthOS Longevity Labs",
+        name: `AiX Health Advanced Recovery Matrix (${title})`,
+        brand: "AiX Health Longevity Labs",
         image: "/images/healthos_showcase_phone_1784918045920.png",
         benefits: ["Supports mitochondrial density", "Decreases oxidative stress", "Optimizes cellular signaling"],
         bestFor: "High-performance athletes & longevity enthusiasts",
@@ -200,7 +200,7 @@ for (const [category, slugs] of Object.entries(ecosystemMap)) {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -216,8 +216,8 @@ for (const [category, slugs] of Object.entries(ecosystemMap)) {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -237,4 +237,4 @@ for (const [category, slugs] of Object.entries(ecosystemMap)) {
 
 const finalOutput = fileContent + articlesJSON.join(',\n') + '\n};\n';
 fs.writeFileSync(path.join(__dirname, '../src/data/editorialContent.ts'), finalOutput);
-console.log("Successfully updated generateEcosystem.js and generated editorialContent.ts with " + articlesJSON.length + " complete HealthOS articles.");
+console.log("Successfully updated generateEcosystem.js and generated editorialContent.ts with " + articlesJSON.length + " complete AiX Health articles.");

@@ -27,7 +27,7 @@ export default function LaunchCenterPage() {
         
         <div className="flex items-center gap-3">
           <span className="px-3.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold uppercase tracking-wider flex items-center gap-2">
-            <Zap className="w-4 h-4" /> HealthOS Production Launch Control Center
+            <Zap className="w-4 h-4" /> AiX Health Production Launch Control Center
           </span>
         </div>
 
@@ -65,13 +65,13 @@ export default function LaunchCenterPage() {
 
       {/* Final Launch Confirmation */}
       <div className="max-w-5xl p-12 rounded-[40px] bg-gradient-to-br from-emerald-950/40 via-[#101114] to-[#0A0A0A] border border-emerald-500/40 text-center space-y-6">
-        <h2 className="text-3xl font-bold text-white">HealthOS is 100% Ready for Public Domain Deployment</h2>
+        <h2 className="text-3xl font-bold text-white">AiX Health is 100% Ready for Public Domain Deployment</h2>
         <p className="text-sm text-zinc-300 max-w-xl mx-auto font-sans">
           All 229 static routes, Supabase migrations, Stripe subscriptions, AI engines, security headers, and mobile navigation have passed enterprise validation.
         </p>
         <div className="pt-2">
           <Link href="/" className="px-10 py-4 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs font-mono uppercase tracking-widest hover:bg-emerald-400 transition-colors inline-block shadow-lg shadow-emerald-500/20">
-            Launch HealthOS Platform →
+            Launch AiX Health Platform →
           </Link>
         </div>
       </div>

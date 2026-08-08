@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useHealthOS, PRODUCTS_CATALOG, Product } from "../context/HealthOSContext";
+import { useAiXHealth, PRODUCTS_CATALOG, Product } from "../context/HealthOSContext";
 import { Plus, Search, Trash2, ShieldAlert, Sun, Moon, Sparkles, ChevronRight, X, Check, FlaskConical } from "lucide-react";
 
 export const ProductsTab: React.FC = () => {
@@ -11,7 +11,7 @@ export const ProductsTab: React.FC = () => {
     addCabinetProduct,
     addCustomProductToCabinet,
     deleteCabinetProduct,
-  } = useHealthOS();
+  } = useAiXHealth();
 
   const [searchQuery, setSearchQuery] = useState("");
   const [showAddPreset, setShowAddPreset] = useState(false);

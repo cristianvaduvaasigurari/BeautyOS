@@ -1,11 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { useHealthOS } from "../context/HealthOSContext";
+import { useAiXHealth } from "../context/HealthOSContext";
 import { ArrowRight, Check, Activity } from "lucide-react";
 
 export const Onboarding: React.FC = () => {
-  const { submitOnboarding } = useHealthOS();
+  const { submitOnboarding } = useAiXHealth();
   const [step, setStep] = useState(1);
   const [fullName, setFullName] = useState("");
   const [skinType, setSkinType] = useState<"Normal" | "Dry" | "Oily" | "Combination">("Normal");
@@ -45,7 +45,7 @@ export const Onboarding: React.FC = () => {
         concerns: selectedConcerns,
         goals: selectedGoals,
       });
-      localStorage.setItem("user_fullname", fullName || "HealthOS Member");
+      localStorage.setItem("user_fullname", fullName || "AiX Health Member");
     }
   };
 
@@ -66,7 +66,7 @@ export const Onboarding: React.FC = () => {
       case 1:
         return (
           <div className="space-y-5 animate-fadeIn">
-            <h2 className="text-xl font-bold text-white tracking-tight">Welcome to HealthOS</h2>
+            <h2 className="text-xl font-bold text-white tracking-tight">Welcome to AiX Health</h2>
             <p className="text-xs text-zinc-400 font-sans leading-relaxed">
               Let&apos;s configure your biological baseline. What should we call you?
             </p>
@@ -151,7 +151,7 @@ export const Onboarding: React.FC = () => {
         return (
           <div className="space-y-5 animate-fadeIn">
             <h2 className="text-xl font-bold text-white tracking-tight">Primary Optimization Goals</h2>
-            <p className="text-xs text-zinc-400 font-sans leading-relaxed">Choose the outcomes you want HealthOS to help you achieve.</p>
+            <p className="text-xs text-zinc-400 font-sans leading-relaxed">Choose the outcomes you want AiX Health to help you achieve.</p>
             <div className="grid grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
               {goalsList.map((g) => {
                 const active = selectedGoals.includes(g);
@@ -184,7 +184,7 @@ export const Onboarding: React.FC = () => {
         <div className="flex items-center justify-between pb-4 border-b border-white/[0.08]">
           <div className="flex items-center gap-2">
             <Activity className="w-5 h-5 text-emerald-400" />
-            <span className="text-sm font-bold font-mono text-white">HealthOS Setup</span>
+            <span className="text-sm font-bold font-mono text-white">AiX Health Setup</span>
           </div>
           <span className="text-[10px] font-mono text-emerald-400 uppercase font-bold">Step 0{step} / 04</span>
         </div>

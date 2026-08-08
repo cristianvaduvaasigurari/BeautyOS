@@ -85,7 +85,7 @@ export default function ContactPage() {
           </div>
           <h2 className="text-4xl font-bold text-white mb-4">Request Received</h2>
           <p className="text-zinc-400 leading-relaxed mb-10 font-sans">
-            Thank you for reaching out to HealthOS. Your clinical consultation request has been successfully transmitted to our health strategy team via Telegram. An expert will be in touch shortly.
+            Thank you for reaching out to AiX Health. Your clinical consultation request has been successfully transmitted to our health strategy team via Telegram. An expert will be in touch shortly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/" className="px-8 py-3 rounded-full bg-[#101114] border border-white/[0.08] text-white font-bold hover:bg-white/[0.05] transition-colors">
@@ -245,7 +245,7 @@ export default function ContactPage() {
           <div className="pt-6 border-t border-white/[0.08] flex items-start gap-4">
             <input required type="checkbox" id="marketingConsent" name="marketingConsent" checked={formData.marketingConsent} onChange={handleChange} className="mt-1 w-4 h-4 rounded border-white/[0.08] bg-[#0A0A0A] text-emerald-500 focus:ring-emerald-500 focus:ring-offset-0" />
             <label htmlFor="marketingConsent" className="text-sm text-zinc-400 leading-relaxed cursor-pointer select-none font-sans">
-              I agree to the <Link href="/privacy" className="text-white hover:text-emerald-400 underline underline-offset-4">Privacy Policy</Link> and consent to HealthOS contacting me regarding this consultation request.
+              I agree to the <Link href="/privacy" className="text-white hover:text-emerald-400 underline underline-offset-4">Privacy Policy</Link> and consent to AiX Health contacting me regarding this consultation request.
             </label>
           </div>
 

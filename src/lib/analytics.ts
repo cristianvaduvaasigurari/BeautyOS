@@ -1,5 +1,5 @@
 /**
- * HealthOS Lightweight Analytics Logger
+ * AiX Health Lightweight Analytics Logger
  * Respects user privacy. No personally identifiable information (PII) is captured.
  */
 

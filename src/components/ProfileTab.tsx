@@ -2,11 +2,11 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { useHealthOS } from "../context/HealthOSContext";
+import { useAiXHealth } from "../context/HealthOSContext";
 import { Download, Trash2, LogOut, ChevronRight, AlertTriangle, ShieldCheck } from "lucide-react";
 
 export const ProfileTab: React.FC = () => {
-  const { skinProfile, signOutUser, clearAllUserData } = useHealthOS();
+  const { skinProfile, signOutUser, clearAllUserData } = useAiXHealth();
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [exportNotice, setExportNotice] = useState(false);
 
@@ -32,13 +32,13 @@ export const ProfileTab: React.FC = () => {
       >
         <div className="flex items-center gap-4">
           <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 font-bold text-xl font-mono">
-            HOS
+            AiX
           </div>
           <div>
-            <h3 className="text-lg font-bold text-white">HealthOS Member</h3>
+            <h3 className="text-lg font-bold text-white">AiX Health Member</h3>
             <p className="text-xs text-zinc-400 font-sans">Biological Optimization Workspace</p>
             <div className="inline-flex items-center gap-1.5 mt-2 px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 text-[10px] font-mono border border-emerald-500/20 font-bold">
-              <ShieldCheck className="w-3 h-3" /> HealthOS Pro Member
+              <ShieldCheck className="w-3 h-3" /> AiX Health Pro Member
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export const ProfileTab: React.FC = () => {
             <div className="flex items-center gap-3">
               <Download className="w-4 h-4 text-emerald-400" />
               <div>
-                <p className="text-xs font-bold text-white">Export HealthOS Data</p>
+                <p className="text-xs font-bold text-white">Export AiX Health Data</p>
                 <p className="text-[10px] text-zinc-500">Download routine logs and progress entries in JSON format</p>
               </div>
             </div>

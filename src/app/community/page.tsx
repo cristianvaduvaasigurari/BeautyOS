@@ -24,7 +24,7 @@ export default function CommunityPage() {
       avatar: "MV",
       badge: "Clinical Advisor",
       title: "90-Day Hypertrophy & Collagen Protocol Results",
-      text: "HealthOS provides the cleanest separation of anabolic stimulus, protein timing, and active dermal recovery I've used in clinical practice. In 90 days, test subjects averaged 3.2kg lean mass gain while lowering systemic CRP.",
+      text: "AiX Health provides the cleanest separation of anabolic stimulus, protein timing, and active dermal recovery I've used in clinical practice. In 90 days, test subjects averaged 3.2kg lean mass gain while lowering systemic CRP.",
       protocol: "90-Day Muscle Growth",
       likesCount: 142,
       commentsCount: 28,
@@ -36,7 +36,7 @@ export default function CommunityPage() {
       avatar: "ER",
       badge: "Verified Member",
       title: "NMN + Magnesium Glycinate Sleep Stacking Experiment",
-      text: "Tracking deep sleep duration against supplement stacks in the HealthOS dashboard revealed a 24% increase in slow-wave sleep within 3 weeks of consistent PM dosing.",
+      text: "Tracking deep sleep duration against supplement stacks in the AiX Health dashboard revealed a 24% increase in slow-wave sleep within 3 weeks of consistent PM dosing.",
       protocol: "Longevity Protocol",
       likesCount: 98,
       commentsCount: 19,
@@ -62,7 +62,7 @@ export default function CommunityPage() {
       {/* Header */}
       <div className="max-w-4xl space-y-6 mb-12">
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Users className="w-4 h-4" /> HealthOS Member Community
+          <Users className="w-4 h-4" /> AiX Health Member Community
         </span>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
           Verified Member Protocols &amp; Intelligence.
@@ -147,7 +147,7 @@ export default function CommunityPage() {
 
       {/* CTA Box */}
       <div className="max-w-4xl p-12 rounded-[40px] bg-gradient-to-br from-[#101114] to-[#0A0A0A] border border-emerald-500/30 text-center space-y-6">
-        <h2 className="text-3xl font-bold text-white">Share Your HealthOS Transformation</h2>
+        <h2 className="text-3xl font-bold text-white">Share Your AiX Health Transformation</h2>
         <p className="text-sm text-zinc-400 max-w-md mx-auto font-sans">
           Log your check-ins in the dashboard, generate your health score, and submit your verified routine to the community.
         </p>

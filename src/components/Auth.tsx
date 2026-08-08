@@ -54,7 +54,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         }
       }
     } catch (err: unknown) {
-      console.error("HealthOS Auth Error:", err);
+      console.error("AiX Health Auth Error:", err);
       const errorVal = err as { message?: string; name?: string; status?: number; code?: string };
       const detail = errorVal.message || "An authentication error occurred.";
       setErrorMsg(detail);
@@ -65,7 +65,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
 
   const handleBypass = () => {
     localStorage.setItem("sb-access-token", "mock-token-123");
-    localStorage.setItem("user_fullname", "HealthOS Member");
+    localStorage.setItem("user_fullname", "AiX Health Member");
     window.location.reload();
   };
 
@@ -92,7 +92,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
           <Activity className="w-6 h-6" />
         </div>
         <h2 className="text-xl font-bold tracking-tight text-white font-mono">
-          HealthOS<span className="text-emerald-400">∞</span>
+          AiX Health<span className="text-emerald-400">∞</span>
         </h2>
         <p className="text-[11px] text-zinc-400 font-mono uppercase tracking-widest">
           {isSignUp ? "Create your personal account" : "Access your health operating system"}

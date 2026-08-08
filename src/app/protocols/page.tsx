@@ -64,7 +64,7 @@ export default function ProtocolsLibraryPage() {
         </Link>
 
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Target className="w-4 h-4" /> HealthOS Clinical Protocol Library
+          <Target className="w-4 h-4" /> AiX Health Clinical Protocol Library
         </span>
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">

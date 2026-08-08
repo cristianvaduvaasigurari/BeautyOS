@@ -11,13 +11,13 @@ export default function AboutPage() {
       {/* Hero */}
       <div className="max-w-3xl space-y-6 mb-20">
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">
-          <Activity className="w-4 h-4" /> About HealthOS
+          <Activity className="w-4 h-4" /> About AiX Health
         </span>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.05]">
           Engineering Biological Youth & Human Performance.
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
-          HealthOS was founded on a singular premise: human health optimization shouldn&apos;t rely on guess work, marketing hype, or fragmented tools. We combine clinical evidence, biological tracking, and Apple-grade design.
+          AiX Health was founded on a singular premise: human health optimization shouldn&apos;t rely on guess work, marketing hype, or fragmented tools. We combine clinical evidence, biological tracking, and Apple-grade design.
         </p>
       </div>
 
@@ -58,7 +58,7 @@ export default function AboutPage() {
       <div className="p-12 rounded-[40px] bg-gradient-to-br from-[#101114] to-[#0A0A0A] border border-emerald-500/30 text-center relative overflow-hidden">
         <h2 className="text-3xl font-bold text-white mb-4">Start your optimization journey today</h2>
         <p className="text-xs text-zinc-400 max-w-md mx-auto mb-8 font-sans">
-          Explore our guides, track your routines, or book a consultation with a HealthOS specialist.
+          Explore our guides, track your routines, or book a consultation with a AiX Health specialist.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/guides" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20">

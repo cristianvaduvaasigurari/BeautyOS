@@ -7,16 +7,16 @@ import { HelpCircle, Send, Mail } from "lucide-react";
 export default function SupportPage() {
   const faqs = [
     {
-      q: "How does HealthOS calculate the Active Ingredient Clash Alert?",
+      q: "How does AiX Health calculate the Active Ingredient Clash Alert?",
       a: "Our diagnostic engine analyzes molecular pH levels, enzymatic pathways, and keratolytic interactions. For instance, combining Retinoids and L-Ascorbic Acid in the same routing layer triggers a clash alert due to pH collision."
     },
     {
-      q: "Is HealthOS free to use for public educational research?",
+      q: "Is AiX Health free to use for public educational research?",
       a: "Yes. 100% of our articles, supplement database breakdowns, safety ratings, and guide protocols are publicly accessible without cost."
     },
     {
       q: "How do I sync my routines across devices?",
-      a: "HealthOS uses automated offline-first queue synchronization powered by Supabase. Your routine changes sync automatically when online."
+      a: "AiX Health uses automated offline-first queue synchronization powered by Supabase. Your routine changes sync automatically when online."
     },
     {
       q: "How can I book a 1-on-1 Health Consultation?",
@@ -35,7 +35,7 @@ export default function SupportPage() {
           How Can We Help You?
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
-          Browse frequently asked questions, learn how to use HealthOS diagnostic features, or connect with our support team directly.
+          Browse frequently asked questions, learn how to use AiX Health diagnostic features, or connect with our support team directly.
         </p>
       </div>
 

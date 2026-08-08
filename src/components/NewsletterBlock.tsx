@@ -28,7 +28,7 @@ export const NewsletterBlock = () => {
     return (
       <div className="w-full p-8 rounded-[32px] bg-emerald-500/10 border border-emerald-500/20 flex flex-col items-center justify-center text-center animate-fadeIn">
         <CheckCircle2 className="w-10 h-10 text-emerald-400 mb-4" />
-        <h3 className="text-xl font-bold text-white mb-2">Welcome to HealthOS Intelligence.</h3>
+        <h3 className="text-xl font-bold text-white mb-2">Welcome to AiX Health Intelligence.</h3>
         <p className="text-emerald-200/70 text-sm">You have successfully subscribed to clinical health protocols and longevity updates.</p>
       </div>
     );

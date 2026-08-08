@@ -14,7 +14,7 @@ export default function TransformationResultsPage() {
       beforeMetric: "74.2 kg (19.8% Body Fat)",
       afterMetric: "81.5 kg (13.5% Body Fat)",
       outcomes: ["+7.3 kg Lean Skeletal Muscle Mass", "-6.3% Visceral Body Fat", "+24% Intracellular Hydration Index"],
-      quote: "Tracking protein synthesis timing and creatine phosphocreatine loading in HealthOS delivered the most significant physique change of my life."
+      quote: "Tracking protein synthesis timing and creatine phosphocreatine loading in AiX Health delivered the most significant physique change of my life."
     },
     {
       name: "Elena Rostova",
@@ -120,7 +120,7 @@ export default function TransformationResultsPage() {
         </p>
         <div className="flex justify-center gap-4">
           <Link href="/onboarding" className="px-8 py-3.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs uppercase font-mono hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20 flex items-center gap-2">
-            <Zap className="w-4 h-4" /> Start HealthOS Onboarding
+            <Zap className="w-4 h-4" /> Start AiX Health Onboarding
           </Link>
         </div>
       </div>

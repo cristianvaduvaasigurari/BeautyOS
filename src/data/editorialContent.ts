@@ -81,7 +81,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Acne optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your acne baseline.",
     
     problem: "You are struggling with optimizing acne and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Acne protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Acne protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to acne.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -127,7 +127,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -143,8 +143,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -156,8 +156,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-acne-1",
-        "name": "HealthOS Acne Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Acne Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -177,8 +177,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-acne-2",
-        "name": "HealthOS Advanced Recovery Matrix (Acne)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Acne)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -213,7 +213,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Rosacea optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your rosacea baseline.",
     
     problem: "You are struggling with optimizing rosacea and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Rosacea protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Rosacea protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to rosacea.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -259,7 +259,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -275,8 +275,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -288,8 +288,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-rosacea-1",
-        "name": "HealthOS Rosacea Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Rosacea Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -309,8 +309,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-rosacea-2",
-        "name": "HealthOS Advanced Recovery Matrix (Rosacea)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Rosacea)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -345,7 +345,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Dry Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dry skin baseline.",
     
     problem: "You are struggling with optimizing dry skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dry Skin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Dry Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dry skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -391,7 +391,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -407,8 +407,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -420,8 +420,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-dry-skin-1",
-        "name": "HealthOS Dry Skin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Dry Skin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -441,8 +441,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-dry-skin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Dry Skin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Dry Skin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -477,7 +477,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Oily Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your oily skin baseline.",
     
     problem: "You are struggling with optimizing oily skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Oily Skin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Oily Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to oily skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -523,7 +523,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -539,8 +539,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -552,8 +552,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-oily-skin-1",
-        "name": "HealthOS Oily Skin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Oily Skin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -573,8 +573,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-oily-skin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Oily Skin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Oily Skin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -609,7 +609,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sensitive Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sensitive skin baseline.",
     
     problem: "You are struggling with optimizing sensitive skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sensitive Skin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sensitive Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sensitive skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -655,7 +655,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -671,8 +671,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -684,8 +684,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-sensitive-skin-1",
-        "name": "HealthOS Sensitive Skin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sensitive Skin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -705,8 +705,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-sensitive-skin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sensitive Skin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sensitive Skin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -741,7 +741,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Combination Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your combination skin baseline.",
     
     problem: "You are struggling with optimizing combination skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Combination Skin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Combination Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to combination skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -787,7 +787,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -803,8 +803,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -816,8 +816,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-combination-skin-1",
-        "name": "HealthOS Combination Skin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Combination Skin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -837,8 +837,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-combination-skin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Combination Skin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Combination Skin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -873,7 +873,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Barrier Repair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your barrier repair baseline.",
     
     problem: "You are struggling with optimizing barrier repair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Barrier Repair protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Barrier Repair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to barrier repair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -919,7 +919,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -935,8 +935,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -948,8 +948,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-barrier-repair-1",
-        "name": "HealthOS Barrier Repair Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Barrier Repair Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -969,8 +969,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-barrier-repair-2",
-        "name": "HealthOS Advanced Recovery Matrix (Barrier Repair)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Barrier Repair)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1005,7 +1005,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Anti Aging optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your anti aging baseline.",
     
     problem: "You are struggling with optimizing anti aging and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Anti Aging protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Anti Aging protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to anti aging.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1051,7 +1051,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1067,8 +1067,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1080,8 +1080,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-anti-aging-1",
-        "name": "HealthOS Anti Aging Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Anti Aging Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1101,8 +1101,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-anti-aging-2",
-        "name": "HealthOS Advanced Recovery Matrix (Anti Aging)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Anti Aging)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1137,7 +1137,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Wrinkles optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your wrinkles baseline.",
     
     problem: "You are struggling with optimizing wrinkles and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Wrinkles protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Wrinkles protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to wrinkles.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1183,7 +1183,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1199,8 +1199,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1212,8 +1212,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-wrinkles-1",
-        "name": "HealthOS Wrinkles Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Wrinkles Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1233,8 +1233,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-wrinkles-2",
-        "name": "HealthOS Advanced Recovery Matrix (Wrinkles)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Wrinkles)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1269,7 +1269,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Dark Spots optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dark spots baseline.",
     
     problem: "You are struggling with optimizing dark spots and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dark Spots protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Dark Spots protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dark spots.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1315,7 +1315,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1331,8 +1331,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1344,8 +1344,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-dark-spots-1",
-        "name": "HealthOS Dark Spots Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Dark Spots Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1365,8 +1365,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-dark-spots-2",
-        "name": "HealthOS Advanced Recovery Matrix (Dark Spots)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Dark Spots)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1401,7 +1401,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hyperpigmentation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyperpigmentation baseline.",
     
     problem: "You are struggling with optimizing hyperpigmentation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyperpigmentation protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hyperpigmentation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyperpigmentation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1447,7 +1447,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1463,8 +1463,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1476,8 +1476,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-hyperpigmentation-1",
-        "name": "HealthOS Hyperpigmentation Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hyperpigmentation Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1497,8 +1497,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-hyperpigmentation-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hyperpigmentation)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hyperpigmentation)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1533,7 +1533,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Double Cleansing optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your double cleansing baseline.",
     
     problem: "You are struggling with optimizing double cleansing and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Double Cleansing protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Double Cleansing protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to double cleansing.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1579,7 +1579,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1595,8 +1595,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1608,8 +1608,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-double-cleansing-1",
-        "name": "HealthOS Double Cleansing Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Double Cleansing Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1629,8 +1629,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-double-cleansing-2",
-        "name": "HealthOS Advanced Recovery Matrix (Double Cleansing)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Double Cleansing)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1665,7 +1665,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Exfoliation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your exfoliation baseline.",
     
     problem: "You are struggling with optimizing exfoliation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Exfoliation protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Exfoliation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to exfoliation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1711,7 +1711,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1727,8 +1727,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1740,8 +1740,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-exfoliation-1",
-        "name": "HealthOS Exfoliation Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Exfoliation Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1761,8 +1761,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-exfoliation-2",
-        "name": "HealthOS Advanced Recovery Matrix (Exfoliation)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Exfoliation)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1797,7 +1797,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Morning Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your morning routine baseline.",
     
     problem: "You are struggling with optimizing morning routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Morning Routine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Morning Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to morning routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1843,7 +1843,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1859,8 +1859,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -1872,8 +1872,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-morning-routine-1",
-        "name": "HealthOS Morning Routine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Morning Routine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1893,8 +1893,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-morning-routine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Morning Routine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Morning Routine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -1929,7 +1929,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Night Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your night routine baseline.",
     
     problem: "You are struggling with optimizing night routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Night Routine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Night Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to night routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1975,7 +1975,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -1991,8 +1991,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2004,8 +2004,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-night-routine-1",
-        "name": "HealthOS Night Routine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Night Routine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2025,8 +2025,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-night-routine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Night Routine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Night Routine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2061,7 +2061,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Eye Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your eye care baseline.",
     
     problem: "You are struggling with optimizing eye care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Eye Care protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Eye Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to eye care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2107,7 +2107,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2123,8 +2123,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2136,8 +2136,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-eye-care-1",
-        "name": "HealthOS Eye Care Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Eye Care Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2157,8 +2157,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-eye-care-2",
-        "name": "HealthOS Advanced Recovery Matrix (Eye Care)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Eye Care)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2193,7 +2193,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Lip Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lip care baseline.",
     
     problem: "You are struggling with optimizing lip care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lip Care protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Lip Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lip care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2239,7 +2239,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2255,8 +2255,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2268,8 +2268,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-lip-care-1",
-        "name": "HealthOS Lip Care Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Lip Care Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2289,8 +2289,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-lip-care-2",
-        "name": "HealthOS Advanced Recovery Matrix (Lip Care)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Lip Care)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2325,7 +2325,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Glow optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your glow baseline.",
     
     problem: "You are struggling with optimizing glow and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Glow protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Glow protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to glow.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2371,7 +2371,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2387,8 +2387,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2400,8 +2400,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-glow-1",
-        "name": "HealthOS Glow Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Glow Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2421,8 +2421,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-glow-2",
-        "name": "HealthOS Advanced Recovery Matrix (Glow)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Glow)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2457,7 +2457,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Azelaic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your azelaic acid baseline.",
     
     problem: "You are struggling with optimizing azelaic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Azelaic Acid protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Azelaic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to azelaic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2503,7 +2503,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2519,8 +2519,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2532,8 +2532,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-azelaic-acid-1",
-        "name": "HealthOS Azelaic Acid Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Azelaic Acid Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2553,8 +2553,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-azelaic-acid-2",
-        "name": "HealthOS Advanced Recovery Matrix (Azelaic Acid)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Azelaic Acid)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2589,7 +2589,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ceramides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ceramides baseline.",
     
     problem: "You are struggling with optimizing ceramides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ceramides protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ceramides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ceramides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2635,7 +2635,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2651,8 +2651,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2664,8 +2664,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-ceramides-1",
-        "name": "HealthOS Ceramides Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ceramides Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2685,8 +2685,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-ceramides-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ceramides)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ceramides)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2721,7 +2721,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Niacinamide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your niacinamide baseline.",
     
     problem: "You are struggling with optimizing niacinamide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Niacinamide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Niacinamide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to niacinamide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2767,7 +2767,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2783,8 +2783,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2796,8 +2796,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-niacinamide-1",
-        "name": "HealthOS Niacinamide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Niacinamide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2817,8 +2817,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-niacinamide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Niacinamide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Niacinamide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2853,7 +2853,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Peptides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your peptides baseline.",
     
     problem: "You are struggling with optimizing peptides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Peptides protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Peptides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to peptides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2899,7 +2899,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -2915,8 +2915,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -2928,8 +2928,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-peptides-1",
-        "name": "HealthOS Peptides Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Peptides Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2949,8 +2949,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-peptides-2",
-        "name": "HealthOS Advanced Recovery Matrix (Peptides)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Peptides)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -2985,7 +2985,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hyaluronic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyaluronic acid baseline.",
     
     problem: "You are struggling with optimizing hyaluronic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyaluronic Acid protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hyaluronic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyaluronic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3031,7 +3031,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3047,8 +3047,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3060,8 +3060,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-hyaluronic-acid-1",
-        "name": "HealthOS Hyaluronic Acid Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hyaluronic Acid Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3081,8 +3081,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-hyaluronic-acid-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hyaluronic Acid)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hyaluronic Acid)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3117,7 +3117,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Spf optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your spf baseline.",
     
     problem: "You are struggling with optimizing spf and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Spf protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Spf protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to spf.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3163,7 +3163,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3179,8 +3179,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3192,8 +3192,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-spf-1",
-        "name": "HealthOS Spf Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Spf Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3213,8 +3213,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-spf-2",
-        "name": "HealthOS Advanced Recovery Matrix (Spf)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Spf)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3249,7 +3249,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Retinol optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinol baseline.",
     
     problem: "You are struggling with optimizing retinol and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinol protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Retinol protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinol.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3295,7 +3295,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3311,8 +3311,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3324,8 +3324,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-retinol-1",
-        "name": "HealthOS Retinol Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Retinol Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3345,8 +3345,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-retinol-2",
-        "name": "HealthOS Advanced Recovery Matrix (Retinol)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Retinol)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3381,7 +3381,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Vitamin C optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c baseline.",
     
     problem: "You are struggling with optimizing vitamin c and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Vitamin C protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3427,7 +3427,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3443,8 +3443,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3456,8 +3456,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-vitamin-c-1",
-        "name": "HealthOS Vitamin C Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Vitamin C Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3477,8 +3477,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-vitamin-c-2",
-        "name": "HealthOS Advanced Recovery Matrix (Vitamin C)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Vitamin C)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3513,7 +3513,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sun Damage optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sun damage baseline.",
     
     problem: "You are struggling with optimizing sun damage and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sun Damage protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sun Damage protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sun damage.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3559,7 +3559,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3575,8 +3575,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3588,8 +3588,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-sun-damage-1",
-        "name": "HealthOS Sun Damage Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sun Damage Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3609,8 +3609,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-sun-damage-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sun Damage)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sun Damage)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3645,7 +3645,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Pigmentation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your pigmentation baseline.",
     
     problem: "You are struggling with optimizing pigmentation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Pigmentation protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Pigmentation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to pigmentation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3691,7 +3691,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3707,8 +3707,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3720,8 +3720,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-pigmentation-1",
-        "name": "HealthOS Pigmentation Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Pigmentation Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3741,8 +3741,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-pigmentation-2",
-        "name": "HealthOS Advanced Recovery Matrix (Pigmentation)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Pigmentation)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3777,7 +3777,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Cleansers optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cleansers baseline.",
     
     problem: "You are struggling with optimizing cleansers and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cleansers protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Cleansers protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cleansers.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3823,7 +3823,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3839,8 +3839,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3852,8 +3852,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-cleansers-1",
-        "name": "HealthOS Cleansers Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Cleansers Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3873,8 +3873,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-cleansers-2",
-        "name": "HealthOS Advanced Recovery Matrix (Cleansers)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Cleansers)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -3909,7 +3909,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Moisturizers optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your moisturizers baseline.",
     
     problem: "You are struggling with optimizing moisturizers and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Moisturizers protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Moisturizers protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to moisturizers.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3955,7 +3955,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -3971,8 +3971,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -3984,8 +3984,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-moisturizers-1",
-        "name": "HealthOS Moisturizers Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Moisturizers Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4005,8 +4005,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-moisturizers-2",
-        "name": "HealthOS Advanced Recovery Matrix (Moisturizers)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Moisturizers)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4041,7 +4041,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Serums optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your serums baseline.",
     
     problem: "You are struggling with optimizing serums and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Serums protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Serums protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to serums.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4087,7 +4087,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4103,8 +4103,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4116,8 +4116,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-serums-1",
-        "name": "HealthOS Serums Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Serums Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4137,8 +4137,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-serums-2",
-        "name": "HealthOS Advanced Recovery Matrix (Serums)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Serums)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4173,7 +4173,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Salicylic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your salicylic acid baseline.",
     
     problem: "You are struggling with optimizing salicylic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Salicylic Acid protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Salicylic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to salicylic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4219,7 +4219,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4235,8 +4235,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4248,8 +4248,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-salicylic-acid-1",
-        "name": "HealthOS Salicylic Acid Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Salicylic Acid Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4269,8 +4269,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-salicylic-acid-2",
-        "name": "HealthOS Advanced Recovery Matrix (Salicylic Acid)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Salicylic Acid)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4305,7 +4305,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Glycolic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your glycolic acid baseline.",
     
     problem: "You are struggling with optimizing glycolic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Glycolic Acid protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Glycolic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to glycolic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4351,7 +4351,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4367,8 +4367,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4380,8 +4380,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-glycolic-acid-1",
-        "name": "HealthOS Glycolic Acid Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Glycolic Acid Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4401,8 +4401,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-glycolic-acid-2",
-        "name": "HealthOS Advanced Recovery Matrix (Glycolic Acid)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Glycolic Acid)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4437,7 +4437,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fine Lines optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fine lines baseline.",
     
     problem: "You are struggling with optimizing fine lines and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fine Lines protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fine Lines protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fine lines.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4483,7 +4483,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4499,8 +4499,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4512,8 +4512,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-fine-lines-1",
-        "name": "HealthOS Fine Lines Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fine Lines Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4533,8 +4533,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-fine-lines-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fine Lines)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fine Lines)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4569,7 +4569,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Retinoids optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinoids baseline.",
     
     problem: "You are struggling with optimizing retinoids and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinoids protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Retinoids protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinoids.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4615,7 +4615,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4631,8 +4631,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4644,8 +4644,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-retinoids-1",
-        "name": "HealthOS Retinoids Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Retinoids Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4665,8 +4665,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-retinoids-2",
-        "name": "HealthOS Advanced Recovery Matrix (Retinoids)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Retinoids)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4701,7 +4701,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sebum optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sebum baseline.",
     
     problem: "You are struggling with optimizing sebum and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sebum protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sebum protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sebum.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4747,7 +4747,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4763,8 +4763,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4776,8 +4776,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-sebum-1",
-        "name": "HealthOS Sebum Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sebum Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4797,8 +4797,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-sebum-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sebum)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sebum)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4833,7 +4833,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Barrier Damage optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your barrier damage baseline.",
     
     problem: "You are struggling with optimizing barrier damage and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Barrier Damage protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Barrier Damage protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to barrier damage.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4879,7 +4879,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -4895,8 +4895,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -4908,8 +4908,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-barrier-damage-1",
-        "name": "HealthOS Barrier Damage Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Barrier Damage Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4929,8 +4929,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-skin-barrier-damage-2",
-        "name": "HealthOS Advanced Recovery Matrix (Barrier Damage)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Barrier Damage)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -4965,7 +4965,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Vitamin C optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c baseline.",
     
     problem: "You are struggling with optimizing vitamin c and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Vitamin C protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5011,7 +5011,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5027,8 +5027,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5040,8 +5040,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-vitamin-c-1",
-        "name": "HealthOS Vitamin C Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Vitamin C Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5061,8 +5061,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-vitamin-c-2",
-        "name": "HealthOS Advanced Recovery Matrix (Vitamin C)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Vitamin C)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5097,7 +5097,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Retinol optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinol baseline.",
     
     problem: "You are struggling with optimizing retinol and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinol protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Retinol protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinol.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5143,7 +5143,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5159,8 +5159,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5172,8 +5172,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-retinol-1",
-        "name": "HealthOS Retinol Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Retinol Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5193,8 +5193,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-retinol-2",
-        "name": "HealthOS Advanced Recovery Matrix (Retinol)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Retinol)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5229,7 +5229,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ceramides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ceramides baseline.",
     
     problem: "You are struggling with optimizing ceramides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ceramides protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ceramides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ceramides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5275,7 +5275,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5291,8 +5291,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5304,8 +5304,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-ceramides-1",
-        "name": "HealthOS Ceramides Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ceramides Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5325,8 +5325,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-ceramides-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ceramides)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ceramides)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5361,7 +5361,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Niacinamide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your niacinamide baseline.",
     
     problem: "You are struggling with optimizing niacinamide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Niacinamide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Niacinamide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to niacinamide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5407,7 +5407,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5423,8 +5423,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5436,8 +5436,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-niacinamide-1",
-        "name": "HealthOS Niacinamide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Niacinamide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5457,8 +5457,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-niacinamide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Niacinamide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Niacinamide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5493,7 +5493,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Peptides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your peptides baseline.",
     
     problem: "You are struggling with optimizing peptides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Peptides protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Peptides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to peptides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5539,7 +5539,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5555,8 +5555,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5568,8 +5568,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-peptides-1",
-        "name": "HealthOS Peptides Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Peptides Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5589,8 +5589,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-peptides-2",
-        "name": "HealthOS Advanced Recovery Matrix (Peptides)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Peptides)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5625,7 +5625,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hyaluronic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyaluronic acid baseline.",
     
     problem: "You are struggling with optimizing hyaluronic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyaluronic Acid protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hyaluronic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyaluronic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5671,7 +5671,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5687,8 +5687,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5700,8 +5700,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-hyaluronic-acid-1",
-        "name": "HealthOS Hyaluronic Acid Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hyaluronic Acid Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5721,8 +5721,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-hyaluronic-acid-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hyaluronic Acid)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hyaluronic Acid)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5757,7 +5757,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Azelaic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your azelaic acid baseline.",
     
     problem: "You are struggling with optimizing azelaic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Azelaic Acid protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Azelaic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to azelaic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5803,7 +5803,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5819,8 +5819,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5832,8 +5832,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-azelaic-acid-1",
-        "name": "HealthOS Azelaic Acid Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Azelaic Acid Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5853,8 +5853,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-azelaic-acid-2",
-        "name": "HealthOS Advanced Recovery Matrix (Azelaic Acid)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Azelaic Acid)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -5889,7 +5889,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Spf optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your spf baseline.",
     
     problem: "You are struggling with optimizing spf and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Spf protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Spf protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to spf.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5935,7 +5935,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -5951,8 +5951,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -5964,8 +5964,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-spf-1",
-        "name": "HealthOS Spf Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Spf Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5985,8 +5985,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-ingredients-spf-2",
-        "name": "HealthOS Advanced Recovery Matrix (Spf)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Spf)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6021,7 +6021,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hair Growth optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair growth baseline.",
     
     problem: "You are struggling with optimizing hair growth and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Growth protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hair Growth protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair growth.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6067,7 +6067,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6083,8 +6083,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6096,8 +6096,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-growth-1",
-        "name": "HealthOS Hair Growth Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hair Growth Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6117,8 +6117,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-hair-growth-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hair Growth)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hair Growth)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6153,7 +6153,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hair Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair loss baseline.",
     
     problem: "You are struggling with optimizing hair loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Loss protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hair Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6199,7 +6199,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6215,8 +6215,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6228,8 +6228,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-loss-1",
-        "name": "HealthOS Hair Loss Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hair Loss Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6249,8 +6249,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-hair-loss-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hair Loss)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hair Loss)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6285,7 +6285,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Scalp Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your scalp health baseline.",
     
     problem: "You are struggling with optimizing scalp health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Scalp Health protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Scalp Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to scalp health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6331,7 +6331,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6347,8 +6347,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6360,8 +6360,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-scalp-health-1",
-        "name": "HealthOS Scalp Health Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Scalp Health Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6381,8 +6381,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-scalp-health-2",
-        "name": "HealthOS Advanced Recovery Matrix (Scalp Health)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Scalp Health)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6417,7 +6417,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Dandruff optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dandruff baseline.",
     
     problem: "You are struggling with optimizing dandruff and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dandruff protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Dandruff protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dandruff.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6463,7 +6463,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6479,8 +6479,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6492,8 +6492,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-dandruff-1",
-        "name": "HealthOS Dandruff Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Dandruff Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6513,8 +6513,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-dandruff-2",
-        "name": "HealthOS Advanced Recovery Matrix (Dandruff)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Dandruff)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6549,7 +6549,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Curly optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your curly baseline.",
     
     problem: "You are struggling with optimizing curly and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Curly protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Curly protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to curly.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6595,7 +6595,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6611,8 +6611,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6624,8 +6624,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-curly-1",
-        "name": "HealthOS Curly Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Curly Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6645,8 +6645,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-curly-2",
-        "name": "HealthOS Advanced Recovery Matrix (Curly)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Curly)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6681,7 +6681,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Curly Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your curly hair baseline.",
     
     problem: "You are struggling with optimizing curly hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Curly Hair protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Curly Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to curly hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6727,7 +6727,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6743,8 +6743,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6756,8 +6756,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-curly-hair-1",
-        "name": "HealthOS Curly Hair Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Curly Hair Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6777,8 +6777,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-curly-hair-2",
-        "name": "HealthOS Advanced Recovery Matrix (Curly Hair)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Curly Hair)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6813,7 +6813,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Straight optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your straight baseline.",
     
     problem: "You are struggling with optimizing straight and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Straight protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Straight protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to straight.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6859,7 +6859,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -6875,8 +6875,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -6888,8 +6888,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-straight-1",
-        "name": "HealthOS Straight Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Straight Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6909,8 +6909,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-straight-2",
-        "name": "HealthOS Advanced Recovery Matrix (Straight)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Straight)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -6945,7 +6945,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Straight Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your straight hair baseline.",
     
     problem: "You are struggling with optimizing straight hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Straight Hair protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Straight Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to straight hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6991,7 +6991,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7007,8 +7007,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7020,8 +7020,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-straight-hair-1",
-        "name": "HealthOS Straight Hair Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Straight Hair Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7041,8 +7041,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-straight-hair-2",
-        "name": "HealthOS Advanced Recovery Matrix (Straight Hair)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Straight Hair)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7077,7 +7077,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Damaged Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your damaged hair baseline.",
     
     problem: "You are struggling with optimizing damaged hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Damaged Hair protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Damaged Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to damaged hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7123,7 +7123,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7139,8 +7139,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7152,8 +7152,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-damaged-hair-1",
-        "name": "HealthOS Damaged Hair Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Damaged Hair Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7173,8 +7173,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-damaged-hair-2",
-        "name": "HealthOS Advanced Recovery Matrix (Damaged Hair)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Damaged Hair)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7209,7 +7209,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Dry Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dry hair baseline.",
     
     problem: "You are struggling with optimizing dry hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dry Hair protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Dry Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dry hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7255,7 +7255,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7271,8 +7271,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7284,8 +7284,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-dry-hair-1",
-        "name": "HealthOS Dry Hair Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Dry Hair Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7305,8 +7305,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-dry-hair-2",
-        "name": "HealthOS Advanced Recovery Matrix (Dry Hair)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Dry Hair)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7341,7 +7341,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hair Oils optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair oils baseline.",
     
     problem: "You are struggling with optimizing hair oils and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Oils protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hair Oils protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair oils.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7387,7 +7387,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7403,8 +7403,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7416,8 +7416,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-oils-1",
-        "name": "HealthOS Hair Oils Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hair Oils Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7437,8 +7437,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-hair-oils-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hair Oils)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hair Oils)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7473,7 +7473,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Oils optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your oils baseline.",
     
     problem: "You are struggling with optimizing oils and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Oils protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Oils protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to oils.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7519,7 +7519,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7535,8 +7535,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7548,8 +7548,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-oils-1",
-        "name": "HealthOS Oils Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Oils Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7569,8 +7569,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-oils-2",
-        "name": "HealthOS Advanced Recovery Matrix (Oils)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Oils)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7605,7 +7605,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Beard Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your beard care baseline.",
     
     problem: "You are struggling with optimizing beard care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Beard Care protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Beard Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to beard care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7651,7 +7651,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7667,8 +7667,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7680,8 +7680,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-beard-care-1",
-        "name": "HealthOS Beard Care Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Beard Care Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7701,8 +7701,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-beard-care-2",
-        "name": "HealthOS Advanced Recovery Matrix (Beard Care)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Beard Care)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7737,7 +7737,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hair Supplements optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair supplements baseline.",
     
     problem: "You are struggling with optimizing hair supplements and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Supplements protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hair Supplements protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair supplements.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7783,7 +7783,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7799,8 +7799,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7812,8 +7812,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-supplements-1",
-        "name": "HealthOS Hair Supplements Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hair Supplements Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7833,8 +7833,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-hair-supplements-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hair Supplements)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hair Supplements)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -7869,7 +7869,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Biotin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your biotin baseline.",
     
     problem: "You are struggling with optimizing biotin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Biotin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Biotin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to biotin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7915,7 +7915,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -7931,8 +7931,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -7944,8 +7944,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-biotin-1",
-        "name": "HealthOS Biotin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Biotin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7965,8 +7965,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-biotin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Biotin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Biotin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8001,7 +8001,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Minoxidil optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your minoxidil baseline.",
     
     problem: "You are struggling with optimizing minoxidil and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Minoxidil protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Minoxidil protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to minoxidil.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8047,7 +8047,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8063,8 +8063,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8076,8 +8076,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-minoxidil-1",
-        "name": "HealthOS Minoxidil Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Minoxidil Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8097,8 +8097,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-minoxidil-2",
-        "name": "HealthOS Advanced Recovery Matrix (Minoxidil)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Minoxidil)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8133,7 +8133,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Scalp optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your scalp baseline.",
     
     problem: "You are struggling with optimizing scalp and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Scalp protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Scalp protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to scalp.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8179,7 +8179,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8195,8 +8195,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8208,8 +8208,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-scalp-1",
-        "name": "HealthOS Scalp Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Scalp Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8229,8 +8229,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-hair-scalp-2",
-        "name": "HealthOS Advanced Recovery Matrix (Scalp)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Scalp)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8265,7 +8265,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Acne optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body acne baseline.",
     
     problem: "You are struggling with optimizing body acne and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Acne protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Acne protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body acne.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8311,7 +8311,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8327,8 +8327,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8340,8 +8340,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-acne-1",
-        "name": "HealthOS Body Acne Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Acne Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8361,8 +8361,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-body-acne-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Acne)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Acne)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8397,7 +8397,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Stretch Marks optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stretch marks baseline.",
     
     problem: "You are struggling with optimizing stretch marks and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stretch Marks protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Stretch Marks protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stretch marks.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8443,7 +8443,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8459,8 +8459,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8472,8 +8472,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-stretch-marks-1",
-        "name": "HealthOS Stretch Marks Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Stretch Marks Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8493,8 +8493,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-stretch-marks-2",
-        "name": "HealthOS Advanced Recovery Matrix (Stretch Marks)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Stretch Marks)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8529,7 +8529,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Cellulite optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cellulite baseline.",
     
     problem: "You are struggling with optimizing cellulite and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cellulite protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Cellulite protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cellulite.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8575,7 +8575,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8591,8 +8591,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8604,8 +8604,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-cellulite-1",
-        "name": "HealthOS Cellulite Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Cellulite Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8625,8 +8625,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-cellulite-2",
-        "name": "HealthOS Advanced Recovery Matrix (Cellulite)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Cellulite)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8661,7 +8661,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Lotion optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body lotion baseline.",
     
     problem: "You are struggling with optimizing body lotion and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Lotion protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Lotion protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body lotion.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8707,7 +8707,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8723,8 +8723,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8736,8 +8736,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-lotion-1",
-        "name": "HealthOS Body Lotion Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Lotion Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8757,8 +8757,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-body-lotion-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Lotion)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Lotion)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8793,7 +8793,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Wash optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body wash baseline.",
     
     problem: "You are struggling with optimizing body wash and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Wash protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Wash protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body wash.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8839,7 +8839,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8855,8 +8855,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -8868,8 +8868,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-wash-1",
-        "name": "HealthOS Body Wash Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Wash Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8889,8 +8889,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-body-wash-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Wash)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Wash)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -8925,7 +8925,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hands optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hands baseline.",
     
     problem: "You are struggling with optimizing hands and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hands protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hands protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hands.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8971,7 +8971,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -8987,8 +8987,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9000,8 +9000,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-hands-1",
-        "name": "HealthOS Hands Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hands Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9021,8 +9021,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-hands-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hands)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hands)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9057,7 +9057,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Feet optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your feet baseline.",
     
     problem: "You are struggling with optimizing feet and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Feet protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Feet protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to feet.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9103,7 +9103,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9119,8 +9119,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9132,8 +9132,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-feet-1",
-        "name": "HealthOS Feet Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Feet Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9153,8 +9153,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-feet-2",
-        "name": "HealthOS Advanced Recovery Matrix (Feet)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Feet)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9189,7 +9189,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Neck optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your neck baseline.",
     
     problem: "You are struggling with optimizing neck and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Neck protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Neck protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to neck.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9235,7 +9235,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9251,8 +9251,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9264,8 +9264,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-neck-1",
-        "name": "HealthOS Neck Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Neck Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9285,8 +9285,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-neck-2",
-        "name": "HealthOS Advanced Recovery Matrix (Neck)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Neck)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9321,7 +9321,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Spf optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body spf baseline.",
     
     problem: "You are struggling with optimizing body spf and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Spf protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Spf protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body spf.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9367,7 +9367,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9383,8 +9383,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9396,8 +9396,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-spf-1",
-        "name": "HealthOS Body Spf Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Spf Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9417,8 +9417,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-body-spf-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Spf)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Spf)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9453,7 +9453,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Exfoliation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body exfoliation baseline.",
     
     problem: "You are struggling with optimizing body exfoliation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Exfoliation protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Exfoliation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body exfoliation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9499,7 +9499,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9515,8 +9515,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9528,8 +9528,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-exfoliation-1",
-        "name": "HealthOS Body Exfoliation Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Exfoliation Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9549,8 +9549,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-body-exfoliation-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Exfoliation)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Exfoliation)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9585,7 +9585,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hydration optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration baseline.",
     
     problem: "You are struggling with optimizing hydration and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hydration protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9631,7 +9631,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9647,8 +9647,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9660,8 +9660,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-hydration-1",
-        "name": "HealthOS Hydration Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hydration Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9681,8 +9681,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-hydration-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hydration)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hydration)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9717,7 +9717,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Composition optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body composition baseline.",
     
     problem: "You are struggling with optimizing body composition and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Composition protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Composition protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body composition.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9763,7 +9763,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9779,8 +9779,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9792,8 +9792,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-composition-1",
-        "name": "HealthOS Body Composition Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Composition Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9813,8 +9813,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-body-composition-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Composition)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Composition)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9849,7 +9849,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Posture optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your posture baseline.",
     
     problem: "You are struggling with optimizing posture and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Posture protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Posture protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to posture.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9895,7 +9895,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -9911,8 +9911,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -9924,8 +9924,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-posture-1",
-        "name": "HealthOS Posture Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Posture Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9945,8 +9945,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-posture-2",
-        "name": "HealthOS Advanced Recovery Matrix (Posture)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Posture)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -9981,7 +9981,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
     problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10027,7 +10027,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10043,8 +10043,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10056,8 +10056,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-recovery-1",
-        "name": "HealthOS Recovery Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Recovery Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10077,8 +10077,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-recovery-2",
-        "name": "HealthOS Advanced Recovery Matrix (Recovery)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Recovery)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10113,7 +10113,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your care baseline.",
     
     problem: "You are struggling with optimizing care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Care protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10159,7 +10159,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10175,8 +10175,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10188,8 +10188,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-care-1",
-        "name": "HealthOS Care Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Care Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10209,8 +10209,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-body-care-2",
-        "name": "HealthOS Advanced Recovery Matrix (Care)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Care)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10245,7 +10245,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Build Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your build muscle baseline.",
     
     problem: "You are struggling with optimizing build muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Build Muscle protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Build Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to build muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10291,7 +10291,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10307,8 +10307,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10320,8 +10320,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-build-muscle-1",
-        "name": "HealthOS Build Muscle Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Build Muscle Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10341,8 +10341,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-build-muscle-2",
-        "name": "HealthOS Advanced Recovery Matrix (Build Muscle)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Build Muscle)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10377,7 +10377,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Lose Fat optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lose fat baseline.",
     
     problem: "You are struggling with optimizing lose fat and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lose Fat protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Lose Fat protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lose fat.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10423,7 +10423,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10439,8 +10439,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10452,8 +10452,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-lose-fat-1",
-        "name": "HealthOS Lose Fat Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Lose Fat Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10473,8 +10473,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-lose-fat-2",
-        "name": "HealthOS Advanced Recovery Matrix (Lose Fat)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Lose Fat)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10509,7 +10509,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Body Recomposition optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body recomposition baseline.",
     
     problem: "You are struggling with optimizing body recomposition and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Recomposition protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Body Recomposition protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body recomposition.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10555,7 +10555,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10571,8 +10571,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10584,8 +10584,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-body-recomposition-1",
-        "name": "HealthOS Body Recomposition Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Body Recomposition Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10605,8 +10605,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-body-recomposition-2",
-        "name": "HealthOS Advanced Recovery Matrix (Body Recomposition)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Body Recomposition)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10641,7 +10641,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Strength optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your strength baseline.",
     
     problem: "You are struggling with optimizing strength and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Strength protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Strength protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to strength.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10687,7 +10687,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10703,8 +10703,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10716,8 +10716,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-strength-1",
-        "name": "HealthOS Strength Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Strength Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10737,8 +10737,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-strength-2",
-        "name": "HealthOS Advanced Recovery Matrix (Strength)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Strength)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10773,7 +10773,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hypertrophy optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hypertrophy baseline.",
     
     problem: "You are struggling with optimizing hypertrophy and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hypertrophy protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hypertrophy protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hypertrophy.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10819,7 +10819,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10835,8 +10835,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10848,8 +10848,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-hypertrophy-1",
-        "name": "HealthOS Hypertrophy Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hypertrophy Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10869,8 +10869,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-hypertrophy-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hypertrophy)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hypertrophy)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -10905,7 +10905,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Cardio optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cardio baseline.",
     
     problem: "You are struggling with optimizing cardio and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cardio protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Cardio protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cardio.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10951,7 +10951,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -10967,8 +10967,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -10980,8 +10980,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-cardio-1",
-        "name": "HealthOS Cardio Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Cardio Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11001,8 +11001,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-cardio-2",
-        "name": "HealthOS Advanced Recovery Matrix (Cardio)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Cardio)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11037,7 +11037,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
     problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11083,7 +11083,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11099,8 +11099,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11112,8 +11112,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-recovery-1",
-        "name": "HealthOS Recovery Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Recovery Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11133,8 +11133,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-recovery-2",
-        "name": "HealthOS Advanced Recovery Matrix (Recovery)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Recovery)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11169,7 +11169,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Mobility optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your mobility baseline.",
     
     problem: "You are struggling with optimizing mobility and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Mobility protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Mobility protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to mobility.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11215,7 +11215,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11231,8 +11231,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11244,8 +11244,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-mobility-1",
-        "name": "HealthOS Mobility Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Mobility Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11265,8 +11265,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-mobility-2",
-        "name": "HealthOS Advanced Recovery Matrix (Mobility)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Mobility)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11301,7 +11301,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Stretching optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stretching baseline.",
     
     problem: "You are struggling with optimizing stretching and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stretching protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Stretching protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stretching.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11347,7 +11347,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11363,8 +11363,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11376,8 +11376,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-stretching-1",
-        "name": "HealthOS Stretching Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Stretching Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11397,8 +11397,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-stretching-2",
-        "name": "HealthOS Advanced Recovery Matrix (Stretching)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Stretching)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11433,7 +11433,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Workout Plans optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your workout plans baseline.",
     
     problem: "You are struggling with optimizing workout plans and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Workout Plans protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Workout Plans protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to workout plans.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11479,7 +11479,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11495,8 +11495,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11508,8 +11508,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-workout-plans-1",
-        "name": "HealthOS Workout Plans Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Workout Plans Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11529,8 +11529,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-workout-plans-2",
-        "name": "HealthOS Advanced Recovery Matrix (Workout Plans)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Workout Plans)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11565,7 +11565,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Gym Beginners optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gym beginners baseline.",
     
     problem: "You are struggling with optimizing gym beginners and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gym Beginners protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Gym Beginners protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gym beginners.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11611,7 +11611,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11627,8 +11627,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11640,8 +11640,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-gym-beginners-1",
-        "name": "HealthOS Gym Beginners Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Gym Beginners Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11661,8 +11661,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-gym-beginners-2",
-        "name": "HealthOS Advanced Recovery Matrix (Gym Beginners)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Gym Beginners)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11697,7 +11697,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Advanced Training optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your advanced training baseline.",
     
     problem: "You are struggling with optimizing advanced training and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Advanced Training protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Advanced Training protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to advanced training.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11743,7 +11743,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11759,8 +11759,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11772,8 +11772,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-advanced-training-1",
-        "name": "HealthOS Advanced Training Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Advanced Training Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11793,8 +11793,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-advanced-training-2",
-        "name": "HealthOS Advanced Recovery Matrix (Advanced Training)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Advanced Training)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11829,7 +11829,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Protein Intake optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your protein intake baseline.",
     
     problem: "You are struggling with optimizing protein intake and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Protein Intake protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Protein Intake protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to protein intake.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11875,7 +11875,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -11891,8 +11891,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -11904,8 +11904,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-protein-intake-1",
-        "name": "HealthOS Protein Intake Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Protein Intake Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11925,8 +11925,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-protein-intake-2",
-        "name": "HealthOS Advanced Recovery Matrix (Protein Intake)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Protein Intake)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -11961,7 +11961,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Running optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your running baseline.",
     
     problem: "You are struggling with optimizing running and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Running protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Running protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to running.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12007,7 +12007,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12023,8 +12023,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12036,8 +12036,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-running-1",
-        "name": "HealthOS Running Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Running Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12057,8 +12057,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-running-2",
-        "name": "HealthOS Advanced Recovery Matrix (Running)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Running)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12093,7 +12093,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hiit optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hiit baseline.",
     
     problem: "You are struggling with optimizing hiit and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hiit protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hiit protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hiit.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12139,7 +12139,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12155,8 +12155,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12168,8 +12168,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-hiit-1",
-        "name": "HealthOS Hiit Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hiit Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12189,8 +12189,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-hiit-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hiit)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hiit)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12225,7 +12225,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Powerlifting optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your powerlifting baseline.",
     
     problem: "You are struggling with optimizing powerlifting and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Powerlifting protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Powerlifting protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to powerlifting.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12271,7 +12271,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12287,8 +12287,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12300,8 +12300,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-powerlifting-1",
-        "name": "HealthOS Powerlifting Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Powerlifting Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12321,8 +12321,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-powerlifting-2",
-        "name": "HealthOS Advanced Recovery Matrix (Powerlifting)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Powerlifting)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12357,7 +12357,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Bodybuilding optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your bodybuilding baseline.",
     
     problem: "You are struggling with optimizing bodybuilding and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Bodybuilding protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Bodybuilding protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to bodybuilding.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12403,7 +12403,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12419,8 +12419,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12432,8 +12432,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-bodybuilding-1",
-        "name": "HealthOS Bodybuilding Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Bodybuilding Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12453,8 +12453,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-bodybuilding-2",
-        "name": "HealthOS Advanced Recovery Matrix (Bodybuilding)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Bodybuilding)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12489,7 +12489,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fat Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fat loss baseline.",
     
     problem: "You are struggling with optimizing fat loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fat Loss protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fat Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fat loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12535,7 +12535,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12551,8 +12551,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12564,8 +12564,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-fat-loss-1",
-        "name": "HealthOS Fat Loss Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fat Loss Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12585,8 +12585,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-fat-loss-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fat Loss)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fat Loss)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12621,7 +12621,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Muscle Gain optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle gain baseline.",
     
     problem: "You are struggling with optimizing muscle gain and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle Gain protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Muscle Gain protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle gain.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12667,7 +12667,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12683,8 +12683,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12696,8 +12696,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-muscle-gain-1",
-        "name": "HealthOS Muscle Gain Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Muscle Gain Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12717,8 +12717,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-fitness-muscle-gain-2",
-        "name": "HealthOS Advanced Recovery Matrix (Muscle Gain)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Muscle Gain)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12753,7 +12753,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Calories optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your calories baseline.",
     
     problem: "You are struggling with optimizing calories and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Calories protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Calories protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to calories.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12799,7 +12799,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12815,8 +12815,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12828,8 +12828,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-calories-1",
-        "name": "HealthOS Calories Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Calories Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12849,8 +12849,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-calories-2",
-        "name": "HealthOS Advanced Recovery Matrix (Calories)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Calories)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -12885,7 +12885,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Protein optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your protein baseline.",
     
     problem: "You are struggling with optimizing protein and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Protein protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Protein protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to protein.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12931,7 +12931,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -12947,8 +12947,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -12960,8 +12960,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-protein-1",
-        "name": "HealthOS Protein Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Protein Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12981,8 +12981,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-protein-2",
-        "name": "HealthOS Advanced Recovery Matrix (Protein)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Protein)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13017,7 +13017,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Carbohydrates optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your carbohydrates baseline.",
     
     problem: "You are struggling with optimizing carbohydrates and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Carbohydrates protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Carbohydrates protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to carbohydrates.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13063,7 +13063,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13079,8 +13079,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13092,8 +13092,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-carbohydrates-1",
-        "name": "HealthOS Carbohydrates Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Carbohydrates Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13113,8 +13113,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-carbohydrates-2",
-        "name": "HealthOS Advanced Recovery Matrix (Carbohydrates)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Carbohydrates)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13149,7 +13149,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Carbs optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your carbs baseline.",
     
     problem: "You are struggling with optimizing carbs and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Carbs protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Carbs protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to carbs.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13195,7 +13195,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13211,8 +13211,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13224,8 +13224,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-carbs-1",
-        "name": "HealthOS Carbs Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Carbs Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13245,8 +13245,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-carbs-2",
-        "name": "HealthOS Advanced Recovery Matrix (Carbs)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Carbs)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13281,7 +13281,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fats optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fats baseline.",
     
     problem: "You are struggling with optimizing fats and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fats protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fats protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fats.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13327,7 +13327,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13343,8 +13343,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13356,8 +13356,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-fats-1",
-        "name": "HealthOS Fats Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fats Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13377,8 +13377,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-fats-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fats)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fats)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13413,7 +13413,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Fats optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy fats baseline.",
     
     problem: "You are struggling with optimizing healthy fats and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Fats protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Fats protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy fats.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13459,7 +13459,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13475,8 +13475,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13488,8 +13488,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-healthy-fats-1",
-        "name": "HealthOS Healthy Fats Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Fats Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13509,8 +13509,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-healthy-fats-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Fats)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Fats)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13545,7 +13545,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Meal Planning optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your meal planning baseline.",
     
     problem: "You are struggling with optimizing meal planning and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Meal Planning protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Meal Planning protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to meal planning.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13591,7 +13591,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13607,8 +13607,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13620,8 +13620,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-meal-planning-1",
-        "name": "HealthOS Meal Planning Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Meal Planning Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13641,8 +13641,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-meal-planning-2",
-        "name": "HealthOS Advanced Recovery Matrix (Meal Planning)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Meal Planning)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13677,7 +13677,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Meal Plans optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your meal plans baseline.",
     
     problem: "You are struggling with optimizing meal plans and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Meal Plans protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Meal Plans protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to meal plans.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13723,7 +13723,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13739,8 +13739,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13752,8 +13752,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-meal-plans-1",
-        "name": "HealthOS Meal Plans Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Meal Plans Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13773,8 +13773,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-meal-plans-2",
-        "name": "HealthOS Advanced Recovery Matrix (Meal Plans)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Meal Plans)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13809,7 +13809,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Recipes optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recipes baseline.",
     
     problem: "You are struggling with optimizing recipes and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recipes protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Recipes protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recipes.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13855,7 +13855,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -13871,8 +13871,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -13884,8 +13884,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-recipes-1",
-        "name": "HealthOS Recipes Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Recipes Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13905,8 +13905,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-recipes-2",
-        "name": "HealthOS Advanced Recovery Matrix (Recipes)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Recipes)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -13941,7 +13941,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Recipes optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy recipes baseline.",
     
     problem: "You are struggling with optimizing healthy recipes and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Recipes protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Recipes protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy recipes.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13987,7 +13987,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14003,8 +14003,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14016,8 +14016,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-healthy-recipes-1",
-        "name": "HealthOS Healthy Recipes Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Recipes Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14037,8 +14037,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-healthy-recipes-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Recipes)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Recipes)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14073,7 +14073,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hydration optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration baseline.",
     
     problem: "You are struggling with optimizing hydration and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hydration protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14119,7 +14119,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14135,8 +14135,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14148,8 +14148,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-hydration-1",
-        "name": "HealthOS Hydration Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hydration Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14169,8 +14169,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-hydration-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hydration)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hydration)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14205,7 +14205,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Micronutrients optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your micronutrients baseline.",
     
     problem: "You are struggling with optimizing micronutrients and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Micronutrients protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Micronutrients protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to micronutrients.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14251,7 +14251,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14267,8 +14267,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14280,8 +14280,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-micronutrients-1",
-        "name": "HealthOS Micronutrients Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Micronutrients Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14301,8 +14301,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-micronutrients-2",
-        "name": "HealthOS Advanced Recovery Matrix (Micronutrients)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Micronutrients)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14337,7 +14337,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Gut Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gut health baseline.",
     
     problem: "You are struggling with optimizing gut health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gut Health protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Gut Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gut health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14383,7 +14383,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14399,8 +14399,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14412,8 +14412,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-gut-health-1",
-        "name": "HealthOS Gut Health Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Gut Health Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14433,8 +14433,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-gut-health-2",
-        "name": "HealthOS Advanced Recovery Matrix (Gut Health)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Gut Health)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14469,7 +14469,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Meal Timing optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your meal timing baseline.",
     
     problem: "You are struggling with optimizing meal timing and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Meal Timing protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Meal Timing protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to meal timing.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14515,7 +14515,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14531,8 +14531,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14544,8 +14544,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-meal-timing-1",
-        "name": "HealthOS Meal Timing Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Meal Timing Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14565,8 +14565,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-meal-timing-2",
-        "name": "HealthOS Advanced Recovery Matrix (Meal Timing)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Meal Timing)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14601,7 +14601,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fat Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fat loss baseline.",
     
     problem: "You are struggling with optimizing fat loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fat Loss protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fat Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fat loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14647,7 +14647,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14663,8 +14663,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14676,8 +14676,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-fat-loss-1",
-        "name": "HealthOS Fat Loss Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fat Loss Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14697,8 +14697,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-fat-loss-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fat Loss)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fat Loss)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14733,7 +14733,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle baseline.",
     
     problem: "You are struggling with optimizing muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14779,7 +14779,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14795,8 +14795,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14808,8 +14808,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-muscle-1",
-        "name": "HealthOS Muscle Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Muscle Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14829,8 +14829,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-muscle-2",
-        "name": "HealthOS Advanced Recovery Matrix (Muscle)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Muscle)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14865,7 +14865,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Intermittent Fasting optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your intermittent fasting baseline.",
     
     problem: "You are struggling with optimizing intermittent fasting and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Intermittent Fasting protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Intermittent Fasting protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to intermittent fasting.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14911,7 +14911,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -14927,8 +14927,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -14940,8 +14940,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-intermittent-fasting-1",
-        "name": "HealthOS Intermittent Fasting Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Intermittent Fasting Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14961,8 +14961,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-intermittent-fasting-2",
-        "name": "HealthOS Advanced Recovery Matrix (Intermittent Fasting)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Intermittent Fasting)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -14997,7 +14997,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ketogenic Diet optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ketogenic diet baseline.",
     
     problem: "You are struggling with optimizing ketogenic diet and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ketogenic Diet protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ketogenic Diet protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ketogenic diet.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15043,7 +15043,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15059,8 +15059,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15072,8 +15072,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-ketogenic-diet-1",
-        "name": "HealthOS Ketogenic Diet Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ketogenic Diet Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15093,8 +15093,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-ketogenic-diet-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ketogenic Diet)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ketogenic Diet)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15129,7 +15129,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Mediterranean Diet optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your mediterranean diet baseline.",
     
     problem: "You are struggling with optimizing mediterranean diet and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Mediterranean Diet protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Mediterranean Diet protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to mediterranean diet.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15175,7 +15175,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15191,8 +15191,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15204,8 +15204,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-mediterranean-diet-1",
-        "name": "HealthOS Mediterranean Diet Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Mediterranean Diet Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15225,8 +15225,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-mediterranean-diet-2",
-        "name": "HealthOS Advanced Recovery Matrix (Mediterranean Diet)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Mediterranean Diet)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15261,7 +15261,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Supplements optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your supplements baseline.",
     
     problem: "You are struggling with optimizing supplements and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Supplements protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Supplements protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to supplements.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15307,7 +15307,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15323,8 +15323,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15336,8 +15336,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-supplements-1",
-        "name": "HealthOS Supplements Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Supplements Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15357,8 +15357,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-nutrition-supplements-2",
-        "name": "HealthOS Advanced Recovery Matrix (Supplements)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Supplements)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15393,7 +15393,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Protein optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your protein baseline.",
     
     problem: "You are struggling with optimizing protein and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Protein protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Protein protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to protein.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15439,7 +15439,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15455,8 +15455,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15468,8 +15468,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-protein-1",
-        "name": "HealthOS Protein Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Protein Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15489,8 +15489,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-protein-2",
-        "name": "HealthOS Advanced Recovery Matrix (Protein)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Protein)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15525,7 +15525,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Creatine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your creatine baseline.",
     
     problem: "You are struggling with optimizing creatine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Creatine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Creatine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to creatine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15571,7 +15571,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15587,8 +15587,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15600,8 +15600,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-creatine-1",
-        "name": "HealthOS Creatine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Creatine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15621,8 +15621,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-creatine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Creatine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Creatine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15657,7 +15657,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Collagen optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your collagen baseline.",
     
     problem: "You are struggling with optimizing collagen and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Collagen protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Collagen protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to collagen.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15703,7 +15703,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15719,8 +15719,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15732,8 +15732,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-collagen-1",
-        "name": "HealthOS Collagen Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Collagen Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15753,8 +15753,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-collagen-2",
-        "name": "HealthOS Advanced Recovery Matrix (Collagen)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Collagen)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15789,7 +15789,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Magnesium optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your magnesium baseline.",
     
     problem: "You are struggling with optimizing magnesium and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Magnesium protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Magnesium protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to magnesium.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15835,7 +15835,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15851,8 +15851,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15864,8 +15864,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-magnesium-1",
-        "name": "HealthOS Magnesium Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Magnesium Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15885,8 +15885,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-magnesium-2",
-        "name": "HealthOS Advanced Recovery Matrix (Magnesium)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Magnesium)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -15921,7 +15921,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Vitamin D optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin d baseline.",
     
     problem: "You are struggling with optimizing vitamin d and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin D protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Vitamin D protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin d.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15967,7 +15967,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -15983,8 +15983,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -15996,8 +15996,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-vitamin-d-1",
-        "name": "HealthOS Vitamin D Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Vitamin D Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16017,8 +16017,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-vitamin-d-2",
-        "name": "HealthOS Advanced Recovery Matrix (Vitamin D)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Vitamin D)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16053,7 +16053,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Vitamin C optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c baseline.",
     
     problem: "You are struggling with optimizing vitamin c and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Vitamin C protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16099,7 +16099,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16115,8 +16115,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16128,8 +16128,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-vitamin-c-1",
-        "name": "HealthOS Vitamin C Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Vitamin C Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16149,8 +16149,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-vitamin-c-2",
-        "name": "HealthOS Advanced Recovery Matrix (Vitamin C)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Vitamin C)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16185,7 +16185,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Omega 3 optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your omega 3 baseline.",
     
     problem: "You are struggling with optimizing omega 3 and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Omega 3 protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Omega 3 protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to omega 3.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16231,7 +16231,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16247,8 +16247,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16260,8 +16260,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-omega-3-1",
-        "name": "HealthOS Omega 3 Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Omega 3 Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16281,8 +16281,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-omega-3-2",
-        "name": "HealthOS Advanced Recovery Matrix (Omega 3)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Omega 3)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16317,7 +16317,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Electrolytes optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your electrolytes baseline.",
     
     problem: "You are struggling with optimizing electrolytes and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Electrolytes protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Electrolytes protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to electrolytes.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16363,7 +16363,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16379,8 +16379,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16392,8 +16392,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-electrolytes-1",
-        "name": "HealthOS Electrolytes Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Electrolytes Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16413,8 +16413,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-electrolytes-2",
-        "name": "HealthOS Advanced Recovery Matrix (Electrolytes)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Electrolytes)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16449,7 +16449,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ashwagandha optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ashwagandha baseline.",
     
     problem: "You are struggling with optimizing ashwagandha and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ashwagandha protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ashwagandha protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ashwagandha.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16495,7 +16495,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16511,8 +16511,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16524,8 +16524,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-ashwagandha-1",
-        "name": "HealthOS Ashwagandha Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ashwagandha Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16545,8 +16545,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-ashwagandha-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ashwagandha)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ashwagandha)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16581,7 +16581,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Zinc optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your zinc baseline.",
     
     problem: "You are struggling with optimizing zinc and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Zinc protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Zinc protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to zinc.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16627,7 +16627,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16643,8 +16643,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16656,8 +16656,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-zinc-1",
-        "name": "HealthOS Zinc Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Zinc Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16677,8 +16677,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-zinc-2",
-        "name": "HealthOS Advanced Recovery Matrix (Zinc)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Zinc)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16713,7 +16713,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Iron optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your iron baseline.",
     
     problem: "You are struggling with optimizing iron and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Iron protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Iron protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to iron.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16759,7 +16759,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16775,8 +16775,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16788,8 +16788,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-iron-1",
-        "name": "HealthOS Iron Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Iron Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16809,8 +16809,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-iron-2",
-        "name": "HealthOS Advanced Recovery Matrix (Iron)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Iron)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16845,7 +16845,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Calcium optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your calcium baseline.",
     
     problem: "You are struggling with optimizing calcium and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Calcium protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Calcium protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to calcium.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16891,7 +16891,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -16907,8 +16907,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -16920,8 +16920,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-calcium-1",
-        "name": "HealthOS Calcium Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Calcium Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16941,8 +16941,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-calcium-2",
-        "name": "HealthOS Advanced Recovery Matrix (Calcium)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Calcium)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -16977,7 +16977,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Greens optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your greens baseline.",
     
     problem: "You are struggling with optimizing greens and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Greens protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Greens protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to greens.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17023,7 +17023,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17039,8 +17039,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17052,8 +17052,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-greens-1",
-        "name": "HealthOS Greens Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Greens Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17073,8 +17073,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-greens-2",
-        "name": "HealthOS Advanced Recovery Matrix (Greens)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Greens)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17109,7 +17109,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fiber optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fiber baseline.",
     
     problem: "You are struggling with optimizing fiber and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fiber protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fiber protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fiber.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17155,7 +17155,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17171,8 +17171,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17184,8 +17184,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-fiber-1",
-        "name": "HealthOS Fiber Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fiber Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17205,8 +17205,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-fiber-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fiber)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fiber)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17241,7 +17241,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Prebiotics optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your prebiotics baseline.",
     
     problem: "You are struggling with optimizing prebiotics and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Prebiotics protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Prebiotics protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to prebiotics.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17287,7 +17287,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17303,8 +17303,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17316,8 +17316,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-prebiotics-1",
-        "name": "HealthOS Prebiotics Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Prebiotics Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17337,8 +17337,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-prebiotics-2",
-        "name": "HealthOS Advanced Recovery Matrix (Prebiotics)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Prebiotics)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17373,7 +17373,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Probiotics optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your probiotics baseline.",
     
     problem: "You are struggling with optimizing probiotics and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Probiotics protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Probiotics protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to probiotics.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17419,7 +17419,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17435,8 +17435,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17448,8 +17448,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-probiotics-1",
-        "name": "HealthOS Probiotics Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Probiotics Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17469,8 +17469,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-probiotics-2",
-        "name": "HealthOS Advanced Recovery Matrix (Probiotics)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Probiotics)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17505,7 +17505,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Multivitamins optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your multivitamins baseline.",
     
     problem: "You are struggling with optimizing multivitamins and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Multivitamins protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Multivitamins protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to multivitamins.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17551,7 +17551,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17567,8 +17567,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17580,8 +17580,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-multivitamins-1",
-        "name": "HealthOS Multivitamins Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Multivitamins Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17601,8 +17601,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-multivitamins-2",
-        "name": "HealthOS Advanced Recovery Matrix (Multivitamins)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Multivitamins)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17637,7 +17637,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Multivitamin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your multivitamin baseline.",
     
     problem: "You are struggling with optimizing multivitamin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Multivitamin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Multivitamin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to multivitamin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17683,7 +17683,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17699,8 +17699,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17712,8 +17712,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-multivitamin-1",
-        "name": "HealthOS Multivitamin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Multivitamin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17733,8 +17733,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-multivitamin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Multivitamin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Multivitamin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17769,7 +17769,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Pre Workout optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your pre workout baseline.",
     
     problem: "You are struggling with optimizing pre workout and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Pre Workout protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Pre Workout protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to pre workout.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17815,7 +17815,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17831,8 +17831,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17844,8 +17844,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-pre-workout-1",
-        "name": "HealthOS Pre Workout Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Pre Workout Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17865,8 +17865,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-pre-workout-2",
-        "name": "HealthOS Advanced Recovery Matrix (Pre Workout)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Pre Workout)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -17901,7 +17901,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Post Workout optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your post workout baseline.",
     
     problem: "You are struggling with optimizing post workout and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Post Workout protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Post Workout protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to post workout.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17947,7 +17947,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -17963,8 +17963,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -17976,8 +17976,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-post-workout-1",
-        "name": "HealthOS Post Workout Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Post Workout Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17997,8 +17997,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-post-workout-2",
-        "name": "HealthOS Advanced Recovery Matrix (Post Workout)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Post Workout)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18033,7 +18033,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
     problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18079,7 +18079,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18095,8 +18095,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18108,8 +18108,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-recovery-1",
-        "name": "HealthOS Recovery Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Recovery Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18129,8 +18129,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-recovery-2",
-        "name": "HealthOS Advanced Recovery Matrix (Recovery)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Recovery)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18165,7 +18165,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hydration optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration baseline.",
     
     problem: "You are struggling with optimizing hydration and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hydration protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18211,7 +18211,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18227,8 +18227,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18240,8 +18240,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-hydration-1",
-        "name": "HealthOS Hydration Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hydration Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18261,8 +18261,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-hydration-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hydration)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hydration)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18297,7 +18297,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Nmn optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nmn baseline.",
     
     problem: "You are struggling with optimizing nmn and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nmn protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Nmn protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nmn.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18343,7 +18343,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18359,8 +18359,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18372,8 +18372,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-nmn-1",
-        "name": "HealthOS Nmn Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Nmn Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18393,8 +18393,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-nmn-2",
-        "name": "HealthOS Advanced Recovery Matrix (Nmn)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Nmn)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18429,7 +18429,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Coq10 optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your coq10 baseline.",
     
     problem: "You are struggling with optimizing coq10 and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Coq10 protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Coq10 protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to coq10.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18475,7 +18475,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18491,8 +18491,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18504,8 +18504,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-coq10-1",
-        "name": "HealthOS Coq10 Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Coq10 Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18525,8 +18525,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-coq10-2",
-        "name": "HealthOS Advanced Recovery Matrix (Coq10)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Coq10)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18561,7 +18561,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Berberine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your berberine baseline.",
     
     problem: "You are struggling with optimizing berberine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Berberine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Berberine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to berberine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18607,7 +18607,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18623,8 +18623,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18636,8 +18636,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-berberine-1",
-        "name": "HealthOS Berberine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Berberine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18657,8 +18657,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-berberine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Berberine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Berberine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18693,7 +18693,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Rhodiola optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your rhodiola baseline.",
     
     problem: "You are struggling with optimizing rhodiola and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Rhodiola protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Rhodiola protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to rhodiola.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18739,7 +18739,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18755,8 +18755,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18768,8 +18768,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-rhodiola-1",
-        "name": "HealthOS Rhodiola Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Rhodiola Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18789,8 +18789,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-rhodiola-2",
-        "name": "HealthOS Advanced Recovery Matrix (Rhodiola)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Rhodiola)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18825,7 +18825,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Turmeric optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your turmeric baseline.",
     
     problem: "You are struggling with optimizing turmeric and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Turmeric protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Turmeric protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to turmeric.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18871,7 +18871,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -18887,8 +18887,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -18900,8 +18900,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-turmeric-1",
-        "name": "HealthOS Turmeric Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Turmeric Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18921,8 +18921,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-turmeric-2",
-        "name": "HealthOS Advanced Recovery Matrix (Turmeric)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Turmeric)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -18957,7 +18957,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Bcaa optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your bcaa baseline.",
     
     problem: "You are struggling with optimizing bcaa and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Bcaa protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Bcaa protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to bcaa.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19003,7 +19003,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19019,8 +19019,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19032,8 +19032,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-bcaa-1",
-        "name": "HealthOS Bcaa Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Bcaa Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19053,8 +19053,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-bcaa-2",
-        "name": "HealthOS Advanced Recovery Matrix (Bcaa)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Bcaa)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19089,7 +19089,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Casein optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your casein baseline.",
     
     problem: "You are struggling with optimizing casein and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Casein protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Casein protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to casein.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19135,7 +19135,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19151,8 +19151,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19164,8 +19164,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-casein-1",
-        "name": "HealthOS Casein Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Casein Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19185,8 +19185,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-casein-2",
-        "name": "HealthOS Advanced Recovery Matrix (Casein)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Casein)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19221,7 +19221,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Creatine Hcl optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your creatine hcl baseline.",
     
     problem: "You are struggling with optimizing creatine hcl and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Creatine Hcl protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Creatine Hcl protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to creatine hcl.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19267,7 +19267,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19283,8 +19283,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19296,8 +19296,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-creatine-hcl-1",
-        "name": "HealthOS Creatine Hcl Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Creatine Hcl Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19317,8 +19317,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-creatine-hcl-2",
-        "name": "HealthOS Advanced Recovery Matrix (Creatine Hcl)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Creatine Hcl)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19353,7 +19353,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Creatine Monohydrate optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your creatine monohydrate baseline.",
     
     problem: "You are struggling with optimizing creatine monohydrate and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Creatine Monohydrate protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Creatine Monohydrate protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to creatine monohydrate.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19399,7 +19399,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19415,8 +19415,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19428,8 +19428,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-creatine-monohydrate-1",
-        "name": "HealthOS Creatine Monohydrate Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Creatine Monohydrate Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19449,8 +19449,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-creatine-monohydrate-2",
-        "name": "HealthOS Advanced Recovery Matrix (Creatine Monohydrate)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Creatine Monohydrate)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19485,7 +19485,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Eaa optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your eaa baseline.",
     
     problem: "You are struggling with optimizing eaa and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Eaa protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Eaa protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to eaa.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19531,7 +19531,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19547,8 +19547,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19560,8 +19560,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-eaa-1",
-        "name": "HealthOS Eaa Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Eaa Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19581,8 +19581,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-eaa-2",
-        "name": "HealthOS Advanced Recovery Matrix (Eaa)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Eaa)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19617,7 +19617,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Gut Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gut health baseline.",
     
     problem: "You are struggling with optimizing gut health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gut Health protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Gut Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gut health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19663,7 +19663,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19679,8 +19679,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19692,8 +19692,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-gut-health-1",
-        "name": "HealthOS Gut Health Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Gut Health Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19713,8 +19713,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-gut-health-2",
-        "name": "HealthOS Advanced Recovery Matrix (Gut Health)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Gut Health)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19749,7 +19749,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hormones optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormones baseline.",
     
     problem: "You are struggling with optimizing hormones and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormones protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hormones protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormones.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19795,7 +19795,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19811,8 +19811,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19824,8 +19824,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-hormones-1",
-        "name": "HealthOS Hormones Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hormones Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19845,8 +19845,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-hormones-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hormones)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hormones)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -19881,7 +19881,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Immune optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your immune baseline.",
     
     problem: "You are struggling with optimizing immune and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Immune protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Immune protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to immune.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19927,7 +19927,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -19943,8 +19943,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -19956,8 +19956,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-immune-1",
-        "name": "HealthOS Immune Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Immune Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19977,8 +19977,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-immune-2",
-        "name": "HealthOS Advanced Recovery Matrix (Immune)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Immune)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20013,7 +20013,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Lions Mane optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lions mane baseline.",
     
     problem: "You are struggling with optimizing lions mane and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lions Mane protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Lions Mane protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lions mane.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20059,7 +20059,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20075,8 +20075,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20088,8 +20088,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-lions-mane-1",
-        "name": "HealthOS Lions Mane Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Lions Mane Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20109,8 +20109,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-lions-mane-2",
-        "name": "HealthOS Advanced Recovery Matrix (Lions Mane)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Lions Mane)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20145,7 +20145,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Resveratrol optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your resveratrol baseline.",
     
     problem: "You are struggling with optimizing resveratrol and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Resveratrol protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Resveratrol protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to resveratrol.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20191,7 +20191,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20207,8 +20207,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20220,8 +20220,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-resveratrol-1",
-        "name": "HealthOS Resveratrol Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Resveratrol Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20241,8 +20241,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-resveratrol-2",
-        "name": "HealthOS Advanced Recovery Matrix (Resveratrol)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Resveratrol)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20277,7 +20277,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sleep optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep baseline.",
     
     problem: "You are struggling with optimizing sleep and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sleep protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20323,7 +20323,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20339,8 +20339,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20352,8 +20352,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-sleep-1",
-        "name": "HealthOS Sleep Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sleep Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20373,8 +20373,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-sleep-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sleep)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sleep)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20409,7 +20409,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Whey optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your whey baseline.",
     
     problem: "You are struggling with optimizing whey and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Whey protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Whey protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to whey.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20455,7 +20455,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20471,8 +20471,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20484,8 +20484,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-whey-1",
-        "name": "HealthOS Whey Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Whey Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20505,8 +20505,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-whey-2",
-        "name": "HealthOS Advanced Recovery Matrix (Whey)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Whey)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20541,7 +20541,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Brain Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your brain health baseline.",
     
     problem: "You are struggling with optimizing brain health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Brain Health protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Brain Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to brain health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20587,7 +20587,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20603,8 +20603,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20616,8 +20616,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-brain-health-1",
-        "name": "HealthOS Brain Health Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Brain Health Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20637,8 +20637,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-supplements-brain-health-2",
-        "name": "HealthOS Advanced Recovery Matrix (Brain Health)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Brain Health)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20673,7 +20673,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sleep optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep baseline.",
     
     problem: "You are struggling with optimizing sleep and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sleep protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20719,7 +20719,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20735,8 +20735,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20748,8 +20748,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-sleep-1",
-        "name": "HealthOS Sleep Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sleep Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20769,8 +20769,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-sleep-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sleep)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sleep)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20805,7 +20805,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Stress optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stress baseline.",
     
     problem: "You are struggling with optimizing stress and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stress protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Stress protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stress.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20851,7 +20851,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20867,8 +20867,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -20880,8 +20880,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-stress-1",
-        "name": "HealthOS Stress Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Stress Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20901,8 +20901,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-stress-2",
-        "name": "HealthOS Advanced Recovery Matrix (Stress)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Stress)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -20937,7 +20937,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
     problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20983,7 +20983,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -20999,8 +20999,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21012,8 +21012,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-recovery-1",
-        "name": "HealthOS Recovery Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Recovery Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21033,8 +21033,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-recovery-2",
-        "name": "HealthOS Advanced Recovery Matrix (Recovery)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Recovery)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21069,7 +21069,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Heart Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your heart health baseline.",
     
     problem: "You are struggling with optimizing heart health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Heart Health protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Heart Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to heart health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21115,7 +21115,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21131,8 +21131,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21144,8 +21144,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-heart-health-1",
-        "name": "HealthOS Heart Health Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Heart Health Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21165,8 +21165,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-heart-health-2",
-        "name": "HealthOS Advanced Recovery Matrix (Heart Health)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Heart Health)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21201,7 +21201,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Brain Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your brain health baseline.",
     
     problem: "You are struggling with optimizing brain health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Brain Health protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Brain Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to brain health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21247,7 +21247,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21263,8 +21263,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21276,8 +21276,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-brain-health-1",
-        "name": "HealthOS Brain Health Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Brain Health Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21297,8 +21297,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-brain-health-2",
-        "name": "HealthOS Advanced Recovery Matrix (Brain Health)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Brain Health)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21333,7 +21333,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Ageing optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy ageing baseline.",
     
     problem: "You are struggling with optimizing healthy ageing and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Ageing protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Ageing protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy ageing.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21379,7 +21379,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21395,8 +21395,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21408,8 +21408,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-healthy-ageing-1",
-        "name": "HealthOS Healthy Ageing Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Ageing Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21429,8 +21429,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-healthy-ageing-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Ageing)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Ageing)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21465,7 +21465,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Aging optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy aging baseline.",
     
     problem: "You are struggling with optimizing healthy aging and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Aging protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Aging protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy aging.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21511,7 +21511,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21527,8 +21527,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21540,8 +21540,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-healthy-aging-1",
-        "name": "HealthOS Healthy Aging Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Aging Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21561,8 +21561,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-healthy-aging-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Aging)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Aging)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21597,7 +21597,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Energy optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your energy baseline.",
     
     problem: "You are struggling with optimizing energy and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Energy protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Energy protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to energy.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21643,7 +21643,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21659,8 +21659,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21672,8 +21672,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-energy-1",
-        "name": "HealthOS Energy Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Energy Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21693,8 +21693,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-energy-2",
-        "name": "HealthOS Advanced Recovery Matrix (Energy)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Energy)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21729,7 +21729,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hormones optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormones baseline.",
     
     problem: "You are struggling with optimizing hormones and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormones protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hormones protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormones.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21775,7 +21775,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21791,8 +21791,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21804,8 +21804,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-hormones-1",
-        "name": "HealthOS Hormones Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hormones Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21825,8 +21825,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-hormones-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hormones)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hormones)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21861,7 +21861,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Inflammation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inflammation baseline.",
     
     problem: "You are struggling with optimizing inflammation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inflammation protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Inflammation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inflammation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21907,7 +21907,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -21923,8 +21923,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -21936,8 +21936,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-inflammation-1",
-        "name": "HealthOS Inflammation Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Inflammation Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21957,8 +21957,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-inflammation-2",
-        "name": "HealthOS Advanced Recovery Matrix (Inflammation)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Inflammation)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -21993,7 +21993,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Nad optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nad baseline.",
     
     problem: "You are struggling with optimizing nad and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nad protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Nad protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nad.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22039,7 +22039,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22055,8 +22055,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22068,8 +22068,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-nad-1",
-        "name": "HealthOS Nad Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Nad Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22089,8 +22089,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-nad-2",
-        "name": "HealthOS Advanced Recovery Matrix (Nad)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Nad)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22125,7 +22125,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Biohacking optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your biohacking baseline.",
     
     problem: "You are struggling with optimizing biohacking and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Biohacking protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Biohacking protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to biohacking.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22171,7 +22171,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22187,8 +22187,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22200,8 +22200,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-biohacking-1",
-        "name": "HealthOS Biohacking Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Biohacking Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22221,8 +22221,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-biohacking-2",
-        "name": "HealthOS Advanced Recovery Matrix (Biohacking)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Biohacking)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22257,7 +22257,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fasting optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fasting baseline.",
     
     problem: "You are struggling with optimizing fasting and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fasting protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fasting protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fasting.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22303,7 +22303,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22319,8 +22319,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22332,8 +22332,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-fasting-1",
-        "name": "HealthOS Fasting Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fasting Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22353,8 +22353,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-fasting-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fasting)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fasting)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22389,7 +22389,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Blood Sugar optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your blood sugar baseline.",
     
     problem: "You are struggling with optimizing blood sugar and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Blood Sugar protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Blood Sugar protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to blood sugar.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22435,7 +22435,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22451,8 +22451,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22464,8 +22464,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-blood-sugar-1",
-        "name": "HealthOS Blood Sugar Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Blood Sugar Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22485,8 +22485,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-blood-sugar-2",
-        "name": "HealthOS Advanced Recovery Matrix (Blood Sugar)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Blood Sugar)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22521,7 +22521,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Cold Exposure optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cold exposure baseline.",
     
     problem: "You are struggling with optimizing cold exposure and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cold Exposure protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Cold Exposure protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cold exposure.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22567,7 +22567,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22583,8 +22583,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22596,8 +22596,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-cold-exposure-1",
-        "name": "HealthOS Cold Exposure Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Cold Exposure Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22617,8 +22617,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-cold-exposure-2",
-        "name": "HealthOS Advanced Recovery Matrix (Cold Exposure)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Cold Exposure)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22653,7 +22653,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hrv optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hrv baseline.",
     
     problem: "You are struggling with optimizing hrv and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hrv protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hrv protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hrv.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22699,7 +22699,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22715,8 +22715,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22728,8 +22728,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-hrv-1",
-        "name": "HealthOS Hrv Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hrv Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22749,8 +22749,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-hrv-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hrv)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hrv)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22785,7 +22785,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sauna optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sauna baseline.",
     
     problem: "You are struggling with optimizing sauna and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sauna protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sauna protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sauna.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22831,7 +22831,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22847,8 +22847,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22860,8 +22860,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-sauna-1",
-        "name": "HealthOS Sauna Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sauna Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22881,8 +22881,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-sauna-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sauna)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sauna)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -22917,7 +22917,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Vo2 Max optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vo2 max baseline.",
     
     problem: "You are struggling with optimizing vo2 max and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vo2 Max protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Vo2 Max protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vo2 max.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22963,7 +22963,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -22979,8 +22979,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -22992,8 +22992,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-vo2-max-1",
-        "name": "HealthOS Vo2 Max Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Vo2 Max Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23013,8 +23013,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-longevity-vo2-max-2",
-        "name": "HealthOS Advanced Recovery Matrix (Vo2 Max)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Vo2 Max)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23049,7 +23049,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ewg optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ewg baseline.",
     
     problem: "You are struggling with optimizing ewg and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ewg protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ewg protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ewg.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23095,7 +23095,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23111,8 +23111,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23124,8 +23124,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ewg-1",
-        "name": "HealthOS Ewg Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ewg Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23145,8 +23145,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-ewg-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ewg)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ewg)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23181,7 +23181,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Inci optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inci baseline.",
     
     problem: "You are struggling with optimizing inci and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inci protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Inci protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inci.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23227,7 +23227,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23243,8 +23243,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23256,8 +23256,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-inci-1",
-        "name": "HealthOS Inci Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Inci Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23277,8 +23277,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-inci-2",
-        "name": "HealthOS Advanced Recovery Matrix (Inci)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Inci)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23313,7 +23313,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Clinical Studies optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your clinical studies baseline.",
     
     problem: "You are struggling with optimizing clinical studies and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Clinical Studies protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Clinical Studies protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to clinical studies.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23359,7 +23359,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23375,8 +23375,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23388,8 +23388,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-clinical-studies-1",
-        "name": "HealthOS Clinical Studies Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Clinical Studies Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23409,8 +23409,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-clinical-studies-2",
-        "name": "HealthOS Advanced Recovery Matrix (Clinical Studies)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Clinical Studies)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23445,7 +23445,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Evidence Levels optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your evidence levels baseline.",
     
     problem: "You are struggling with optimizing evidence levels and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Evidence Levels protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Evidence Levels protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to evidence levels.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23491,7 +23491,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23507,8 +23507,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23520,8 +23520,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-evidence-levels-1",
-        "name": "HealthOS Evidence Levels Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Evidence Levels Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23541,8 +23541,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-evidence-levels-2",
-        "name": "HealthOS Advanced Recovery Matrix (Evidence Levels)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Evidence Levels)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23577,7 +23577,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ingredient Database optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ingredient database baseline.",
     
     problem: "You are struggling with optimizing ingredient database and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ingredient Database protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ingredient Database protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ingredient database.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23623,7 +23623,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23639,8 +23639,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23652,8 +23652,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ingredient-database-1",
-        "name": "HealthOS Ingredient Database Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ingredient Database Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23673,8 +23673,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-ingredient-database-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ingredient Database)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ingredient Database)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23709,7 +23709,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ingredients Database optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ingredients database baseline.",
     
     problem: "You are struggling with optimizing ingredients database and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ingredients Database protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ingredients Database protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ingredients database.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23755,7 +23755,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23771,8 +23771,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23784,8 +23784,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ingredients-database-1",
-        "name": "HealthOS Ingredients Database Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ingredients Database Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23805,8 +23805,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-ingredients-database-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ingredients Database)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ingredients Database)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23841,7 +23841,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Skin Barrier optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your skin barrier baseline.",
     
     problem: "You are struggling with optimizing skin barrier and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Skin Barrier protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Skin Barrier protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to skin barrier.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23887,7 +23887,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -23903,8 +23903,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -23916,8 +23916,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-skin-barrier-1",
-        "name": "HealthOS Skin Barrier Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Skin Barrier Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23937,8 +23937,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-skin-barrier-2",
-        "name": "HealthOS Advanced Recovery Matrix (Skin Barrier)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Skin Barrier)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -23973,7 +23973,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Microbiome optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your microbiome baseline.",
     
     problem: "You are struggling with optimizing microbiome and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Microbiome protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Microbiome protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to microbiome.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24019,7 +24019,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24035,8 +24035,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24048,8 +24048,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-microbiome-1",
-        "name": "HealthOS Microbiome Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Microbiome Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24069,8 +24069,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-microbiome-2",
-        "name": "HealthOS Advanced Recovery Matrix (Microbiome)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Microbiome)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24105,7 +24105,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Collagen Science optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your collagen science baseline.",
     
     problem: "You are struggling with optimizing collagen science and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Collagen Science protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Collagen Science protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to collagen science.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24151,7 +24151,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24167,8 +24167,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24180,8 +24180,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-collagen-science-1",
-        "name": "HealthOS Collagen Science Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Collagen Science Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24201,8 +24201,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-collagen-science-2",
-        "name": "HealthOS Advanced Recovery Matrix (Collagen Science)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Collagen Science)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24237,7 +24237,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Antioxidants optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your antioxidants baseline.",
     
     problem: "You are struggling with optimizing antioxidants and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Antioxidants protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Antioxidants protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to antioxidants.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24283,7 +24283,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24299,8 +24299,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24312,8 +24312,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-antioxidants-1",
-        "name": "HealthOS Antioxidants Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Antioxidants Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24333,8 +24333,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-antioxidants-2",
-        "name": "HealthOS Advanced Recovery Matrix (Antioxidants)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Antioxidants)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24369,7 +24369,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Inflammation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inflammation baseline.",
     
     problem: "You are struggling with optimizing inflammation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inflammation protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Inflammation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inflammation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24415,7 +24415,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24431,8 +24431,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24444,8 +24444,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-inflammation-1",
-        "name": "HealthOS Inflammation Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Inflammation Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24465,8 +24465,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-inflammation-2",
-        "name": "HealthOS Advanced Recovery Matrix (Inflammation)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Inflammation)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24501,7 +24501,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hormones optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormones baseline.",
     
     problem: "You are struggling with optimizing hormones and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormones protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hormones protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormones.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24547,7 +24547,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24563,8 +24563,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24576,8 +24576,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-hormones-1",
-        "name": "HealthOS Hormones Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hormones Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24597,8 +24597,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-hormones-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hormones)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hormones)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24633,7 +24633,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Biochemistry optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your biochemistry baseline.",
     
     problem: "You are struggling with optimizing biochemistry and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Biochemistry protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Biochemistry protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to biochemistry.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24679,7 +24679,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24695,8 +24695,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24708,8 +24708,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-biochemistry-1",
-        "name": "HealthOS Biochemistry Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Biochemistry Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24729,8 +24729,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-biochemistry-2",
-        "name": "HealthOS Advanced Recovery Matrix (Biochemistry)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Biochemistry)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24765,7 +24765,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Muscle Protein Synthesis optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle protein synthesis baseline.",
     
     problem: "You are struggling with optimizing muscle protein synthesis and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle Protein Synthesis protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Muscle Protein Synthesis protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle protein synthesis.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24811,7 +24811,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24827,8 +24827,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24840,8 +24840,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-muscle-protein-synthesis-1",
-        "name": "HealthOS Muscle Protein Synthesis Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Muscle Protein Synthesis Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24861,8 +24861,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-muscle-protein-synthesis-2",
-        "name": "HealthOS Advanced Recovery Matrix (Muscle Protein Synthesis)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Muscle Protein Synthesis)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -24897,7 +24897,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Skin Physiology optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your skin physiology baseline.",
     
     problem: "You are struggling with optimizing skin physiology and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Skin Physiology protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Skin Physiology protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to skin physiology.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24943,7 +24943,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -24959,8 +24959,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -24972,8 +24972,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-skin-physiology-1",
-        "name": "HealthOS Skin Physiology Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Skin Physiology Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24993,8 +24993,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-skin-physiology-2",
-        "name": "HealthOS Advanced Recovery Matrix (Skin Physiology)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Skin Physiology)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25029,7 +25029,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Ingredients optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ingredients baseline.",
     
     problem: "You are struggling with optimizing ingredients and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ingredients protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Ingredients protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ingredients.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25075,7 +25075,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25091,8 +25091,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25104,8 +25104,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ingredients-1",
-        "name": "HealthOS Ingredients Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Ingredients Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25125,8 +25125,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-ingredients-2",
-        "name": "HealthOS Advanced Recovery Matrix (Ingredients)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Ingredients)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25161,7 +25161,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Research optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your research baseline.",
     
     problem: "You are struggling with optimizing research and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Research protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Research protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to research.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25207,7 +25207,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25223,8 +25223,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25236,8 +25236,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-research-1",
-        "name": "HealthOS Research Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Research Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25257,8 +25257,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-research-2",
-        "name": "HealthOS Advanced Recovery Matrix (Research)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Research)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25293,7 +25293,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Pubmed optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your pubmed baseline.",
     
     problem: "You are struggling with optimizing pubmed and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Pubmed protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Pubmed protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to pubmed.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25339,7 +25339,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25355,8 +25355,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25368,8 +25368,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-pubmed-1",
-        "name": "HealthOS Pubmed Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Pubmed Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25389,8 +25389,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-pubmed-2",
-        "name": "HealthOS Advanced Recovery Matrix (Pubmed)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Pubmed)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25425,7 +25425,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your skin baseline.",
     
     problem: "You are struggling with optimizing skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Skin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25471,7 +25471,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25487,8 +25487,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25500,8 +25500,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-skin-1",
-        "name": "HealthOS Skin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Skin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25521,8 +25521,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-skin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Skin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Skin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25557,7 +25557,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle baseline.",
     
     problem: "You are struggling with optimizing muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25603,7 +25603,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25619,8 +25619,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25632,8 +25632,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-muscle-1",
-        "name": "HealthOS Muscle Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Muscle Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25653,8 +25653,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-muscle-2",
-        "name": "HealthOS Advanced Recovery Matrix (Muscle)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Muscle)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25689,7 +25689,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Nutrition optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nutrition baseline.",
     
     problem: "You are struggling with optimizing nutrition and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nutrition protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Nutrition protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nutrition.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25735,7 +25735,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25751,8 +25751,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25764,8 +25764,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-nutrition-1",
-        "name": "HealthOS Nutrition Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Nutrition Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25785,8 +25785,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-nutrition-2",
-        "name": "HealthOS Advanced Recovery Matrix (Nutrition)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Nutrition)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25821,7 +25821,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Longevity optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your longevity baseline.",
     
     problem: "You are struggling with optimizing longevity and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Longevity protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Longevity protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to longevity.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25867,7 +25867,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -25883,8 +25883,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -25896,8 +25896,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-longevity-1",
-        "name": "HealthOS Longevity Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Longevity Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25917,8 +25917,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-longevity-2",
-        "name": "HealthOS Advanced Recovery Matrix (Longevity)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Longevity)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -25953,7 +25953,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Research Library optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your research library baseline.",
     
     problem: "You are struggling with optimizing research library and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Research Library protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Research Library protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to research library.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25999,7 +25999,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26015,8 +26015,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26028,8 +26028,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-research-library-1",
-        "name": "HealthOS Research Library Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Research Library Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26049,8 +26049,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-science-research-library-2",
-        "name": "HealthOS Advanced Recovery Matrix (Research Library)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Research Library)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26085,7 +26085,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "30 Day Skin Reset optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your 30 day skin reset baseline.",
     
     problem: "You are struggling with optimizing 30 day skin reset and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the 30 Day Skin Reset protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the 30 Day Skin Reset protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to 30 day skin reset.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26131,7 +26131,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26147,8 +26147,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26160,8 +26160,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-30-day-skin-reset-1",
-        "name": "HealthOS 30 Day Skin Reset Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health 30 Day Skin Reset Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26181,8 +26181,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-30-day-skin-reset-2",
-        "name": "HealthOS Advanced Recovery Matrix (30 Day Skin Reset)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (30 Day Skin Reset)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26217,7 +26217,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "90 Day Acne Program optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your 90 day acne program baseline.",
     
     problem: "You are struggling with optimizing 90 day acne program and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the 90 Day Acne Program protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the 90 Day Acne Program protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to 90 day acne program.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26263,7 +26263,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26279,8 +26279,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26292,8 +26292,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-90-day-acne-program-1",
-        "name": "HealthOS 90 Day Acne Program Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health 90 Day Acne Program Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26313,8 +26313,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-90-day-acne-program-2",
-        "name": "HealthOS Advanced Recovery Matrix (90 Day Acne Program)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (90 Day Acne Program)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26349,7 +26349,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "90 Day Fat Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your 90 day fat loss baseline.",
     
     problem: "You are struggling with optimizing 90 day fat loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the 90 Day Fat Loss protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the 90 Day Fat Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to 90 day fat loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26395,7 +26395,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26411,8 +26411,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26424,8 +26424,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-90-day-fat-loss-1",
-        "name": "HealthOS 90 Day Fat Loss Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health 90 Day Fat Loss Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26445,8 +26445,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-90-day-fat-loss-2",
-        "name": "HealthOS Advanced Recovery Matrix (90 Day Fat Loss)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (90 Day Fat Loss)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26481,7 +26481,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Build Muscle Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your build muscle guide baseline.",
     
     problem: "You are struggling with optimizing build muscle guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Build Muscle Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Build Muscle Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to build muscle guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26527,7 +26527,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26543,8 +26543,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26556,8 +26556,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-build-muscle-guide-1",
-        "name": "HealthOS Build Muscle Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Build Muscle Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26577,8 +26577,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-build-muscle-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Build Muscle Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Build Muscle Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26613,7 +26613,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Build Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your build muscle baseline.",
     
     problem: "You are struggling with optimizing build muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Build Muscle protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Build Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to build muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26659,7 +26659,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26675,8 +26675,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26688,8 +26688,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-build-muscle-1",
-        "name": "HealthOS Build Muscle Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Build Muscle Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26709,8 +26709,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-build-muscle-2",
-        "name": "HealthOS Advanced Recovery Matrix (Build Muscle)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Build Muscle)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26745,7 +26745,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Lose Fat Blueprint optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lose fat blueprint baseline.",
     
     problem: "You are struggling with optimizing lose fat blueprint and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lose Fat Blueprint protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Lose Fat Blueprint protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lose fat blueprint.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26791,7 +26791,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26807,8 +26807,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26820,8 +26820,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-lose-fat-blueprint-1",
-        "name": "HealthOS Lose Fat Blueprint Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Lose Fat Blueprint Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26841,8 +26841,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-lose-fat-blueprint-2",
-        "name": "HealthOS Advanced Recovery Matrix (Lose Fat Blueprint)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Lose Fat Blueprint)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -26877,7 +26877,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Hair Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy hair guide baseline.",
     
     problem: "You are struggling with optimizing healthy hair guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Hair Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Hair Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy hair guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26923,7 +26923,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -26939,8 +26939,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -26952,8 +26952,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-healthy-hair-guide-1",
-        "name": "HealthOS Healthy Hair Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Hair Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26973,8 +26973,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-healthy-hair-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Hair Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Hair Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27009,7 +27009,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Morning Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your morning routine baseline.",
     
     problem: "You are struggling with optimizing morning routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Morning Routine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Morning Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to morning routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27055,7 +27055,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27071,8 +27071,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27084,8 +27084,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-morning-routine-1",
-        "name": "HealthOS Morning Routine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Morning Routine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27105,8 +27105,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-morning-routine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Morning Routine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Morning Routine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27141,7 +27141,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Night Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your night routine baseline.",
     
     problem: "You are struggling with optimizing night routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Night Routine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Night Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to night routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27187,7 +27187,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27203,8 +27203,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27216,8 +27216,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-night-routine-1",
-        "name": "HealthOS Night Routine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Night Routine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27237,8 +27237,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-night-routine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Night Routine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Night Routine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27273,7 +27273,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Evening Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your evening routine baseline.",
     
     problem: "You are struggling with optimizing evening routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Evening Routine protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Evening Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to evening routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27319,7 +27319,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27335,8 +27335,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27348,8 +27348,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-evening-routine-1",
-        "name": "HealthOS Evening Routine Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Evening Routine Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27369,8 +27369,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-evening-routine-2",
-        "name": "HealthOS Advanced Recovery Matrix (Evening Routine)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Evening Routine)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27405,7 +27405,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Supplement Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your supplement guide baseline.",
     
     problem: "You are struggling with optimizing supplement guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Supplement Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Supplement Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to supplement guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27451,7 +27451,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27467,8 +27467,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27480,8 +27480,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-supplement-guide-1",
-        "name": "HealthOS Supplement Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Supplement Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27501,8 +27501,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-supplement-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Supplement Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Supplement Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27537,7 +27537,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Supplements optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your supplements baseline.",
     
     problem: "You are struggling with optimizing supplements and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Supplements protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Supplements protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to supplements.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27583,7 +27583,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27599,8 +27599,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27612,8 +27612,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-supplements-1",
-        "name": "HealthOS Supplements Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Supplements Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27633,8 +27633,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-supplements-2",
-        "name": "HealthOS Advanced Recovery Matrix (Supplements)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Supplements)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27669,7 +27669,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Lifestyle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy lifestyle baseline.",
     
     problem: "You are struggling with optimizing healthy lifestyle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Lifestyle protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Lifestyle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy lifestyle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27715,7 +27715,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27731,8 +27731,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27744,8 +27744,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-healthy-lifestyle-1",
-        "name": "HealthOS Healthy Lifestyle Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Lifestyle Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27765,8 +27765,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-healthy-lifestyle-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Lifestyle)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Lifestyle)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27801,7 +27801,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Travel Skincare optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your travel skincare baseline.",
     
     problem: "You are struggling with optimizing travel skincare and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Travel Skincare protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Travel Skincare protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to travel skincare.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27847,7 +27847,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27863,8 +27863,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -27876,8 +27876,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-travel-skincare-1",
-        "name": "HealthOS Travel Skincare Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Travel Skincare Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27897,8 +27897,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-travel-skincare-2",
-        "name": "HealthOS Advanced Recovery Matrix (Travel Skincare)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Travel Skincare)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -27933,7 +27933,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Women optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your women baseline.",
     
     problem: "You are struggling with optimizing women and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Women protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Women protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to women.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27979,7 +27979,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -27995,8 +27995,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28008,8 +28008,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-women-1",
-        "name": "HealthOS Women Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Women Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28029,8 +28029,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-women-2",
-        "name": "HealthOS Advanced Recovery Matrix (Women)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Women)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28065,7 +28065,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Men optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your men baseline.",
     
     problem: "You are struggling with optimizing men and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Men protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Men protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to men.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28111,7 +28111,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28127,8 +28127,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28140,8 +28140,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-men-1",
-        "name": "HealthOS Men Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Men Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28161,8 +28161,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-men-2",
-        "name": "HealthOS Advanced Recovery Matrix (Men)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Men)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28197,7 +28197,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Teens optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your teens baseline.",
     
     problem: "You are struggling with optimizing teens and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Teens protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Teens protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to teens.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28243,7 +28243,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28259,8 +28259,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28272,8 +28272,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-teens-1",
-        "name": "HealthOS Teens Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Teens Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28293,8 +28293,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-teens-2",
-        "name": "HealthOS Advanced Recovery Matrix (Teens)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Teens)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28329,7 +28329,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Anti Aging Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your anti aging guide baseline.",
     
     problem: "You are struggling with optimizing anti aging guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Anti Aging Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Anti Aging Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to anti aging guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28375,7 +28375,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28391,8 +28391,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28404,8 +28404,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-anti-aging-guide-1",
-        "name": "HealthOS Anti Aging Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Anti Aging Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28425,8 +28425,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-anti-aging-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Anti Aging Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Anti Aging Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28461,7 +28461,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Barrier Repair Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your barrier repair guide baseline.",
     
     problem: "You are struggling with optimizing barrier repair guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Barrier Repair Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Barrier Repair Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to barrier repair guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28507,7 +28507,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28523,8 +28523,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28536,8 +28536,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-barrier-repair-guide-1",
-        "name": "HealthOS Barrier Repair Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Barrier Repair Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28557,8 +28557,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-barrier-repair-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Barrier Repair Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Barrier Repair Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28593,7 +28593,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Beginner Skincare optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your beginner skincare baseline.",
     
     problem: "You are struggling with optimizing beginner skincare and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Beginner Skincare protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Beginner Skincare protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to beginner skincare.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28639,7 +28639,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28655,8 +28655,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28668,8 +28668,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-beginner-skincare-1",
-        "name": "HealthOS Beginner Skincare Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Beginner Skincare Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28689,8 +28689,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-beginner-skincare-2",
-        "name": "HealthOS Advanced Recovery Matrix (Beginner Skincare)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Beginner Skincare)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28725,7 +28725,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Clear Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your clear skin guide baseline.",
     
     problem: "You are struggling with optimizing clear skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Clear Skin Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Clear Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to clear skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28771,7 +28771,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28787,8 +28787,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28800,8 +28800,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-clear-skin-guide-1",
-        "name": "HealthOS Clear Skin Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Clear Skin Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28821,8 +28821,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-clear-skin-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Clear Skin Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Clear Skin Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28857,7 +28857,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fat Loss Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fat loss guide baseline.",
     
     problem: "You are struggling with optimizing fat loss guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fat Loss Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fat Loss Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fat loss guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28903,7 +28903,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -28919,8 +28919,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -28932,8 +28932,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-fat-loss-guide-1",
-        "name": "HealthOS Fat Loss Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fat Loss Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28953,8 +28953,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-fat-loss-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fat Loss Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fat Loss Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -28989,7 +28989,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Gut Health Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gut health guide baseline.",
     
     problem: "You are struggling with optimizing gut health guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gut Health Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Gut Health Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gut health guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29035,7 +29035,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29051,8 +29051,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29064,8 +29064,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-gut-health-guide-1",
-        "name": "HealthOS Gut Health Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Gut Health Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29085,8 +29085,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-gut-health-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Gut Health Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Gut Health Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29121,7 +29121,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hair Loss Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair loss guide baseline.",
     
     problem: "You are struggling with optimizing hair loss guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Loss Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hair Loss Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair loss guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29167,7 +29167,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29183,8 +29183,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29196,8 +29196,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hair-loss-guide-1",
-        "name": "HealthOS Hair Loss Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hair Loss Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29217,8 +29217,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-hair-loss-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hair Loss Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hair Loss Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29253,7 +29253,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Healthy Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy skin baseline.",
     
     problem: "You are struggling with optimizing healthy skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Skin protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Healthy Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29299,7 +29299,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29315,8 +29315,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29328,8 +29328,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-healthy-skin-1",
-        "name": "HealthOS Healthy Skin Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Healthy Skin Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29349,8 +29349,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-healthy-skin-2",
-        "name": "HealthOS Advanced Recovery Matrix (Healthy Skin)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Healthy Skin)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29385,7 +29385,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hormonal Acne Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormonal acne guide baseline.",
     
     problem: "You are struggling with optimizing hormonal acne guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormonal Acne Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hormonal Acne Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormonal acne guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29431,7 +29431,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29447,8 +29447,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29460,8 +29460,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hormonal-acne-guide-1",
-        "name": "HealthOS Hormonal Acne Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hormonal Acne Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29481,8 +29481,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-hormonal-acne-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hormonal Acne Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hormonal Acne Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29517,7 +29517,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "How To Build Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your how to build muscle baseline.",
     
     problem: "You are struggling with optimizing how to build muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the How To Build Muscle protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the How To Build Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to how to build muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29563,7 +29563,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29579,8 +29579,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29592,8 +29592,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-how-to-build-muscle-1",
-        "name": "HealthOS How To Build Muscle Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health How To Build Muscle Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29613,8 +29613,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-how-to-build-muscle-2",
-        "name": "HealthOS Advanced Recovery Matrix (How To Build Muscle)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (How To Build Muscle)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29649,7 +29649,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "How To Lose Fat optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your how to lose fat baseline.",
     
     problem: "You are struggling with optimizing how to lose fat and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the How To Lose Fat protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the How To Lose Fat protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to how to lose fat.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29695,7 +29695,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29711,8 +29711,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29724,8 +29724,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-how-to-lose-fat-1",
-        "name": "HealthOS How To Lose Fat Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health How To Lose Fat Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29745,8 +29745,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-how-to-lose-fat-2",
-        "name": "HealthOS Advanced Recovery Matrix (How To Lose Fat)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (How To Lose Fat)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29781,7 +29781,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hydration Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration guide baseline.",
     
     problem: "You are struggling with optimizing hydration guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hydration Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29827,7 +29827,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29843,8 +29843,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29856,8 +29856,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hydration-guide-1",
-        "name": "HealthOS Hydration Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hydration Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29877,8 +29877,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-hydration-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hydration Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hydration Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -29913,7 +29913,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Hyperpigmentation Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyperpigmentation guide baseline.",
     
     problem: "You are struggling with optimizing hyperpigmentation guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyperpigmentation Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Hyperpigmentation Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyperpigmentation guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29959,7 +29959,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -29975,8 +29975,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -29988,8 +29988,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hyperpigmentation-guide-1",
-        "name": "HealthOS Hyperpigmentation Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Hyperpigmentation Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30009,8 +30009,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-hyperpigmentation-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Hyperpigmentation Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Hyperpigmentation Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30045,7 +30045,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Inflammation Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inflammation guide baseline.",
     
     problem: "You are struggling with optimizing inflammation guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inflammation Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Inflammation Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inflammation guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30091,7 +30091,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30107,8 +30107,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30120,8 +30120,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-inflammation-guide-1",
-        "name": "HealthOS Inflammation Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Inflammation Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30141,8 +30141,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-inflammation-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Inflammation Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Inflammation Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30177,7 +30177,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Lose Fat optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lose fat baseline.",
     
     problem: "You are struggling with optimizing lose fat and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lose Fat protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Lose Fat protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lose fat.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30223,7 +30223,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30239,8 +30239,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30252,8 +30252,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-lose-fat-1",
-        "name": "HealthOS Lose Fat Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Lose Fat Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30273,8 +30273,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-lose-fat-2",
-        "name": "HealthOS Advanced Recovery Matrix (Lose Fat)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Lose Fat)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30309,7 +30309,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Mens Skincare Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your mens skincare guide baseline.",
     
     problem: "You are struggling with optimizing mens skincare guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Mens Skincare Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Mens Skincare Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to mens skincare guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30355,7 +30355,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30371,8 +30371,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30384,8 +30384,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-mens-skincare-guide-1",
-        "name": "HealthOS Mens Skincare Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Mens Skincare Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30405,8 +30405,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-mens-skincare-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Mens Skincare Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Mens Skincare Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30441,7 +30441,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Muscle Building Nutrition Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle building nutrition guide baseline.",
     
     problem: "You are struggling with optimizing muscle building nutrition guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle Building Nutrition Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Muscle Building Nutrition Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle building nutrition guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30487,7 +30487,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30503,8 +30503,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30516,8 +30516,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-muscle-building-nutrition-guide-1",
-        "name": "HealthOS Muscle Building Nutrition Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Muscle Building Nutrition Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30537,8 +30537,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-muscle-building-nutrition-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Muscle Building Nutrition Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Muscle Building Nutrition Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30573,7 +30573,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Nutrition For Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nutrition for skin guide baseline.",
     
     problem: "You are struggling with optimizing nutrition for skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nutrition For Skin Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Nutrition For Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nutrition for skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30619,7 +30619,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30635,8 +30635,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30648,8 +30648,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-nutrition-for-skin-guide-1",
-        "name": "HealthOS Nutrition For Skin Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Nutrition For Skin Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30669,8 +30669,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-nutrition-for-skin-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Nutrition For Skin Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Nutrition For Skin Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30705,7 +30705,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Retinol Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinol guide baseline.",
     
     problem: "You are struggling with optimizing retinol guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinol Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Retinol Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinol guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30751,7 +30751,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30767,8 +30767,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30780,8 +30780,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-retinol-guide-1",
-        "name": "HealthOS Retinol Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Retinol Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30801,8 +30801,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-retinol-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Retinol Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Retinol Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30837,7 +30837,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Rosacea Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your rosacea guide baseline.",
     
     problem: "You are struggling with optimizing rosacea guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Rosacea Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Rosacea Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to rosacea guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30883,7 +30883,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -30899,8 +30899,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -30912,8 +30912,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-rosacea-guide-1",
-        "name": "HealthOS Rosacea Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Rosacea Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30933,8 +30933,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-rosacea-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Rosacea Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Rosacea Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -30969,7 +30969,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sensitive Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sensitive skin guide baseline.",
     
     problem: "You are struggling with optimizing sensitive skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sensitive Skin Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sensitive Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sensitive skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31015,7 +31015,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31031,8 +31031,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31044,8 +31044,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-sensitive-skin-guide-1",
-        "name": "HealthOS Sensitive Skin Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sensitive Skin Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31065,8 +31065,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-sensitive-skin-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sensitive Skin Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sensitive Skin Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31101,7 +31101,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sleep Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep guide baseline.",
     
     problem: "You are struggling with optimizing sleep guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sleep Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31147,7 +31147,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31163,8 +31163,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31176,8 +31176,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-sleep-guide-1",
-        "name": "HealthOS Sleep Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sleep Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31197,8 +31197,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-sleep-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sleep Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sleep Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31233,7 +31233,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Sleep Optimization optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep optimization baseline.",
     
     problem: "You are struggling with optimizing sleep optimization and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep Optimization protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Sleep Optimization protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep optimization.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31279,7 +31279,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31295,8 +31295,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31308,8 +31308,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-sleep-optimization-1",
-        "name": "HealthOS Sleep Optimization Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Sleep Optimization Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31329,8 +31329,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-sleep-optimization-2",
-        "name": "HealthOS Advanced Recovery Matrix (Sleep Optimization)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Sleep Optimization)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31365,7 +31365,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Stress Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stress guide baseline.",
     
     problem: "You are struggling with optimizing stress guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stress Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Stress Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stress guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31411,7 +31411,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31427,8 +31427,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31440,8 +31440,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-stress-guide-1",
-        "name": "HealthOS Stress Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Stress Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31461,8 +31461,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-stress-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Stress Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Stress Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31497,7 +31497,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Teen Skincare Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your teen skincare guide baseline.",
     
     problem: "You are struggling with optimizing teen skincare guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Teen Skincare Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Teen Skincare Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to teen skincare guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31543,7 +31543,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31559,8 +31559,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31572,8 +31572,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-teen-skincare-guide-1",
-        "name": "HealthOS Teen Skincare Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Teen Skincare Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31593,8 +31593,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-teen-skincare-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Teen Skincare Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Teen Skincare Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31629,7 +31629,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Vitamin C Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c guide baseline.",
     
     problem: "You are struggling with optimizing vitamin c guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Vitamin C Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31675,7 +31675,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31691,8 +31691,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31704,8 +31704,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-vitamin-c-guide-1",
-        "name": "HealthOS Vitamin C Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Vitamin C Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31725,8 +31725,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-vitamin-c-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Vitamin C Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Vitamin C Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31761,7 +31761,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Womens Skincare Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your womens skincare guide baseline.",
     
     problem: "You are struggling with optimizing womens skincare guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Womens Skincare Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Womens Skincare Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to womens skincare guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31807,7 +31807,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31823,8 +31823,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31836,8 +31836,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-womens-skincare-guide-1",
-        "name": "HealthOS Womens Skincare Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Womens Skincare Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31857,8 +31857,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-womens-skincare-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Womens Skincare Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Womens Skincare Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -31893,7 +31893,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Workout Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your workout skin guide baseline.",
     
     problem: "You are struggling with optimizing workout skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Workout Skin Guide protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Workout Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to workout skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31939,7 +31939,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -31955,8 +31955,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -31968,8 +31968,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-workout-skin-guide-1",
-        "name": "HealthOS Workout Skin Guide Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Workout Skin Guide Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31989,8 +31989,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-guides-workout-skin-guide-2",
-        "name": "HealthOS Advanced Recovery Matrix (Workout Skin Guide)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Workout Skin Guide)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32025,7 +32025,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Expert Articles optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your expert articles baseline.",
     
     problem: "You are struggling with optimizing expert articles and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Expert Articles protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Expert Articles protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to expert articles.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32071,7 +32071,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32087,8 +32087,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32100,8 +32100,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-expert-articles-1",
-        "name": "HealthOS Expert Articles Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Expert Articles Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32121,8 +32121,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-expert-articles-2",
-        "name": "HealthOS Advanced Recovery Matrix (Expert Articles)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Expert Articles)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32157,7 +32157,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Success Stories optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your success stories baseline.",
     
     problem: "You are struggling with optimizing success stories and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Success Stories protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Success Stories protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to success stories.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32203,7 +32203,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32219,8 +32219,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32232,8 +32232,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-success-stories-1",
-        "name": "HealthOS Success Stories Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Success Stories Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32253,8 +32253,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-success-stories-2",
-        "name": "HealthOS Advanced Recovery Matrix (Success Stories)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Success Stories)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32289,7 +32289,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Transformation Stories optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your transformation stories baseline.",
     
     problem: "You are struggling with optimizing transformation stories and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Transformation Stories protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Transformation Stories protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to transformation stories.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32335,7 +32335,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32351,8 +32351,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32364,8 +32364,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-transformation-stories-1",
-        "name": "HealthOS Transformation Stories Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Transformation Stories Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32385,8 +32385,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-transformation-stories-2",
-        "name": "HealthOS Advanced Recovery Matrix (Transformation Stories)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Transformation Stories)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32421,7 +32421,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Challenges optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your challenges baseline.",
     
     problem: "You are struggling with optimizing challenges and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Challenges protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Challenges protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to challenges.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32467,7 +32467,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32483,8 +32483,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32496,8 +32496,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-challenges-1",
-        "name": "HealthOS Challenges Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Challenges Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32517,8 +32517,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-challenges-2",
-        "name": "HealthOS Advanced Recovery Matrix (Challenges)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Challenges)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32553,7 +32553,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Events optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your events baseline.",
     
     problem: "You are struggling with optimizing events and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Events protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Events protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to events.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32599,7 +32599,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32615,8 +32615,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32628,8 +32628,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-events-1",
-        "name": "HealthOS Events Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Events Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32649,8 +32649,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-events-2",
-        "name": "HealthOS Advanced Recovery Matrix (Events)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Events)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32685,7 +32685,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Questions Answers optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your questions answers baseline.",
     
     problem: "You are struggling with optimizing questions answers and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Questions Answers protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Questions Answers protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to questions answers.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32731,7 +32731,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32747,8 +32747,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32760,8 +32760,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-questions-answers-1",
-        "name": "HealthOS Questions Answers Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Questions Answers Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32781,8 +32781,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-questions-answers-2",
-        "name": "HealthOS Advanced Recovery Matrix (Questions Answers)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Questions Answers)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32817,7 +32817,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Dermatologist Tips optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dermatologist tips baseline.",
     
     problem: "You are struggling with optimizing dermatologist tips and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dermatologist Tips protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Dermatologist Tips protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dermatologist tips.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32863,7 +32863,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -32879,8 +32879,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -32892,8 +32892,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-dermatologist-tips-1",
-        "name": "HealthOS Dermatologist Tips Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Dermatologist Tips Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32913,8 +32913,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-dermatologist-tips-2",
-        "name": "HealthOS Advanced Recovery Matrix (Dermatologist Tips)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Dermatologist Tips)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -32949,7 +32949,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Fitness Coach Advice optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fitness coach advice baseline.",
     
     problem: "You are struggling with optimizing fitness coach advice and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fitness Coach Advice protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Fitness Coach Advice protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fitness coach advice.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32995,7 +32995,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -33011,8 +33011,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -33024,8 +33024,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-fitness-coach-advice-1",
-        "name": "HealthOS Fitness Coach Advice Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Fitness Coach Advice Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -33045,8 +33045,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-fitness-coach-advice-2",
-        "name": "HealthOS Advanced Recovery Matrix (Fitness Coach Advice)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Fitness Coach Advice)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",
@@ -33081,7 +33081,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
     introduction: "Nutrition Articles optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nutrition articles baseline.",
     
     problem: "You are struggling with optimizing nutrition articles and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nutrition Articles protocol developed by HealthOS clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    solution: "By utilizing the Nutrition Articles protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nutrition articles.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -33127,7 +33127,7 @@ export const editorialContent: Record<string, EditorialArticle> = {
         title: "Clinical Evidence & Trial Summary",
         content: [
           "A systematic meta-analysis of peer-reviewed trials highlights consistent improvements in biological age markers, muscular force production, and tissue hydration.",
-          "Participants adhering to structured HealthOS protocols exhibited significantly higher adaptation rates compared to control groups."
+          "Participants adhering to structured AiX Health protocols exhibited significantly higher adaptation rates compared to control groups."
         ]
       },
       {
@@ -33143,8 +33143,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
         answer: "Initial biological shifts begin within hours to days, while structural tissue changes or visual adaptations manifest between 4 to 12 weeks of consistent application."
       },
       {
-        question: "Can this protocol be combined with other HealthOS routines?",
-        answer: "Yes. HealthOS protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
+        question: "Can this protocol be combined with other AiX Health routines?",
+        answer: "Yes. AiX Health protocols are designed modularly to stack safely across Skin, Supplements, Fitness, and Longevity verticals."
       },
       {
         question: "Is this suitable for both men and women?",
@@ -33156,8 +33156,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-nutrition-articles-1",
-        "name": "HealthOS Nutrition Articles Clinical Formula",
-        "brand": "HealthOS Clinical Formulations",
+        "name": "AiX Health Nutrition Articles Clinical Formula",
+        "brand": "AiX Health Clinical Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -33177,8 +33177,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     },
     {
         "id": "prod-community-nutrition-articles-2",
-        "name": "HealthOS Advanced Recovery Matrix (Nutrition Articles)",
-        "brand": "HealthOS Longevity Labs",
+        "name": "AiX Health Advanced Recovery Matrix (Nutrition Articles)",
+        "brand": "AiX Health Longevity Labs",
         "image": "/images/healthos_showcase_phone_1784918045920.png",
         "benefits": [
             "Supports mitochondrial density",

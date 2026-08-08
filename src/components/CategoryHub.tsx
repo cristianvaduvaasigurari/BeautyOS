@@ -29,7 +29,7 @@ export const CategoryHub = ({ category, title, description }: { category: string
         
         <div className="flex items-center gap-3">
           <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-            <Zap className="w-4 h-4" /> HealthOS Flagship Vertical
+            <Zap className="w-4 h-4" /> AiX Health Flagship Vertical
           </span>
         </div>
 
@@ -48,7 +48,7 @@ export const CategoryHub = ({ category, title, description }: { category: string
             <p className="text-sm text-zinc-300">Traditional approaches to {category.toLowerCase()} rely on fragmented recommendations without measuring baseline bio-markers.</p>
           </div>
           <div className="p-6 rounded-3xl bg-emerald-950/20 border border-emerald-500/30 space-y-2">
-            <p className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">The HealthOS Solution</p>
+            <p className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">The AiX Health Solution</p>
             <p className="text-sm text-white font-medium">Clinical-grade, evidence-based protocols that systematically manipulate cellular pathways for peak optimization.</p>
           </div>
         </div>

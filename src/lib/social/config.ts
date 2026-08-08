@@ -1,8 +1,4 @@
-/**
- * AiX Health / AiX Health Centralized Social Configuration
- * Single Source of Truth for social links across the application.
- */
-
+// Centralized Social Links Configuration for AiX Health
 export const SOCIAL_CONFIG = {
   telegramDirect: "https://t.me/CristianVaduva",
   telegramChannel: "https://t.me/capitalinvestcristianvaduva",

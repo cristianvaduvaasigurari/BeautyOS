@@ -17,7 +17,7 @@ export async function POST(request: Request) {
       };
     }
 
-    console.log(`[HealthOS Stripe Webhook] Received Event Type: ${event.type}`);
+    console.log(`[AiX Health Stripe Webhook] Received Event Type: ${event.type}`);
 
     switch (event.type) {
       case 'customer.subscription.created':

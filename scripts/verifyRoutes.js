@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-console.log("Starting HealthOS Complete Route Verification Scan...");
+console.log("Starting AiX Health Complete Route Verification Scan...");
 
 const layoutPath = path.join(__dirname, '../src/components/GlobalLayout.tsx');
 const layoutContent = fs.readFileSync(layoutPath, 'utf8');

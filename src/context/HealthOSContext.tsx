@@ -145,20 +145,20 @@ export const PRODUCTS_CATALOG: Product[] = [
   { id: "p1", brand: "CeraVe", name: "Hydrating Cleanser", category: "Cleanser", ingredients: ["Ceramides (3:1:1 Ratio)", "Hyaluronic Acid"], description: "Non-foaming lotion cleanser formulated with 3 essential ceramides.", paoMonths: 12 },
   { id: "p2", brand: "La Roche-Posay", name: "Toleriane Hydrating Gentle Cleanser", category: "Cleanser", ingredients: ["Ceramides (3:1:1 Ratio)", "Panthenol (Pro-Vitamin B5)"], description: "Gentle daily cleanser with La Roche-Posay Thermal Spring Water.", paoMonths: 12 },
   { id: "p3", brand: "SkinCeuticals", name: "C E Ferulic Antioxidant Serum", category: "Serum", ingredients: ["Vitamin C (L-Ascorbic Acid)", "Hyaluronic Acid"], description: "Dermatologist gold standard 15% L-ascorbic acid antioxidant serum.", paoMonths: 6 },
-  { id: "p4", brand: "HealthOS Labs", name: "Micronized Creatine Monohydrate", category: "Supplements", ingredients: ["Creatine Monohydrate"], description: "Ultra-pure pharmaceutical grade creatine for strength and neuro-protection.", paoMonths: 36 },
+  { id: "p4", brand: "AiX Health Labs", name: "Micronized Creatine Monohydrate", category: "Supplements", ingredients: ["Creatine Monohydrate"], description: "Ultra-pure pharmaceutical grade creatine for strength and neuro-protection.", paoMonths: 36 },
   { id: "p5", brand: "Paula's Choice", name: "2% BHA Liquid Exfoliant", category: "Treatment", ingredients: ["Salicylic Acid (BHA)", "Green Tea Catechins (EGCG)"], description: "Iconic leave-on fluid exfoliant unclogging pores and smoothing texture.", paoMonths: 12 },
-  { id: "p6", brand: "HealthOS Formulations", name: "Liposomal Magnesium Glycinate", category: "Supplements", ingredients: ["Magnesium Glycinate"], description: "Advanced sleep & neuromuscular recovery formula with high bio-availability.", paoMonths: 24 },
+  { id: "p6", brand: "AiX Health Formulations", name: "Liposomal Magnesium Glycinate", category: "Supplements", ingredients: ["Magnesium Glycinate"], description: "Advanced sleep & neuromuscular recovery formula with high bio-availability.", paoMonths: 24 },
   { id: "p7", brand: "Drunk Elephant", name: "Protini Polypeptide Cream", category: "Moisturizer", ingredients: ["Signal Peptides", "Copper Tripeptide-1"], description: "Protein moisturizer restoring bounce, firmness and hydration.", paoMonths: 12 },
-  { id: "p8", brand: "HealthOS Performance", name: "Grass-Fed Whey Protein Isolate", category: "Nutrition", ingredients: ["Whey Protein Isolate"], description: "Cold-filtered whey isolate delivering 27g pure protein per scoop.", paoMonths: 24 },
-  { id: "p9", brand: "HealthOS Longevity", name: "NAD+ Dual Action NMN Resveratrol", category: "Supplements", ingredients: ["NMN (Nicotinamide Mononucleotide)"], description: "Mitochondrial catalyst designed to optimize bio-energy levels.", paoMonths: 24 },
-  { id: "p10", brand: "HealthOS Formulations", name: "KSM-66 Ashwagandha & Rhodiola", category: "Supplements", ingredients: ["Ashwagandha KSM-66"], description: "Cortisol management and stress resilience compound.", paoMonths: 24 }
+  { id: "p8", brand: "AiX Health Performance", name: "Grass-Fed Whey Protein Isolate", category: "Nutrition", ingredients: ["Whey Protein Isolate"], description: "Cold-filtered whey isolate delivering 27g pure protein per scoop.", paoMonths: 24 },
+  { id: "p9", brand: "AiX Health Longevity", name: "NAD+ Dual Action NMN Resveratrol", category: "Supplements", ingredients: ["NMN (Nicotinamide Mononucleotide)"], description: "Mitochondrial catalyst designed to optimize bio-energy levels.", paoMonths: 24 },
+  { id: "p10", brand: "AiX Health Formulations", name: "KSM-66 Ashwagandha & Rhodiola", category: "Supplements", ingredients: ["Ashwagandha KSM-66"], description: "Cortisol management and stress resilience compound.", paoMonths: 24 }
 ];
 
 // ==========================================
 // 3. CONTEXT STATE & INTERFACE DEFINITION
 // ==========================================
 
-interface HealthOSContextType {
+interface AiXHealthContextType {
   activeTab: "today" | "products" | "progress" | "profile";
   setActiveTab: (tab: "today" | "products" | "progress" | "profile") => void;
   isOnboarded: boolean;
@@ -195,9 +195,9 @@ export const generateId = (prefix: string): string => {
   return `${prefix}_${Date.now()}_${idCounter}_${Math.floor(Math.random() * 100000)}`;
 };
 
-const HealthOSContext = createContext<HealthOSContextType | undefined>(undefined);
+const AiXHealthContext = createContext<AiXHealthContextType | undefined>(undefined);
 
-export const HealthOSProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [activeTab, setActiveTabRaw] = useState<"today" | "products" | "progress" | "profile">("today");
   const setActiveTab = (tab: "today" | "products" | "progress" | "profile") => {
     setActiveTabRaw(tab);
@@ -574,7 +574,7 @@ export const HealthOSProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   };
 
   return (
-    <HealthOSContext.Provider
+    <AiXHealthContext.Provider
       value={{
         activeTab,
         setActiveTab,
@@ -602,18 +602,18 @@ export const HealthOSProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       }}
     >
       {children}
-    </HealthOSContext.Provider>
+    </AiXHealthContext.Provider>
   );
 };
 
-export const useHealthOS = () => {
-  const context = useContext(HealthOSContext);
+export const useAiXHealth = () => {
+  const context = useContext(AiXHealthContext);
   if (context === undefined) {
-    throw new Error("useHealthOS must be used within a HealthOSProvider");
+    throw new Error("useAiXHealth must be used within a AiXHealthProvider");
   }
   return context;
 };
 
 // Backwards compatibility export
-export const useBeautyOS = useHealthOS;
-export const BeautyOSProvider = HealthOSProvider;
+export const useBeautyOS = useAiXHealth;
+export const BeautyOSProvider = AiXHealthProvider;

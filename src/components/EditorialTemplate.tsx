@@ -236,7 +236,7 @@ export const EditorialTemplate = ({ article, backHref, backLabel }: { article: E
           <div className="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <h3 className="text-2xl font-bold text-white mb-4 relative z-10">Ready to optimize your health?</h3>
           <p className="text-zinc-400 mb-8 relative z-10 max-w-md mx-auto font-sans">
-            Connect with the HealthOS AI Assistant to build a personalized protocol incorporating everything you just learned about {article.title}.
+            Connect with the AiX Health AI Assistant to build a personalized protocol incorporating everything you just learned about {article.title}.
           </p>
           <Link href="/dashboard" className="relative z-10 inline-flex items-center justify-center bg-emerald-500 text-zinc-950 px-8 py-4 rounded-full font-bold hover:bg-emerald-400 transition-colors gap-2 mx-auto cursor-pointer shadow-lg shadow-emerald-500/20 font-mono">
             <Zap className="w-4 h-4" /> Start Your Optimization Journey

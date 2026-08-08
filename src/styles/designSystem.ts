@@ -1,5 +1,5 @@
 export const designSystem = {
-  // Theme styling utilities matching HealthOS luxury aesthetic
+  // Theme styling utilities matching AiX Health luxury aesthetic
   card: "p-6 rounded-[28px] bg-[#101114] border border-white/[0.08] shadow-xl backdrop-blur-xl transition-all duration-300 hover:border-emerald-500/30 hover:bg-[#17181B]",
   cardActive: "border-emerald-500/40 bg-[#17181B] shadow-emerald-500/5",
   title: "text-base font-semibold text-white font-sans tracking-tight",

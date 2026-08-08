@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import { HealthDisclaimer } from "@/components/HealthDisclaimer";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
@@ -72,48 +73,48 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
     {
       icon: Droplets,
       tag: "Skin Intelligence",
-      title: "Rebuild your dermal barrier and eliminate inflammation at the cellular source.",
-      description: "Stop guessing with random skincare products. Access clinical-grade protocols for acne clearing, barrier repair, retinol retinoid adaptation, and collagen synthesis.",
+      title: "Education First",
+      description: "AiX Health is a health education and intelligence platform. Stop guessing with random skincare products. Access clinical-grade protocols for acne clearing, barrier repair, retinol retinoid adaptation, and collagen synthesis.",
       link: "/skin",
       linkLabel: "Explore Skin Protocols"
     },
     {
       icon: Dumbbell,
       tag: "Muscle & Performance",
-      title: "Build dense skeletal muscle and increase physical force production.",
-      description: "Science-backed hypertrophy programming, progressive volume overload, muscle protein synthesis triggers, and bio-mechanical adaptation.",
+      title: "Education First",
+      description: "AiX Health is a health education and intelligence platform. Build dense skeletal muscle and increase physical force production. Science-backed hypertrophy programming, progressive volume overload, muscle protein synthesis triggers, and bio-mechanical adaptation.",
       link: "/fitness/build-muscle",
       linkLabel: "Explore Muscle Protocols"
     },
     {
       icon: Flame,
       tag: "Fat Loss Transformation",
-      title: "Accelerate metabolic fat loss while preserving your lean muscle tissue.",
-      description: "Target visceral fat stores through caloric deficit engineering, insulin sensitivity optimization, and non-exercise activity thermogenesis.",
+      title: "Education First",
+      description: "AiX Health is a health education and intelligence platform. Accelerate metabolic fat loss while preserving your lean muscle tissue. Target visceral fat stores through caloric deficit engineering, insulin sensitivity optimization, and non-exercise activity thermogenesis.",
       link: "/fitness/lose-fat",
       linkLabel: "Explore Fat Loss Blueprint"
     },
     {
       icon: Apple,
       tag: "Nutrition Intelligence",
-      title: "Fuel your microbiome and regulate systemic blood sugar spikes.",
-      description: "Precision macronutrient profiling, gut barrier restoration, nutrient-dense recipes, and continuous glucose monitoring strategies.",
+      title: "Education First",
+      description: "AiX Health is a health education and intelligence platform. Fuel your microbiome and regulate systemic blood sugar spikes. Precision macronutrient profiling, gut barrier restoration, nutrient-dense recipes, and continuous glucose monitoring strategies.",
       link: "/nutrition",
       linkLabel: "Explore Nutrition Science"
     },
     {
       icon: Pill,
       tag: "Supplement Science",
-      title: "Clinical supplementation stacks formulated for maximum bio-availability.",
-      description: "Eliminate waste with bio-active compounds: Creatine Monohydrate, Whey Isolate, Magnesium Glycinate, Omega-3 EPA/DHA, and NMN.",
+      title: "Education First",
+      description: "AiX Health is a health education and intelligence platform. Clinical supplementation stacks formulated for maximum bio-availability. Eliminate waste with bio-active compounds: Creatine Monohydrate, Whey Isolate, Magnesium Glycinate, Omega-3 EPA/DHA, and NMN.",
       link: "/supplements",
       linkLabel: "Explore Supplement Library"
     },
     {
       icon: Brain,
       tag: "Longevity & Biohacking",
-      title: "Extend your biological healthspan and protect cellular DNA integrity.",
-      description: "NAD+ cellular energization, autophagy fasting protocols, deep sleep architecture enhancement, and HRV stress regulation.",
+      title: "Education First",
+      description: "AiX Health is a health education and intelligence platform. Extend your biological healthspan and protect cellular DNA integrity. NAD+ cellular energization, autophagy fasting protocols, deep sleep architecture enhancement, and HRV stress regulation.",
       link: "/longevity",
       linkLabel: "Explore Longevity Science"
     }
@@ -131,30 +132,25 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 text-xs font-mono text-emerald-400 font-bold uppercase tracking-widest shadow-[0_0_25px_rgba(16,185,129,0.15)]"
-          >
+            className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gradient-to-r from-emerald-500/10 to-teal-500/10 border border-emerald-500/30 text-xs font-mono text-emerald-400 font-bold uppercase tracking-widest shadow-[0_0_25px_rgba(16,185,129,0.15)]">
             <Activity className="w-4 h-4 text-emerald-400" />
-            <span>HealthOS∞ Flagship Human Operating System</span>
+            <span>AiX Health∞ Flagship Human Operating System</span>
           </motion.div>
 
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight text-white leading-[1.02]"
-          >
-            Understand your body. <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500">
-              Optimize your health.
-            </span>
+            className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
+            Actionable 90-Day Educational Frameworks. <br />
+            <span className="text-emerald-400">Biological Transformation.</span>
           </motion.h1>
 
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-xl sm:text-2xl text-zinc-400 font-light leading-relaxed max-w-3xl mx-auto font-sans"
-          >
+            className="text-xl sm:text-2xl text-zinc-400 font-light leading-relaxed max-w-3xl mx-auto font-sans">
             The world&apos;s premier operating system for skincare, fitness, nutrition, supplements, recovery, and cellular longevity. Engineered for both women and men.
           </motion.p>
 
@@ -171,6 +167,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <span>Build My Health Profile</span>
               <ArrowRight className="w-4 h-4 text-zinc-950" />
             </button>
+            <p className="mt-2 text-xs text-zinc-400 text-center">Educational content only — not medical advice.</p>
             
             <Link
               href="/contact"
@@ -213,8 +210,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       {/* PERSONA / ONBOARDING SELECTOR */}
       <section className="py-20 px-6 max-w-[1440px] mx-auto border-t border-white/[0.08]">
         <div className="text-center space-y-4 max-w-3xl mx-auto mb-12">
-          <span className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Personalized Biology</span>
-          <h2 className="text-4xl sm:text-5xl font-bold text-white tracking-tight">I want HealthOS for:</h2>
+          <span className="flex items-center justify-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Health Educational Framework Library</span>
+          <h2 className="text-4xl sm:text-5xl font-bold text-white tracking-tight">I want AiX Health for:</h2>
           <p className="text-zinc-400 font-sans text-base">Select your primary profile to tailor your health operating system experience.</p>
           
           <div className="inline-flex p-1.5 rounded-full bg-[#101114] border border-white/[0.1] gap-2 mt-4">
@@ -286,8 +283,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                   <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-400 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
                     {sec.tag}
                   </span>
-                  <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors leading-snug">{sec.title}</h3>
-                  <p className="text-xs text-zinc-400 leading-relaxed font-sans">{sec.description}</p>
+                  <h3 className="text-xl font-bold text-white">Education First</h3>
+                  <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
+                    AiX Health is a health education and intelligence platform. {sec.description}
+                  </p>
                 </div>
                 
                 <div className="pt-8 mt-6 border-t border-white/[0.06]">
@@ -382,7 +381,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               <Sparkles className="w-4 h-4" /> AI Health Intelligence
             </span>
             <h2 className="text-4xl sm:text-6xl font-bold text-white tracking-tight leading-tight">
-              Ask HealthOS Anything About Your Biology.
+              Ask AiX Health Anything About Your Biology.
             </h2>
             <p className="text-zinc-300 text-base leading-relaxed font-sans">
               Connect your goals with personalized 90-day nutrition plans, training splits, supplement stacks, and recovery optimization.
@@ -400,7 +399,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           <div className="p-8 rounded-3xl bg-[#0A0A0A] border border-white/[0.1] space-y-6 font-mono">
             <div className="flex items-center gap-3 border-b border-white/[0.08] pb-4">
               <div className="w-3 h-3 rounded-full bg-emerald-400 animate-pulse" />
-              <span className="text-xs text-zinc-400 uppercase tracking-widest">HealthOS Neural Engine v4.2</span>
+              <span className="text-xs text-zinc-400 uppercase tracking-widest">AiX Health Neural Engine v4.2</span>
             </div>
             
             <div className="space-y-4 text-xs">
@@ -410,7 +409,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               </div>
 
               <div className="p-4 rounded-2xl bg-emerald-950/40 border border-emerald-500/30 text-emerald-200 space-y-2">
-                <p className="text-emerald-400 font-bold">HealthOS AI Plan Generated:</p>
+                <p className="text-emerald-400 font-bold">AiX Health AI Plan Generated:</p>
                 <ul className="space-y-1 list-disc list-inside text-zinc-300">
                   <li><strong>Caloric Deficit:</strong> 400 kcal/day (High Protein 2.2g/kg)</li>
                   <li><strong>Training Split:</strong> 4-day Hypertrophy + 2-day Zone 2 Cardio</li>
@@ -424,6 +423,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
       </section>
 
       {/* FINAL GLOBAL CONVERSION CTA */}
+      <HealthDisclaimer type="GENERAL" />
       <section className="py-24 px-6 max-w-[1440px] mx-auto border-t border-white/[0.08] text-center">
         <div className="p-16 rounded-[48px] bg-gradient-to-br from-[#101114] via-[#141519] to-[#0A0A0A] border border-emerald-500/30 relative overflow-hidden space-y-8">
           <div className="w-20 h-20 rounded-3xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">

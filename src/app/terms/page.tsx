@@ -25,7 +25,7 @@ export default function TermsPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-white font-mono">1. Platform Scope & Purpose</h2>
           <p>
-            HealthOS provides scientific educational content, supplement databases, skin barrier protocols, and digital routine tracking software. The platform is designed to assist users in biological optimization and healthy lifestyle management.
+            AiX Health provides scientific educational content, supplement databases, skin barrier protocols, and digital routine tracking software. The platform is designed to assist users in biological optimization and healthy lifestyle management.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ export default function TermsPage() {
             <AlertTriangle className="w-5 h-5 shrink-0" /> Medical Disclaimer
           </h2>
           <p className="text-amber-200/80 text-xs">
-            HealthOS content, AI recommendations, and protocol guides do not constitute formal medical advice, diagnosis, or treatment. Always consult a licensed physician or medical professional before making significant changes to your supplement regimen, diet, or workout routine.
+            AiX Health content, AI recommendations, and protocol guides do not constitute formal medical advice, diagnosis, or treatment. Always consult a licensed physician or medical professional before making significant changes to your supplement regimen, diet, or workout routine.
           </p>
         </section>
 
@@ -48,7 +48,7 @@ export default function TermsPage() {
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-white font-mono">3. Intellectual Property</h2>
           <p>
-            All proprietary algorithms, editorial articles, custom interface tokens, and HealthOS trademarks are protected under international copyright and trademark laws.
+            All proprietary algorithms, editorial articles, custom interface tokens, and AiX Health trademarks are protected under international copyright and trademark laws.
           </p>
         </section>
 

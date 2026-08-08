@@ -38,11 +38,11 @@ export default function ReferralDashboardPage() {
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
           Invite Friends. <br />
-          <span className="text-emerald-400">Earn HealthOS Pro Credits.</span>
+          <span className="text-emerald-400">Earn AiX Health Pro Credits.</span>
         </h1>
 
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl">
-          Give your friends €20 off their first HealthOS Pro subscription. For every friend who completes onboarding, you receive €20 in platform credits.
+          Give your friends €20 off their first AiX Health Pro subscription. For every friend who completes onboarding, you receive €20 in platform credits.
         </p>
       </div>
 
