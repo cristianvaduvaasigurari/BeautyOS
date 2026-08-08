@@ -39,7 +39,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const megaMenuData: Record<string, { title: string; subtitle: string; columns: { title: string; links: { label: string; href: string }[] }[] }> = {
     Skin: {
       title: "Skin Physiology & Health",
-      subtitle: "Clinical protocols, dermal barrier integrity & cellular rejuvenation.",
+      subtitle: "Educational frameworks, dermal barrier integrity & cellular science.",
       columns: [
         {
           title: "Dermal Concerns",
@@ -744,7 +744,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                 </span>
               </Link>
               <p className="text-xs text-zinc-400 max-w-sm font-sans leading-relaxed">
-                The flagship Apple-quality ecosystem for biological youth, skincare science, fitness, nutrition, supplements, longevity, and clinical protocols for men and women.
+                The flagship Apple-quality ecosystem for biological youth, skincare science, fitness, nutrition, supplements, longevity, and evidence-based protocols for men and women.
               </p>
               
               {/* CENTRALIZED CONTACT DETAILS */}

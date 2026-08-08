@@ -23,7 +23,7 @@ export default function ProgressPage() {
           Your Progress.
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl">
-          Track your compounding results over time. This is the ultimate proof that your clinical protocols are working.
+          Track your compounding results over time. This is the ultimate proof that your educational routines are compounding.
         </p>
       </div>
 

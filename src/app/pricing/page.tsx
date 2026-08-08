@@ -56,7 +56,7 @@ export default function PricingPage() {
         "1-on-1 Monthly Telehealth Expert Review",
         "Advanced Longevity & Genomic Sirtuin Protocols",
         "Direct Telegram Concierge Support Channel",
-        "Early Access to Clinical Formulations",
+        "Early Access to Educational Formulations",
         "Custom Biomarker Lab Integration (Blood/CGM)"
       ],
       cta: "Join AiX Health Elite",

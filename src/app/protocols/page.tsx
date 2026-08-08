@@ -13,8 +13,8 @@ export default function ProtocolsLibraryPage() {
       title: "90-Day Metabolic Fat Loss Blueprint",
       category: "Fitness",
       duration: "90 Days",
-      confidence: "Grade A Clinical Consensus",
-      summary: "Systematic caloric deficit engineering, high protein density (2.2g/kg), 4-day resistance training split, and non-fatiguing Zone 2 aerobic base.",
+      confidence: "Evidence Level A — Educational Classification",
+      summary: "Systematic energy balance principles, protein distribution research (1.6-2.2g/kg), 4-day resistance training split, and Zone 2 aerobic base.",
       outcomes: ["Sustain lean muscle mass while reducing visceral body fat", "Regulate fasting blood glucose & insulin sensitivity", "Optimize daily energy and mental clarity without caffeine reliance"],
       href: "/guides/90-day-fat-loss"
     },
@@ -23,7 +23,7 @@ export default function ProtocolsLibraryPage() {
       title: "90-Day Skeletal Muscle Hypertrophy Protocol",
       category: "Fitness",
       duration: "90 Days",
-      confidence: "Grade A Clinical Consensus",
+      confidence: "Evidence Level A — Educational Classification",
       summary: "Progressive mechanical tension, intra-workout leucine threshold loading, phosphocreatine ATP replenishment, and sleep architecture optimization.",
       outcomes: ["Stimulate muscle protein synthesis (MPS) across major compound lifts", "Saturate intracellular creatine stores for peak force production", "Accelerate tissue recovery via chelated magnesium & marine collagen"],
       href: "/guides/build-muscle"
@@ -33,7 +33,7 @@ export default function ProtocolsLibraryPage() {
       title: "90-Day Dermal Barrier & Acne Reset Program",
       category: "Skin",
       duration: "90 Days",
-      confidence: "Grade A Clinical Consensus",
+      confidence: "Evidence Level A — Educational Classification",
       summary: "Eliminating harsh surfactant barrier damage, layering ceramides and niacinamide B3, retinoid adaptation, and dietary inflammation control.",
       outcomes: ["Restore stratum corneum lipid barrier integrity & TEWL balance", "Eliminate inflammatory comedones & acne flare-ups", "Boost dermal thickness, bounce, and natural glow"],
       href: "/guides/90-day-acne-program"
@@ -43,7 +43,7 @@ export default function ProtocolsLibraryPage() {
       title: "Cellular Longevity & Mitochondrial Optimization",
       category: "Longevity",
       duration: "Continuous",
-      confidence: "Grade A Clinical Consensus",
+      confidence: "Evidence Level A — Educational Classification",
       summary: "Sirtuin pathway activation, NAD+ precursor loading (NMN), 14:10 intermittent fasting window, VO2 max building, and circadian cortisol alignment.",
       outcomes: ["Enhance mitochondrial density & cellular ATP capacity", "Protect DNA genomic integrity and mitigate oxidative free-radical stress", "Improve Heart Rate Variability (HRV) and deep REM sleep cycles"],
       href: "/longevity/nad"
@@ -64,7 +64,7 @@ export default function ProtocolsLibraryPage() {
         </Link>
 
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Target className="w-4 h-4" /> AiX Health Clinical Protocol Library
+          <Target className="w-4 h-4" /> AiX Health Educational Protocol Library
         </span>
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
@@ -73,7 +73,7 @@ export default function ProtocolsLibraryPage() {
         </h1>
 
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl">
-          Comprehensive step-by-step masterclasses integrating nutrition, progressive training splits, clinical supplement stacking, dermal routines, and recovery tracking.
+          Comprehensive step-by-step masterclasses integrating nutrition, progressive training splits, evidence-based supplement research, dermal routines, and recovery tracking.
         </p>
 
         {/* Filter bar */}

@@ -82,7 +82,7 @@ export const EditorialTemplate = ({ article, backHref, backLabel }: { article: E
         {(article.symptoms || article.causes || article.howItDevelops) && (
           <section className="space-y-8">
             <h2 className="text-3xl font-bold text-white tracking-tight flex items-center gap-3">
-              <Activity className="w-8 h-8 text-emerald-400" /> Clinical Diagnostics
+              <Activity className="w-8 h-8 text-emerald-400" /> Educational Assessment & Research
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               

@@ -49,7 +49,7 @@ export const CategoryHub = ({ category, title, description }: { category: string
           </div>
           <div className="p-6 rounded-3xl bg-emerald-950/20 border border-emerald-500/30 space-y-2">
             <p className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">The AiX Health Solution</p>
-            <p className="text-sm text-white font-medium">Clinical-grade, evidence-based protocols that systematically manipulate cellular pathways for peak optimization.</p>
+            <p className="text-sm text-white font-medium">Evidence-based educational protocols that systematically outline cellular pathways for health optimization.</p>
           </div>
         </div>
 

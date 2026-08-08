@@ -74,14 +74,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "acne",
     category: "Skin",
     title: "Acne Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to acne optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to acne optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Acne optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your acne baseline.",
     
-    problem: "You are struggling with optimizing acne and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Acne protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing acne and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Acne protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to acne.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -156,8 +156,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-acne-1",
-        "name": "AiX Health Acne Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Acne Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -206,14 +206,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "rosacea",
     category: "Skin",
     title: "Rosacea Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to rosacea optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to rosacea optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Rosacea optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your rosacea baseline.",
     
-    problem: "You are struggling with optimizing rosacea and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Rosacea protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing rosacea and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Rosacea protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to rosacea.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -288,8 +288,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-rosacea-1",
-        "name": "AiX Health Rosacea Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Rosacea Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -338,14 +338,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "dry-skin",
     category: "Skin",
     title: "Dry Skin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to dry skin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to dry skin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Dry Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dry skin baseline.",
     
-    problem: "You are struggling with optimizing dry skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dry Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing dry skin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Dry Skin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dry skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -420,8 +420,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-dry-skin-1",
-        "name": "AiX Health Dry Skin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Dry Skin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -470,14 +470,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "oily-skin",
     category: "Skin",
     title: "Oily Skin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to oily skin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to oily skin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Oily Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your oily skin baseline.",
     
-    problem: "You are struggling with optimizing oily skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Oily Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing oily skin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Oily Skin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to oily skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -552,8 +552,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-oily-skin-1",
-        "name": "AiX Health Oily Skin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Oily Skin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -602,14 +602,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sensitive-skin",
     category: "Skin",
     title: "Sensitive Skin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sensitive skin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sensitive skin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sensitive Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sensitive skin baseline.",
     
-    problem: "You are struggling with optimizing sensitive skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sensitive Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sensitive skin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sensitive Skin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sensitive skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -684,8 +684,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-sensitive-skin-1",
-        "name": "AiX Health Sensitive Skin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sensitive Skin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -734,14 +734,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "combination-skin",
     category: "Skin",
     title: "Combination Skin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to combination skin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to combination skin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Combination Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your combination skin baseline.",
     
-    problem: "You are struggling with optimizing combination skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Combination Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing combination skin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Combination Skin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to combination skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -816,8 +816,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-combination-skin-1",
-        "name": "AiX Health Combination Skin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Combination Skin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -866,14 +866,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "barrier-repair",
     category: "Skin",
     title: "Barrier Repair Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to barrier repair optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to barrier repair optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Barrier Repair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your barrier repair baseline.",
     
-    problem: "You are struggling with optimizing barrier repair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Barrier Repair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing barrier repair and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Barrier Repair protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to barrier repair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -948,8 +948,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-barrier-repair-1",
-        "name": "AiX Health Barrier Repair Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Barrier Repair Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -998,14 +998,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "anti-aging",
     category: "Skin",
     title: "Anti Aging Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to anti aging optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to anti aging optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Anti Aging optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your anti aging baseline.",
     
-    problem: "You are struggling with optimizing anti aging and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Anti Aging protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing anti aging and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Anti Aging protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to anti aging.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1080,8 +1080,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-anti-aging-1",
-        "name": "AiX Health Anti Aging Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Anti Aging Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1130,14 +1130,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "wrinkles",
     category: "Skin",
     title: "Wrinkles Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to wrinkles optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to wrinkles optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Wrinkles optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your wrinkles baseline.",
     
-    problem: "You are struggling with optimizing wrinkles and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Wrinkles protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing wrinkles and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Wrinkles protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to wrinkles.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1212,8 +1212,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-wrinkles-1",
-        "name": "AiX Health Wrinkles Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Wrinkles Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1262,14 +1262,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "dark-spots",
     category: "Skin",
     title: "Dark Spots Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to dark spots optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to dark spots optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Dark Spots optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dark spots baseline.",
     
-    problem: "You are struggling with optimizing dark spots and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dark Spots protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing dark spots and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Dark Spots protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dark spots.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1344,8 +1344,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-dark-spots-1",
-        "name": "AiX Health Dark Spots Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Dark Spots Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1394,14 +1394,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hyperpigmentation",
     category: "Skin",
     title: "Hyperpigmentation Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hyperpigmentation optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hyperpigmentation optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hyperpigmentation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyperpigmentation baseline.",
     
-    problem: "You are struggling with optimizing hyperpigmentation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyperpigmentation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hyperpigmentation and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hyperpigmentation protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyperpigmentation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1476,8 +1476,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-hyperpigmentation-1",
-        "name": "AiX Health Hyperpigmentation Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hyperpigmentation Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1526,14 +1526,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "double-cleansing",
     category: "Skin",
     title: "Double Cleansing Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to double cleansing optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to double cleansing optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Double Cleansing optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your double cleansing baseline.",
     
-    problem: "You are struggling with optimizing double cleansing and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Double Cleansing protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing double cleansing and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Double Cleansing protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to double cleansing.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1608,8 +1608,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-double-cleansing-1",
-        "name": "AiX Health Double Cleansing Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Double Cleansing Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1658,14 +1658,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "exfoliation",
     category: "Skin",
     title: "Exfoliation Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to exfoliation optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to exfoliation optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Exfoliation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your exfoliation baseline.",
     
-    problem: "You are struggling with optimizing exfoliation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Exfoliation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing exfoliation and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Exfoliation protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to exfoliation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1740,8 +1740,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-exfoliation-1",
-        "name": "AiX Health Exfoliation Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Exfoliation Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1790,14 +1790,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "morning-routine",
     category: "Skin",
     title: "Morning Routine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to morning routine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to morning routine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Morning Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your morning routine baseline.",
     
-    problem: "You are struggling with optimizing morning routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Morning Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing morning routine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Morning Routine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to morning routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -1872,8 +1872,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-morning-routine-1",
-        "name": "AiX Health Morning Routine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Morning Routine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -1922,14 +1922,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "night-routine",
     category: "Skin",
     title: "Night Routine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to night routine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to night routine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Night Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your night routine baseline.",
     
-    problem: "You are struggling with optimizing night routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Night Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing night routine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Night Routine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to night routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2004,8 +2004,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-night-routine-1",
-        "name": "AiX Health Night Routine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Night Routine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2054,14 +2054,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "eye-care",
     category: "Skin",
     title: "Eye Care Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to eye care optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to eye care optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Eye Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your eye care baseline.",
     
-    problem: "You are struggling with optimizing eye care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Eye Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing eye care and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Eye Care protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to eye care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2136,8 +2136,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-eye-care-1",
-        "name": "AiX Health Eye Care Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Eye Care Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2186,14 +2186,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "lip-care",
     category: "Skin",
     title: "Lip Care Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to lip care optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to lip care optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Lip Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lip care baseline.",
     
-    problem: "You are struggling with optimizing lip care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lip Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing lip care and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Lip Care protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lip care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2268,8 +2268,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-lip-care-1",
-        "name": "AiX Health Lip Care Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Lip Care Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2318,14 +2318,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "glow",
     category: "Skin",
     title: "Glow Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to glow optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to glow optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Glow optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your glow baseline.",
     
-    problem: "You are struggling with optimizing glow and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Glow protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing glow and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Glow protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to glow.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2400,8 +2400,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-glow-1",
-        "name": "AiX Health Glow Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Glow Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2450,14 +2450,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "azelaic-acid",
     category: "Skin",
     title: "Azelaic Acid Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to azelaic acid optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to azelaic acid optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Azelaic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your azelaic acid baseline.",
     
-    problem: "You are struggling with optimizing azelaic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Azelaic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing azelaic acid and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Azelaic Acid protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to azelaic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2532,8 +2532,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-azelaic-acid-1",
-        "name": "AiX Health Azelaic Acid Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Azelaic Acid Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2582,14 +2582,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ceramides",
     category: "Skin",
     title: "Ceramides Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ceramides optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ceramides optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ceramides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ceramides baseline.",
     
-    problem: "You are struggling with optimizing ceramides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ceramides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ceramides and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ceramides protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ceramides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2664,8 +2664,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-ceramides-1",
-        "name": "AiX Health Ceramides Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ceramides Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2714,14 +2714,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "niacinamide",
     category: "Skin",
     title: "Niacinamide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to niacinamide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to niacinamide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Niacinamide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your niacinamide baseline.",
     
-    problem: "You are struggling with optimizing niacinamide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Niacinamide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing niacinamide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Niacinamide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to niacinamide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2796,8 +2796,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-niacinamide-1",
-        "name": "AiX Health Niacinamide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Niacinamide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2846,14 +2846,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "peptides",
     category: "Skin",
     title: "Peptides Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to peptides optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to peptides optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Peptides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your peptides baseline.",
     
-    problem: "You are struggling with optimizing peptides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Peptides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing peptides and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Peptides protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to peptides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -2928,8 +2928,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-peptides-1",
-        "name": "AiX Health Peptides Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Peptides Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -2978,14 +2978,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hyaluronic-acid",
     category: "Skin",
     title: "Hyaluronic Acid Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hyaluronic acid optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hyaluronic acid optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hyaluronic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyaluronic acid baseline.",
     
-    problem: "You are struggling with optimizing hyaluronic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyaluronic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hyaluronic acid and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hyaluronic Acid protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyaluronic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3060,8 +3060,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-hyaluronic-acid-1",
-        "name": "AiX Health Hyaluronic Acid Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hyaluronic Acid Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3110,14 +3110,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "spf",
     category: "Skin",
     title: "Spf Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to spf optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to spf optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Spf optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your spf baseline.",
     
-    problem: "You are struggling with optimizing spf and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Spf protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing spf and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Spf protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to spf.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3192,8 +3192,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-spf-1",
-        "name": "AiX Health Spf Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Spf Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3242,14 +3242,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "retinol",
     category: "Skin",
     title: "Retinol Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to retinol optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to retinol optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Retinol optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinol baseline.",
     
-    problem: "You are struggling with optimizing retinol and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinol protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing retinol and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Retinol protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinol.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3324,8 +3324,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-retinol-1",
-        "name": "AiX Health Retinol Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Retinol Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3374,14 +3374,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "vitamin-c",
     category: "Skin",
     title: "Vitamin C Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to vitamin c optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to vitamin c optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Vitamin C optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c baseline.",
     
-    problem: "You are struggling with optimizing vitamin c and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing vitamin c and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Vitamin C protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3456,8 +3456,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-vitamin-c-1",
-        "name": "AiX Health Vitamin C Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Vitamin C Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3506,14 +3506,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sun-damage",
     category: "Skin",
     title: "Sun Damage Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sun damage optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sun damage optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sun Damage optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sun damage baseline.",
     
-    problem: "You are struggling with optimizing sun damage and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sun Damage protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sun damage and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sun Damage protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sun damage.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3588,8 +3588,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-sun-damage-1",
-        "name": "AiX Health Sun Damage Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sun Damage Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3638,14 +3638,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "pigmentation",
     category: "Skin",
     title: "Pigmentation Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to pigmentation optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to pigmentation optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Pigmentation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your pigmentation baseline.",
     
-    problem: "You are struggling with optimizing pigmentation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Pigmentation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing pigmentation and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Pigmentation protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to pigmentation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3720,8 +3720,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-pigmentation-1",
-        "name": "AiX Health Pigmentation Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Pigmentation Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3770,14 +3770,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "cleansers",
     category: "Skin",
     title: "Cleansers Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to cleansers optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to cleansers optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Cleansers optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cleansers baseline.",
     
-    problem: "You are struggling with optimizing cleansers and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cleansers protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing cleansers and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Cleansers protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cleansers.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3852,8 +3852,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-cleansers-1",
-        "name": "AiX Health Cleansers Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Cleansers Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -3902,14 +3902,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "moisturizers",
     category: "Skin",
     title: "Moisturizers Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to moisturizers optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to moisturizers optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Moisturizers optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your moisturizers baseline.",
     
-    problem: "You are struggling with optimizing moisturizers and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Moisturizers protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing moisturizers and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Moisturizers protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to moisturizers.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -3984,8 +3984,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-moisturizers-1",
-        "name": "AiX Health Moisturizers Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Moisturizers Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4034,14 +4034,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "serums",
     category: "Skin",
     title: "Serums Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to serums optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to serums optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Serums optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your serums baseline.",
     
-    problem: "You are struggling with optimizing serums and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Serums protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing serums and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Serums protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to serums.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4116,8 +4116,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-serums-1",
-        "name": "AiX Health Serums Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Serums Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4166,14 +4166,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "salicylic-acid",
     category: "Skin",
     title: "Salicylic Acid Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to salicylic acid optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to salicylic acid optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Salicylic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your salicylic acid baseline.",
     
-    problem: "You are struggling with optimizing salicylic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Salicylic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing salicylic acid and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Salicylic Acid protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to salicylic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4248,8 +4248,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-salicylic-acid-1",
-        "name": "AiX Health Salicylic Acid Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Salicylic Acid Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4298,14 +4298,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "glycolic-acid",
     category: "Skin",
     title: "Glycolic Acid Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to glycolic acid optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to glycolic acid optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Glycolic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your glycolic acid baseline.",
     
-    problem: "You are struggling with optimizing glycolic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Glycolic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing glycolic acid and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Glycolic Acid protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to glycolic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4380,8 +4380,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-glycolic-acid-1",
-        "name": "AiX Health Glycolic Acid Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Glycolic Acid Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4430,14 +4430,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fine-lines",
     category: "Skin",
     title: "Fine Lines Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fine lines optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fine lines optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fine Lines optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fine lines baseline.",
     
-    problem: "You are struggling with optimizing fine lines and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fine Lines protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fine lines and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fine Lines protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fine lines.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4512,8 +4512,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-fine-lines-1",
-        "name": "AiX Health Fine Lines Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fine Lines Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4562,14 +4562,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "retinoids",
     category: "Skin",
     title: "Retinoids Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to retinoids optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to retinoids optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Retinoids optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinoids baseline.",
     
-    problem: "You are struggling with optimizing retinoids and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinoids protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing retinoids and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Retinoids protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinoids.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4644,8 +4644,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-retinoids-1",
-        "name": "AiX Health Retinoids Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Retinoids Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4694,14 +4694,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sebum",
     category: "Skin",
     title: "Sebum Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sebum optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sebum optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sebum optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sebum baseline.",
     
-    problem: "You are struggling with optimizing sebum and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sebum protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sebum and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sebum protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sebum.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4776,8 +4776,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-sebum-1",
-        "name": "AiX Health Sebum Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sebum Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4826,14 +4826,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "barrier-damage",
     category: "Skin",
     title: "Barrier Damage Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to barrier damage optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to barrier damage optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Barrier Damage optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your barrier damage baseline.",
     
-    problem: "You are struggling with optimizing barrier damage and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Barrier Damage protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing barrier damage and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Barrier Damage protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to barrier damage.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -4908,8 +4908,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-skin-barrier-damage-1",
-        "name": "AiX Health Barrier Damage Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Barrier Damage Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -4958,14 +4958,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "vitamin-c",
     category: "Ingredients",
     title: "Vitamin C Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to vitamin c optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to vitamin c optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Vitamin C optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c baseline.",
     
-    problem: "You are struggling with optimizing vitamin c and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing vitamin c and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Vitamin C protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5040,8 +5040,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-vitamin-c-1",
-        "name": "AiX Health Vitamin C Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Vitamin C Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5090,14 +5090,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "retinol",
     category: "Ingredients",
     title: "Retinol Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to retinol optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to retinol optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Retinol optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinol baseline.",
     
-    problem: "You are struggling with optimizing retinol and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinol protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing retinol and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Retinol protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinol.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5172,8 +5172,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-retinol-1",
-        "name": "AiX Health Retinol Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Retinol Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5222,14 +5222,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ceramides",
     category: "Ingredients",
     title: "Ceramides Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ceramides optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ceramides optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ceramides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ceramides baseline.",
     
-    problem: "You are struggling with optimizing ceramides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ceramides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ceramides and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ceramides protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ceramides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5304,8 +5304,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-ceramides-1",
-        "name": "AiX Health Ceramides Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ceramides Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5354,14 +5354,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "niacinamide",
     category: "Ingredients",
     title: "Niacinamide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to niacinamide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to niacinamide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Niacinamide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your niacinamide baseline.",
     
-    problem: "You are struggling with optimizing niacinamide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Niacinamide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing niacinamide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Niacinamide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to niacinamide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5436,8 +5436,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-niacinamide-1",
-        "name": "AiX Health Niacinamide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Niacinamide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5486,14 +5486,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "peptides",
     category: "Ingredients",
     title: "Peptides Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to peptides optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to peptides optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Peptides optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your peptides baseline.",
     
-    problem: "You are struggling with optimizing peptides and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Peptides protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing peptides and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Peptides protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to peptides.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5568,8 +5568,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-peptides-1",
-        "name": "AiX Health Peptides Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Peptides Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5618,14 +5618,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hyaluronic-acid",
     category: "Ingredients",
     title: "Hyaluronic Acid Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hyaluronic acid optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hyaluronic acid optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hyaluronic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyaluronic acid baseline.",
     
-    problem: "You are struggling with optimizing hyaluronic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyaluronic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hyaluronic acid and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hyaluronic Acid protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyaluronic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5700,8 +5700,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-hyaluronic-acid-1",
-        "name": "AiX Health Hyaluronic Acid Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hyaluronic Acid Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5750,14 +5750,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "azelaic-acid",
     category: "Ingredients",
     title: "Azelaic Acid Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to azelaic acid optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to azelaic acid optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Azelaic Acid optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your azelaic acid baseline.",
     
-    problem: "You are struggling with optimizing azelaic acid and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Azelaic Acid protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing azelaic acid and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Azelaic Acid protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to azelaic acid.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5832,8 +5832,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-azelaic-acid-1",
-        "name": "AiX Health Azelaic Acid Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Azelaic Acid Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -5882,14 +5882,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "spf",
     category: "Ingredients",
     title: "Spf Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to spf optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to spf optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Spf optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your spf baseline.",
     
-    problem: "You are struggling with optimizing spf and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Spf protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing spf and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Spf protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to spf.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -5964,8 +5964,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-ingredients-spf-1",
-        "name": "AiX Health Spf Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Spf Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6014,14 +6014,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hair-growth",
     category: "Hair",
     title: "Hair Growth Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hair growth optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hair growth optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hair Growth optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair growth baseline.",
     
-    problem: "You are struggling with optimizing hair growth and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Growth protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hair growth and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hair Growth protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair growth.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6096,8 +6096,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-growth-1",
-        "name": "AiX Health Hair Growth Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hair Growth Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6146,14 +6146,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hair-loss",
     category: "Hair",
     title: "Hair Loss Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hair loss optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hair loss optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hair Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair loss baseline.",
     
-    problem: "You are struggling with optimizing hair loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hair loss and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hair Loss protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6228,8 +6228,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-loss-1",
-        "name": "AiX Health Hair Loss Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hair Loss Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6278,14 +6278,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "scalp-health",
     category: "Hair",
     title: "Scalp Health Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to scalp health optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to scalp health optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Scalp Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your scalp health baseline.",
     
-    problem: "You are struggling with optimizing scalp health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Scalp Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing scalp health and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Scalp Health protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to scalp health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6360,8 +6360,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-scalp-health-1",
-        "name": "AiX Health Scalp Health Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Scalp Health Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6410,14 +6410,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "dandruff",
     category: "Hair",
     title: "Dandruff Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to dandruff optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to dandruff optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Dandruff optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dandruff baseline.",
     
-    problem: "You are struggling with optimizing dandruff and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dandruff protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing dandruff and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Dandruff protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dandruff.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6492,8 +6492,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-dandruff-1",
-        "name": "AiX Health Dandruff Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Dandruff Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6542,14 +6542,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "curly",
     category: "Hair",
     title: "Curly Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to curly optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to curly optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Curly optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your curly baseline.",
     
-    problem: "You are struggling with optimizing curly and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Curly protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing curly and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Curly protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to curly.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6624,8 +6624,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-curly-1",
-        "name": "AiX Health Curly Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Curly Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6674,14 +6674,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "curly-hair",
     category: "Hair",
     title: "Curly Hair Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to curly hair optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to curly hair optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Curly Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your curly hair baseline.",
     
-    problem: "You are struggling with optimizing curly hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Curly Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing curly hair and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Curly Hair protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to curly hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6756,8 +6756,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-curly-hair-1",
-        "name": "AiX Health Curly Hair Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Curly Hair Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6806,14 +6806,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "straight",
     category: "Hair",
     title: "Straight Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to straight optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to straight optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Straight optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your straight baseline.",
     
-    problem: "You are struggling with optimizing straight and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Straight protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing straight and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Straight protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to straight.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -6888,8 +6888,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-straight-1",
-        "name": "AiX Health Straight Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Straight Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -6938,14 +6938,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "straight-hair",
     category: "Hair",
     title: "Straight Hair Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to straight hair optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to straight hair optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Straight Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your straight hair baseline.",
     
-    problem: "You are struggling with optimizing straight hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Straight Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing straight hair and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Straight Hair protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to straight hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7020,8 +7020,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-straight-hair-1",
-        "name": "AiX Health Straight Hair Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Straight Hair Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7070,14 +7070,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "damaged-hair",
     category: "Hair",
     title: "Damaged Hair Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to damaged hair optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to damaged hair optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Damaged Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your damaged hair baseline.",
     
-    problem: "You are struggling with optimizing damaged hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Damaged Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing damaged hair and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Damaged Hair protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to damaged hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7152,8 +7152,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-damaged-hair-1",
-        "name": "AiX Health Damaged Hair Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Damaged Hair Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7202,14 +7202,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "dry-hair",
     category: "Hair",
     title: "Dry Hair Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to dry hair optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to dry hair optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Dry Hair optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dry hair baseline.",
     
-    problem: "You are struggling with optimizing dry hair and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dry Hair protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing dry hair and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Dry Hair protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dry hair.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7284,8 +7284,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-dry-hair-1",
-        "name": "AiX Health Dry Hair Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Dry Hair Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7334,14 +7334,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hair-oils",
     category: "Hair",
     title: "Hair Oils Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hair oils optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hair oils optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hair Oils optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair oils baseline.",
     
-    problem: "You are struggling with optimizing hair oils and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Oils protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hair oils and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hair Oils protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair oils.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7416,8 +7416,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-oils-1",
-        "name": "AiX Health Hair Oils Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hair Oils Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7466,14 +7466,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "oils",
     category: "Hair",
     title: "Oils Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to oils optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to oils optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Oils optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your oils baseline.",
     
-    problem: "You are struggling with optimizing oils and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Oils protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing oils and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Oils protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to oils.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7548,8 +7548,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-oils-1",
-        "name": "AiX Health Oils Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Oils Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7598,14 +7598,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "beard-care",
     category: "Hair",
     title: "Beard Care Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to beard care optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to beard care optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Beard Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your beard care baseline.",
     
-    problem: "You are struggling with optimizing beard care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Beard Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing beard care and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Beard Care protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to beard care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7680,8 +7680,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-beard-care-1",
-        "name": "AiX Health Beard Care Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Beard Care Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7730,14 +7730,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hair-supplements",
     category: "Hair",
     title: "Hair Supplements Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hair supplements optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hair supplements optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hair Supplements optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair supplements baseline.",
     
-    problem: "You are struggling with optimizing hair supplements and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Supplements protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hair supplements and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hair Supplements protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair supplements.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7812,8 +7812,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-hair-supplements-1",
-        "name": "AiX Health Hair Supplements Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hair Supplements Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7862,14 +7862,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "biotin",
     category: "Hair",
     title: "Biotin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to biotin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to biotin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Biotin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your biotin baseline.",
     
-    problem: "You are struggling with optimizing biotin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Biotin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing biotin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Biotin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to biotin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -7944,8 +7944,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-biotin-1",
-        "name": "AiX Health Biotin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Biotin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -7994,14 +7994,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "minoxidil",
     category: "Hair",
     title: "Minoxidil Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to minoxidil optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to minoxidil optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Minoxidil optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your minoxidil baseline.",
     
-    problem: "You are struggling with optimizing minoxidil and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Minoxidil protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing minoxidil and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Minoxidil protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to minoxidil.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8076,8 +8076,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-minoxidil-1",
-        "name": "AiX Health Minoxidil Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Minoxidil Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8126,14 +8126,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "scalp",
     category: "Hair",
     title: "Scalp Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to scalp optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to scalp optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Scalp optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your scalp baseline.",
     
-    problem: "You are struggling with optimizing scalp and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Scalp protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing scalp and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Scalp protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to scalp.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8208,8 +8208,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-hair-scalp-1",
-        "name": "AiX Health Scalp Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Scalp Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8258,14 +8258,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-acne",
     category: "Body",
     title: "Body Acne Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body acne optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body acne optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Acne optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body acne baseline.",
     
-    problem: "You are struggling with optimizing body acne and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Acne protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body acne and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Acne protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body acne.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8340,8 +8340,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-acne-1",
-        "name": "AiX Health Body Acne Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Acne Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8390,14 +8390,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "stretch-marks",
     category: "Body",
     title: "Stretch Marks Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to stretch marks optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to stretch marks optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Stretch Marks optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stretch marks baseline.",
     
-    problem: "You are struggling with optimizing stretch marks and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stretch Marks protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing stretch marks and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Stretch Marks protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stretch marks.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8472,8 +8472,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-stretch-marks-1",
-        "name": "AiX Health Stretch Marks Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Stretch Marks Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8522,14 +8522,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "cellulite",
     category: "Body",
     title: "Cellulite Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to cellulite optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to cellulite optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Cellulite optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cellulite baseline.",
     
-    problem: "You are struggling with optimizing cellulite and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cellulite protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing cellulite and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Cellulite protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cellulite.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8604,8 +8604,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-cellulite-1",
-        "name": "AiX Health Cellulite Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Cellulite Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8654,14 +8654,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-lotion",
     category: "Body",
     title: "Body Lotion Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body lotion optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body lotion optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Lotion optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body lotion baseline.",
     
-    problem: "You are struggling with optimizing body lotion and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Lotion protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body lotion and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Lotion protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body lotion.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8736,8 +8736,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-lotion-1",
-        "name": "AiX Health Body Lotion Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Lotion Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8786,14 +8786,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-wash",
     category: "Body",
     title: "Body Wash Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body wash optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body wash optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Wash optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body wash baseline.",
     
-    problem: "You are struggling with optimizing body wash and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Wash protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body wash and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Wash protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body wash.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -8868,8 +8868,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-wash-1",
-        "name": "AiX Health Body Wash Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Wash Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -8918,14 +8918,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hands",
     category: "Body",
     title: "Hands Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hands optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hands optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hands optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hands baseline.",
     
-    problem: "You are struggling with optimizing hands and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hands protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hands and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hands protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hands.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9000,8 +9000,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-hands-1",
-        "name": "AiX Health Hands Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hands Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9050,14 +9050,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "feet",
     category: "Body",
     title: "Feet Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to feet optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to feet optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Feet optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your feet baseline.",
     
-    problem: "You are struggling with optimizing feet and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Feet protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing feet and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Feet protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to feet.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9132,8 +9132,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-feet-1",
-        "name": "AiX Health Feet Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Feet Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9182,14 +9182,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "neck",
     category: "Body",
     title: "Neck Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to neck optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to neck optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Neck optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your neck baseline.",
     
-    problem: "You are struggling with optimizing neck and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Neck protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing neck and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Neck protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to neck.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9264,8 +9264,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-neck-1",
-        "name": "AiX Health Neck Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Neck Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9314,14 +9314,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-spf",
     category: "Body",
     title: "Body Spf Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body spf optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body spf optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Spf optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body spf baseline.",
     
-    problem: "You are struggling with optimizing body spf and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Spf protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body spf and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Spf protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body spf.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9396,8 +9396,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-spf-1",
-        "name": "AiX Health Body Spf Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Spf Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9446,14 +9446,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-exfoliation",
     category: "Body",
     title: "Body Exfoliation Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body exfoliation optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body exfoliation optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Exfoliation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body exfoliation baseline.",
     
-    problem: "You are struggling with optimizing body exfoliation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Exfoliation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body exfoliation and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Exfoliation protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body exfoliation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9528,8 +9528,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-exfoliation-1",
-        "name": "AiX Health Body Exfoliation Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Exfoliation Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9578,14 +9578,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hydration",
     category: "Body",
     title: "Hydration Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hydration optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hydration optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hydration optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration baseline.",
     
-    problem: "You are struggling with optimizing hydration and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hydration and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hydration protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9660,8 +9660,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-hydration-1",
-        "name": "AiX Health Hydration Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hydration Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9710,14 +9710,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-composition",
     category: "Body",
     title: "Body Composition Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body composition optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body composition optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Composition optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body composition baseline.",
     
-    problem: "You are struggling with optimizing body composition and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Composition protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body composition and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Composition protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body composition.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9792,8 +9792,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-body-composition-1",
-        "name": "AiX Health Body Composition Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Composition Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9842,14 +9842,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "posture",
     category: "Body",
     title: "Posture Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to posture optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to posture optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Posture optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your posture baseline.",
     
-    problem: "You are struggling with optimizing posture and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Posture protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing posture and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Posture protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to posture.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -9924,8 +9924,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-posture-1",
-        "name": "AiX Health Posture Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Posture Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -9974,14 +9974,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "recovery",
     category: "Body",
     title: "Recovery Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
-    problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing recovery and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10056,8 +10056,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-recovery-1",
-        "name": "AiX Health Recovery Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Recovery Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10106,14 +10106,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "care",
     category: "Body",
     title: "Care Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to care optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to care optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Care optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your care baseline.",
     
-    problem: "You are struggling with optimizing care and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Care protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing care and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Care protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to care.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10188,8 +10188,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-body-care-1",
-        "name": "AiX Health Care Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Care Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10238,14 +10238,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "build-muscle",
     category: "Fitness",
     title: "Build Muscle Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to build muscle optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to build muscle optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Build Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your build muscle baseline.",
     
-    problem: "You are struggling with optimizing build muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Build Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing build muscle and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Build Muscle protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to build muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10320,8 +10320,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-build-muscle-1",
-        "name": "AiX Health Build Muscle Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Build Muscle Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10370,14 +10370,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "lose-fat",
     category: "Fitness",
     title: "Lose Fat Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to lose fat optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to lose fat optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Lose Fat optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lose fat baseline.",
     
-    problem: "You are struggling with optimizing lose fat and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lose Fat protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing lose fat and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Lose Fat protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lose fat.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10452,8 +10452,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-lose-fat-1",
-        "name": "AiX Health Lose Fat Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Lose Fat Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10502,14 +10502,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "body-recomposition",
     category: "Fitness",
     title: "Body Recomposition Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to body recomposition optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to body recomposition optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Body Recomposition optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your body recomposition baseline.",
     
-    problem: "You are struggling with optimizing body recomposition and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Body Recomposition protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing body recomposition and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Body Recomposition protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to body recomposition.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10584,8 +10584,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-body-recomposition-1",
-        "name": "AiX Health Body Recomposition Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Body Recomposition Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10634,14 +10634,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "strength",
     category: "Fitness",
     title: "Strength Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to strength optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to strength optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Strength optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your strength baseline.",
     
-    problem: "You are struggling with optimizing strength and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Strength protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing strength and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Strength protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to strength.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10716,8 +10716,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-strength-1",
-        "name": "AiX Health Strength Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Strength Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10766,14 +10766,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hypertrophy",
     category: "Fitness",
     title: "Hypertrophy Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hypertrophy optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hypertrophy optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hypertrophy optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hypertrophy baseline.",
     
-    problem: "You are struggling with optimizing hypertrophy and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hypertrophy protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hypertrophy and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hypertrophy protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hypertrophy.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10848,8 +10848,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-hypertrophy-1",
-        "name": "AiX Health Hypertrophy Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hypertrophy Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -10898,14 +10898,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "cardio",
     category: "Fitness",
     title: "Cardio Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to cardio optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to cardio optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Cardio optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cardio baseline.",
     
-    problem: "You are struggling with optimizing cardio and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cardio protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing cardio and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Cardio protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cardio.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -10980,8 +10980,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-cardio-1",
-        "name": "AiX Health Cardio Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Cardio Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11030,14 +11030,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "recovery",
     category: "Fitness",
     title: "Recovery Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
-    problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing recovery and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11112,8 +11112,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-recovery-1",
-        "name": "AiX Health Recovery Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Recovery Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11162,14 +11162,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "mobility",
     category: "Fitness",
     title: "Mobility Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to mobility optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to mobility optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Mobility optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your mobility baseline.",
     
-    problem: "You are struggling with optimizing mobility and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Mobility protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing mobility and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Mobility protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to mobility.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11244,8 +11244,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-mobility-1",
-        "name": "AiX Health Mobility Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Mobility Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11294,14 +11294,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "stretching",
     category: "Fitness",
     title: "Stretching Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to stretching optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to stretching optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Stretching optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stretching baseline.",
     
-    problem: "You are struggling with optimizing stretching and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stretching protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing stretching and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Stretching protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stretching.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11376,8 +11376,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-stretching-1",
-        "name": "AiX Health Stretching Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Stretching Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11426,14 +11426,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "workout-plans",
     category: "Fitness",
     title: "Workout Plans Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to workout plans optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to workout plans optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Workout Plans optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your workout plans baseline.",
     
-    problem: "You are struggling with optimizing workout plans and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Workout Plans protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing workout plans and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Workout Plans protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to workout plans.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11508,8 +11508,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-workout-plans-1",
-        "name": "AiX Health Workout Plans Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Workout Plans Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11558,14 +11558,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "gym-beginners",
     category: "Fitness",
     title: "Gym Beginners Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to gym beginners optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to gym beginners optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Gym Beginners optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gym beginners baseline.",
     
-    problem: "You are struggling with optimizing gym beginners and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gym Beginners protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing gym beginners and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Gym Beginners protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gym beginners.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11640,8 +11640,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-gym-beginners-1",
-        "name": "AiX Health Gym Beginners Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Gym Beginners Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11690,14 +11690,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "advanced-training",
     category: "Fitness",
     title: "Advanced Training Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to advanced training optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to advanced training optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Advanced Training optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your advanced training baseline.",
     
-    problem: "You are struggling with optimizing advanced training and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Advanced Training protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing advanced training and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Advanced Training protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to advanced training.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11772,8 +11772,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-advanced-training-1",
-        "name": "AiX Health Advanced Training Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Advanced Training Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11822,14 +11822,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "protein-intake",
     category: "Fitness",
     title: "Protein Intake Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to protein intake optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to protein intake optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Protein Intake optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your protein intake baseline.",
     
-    problem: "You are struggling with optimizing protein intake and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Protein Intake protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing protein intake and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Protein Intake protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to protein intake.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -11904,8 +11904,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-protein-intake-1",
-        "name": "AiX Health Protein Intake Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Protein Intake Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -11954,14 +11954,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "running",
     category: "Fitness",
     title: "Running Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to running optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to running optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Running optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your running baseline.",
     
-    problem: "You are struggling with optimizing running and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Running protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing running and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Running protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to running.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12036,8 +12036,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-running-1",
-        "name": "AiX Health Running Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Running Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12086,14 +12086,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hiit",
     category: "Fitness",
     title: "Hiit Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hiit optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hiit optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hiit optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hiit baseline.",
     
-    problem: "You are struggling with optimizing hiit and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hiit protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hiit and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hiit protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hiit.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12168,8 +12168,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-hiit-1",
-        "name": "AiX Health Hiit Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hiit Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12218,14 +12218,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "powerlifting",
     category: "Fitness",
     title: "Powerlifting Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to powerlifting optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to powerlifting optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Powerlifting optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your powerlifting baseline.",
     
-    problem: "You are struggling with optimizing powerlifting and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Powerlifting protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing powerlifting and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Powerlifting protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to powerlifting.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12300,8 +12300,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-powerlifting-1",
-        "name": "AiX Health Powerlifting Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Powerlifting Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12350,14 +12350,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "bodybuilding",
     category: "Fitness",
     title: "Bodybuilding Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to bodybuilding optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to bodybuilding optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Bodybuilding optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your bodybuilding baseline.",
     
-    problem: "You are struggling with optimizing bodybuilding and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Bodybuilding protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing bodybuilding and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Bodybuilding protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to bodybuilding.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12432,8 +12432,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-bodybuilding-1",
-        "name": "AiX Health Bodybuilding Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Bodybuilding Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12482,14 +12482,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fat-loss",
     category: "Fitness",
     title: "Fat Loss Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fat loss optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fat loss optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fat Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fat loss baseline.",
     
-    problem: "You are struggling with optimizing fat loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fat Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fat loss and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fat Loss protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fat loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12564,8 +12564,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-fat-loss-1",
-        "name": "AiX Health Fat Loss Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fat Loss Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12614,14 +12614,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "muscle-gain",
     category: "Fitness",
     title: "Muscle Gain Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to muscle gain optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to muscle gain optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Muscle Gain optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle gain baseline.",
     
-    problem: "You are struggling with optimizing muscle gain and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle Gain protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing muscle gain and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Muscle Gain protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle gain.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12696,8 +12696,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-fitness-muscle-gain-1",
-        "name": "AiX Health Muscle Gain Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Muscle Gain Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12746,14 +12746,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "calories",
     category: "Nutrition",
     title: "Calories Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to calories optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to calories optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Calories optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your calories baseline.",
     
-    problem: "You are struggling with optimizing calories and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Calories protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing calories and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Calories protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to calories.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12828,8 +12828,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-calories-1",
-        "name": "AiX Health Calories Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Calories Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -12878,14 +12878,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "protein",
     category: "Nutrition",
     title: "Protein Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to protein optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to protein optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Protein optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your protein baseline.",
     
-    problem: "You are struggling with optimizing protein and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Protein protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing protein and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Protein protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to protein.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -12960,8 +12960,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-protein-1",
-        "name": "AiX Health Protein Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Protein Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13010,14 +13010,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "carbohydrates",
     category: "Nutrition",
     title: "Carbohydrates Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to carbohydrates optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to carbohydrates optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Carbohydrates optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your carbohydrates baseline.",
     
-    problem: "You are struggling with optimizing carbohydrates and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Carbohydrates protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing carbohydrates and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Carbohydrates protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to carbohydrates.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13092,8 +13092,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-carbohydrates-1",
-        "name": "AiX Health Carbohydrates Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Carbohydrates Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13142,14 +13142,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "carbs",
     category: "Nutrition",
     title: "Carbs Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to carbs optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to carbs optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Carbs optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your carbs baseline.",
     
-    problem: "You are struggling with optimizing carbs and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Carbs protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing carbs and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Carbs protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to carbs.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13224,8 +13224,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-carbs-1",
-        "name": "AiX Health Carbs Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Carbs Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13274,14 +13274,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fats",
     category: "Nutrition",
     title: "Fats Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fats optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fats optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fats optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fats baseline.",
     
-    problem: "You are struggling with optimizing fats and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fats protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fats and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fats protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fats.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13356,8 +13356,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-fats-1",
-        "name": "AiX Health Fats Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fats Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13406,14 +13406,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-fats",
     category: "Nutrition",
     title: "Healthy Fats Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy fats optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy fats optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Fats optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy fats baseline.",
     
-    problem: "You are struggling with optimizing healthy fats and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Fats protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy fats and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Fats protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy fats.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13488,8 +13488,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-healthy-fats-1",
-        "name": "AiX Health Healthy Fats Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Fats Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13538,14 +13538,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "meal-planning",
     category: "Nutrition",
     title: "Meal Planning Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to meal planning optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to meal planning optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Meal Planning optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your meal planning baseline.",
     
-    problem: "You are struggling with optimizing meal planning and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Meal Planning protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing meal planning and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Meal Planning protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to meal planning.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13620,8 +13620,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-meal-planning-1",
-        "name": "AiX Health Meal Planning Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Meal Planning Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13670,14 +13670,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "meal-plans",
     category: "Nutrition",
     title: "Meal Plans Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to meal plans optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to meal plans optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Meal Plans optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your meal plans baseline.",
     
-    problem: "You are struggling with optimizing meal plans and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Meal Plans protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing meal plans and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Meal Plans protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to meal plans.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13752,8 +13752,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-meal-plans-1",
-        "name": "AiX Health Meal Plans Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Meal Plans Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13802,14 +13802,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "recipes",
     category: "Nutrition",
     title: "Recipes Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to recipes optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to recipes optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Recipes optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recipes baseline.",
     
-    problem: "You are struggling with optimizing recipes and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recipes protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing recipes and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Recipes protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recipes.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -13884,8 +13884,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-recipes-1",
-        "name": "AiX Health Recipes Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Recipes Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -13934,14 +13934,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-recipes",
     category: "Nutrition",
     title: "Healthy Recipes Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy recipes optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy recipes optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Recipes optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy recipes baseline.",
     
-    problem: "You are struggling with optimizing healthy recipes and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Recipes protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy recipes and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Recipes protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy recipes.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14016,8 +14016,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-healthy-recipes-1",
-        "name": "AiX Health Healthy Recipes Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Recipes Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14066,14 +14066,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hydration",
     category: "Nutrition",
     title: "Hydration Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hydration optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hydration optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hydration optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration baseline.",
     
-    problem: "You are struggling with optimizing hydration and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hydration and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hydration protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14148,8 +14148,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-hydration-1",
-        "name": "AiX Health Hydration Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hydration Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14198,14 +14198,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "micronutrients",
     category: "Nutrition",
     title: "Micronutrients Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to micronutrients optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to micronutrients optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Micronutrients optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your micronutrients baseline.",
     
-    problem: "You are struggling with optimizing micronutrients and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Micronutrients protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing micronutrients and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Micronutrients protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to micronutrients.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14280,8 +14280,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-micronutrients-1",
-        "name": "AiX Health Micronutrients Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Micronutrients Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14330,14 +14330,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "gut-health",
     category: "Nutrition",
     title: "Gut Health Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to gut health optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to gut health optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Gut Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gut health baseline.",
     
-    problem: "You are struggling with optimizing gut health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gut Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing gut health and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Gut Health protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gut health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14412,8 +14412,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-gut-health-1",
-        "name": "AiX Health Gut Health Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Gut Health Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14462,14 +14462,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "meal-timing",
     category: "Nutrition",
     title: "Meal Timing Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to meal timing optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to meal timing optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Meal Timing optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your meal timing baseline.",
     
-    problem: "You are struggling with optimizing meal timing and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Meal Timing protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing meal timing and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Meal Timing protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to meal timing.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14544,8 +14544,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-meal-timing-1",
-        "name": "AiX Health Meal Timing Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Meal Timing Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14594,14 +14594,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fat-loss",
     category: "Nutrition",
     title: "Fat Loss Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fat loss optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fat loss optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fat Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fat loss baseline.",
     
-    problem: "You are struggling with optimizing fat loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fat Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fat loss and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fat Loss protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fat loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14676,8 +14676,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-fat-loss-1",
-        "name": "AiX Health Fat Loss Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fat Loss Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14726,14 +14726,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "muscle",
     category: "Nutrition",
     title: "Muscle Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to muscle optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to muscle optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle baseline.",
     
-    problem: "You are struggling with optimizing muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing muscle and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Muscle protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14808,8 +14808,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-muscle-1",
-        "name": "AiX Health Muscle Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Muscle Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14858,14 +14858,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "intermittent-fasting",
     category: "Nutrition",
     title: "Intermittent Fasting Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to intermittent fasting optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to intermittent fasting optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Intermittent Fasting optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your intermittent fasting baseline.",
     
-    problem: "You are struggling with optimizing intermittent fasting and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Intermittent Fasting protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing intermittent fasting and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Intermittent Fasting protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to intermittent fasting.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -14940,8 +14940,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-intermittent-fasting-1",
-        "name": "AiX Health Intermittent Fasting Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Intermittent Fasting Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -14990,14 +14990,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ketogenic-diet",
     category: "Nutrition",
     title: "Ketogenic Diet Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ketogenic diet optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ketogenic diet optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ketogenic Diet optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ketogenic diet baseline.",
     
-    problem: "You are struggling with optimizing ketogenic diet and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ketogenic Diet protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ketogenic diet and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ketogenic Diet protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ketogenic diet.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15072,8 +15072,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-ketogenic-diet-1",
-        "name": "AiX Health Ketogenic Diet Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ketogenic Diet Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15122,14 +15122,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "mediterranean-diet",
     category: "Nutrition",
     title: "Mediterranean Diet Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to mediterranean diet optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to mediterranean diet optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Mediterranean Diet optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your mediterranean diet baseline.",
     
-    problem: "You are struggling with optimizing mediterranean diet and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Mediterranean Diet protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing mediterranean diet and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Mediterranean Diet protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to mediterranean diet.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15204,8 +15204,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-mediterranean-diet-1",
-        "name": "AiX Health Mediterranean Diet Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Mediterranean Diet Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15254,14 +15254,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "supplements",
     category: "Nutrition",
     title: "Supplements Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to supplements optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to supplements optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Supplements optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your supplements baseline.",
     
-    problem: "You are struggling with optimizing supplements and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Supplements protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing supplements and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Supplements protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to supplements.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15336,8 +15336,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-nutrition-supplements-1",
-        "name": "AiX Health Supplements Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Supplements Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15386,14 +15386,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "protein",
     category: "Supplements",
     title: "Protein Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to protein optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to protein optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Protein optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your protein baseline.",
     
-    problem: "You are struggling with optimizing protein and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Protein protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing protein and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Protein protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to protein.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15468,8 +15468,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-protein-1",
-        "name": "AiX Health Protein Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Protein Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15518,14 +15518,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "creatine",
     category: "Supplements",
     title: "Creatine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to creatine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to creatine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Creatine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your creatine baseline.",
     
-    problem: "You are struggling with optimizing creatine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Creatine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing creatine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Creatine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to creatine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15600,8 +15600,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-creatine-1",
-        "name": "AiX Health Creatine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Creatine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15650,14 +15650,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "collagen",
     category: "Supplements",
     title: "Collagen Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to collagen optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to collagen optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Collagen optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your collagen baseline.",
     
-    problem: "You are struggling with optimizing collagen and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Collagen protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing collagen and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Collagen protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to collagen.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15732,8 +15732,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-collagen-1",
-        "name": "AiX Health Collagen Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Collagen Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15782,14 +15782,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "magnesium",
     category: "Supplements",
     title: "Magnesium Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to magnesium optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to magnesium optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Magnesium optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your magnesium baseline.",
     
-    problem: "You are struggling with optimizing magnesium and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Magnesium protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing magnesium and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Magnesium protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to magnesium.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15864,8 +15864,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-magnesium-1",
-        "name": "AiX Health Magnesium Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Magnesium Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -15914,14 +15914,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "vitamin-d",
     category: "Supplements",
     title: "Vitamin D Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to vitamin d optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to vitamin d optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Vitamin D optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin d baseline.",
     
-    problem: "You are struggling with optimizing vitamin d and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin D protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing vitamin d and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Vitamin D protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin d.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -15996,8 +15996,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-vitamin-d-1",
-        "name": "AiX Health Vitamin D Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Vitamin D Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16046,14 +16046,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "vitamin-c",
     category: "Supplements",
     title: "Vitamin C Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to vitamin c optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to vitamin c optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Vitamin C optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c baseline.",
     
-    problem: "You are struggling with optimizing vitamin c and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing vitamin c and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Vitamin C protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16128,8 +16128,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-vitamin-c-1",
-        "name": "AiX Health Vitamin C Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Vitamin C Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16178,14 +16178,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "omega-3",
     category: "Supplements",
     title: "Omega 3 Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to omega 3 optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to omega 3 optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Omega 3 optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your omega 3 baseline.",
     
-    problem: "You are struggling with optimizing omega 3 and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Omega 3 protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing omega 3 and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Omega 3 protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to omega 3.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16260,8 +16260,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-omega-3-1",
-        "name": "AiX Health Omega 3 Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Omega 3 Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16310,14 +16310,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "electrolytes",
     category: "Supplements",
     title: "Electrolytes Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to electrolytes optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to electrolytes optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Electrolytes optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your electrolytes baseline.",
     
-    problem: "You are struggling with optimizing electrolytes and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Electrolytes protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing electrolytes and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Electrolytes protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to electrolytes.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16392,8 +16392,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-electrolytes-1",
-        "name": "AiX Health Electrolytes Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Electrolytes Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16442,14 +16442,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ashwagandha",
     category: "Supplements",
     title: "Ashwagandha Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ashwagandha optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ashwagandha optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ashwagandha optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ashwagandha baseline.",
     
-    problem: "You are struggling with optimizing ashwagandha and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ashwagandha protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ashwagandha and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ashwagandha protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ashwagandha.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16524,8 +16524,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-ashwagandha-1",
-        "name": "AiX Health Ashwagandha Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ashwagandha Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16574,14 +16574,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "zinc",
     category: "Supplements",
     title: "Zinc Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to zinc optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to zinc optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Zinc optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your zinc baseline.",
     
-    problem: "You are struggling with optimizing zinc and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Zinc protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing zinc and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Zinc protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to zinc.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16656,8 +16656,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-zinc-1",
-        "name": "AiX Health Zinc Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Zinc Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16706,14 +16706,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "iron",
     category: "Supplements",
     title: "Iron Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to iron optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to iron optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Iron optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your iron baseline.",
     
-    problem: "You are struggling with optimizing iron and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Iron protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing iron and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Iron protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to iron.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16788,8 +16788,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-iron-1",
-        "name": "AiX Health Iron Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Iron Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16838,14 +16838,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "calcium",
     category: "Supplements",
     title: "Calcium Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to calcium optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to calcium optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Calcium optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your calcium baseline.",
     
-    problem: "You are struggling with optimizing calcium and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Calcium protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing calcium and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Calcium protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to calcium.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -16920,8 +16920,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-calcium-1",
-        "name": "AiX Health Calcium Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Calcium Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -16970,14 +16970,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "greens",
     category: "Supplements",
     title: "Greens Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to greens optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to greens optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Greens optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your greens baseline.",
     
-    problem: "You are struggling with optimizing greens and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Greens protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing greens and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Greens protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to greens.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17052,8 +17052,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-greens-1",
-        "name": "AiX Health Greens Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Greens Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17102,14 +17102,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fiber",
     category: "Supplements",
     title: "Fiber Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fiber optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fiber optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fiber optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fiber baseline.",
     
-    problem: "You are struggling with optimizing fiber and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fiber protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fiber and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fiber protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fiber.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17184,8 +17184,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-fiber-1",
-        "name": "AiX Health Fiber Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fiber Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17234,14 +17234,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "prebiotics",
     category: "Supplements",
     title: "Prebiotics Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to prebiotics optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to prebiotics optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Prebiotics optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your prebiotics baseline.",
     
-    problem: "You are struggling with optimizing prebiotics and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Prebiotics protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing prebiotics and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Prebiotics protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to prebiotics.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17316,8 +17316,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-prebiotics-1",
-        "name": "AiX Health Prebiotics Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Prebiotics Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17366,14 +17366,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "probiotics",
     category: "Supplements",
     title: "Probiotics Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to probiotics optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to probiotics optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Probiotics optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your probiotics baseline.",
     
-    problem: "You are struggling with optimizing probiotics and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Probiotics protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing probiotics and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Probiotics protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to probiotics.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17448,8 +17448,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-probiotics-1",
-        "name": "AiX Health Probiotics Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Probiotics Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17498,14 +17498,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "multivitamins",
     category: "Supplements",
     title: "Multivitamins Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to multivitamins optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to multivitamins optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Multivitamins optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your multivitamins baseline.",
     
-    problem: "You are struggling with optimizing multivitamins and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Multivitamins protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing multivitamins and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Multivitamins protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to multivitamins.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17580,8 +17580,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-multivitamins-1",
-        "name": "AiX Health Multivitamins Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Multivitamins Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17630,14 +17630,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "multivitamin",
     category: "Supplements",
     title: "Multivitamin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to multivitamin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to multivitamin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Multivitamin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your multivitamin baseline.",
     
-    problem: "You are struggling with optimizing multivitamin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Multivitamin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing multivitamin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Multivitamin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to multivitamin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17712,8 +17712,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-multivitamin-1",
-        "name": "AiX Health Multivitamin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Multivitamin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17762,14 +17762,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "pre-workout",
     category: "Supplements",
     title: "Pre Workout Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to pre workout optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to pre workout optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Pre Workout optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your pre workout baseline.",
     
-    problem: "You are struggling with optimizing pre workout and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Pre Workout protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing pre workout and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Pre Workout protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to pre workout.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17844,8 +17844,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-pre-workout-1",
-        "name": "AiX Health Pre Workout Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Pre Workout Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -17894,14 +17894,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "post-workout",
     category: "Supplements",
     title: "Post Workout Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to post workout optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to post workout optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Post Workout optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your post workout baseline.",
     
-    problem: "You are struggling with optimizing post workout and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Post Workout protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing post workout and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Post Workout protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to post workout.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -17976,8 +17976,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-post-workout-1",
-        "name": "AiX Health Post Workout Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Post Workout Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18026,14 +18026,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "recovery",
     category: "Supplements",
     title: "Recovery Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
-    problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing recovery and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18108,8 +18108,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-recovery-1",
-        "name": "AiX Health Recovery Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Recovery Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18158,14 +18158,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hydration",
     category: "Supplements",
     title: "Hydration Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hydration optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hydration optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hydration optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration baseline.",
     
-    problem: "You are struggling with optimizing hydration and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hydration and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hydration protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18240,8 +18240,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-hydration-1",
-        "name": "AiX Health Hydration Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hydration Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18290,14 +18290,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "nmn",
     category: "Supplements",
     title: "Nmn Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to nmn optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to nmn optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Nmn optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nmn baseline.",
     
-    problem: "You are struggling with optimizing nmn and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nmn protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing nmn and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Nmn protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nmn.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18372,8 +18372,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-nmn-1",
-        "name": "AiX Health Nmn Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Nmn Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18422,14 +18422,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "coq10",
     category: "Supplements",
     title: "Coq10 Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to coq10 optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to coq10 optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Coq10 optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your coq10 baseline.",
     
-    problem: "You are struggling with optimizing coq10 and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Coq10 protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing coq10 and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Coq10 protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to coq10.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18504,8 +18504,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-coq10-1",
-        "name": "AiX Health Coq10 Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Coq10 Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18554,14 +18554,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "berberine",
     category: "Supplements",
     title: "Berberine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to berberine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to berberine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Berberine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your berberine baseline.",
     
-    problem: "You are struggling with optimizing berberine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Berberine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing berberine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Berberine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to berberine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18636,8 +18636,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-berberine-1",
-        "name": "AiX Health Berberine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Berberine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18686,14 +18686,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "rhodiola",
     category: "Supplements",
     title: "Rhodiola Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to rhodiola optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to rhodiola optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Rhodiola optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your rhodiola baseline.",
     
-    problem: "You are struggling with optimizing rhodiola and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Rhodiola protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing rhodiola and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Rhodiola protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to rhodiola.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18768,8 +18768,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-rhodiola-1",
-        "name": "AiX Health Rhodiola Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Rhodiola Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18818,14 +18818,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "turmeric",
     category: "Supplements",
     title: "Turmeric Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to turmeric optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to turmeric optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Turmeric optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your turmeric baseline.",
     
-    problem: "You are struggling with optimizing turmeric and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Turmeric protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing turmeric and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Turmeric protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to turmeric.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -18900,8 +18900,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-turmeric-1",
-        "name": "AiX Health Turmeric Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Turmeric Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -18950,14 +18950,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "bcaa",
     category: "Supplements",
     title: "Bcaa Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to bcaa optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to bcaa optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Bcaa optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your bcaa baseline.",
     
-    problem: "You are struggling with optimizing bcaa and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Bcaa protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing bcaa and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Bcaa protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to bcaa.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19032,8 +19032,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-bcaa-1",
-        "name": "AiX Health Bcaa Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Bcaa Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19082,14 +19082,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "casein",
     category: "Supplements",
     title: "Casein Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to casein optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to casein optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Casein optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your casein baseline.",
     
-    problem: "You are struggling with optimizing casein and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Casein protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing casein and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Casein protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to casein.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19164,8 +19164,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-casein-1",
-        "name": "AiX Health Casein Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Casein Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19214,14 +19214,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "creatine-hcl",
     category: "Supplements",
     title: "Creatine Hcl Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to creatine hcl optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to creatine hcl optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Creatine Hcl optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your creatine hcl baseline.",
     
-    problem: "You are struggling with optimizing creatine hcl and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Creatine Hcl protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing creatine hcl and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Creatine Hcl protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to creatine hcl.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19296,8 +19296,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-creatine-hcl-1",
-        "name": "AiX Health Creatine Hcl Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Creatine Hcl Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19346,14 +19346,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "creatine-monohydrate",
     category: "Supplements",
     title: "Creatine Monohydrate Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to creatine monohydrate optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to creatine monohydrate optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Creatine Monohydrate optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your creatine monohydrate baseline.",
     
-    problem: "You are struggling with optimizing creatine monohydrate and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Creatine Monohydrate protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing creatine monohydrate and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Creatine Monohydrate protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to creatine monohydrate.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19428,8 +19428,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-creatine-monohydrate-1",
-        "name": "AiX Health Creatine Monohydrate Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Creatine Monohydrate Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19478,14 +19478,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "eaa",
     category: "Supplements",
     title: "Eaa Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to eaa optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to eaa optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Eaa optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your eaa baseline.",
     
-    problem: "You are struggling with optimizing eaa and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Eaa protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing eaa and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Eaa protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to eaa.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19560,8 +19560,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-eaa-1",
-        "name": "AiX Health Eaa Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Eaa Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19610,14 +19610,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "gut-health",
     category: "Supplements",
     title: "Gut Health Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to gut health optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to gut health optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Gut Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gut health baseline.",
     
-    problem: "You are struggling with optimizing gut health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gut Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing gut health and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Gut Health protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gut health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19692,8 +19692,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-gut-health-1",
-        "name": "AiX Health Gut Health Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Gut Health Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19742,14 +19742,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hormones",
     category: "Supplements",
     title: "Hormones Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hormones optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hormones optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hormones optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormones baseline.",
     
-    problem: "You are struggling with optimizing hormones and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormones protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hormones and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hormones protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormones.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19824,8 +19824,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-hormones-1",
-        "name": "AiX Health Hormones Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hormones Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -19874,14 +19874,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "immune",
     category: "Supplements",
     title: "Immune Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to immune optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to immune optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Immune optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your immune baseline.",
     
-    problem: "You are struggling with optimizing immune and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Immune protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing immune and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Immune protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to immune.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -19956,8 +19956,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-immune-1",
-        "name": "AiX Health Immune Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Immune Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20006,14 +20006,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "lions-mane",
     category: "Supplements",
     title: "Lions Mane Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to lions mane optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to lions mane optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Lions Mane optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lions mane baseline.",
     
-    problem: "You are struggling with optimizing lions mane and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lions Mane protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing lions mane and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Lions Mane protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lions mane.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20088,8 +20088,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-lions-mane-1",
-        "name": "AiX Health Lions Mane Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Lions Mane Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20138,14 +20138,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "resveratrol",
     category: "Supplements",
     title: "Resveratrol Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to resveratrol optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to resveratrol optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Resveratrol optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your resveratrol baseline.",
     
-    problem: "You are struggling with optimizing resveratrol and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Resveratrol protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing resveratrol and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Resveratrol protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to resveratrol.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20220,8 +20220,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-resveratrol-1",
-        "name": "AiX Health Resveratrol Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Resveratrol Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20270,14 +20270,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sleep",
     category: "Supplements",
     title: "Sleep Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sleep optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sleep optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sleep optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep baseline.",
     
-    problem: "You are struggling with optimizing sleep and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sleep and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sleep protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20352,8 +20352,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-sleep-1",
-        "name": "AiX Health Sleep Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sleep Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20402,14 +20402,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "whey",
     category: "Supplements",
     title: "Whey Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to whey optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to whey optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Whey optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your whey baseline.",
     
-    problem: "You are struggling with optimizing whey and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Whey protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing whey and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Whey protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to whey.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20484,8 +20484,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-whey-1",
-        "name": "AiX Health Whey Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Whey Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20534,14 +20534,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "brain-health",
     category: "Supplements",
     title: "Brain Health Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to brain health optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to brain health optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Brain Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your brain health baseline.",
     
-    problem: "You are struggling with optimizing brain health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Brain Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing brain health and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Brain Health protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to brain health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20616,8 +20616,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-supplements-brain-health-1",
-        "name": "AiX Health Brain Health Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Brain Health Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20666,14 +20666,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sleep",
     category: "Longevity",
     title: "Sleep Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sleep optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sleep optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sleep optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep baseline.",
     
-    problem: "You are struggling with optimizing sleep and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sleep and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sleep protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20748,8 +20748,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-sleep-1",
-        "name": "AiX Health Sleep Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sleep Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20798,14 +20798,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "stress",
     category: "Longevity",
     title: "Stress Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to stress optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to stress optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Stress optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stress baseline.",
     
-    problem: "You are struggling with optimizing stress and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stress protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing stress and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Stress protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stress.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -20880,8 +20880,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-stress-1",
-        "name": "AiX Health Stress Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Stress Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -20930,14 +20930,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "recovery",
     category: "Longevity",
     title: "Recovery Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to recovery optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Recovery optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your recovery baseline.",
     
-    problem: "You are struggling with optimizing recovery and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Recovery protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing recovery and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Recovery protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to recovery.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21012,8 +21012,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-recovery-1",
-        "name": "AiX Health Recovery Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Recovery Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21062,14 +21062,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "heart-health",
     category: "Longevity",
     title: "Heart Health Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to heart health optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to heart health optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Heart Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your heart health baseline.",
     
-    problem: "You are struggling with optimizing heart health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Heart Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing heart health and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Heart Health protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to heart health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21144,8 +21144,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-heart-health-1",
-        "name": "AiX Health Heart Health Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Heart Health Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21194,14 +21194,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "brain-health",
     category: "Longevity",
     title: "Brain Health Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to brain health optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to brain health optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Brain Health optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your brain health baseline.",
     
-    problem: "You are struggling with optimizing brain health and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Brain Health protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing brain health and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Brain Health protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to brain health.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21276,8 +21276,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-brain-health-1",
-        "name": "AiX Health Brain Health Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Brain Health Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21326,14 +21326,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-ageing",
     category: "Longevity",
     title: "Healthy Ageing Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy ageing optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy ageing optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Ageing optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy ageing baseline.",
     
-    problem: "You are struggling with optimizing healthy ageing and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Ageing protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy ageing and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Ageing protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy ageing.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21408,8 +21408,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-healthy-ageing-1",
-        "name": "AiX Health Healthy Ageing Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Ageing Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21458,14 +21458,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-aging",
     category: "Longevity",
     title: "Healthy Aging Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy aging optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy aging optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Aging optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy aging baseline.",
     
-    problem: "You are struggling with optimizing healthy aging and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Aging protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy aging and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Aging protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy aging.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21540,8 +21540,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-healthy-aging-1",
-        "name": "AiX Health Healthy Aging Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Aging Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21590,14 +21590,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "energy",
     category: "Longevity",
     title: "Energy Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to energy optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to energy optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Energy optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your energy baseline.",
     
-    problem: "You are struggling with optimizing energy and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Energy protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing energy and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Energy protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to energy.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21672,8 +21672,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-energy-1",
-        "name": "AiX Health Energy Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Energy Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21722,14 +21722,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hormones",
     category: "Longevity",
     title: "Hormones Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hormones optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hormones optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hormones optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormones baseline.",
     
-    problem: "You are struggling with optimizing hormones and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormones protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hormones and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hormones protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormones.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21804,8 +21804,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-hormones-1",
-        "name": "AiX Health Hormones Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hormones Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21854,14 +21854,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "inflammation",
     category: "Longevity",
     title: "Inflammation Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to inflammation optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to inflammation optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Inflammation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inflammation baseline.",
     
-    problem: "You are struggling with optimizing inflammation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inflammation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing inflammation and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Inflammation protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inflammation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -21936,8 +21936,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-inflammation-1",
-        "name": "AiX Health Inflammation Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Inflammation Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -21986,14 +21986,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "nad",
     category: "Longevity",
     title: "Nad Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to nad optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to nad optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Nad optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nad baseline.",
     
-    problem: "You are struggling with optimizing nad and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nad protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing nad and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Nad protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nad.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22068,8 +22068,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-nad-1",
-        "name": "AiX Health Nad Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Nad Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22118,14 +22118,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "biohacking",
     category: "Longevity",
     title: "Biohacking Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to biohacking optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to biohacking optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Biohacking optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your biohacking baseline.",
     
-    problem: "You are struggling with optimizing biohacking and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Biohacking protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing biohacking and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Biohacking protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to biohacking.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22200,8 +22200,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-biohacking-1",
-        "name": "AiX Health Biohacking Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Biohacking Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22250,14 +22250,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fasting",
     category: "Longevity",
     title: "Fasting Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fasting optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fasting optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fasting optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fasting baseline.",
     
-    problem: "You are struggling with optimizing fasting and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fasting protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fasting and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fasting protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fasting.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22332,8 +22332,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-fasting-1",
-        "name": "AiX Health Fasting Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fasting Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22382,14 +22382,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "blood-sugar",
     category: "Longevity",
     title: "Blood Sugar Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to blood sugar optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to blood sugar optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Blood Sugar optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your blood sugar baseline.",
     
-    problem: "You are struggling with optimizing blood sugar and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Blood Sugar protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing blood sugar and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Blood Sugar protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to blood sugar.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22464,8 +22464,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-blood-sugar-1",
-        "name": "AiX Health Blood Sugar Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Blood Sugar Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22514,14 +22514,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "cold-exposure",
     category: "Longevity",
     title: "Cold Exposure Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to cold exposure optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to cold exposure optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Cold Exposure optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your cold exposure baseline.",
     
-    problem: "You are struggling with optimizing cold exposure and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Cold Exposure protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing cold exposure and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Cold Exposure protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to cold exposure.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22596,8 +22596,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-cold-exposure-1",
-        "name": "AiX Health Cold Exposure Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Cold Exposure Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22646,14 +22646,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hrv",
     category: "Longevity",
     title: "Hrv Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hrv optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hrv optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hrv optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hrv baseline.",
     
-    problem: "You are struggling with optimizing hrv and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hrv protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hrv and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hrv protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hrv.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22728,8 +22728,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-hrv-1",
-        "name": "AiX Health Hrv Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hrv Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22778,14 +22778,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sauna",
     category: "Longevity",
     title: "Sauna Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sauna optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sauna optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sauna optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sauna baseline.",
     
-    problem: "You are struggling with optimizing sauna and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sauna protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sauna and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sauna protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sauna.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22860,8 +22860,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-sauna-1",
-        "name": "AiX Health Sauna Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sauna Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -22910,14 +22910,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "vo2-max",
     category: "Longevity",
     title: "Vo2 Max Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to vo2 max optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to vo2 max optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Vo2 Max optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vo2 max baseline.",
     
-    problem: "You are struggling with optimizing vo2 max and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vo2 Max protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing vo2 max and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Vo2 Max protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vo2 max.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -22992,8 +22992,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-longevity-vo2-max-1",
-        "name": "AiX Health Vo2 Max Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Vo2 Max Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23042,14 +23042,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ewg",
     category: "Science",
     title: "Ewg Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ewg optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ewg optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ewg optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ewg baseline.",
     
-    problem: "You are struggling with optimizing ewg and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ewg protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ewg and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ewg protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ewg.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23124,8 +23124,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ewg-1",
-        "name": "AiX Health Ewg Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ewg Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23174,14 +23174,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "inci",
     category: "Science",
     title: "Inci Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to inci optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to inci optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Inci optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inci baseline.",
     
-    problem: "You are struggling with optimizing inci and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inci protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing inci and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Inci protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inci.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23256,8 +23256,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-inci-1",
-        "name": "AiX Health Inci Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Inci Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23306,14 +23306,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "clinical-studies",
     category: "Science",
     title: "Clinical Studies Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to clinical studies optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to clinical studies optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Clinical Studies optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your clinical studies baseline.",
     
-    problem: "You are struggling with optimizing clinical studies and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Clinical Studies protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing clinical studies and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Clinical Studies protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to clinical studies.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23388,8 +23388,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-clinical-studies-1",
-        "name": "AiX Health Clinical Studies Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Clinical Studies Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23438,14 +23438,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "evidence-levels",
     category: "Science",
     title: "Evidence Levels Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to evidence levels optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to evidence levels optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Evidence Levels optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your evidence levels baseline.",
     
-    problem: "You are struggling with optimizing evidence levels and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Evidence Levels protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing evidence levels and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Evidence Levels protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to evidence levels.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23520,8 +23520,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-evidence-levels-1",
-        "name": "AiX Health Evidence Levels Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Evidence Levels Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23570,14 +23570,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ingredient-database",
     category: "Science",
     title: "Ingredient Database Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ingredient database optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ingredient database optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ingredient Database optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ingredient database baseline.",
     
-    problem: "You are struggling with optimizing ingredient database and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ingredient Database protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ingredient database and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ingredient Database protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ingredient database.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23652,8 +23652,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ingredient-database-1",
-        "name": "AiX Health Ingredient Database Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ingredient Database Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23702,14 +23702,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ingredients-database",
     category: "Science",
     title: "Ingredients Database Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ingredients database optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ingredients database optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ingredients Database optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ingredients database baseline.",
     
-    problem: "You are struggling with optimizing ingredients database and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ingredients Database protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ingredients database and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ingredients Database protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ingredients database.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23784,8 +23784,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ingredients-database-1",
-        "name": "AiX Health Ingredients Database Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ingredients Database Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23834,14 +23834,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "skin-barrier",
     category: "Science",
     title: "Skin Barrier Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to skin barrier optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to skin barrier optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Skin Barrier optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your skin barrier baseline.",
     
-    problem: "You are struggling with optimizing skin barrier and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Skin Barrier protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing skin barrier and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Skin Barrier protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to skin barrier.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -23916,8 +23916,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-skin-barrier-1",
-        "name": "AiX Health Skin Barrier Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Skin Barrier Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -23966,14 +23966,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "microbiome",
     category: "Science",
     title: "Microbiome Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to microbiome optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to microbiome optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Microbiome optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your microbiome baseline.",
     
-    problem: "You are struggling with optimizing microbiome and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Microbiome protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing microbiome and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Microbiome protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to microbiome.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24048,8 +24048,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-microbiome-1",
-        "name": "AiX Health Microbiome Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Microbiome Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24098,14 +24098,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "collagen-science",
     category: "Science",
     title: "Collagen Science Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to collagen science optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to collagen science optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Collagen Science optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your collagen science baseline.",
     
-    problem: "You are struggling with optimizing collagen science and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Collagen Science protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing collagen science and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Collagen Science protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to collagen science.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24180,8 +24180,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-collagen-science-1",
-        "name": "AiX Health Collagen Science Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Collagen Science Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24230,14 +24230,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "antioxidants",
     category: "Science",
     title: "Antioxidants Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to antioxidants optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to antioxidants optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Antioxidants optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your antioxidants baseline.",
     
-    problem: "You are struggling with optimizing antioxidants and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Antioxidants protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing antioxidants and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Antioxidants protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to antioxidants.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24312,8 +24312,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-antioxidants-1",
-        "name": "AiX Health Antioxidants Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Antioxidants Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24362,14 +24362,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "inflammation",
     category: "Science",
     title: "Inflammation Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to inflammation optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to inflammation optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Inflammation optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inflammation baseline.",
     
-    problem: "You are struggling with optimizing inflammation and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inflammation protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing inflammation and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Inflammation protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inflammation.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24444,8 +24444,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-inflammation-1",
-        "name": "AiX Health Inflammation Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Inflammation Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24494,14 +24494,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hormones",
     category: "Science",
     title: "Hormones Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hormones optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hormones optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hormones optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormones baseline.",
     
-    problem: "You are struggling with optimizing hormones and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormones protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hormones and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hormones protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormones.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24576,8 +24576,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-hormones-1",
-        "name": "AiX Health Hormones Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hormones Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24626,14 +24626,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "biochemistry",
     category: "Science",
     title: "Biochemistry Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to biochemistry optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to biochemistry optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Biochemistry optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your biochemistry baseline.",
     
-    problem: "You are struggling with optimizing biochemistry and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Biochemistry protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing biochemistry and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Biochemistry protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to biochemistry.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24708,8 +24708,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-biochemistry-1",
-        "name": "AiX Health Biochemistry Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Biochemistry Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24758,14 +24758,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "muscle-protein-synthesis",
     category: "Science",
     title: "Muscle Protein Synthesis Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to muscle protein synthesis optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to muscle protein synthesis optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Muscle Protein Synthesis optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle protein synthesis baseline.",
     
-    problem: "You are struggling with optimizing muscle protein synthesis and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle Protein Synthesis protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing muscle protein synthesis and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Muscle Protein Synthesis protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle protein synthesis.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24840,8 +24840,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-muscle-protein-synthesis-1",
-        "name": "AiX Health Muscle Protein Synthesis Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Muscle Protein Synthesis Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -24890,14 +24890,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "skin-physiology",
     category: "Science",
     title: "Skin Physiology Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to skin physiology optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to skin physiology optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Skin Physiology optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your skin physiology baseline.",
     
-    problem: "You are struggling with optimizing skin physiology and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Skin Physiology protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing skin physiology and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Skin Physiology protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to skin physiology.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -24972,8 +24972,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-skin-physiology-1",
-        "name": "AiX Health Skin Physiology Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Skin Physiology Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25022,14 +25022,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "ingredients",
     category: "Science",
     title: "Ingredients Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to ingredients optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to ingredients optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Ingredients optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your ingredients baseline.",
     
-    problem: "You are struggling with optimizing ingredients and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Ingredients protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing ingredients and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Ingredients protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to ingredients.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25104,8 +25104,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-ingredients-1",
-        "name": "AiX Health Ingredients Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Ingredients Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25154,14 +25154,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "research",
     category: "Science",
     title: "Research Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to research optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to research optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Research optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your research baseline.",
     
-    problem: "You are struggling with optimizing research and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Research protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing research and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Research protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to research.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25236,8 +25236,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-research-1",
-        "name": "AiX Health Research Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Research Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25286,14 +25286,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "pubmed",
     category: "Science",
     title: "Pubmed Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to pubmed optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to pubmed optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Pubmed optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your pubmed baseline.",
     
-    problem: "You are struggling with optimizing pubmed and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Pubmed protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing pubmed and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Pubmed protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to pubmed.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25368,8 +25368,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-pubmed-1",
-        "name": "AiX Health Pubmed Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Pubmed Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25418,14 +25418,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "skin",
     category: "Science",
     title: "Skin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to skin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to skin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your skin baseline.",
     
-    problem: "You are struggling with optimizing skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing skin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Skin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25500,8 +25500,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-skin-1",
-        "name": "AiX Health Skin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Skin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25550,14 +25550,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "muscle",
     category: "Science",
     title: "Muscle Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to muscle optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to muscle optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle baseline.",
     
-    problem: "You are struggling with optimizing muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing muscle and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Muscle protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25632,8 +25632,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-muscle-1",
-        "name": "AiX Health Muscle Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Muscle Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25682,14 +25682,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "nutrition",
     category: "Science",
     title: "Nutrition Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to nutrition optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to nutrition optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Nutrition optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nutrition baseline.",
     
-    problem: "You are struggling with optimizing nutrition and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nutrition protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing nutrition and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Nutrition protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nutrition.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25764,8 +25764,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-nutrition-1",
-        "name": "AiX Health Nutrition Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Nutrition Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25814,14 +25814,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "longevity",
     category: "Science",
     title: "Longevity Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to longevity optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to longevity optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Longevity optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your longevity baseline.",
     
-    problem: "You are struggling with optimizing longevity and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Longevity protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing longevity and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Longevity protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to longevity.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -25896,8 +25896,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-longevity-1",
-        "name": "AiX Health Longevity Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Longevity Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -25946,14 +25946,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "research-library",
     category: "Science",
     title: "Research Library Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to research library optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to research library optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Research Library optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your research library baseline.",
     
-    problem: "You are struggling with optimizing research library and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Research Library protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing research library and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Research Library protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to research library.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26028,8 +26028,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-science-research-library-1",
-        "name": "AiX Health Research Library Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Research Library Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26078,14 +26078,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "30-day-skin-reset",
     category: "Guides",
     title: "30 Day Skin Reset Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to 30 day skin reset optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to 30 day skin reset optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "30 Day Skin Reset optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your 30 day skin reset baseline.",
     
-    problem: "You are struggling with optimizing 30 day skin reset and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the 30 Day Skin Reset protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing 30 day skin reset and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the 30 Day Skin Reset protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to 30 day skin reset.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26160,8 +26160,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-30-day-skin-reset-1",
-        "name": "AiX Health 30 Day Skin Reset Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health 30 Day Skin Reset Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26210,14 +26210,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "90-day-acne-program",
     category: "Guides",
     title: "90 Day Acne Program Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to 90 day acne program optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to 90 day acne program optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "90 Day Acne Program optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your 90 day acne program baseline.",
     
-    problem: "You are struggling with optimizing 90 day acne program and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the 90 Day Acne Program protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing 90 day acne program and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the 90 Day Acne Program protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to 90 day acne program.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26292,8 +26292,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-90-day-acne-program-1",
-        "name": "AiX Health 90 Day Acne Program Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health 90 Day Acne Program Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26342,14 +26342,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "90-day-fat-loss",
     category: "Guides",
     title: "90 Day Fat Loss Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to 90 day fat loss optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to 90 day fat loss optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "90 Day Fat Loss optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your 90 day fat loss baseline.",
     
-    problem: "You are struggling with optimizing 90 day fat loss and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the 90 Day Fat Loss protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing 90 day fat loss and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the 90 Day Fat Loss protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to 90 day fat loss.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26424,8 +26424,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-90-day-fat-loss-1",
-        "name": "AiX Health 90 Day Fat Loss Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health 90 Day Fat Loss Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26474,14 +26474,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "build-muscle-guide",
     category: "Guides",
     title: "Build Muscle Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to build muscle guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to build muscle guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Build Muscle Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your build muscle guide baseline.",
     
-    problem: "You are struggling with optimizing build muscle guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Build Muscle Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing build muscle guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Build Muscle Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to build muscle guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26556,8 +26556,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-build-muscle-guide-1",
-        "name": "AiX Health Build Muscle Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Build Muscle Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26606,14 +26606,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "build-muscle",
     category: "Guides",
     title: "Build Muscle Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to build muscle optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to build muscle optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Build Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your build muscle baseline.",
     
-    problem: "You are struggling with optimizing build muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Build Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing build muscle and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Build Muscle protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to build muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26688,8 +26688,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-build-muscle-1",
-        "name": "AiX Health Build Muscle Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Build Muscle Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26738,14 +26738,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "lose-fat-blueprint",
     category: "Guides",
     title: "Lose Fat Blueprint Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to lose fat blueprint optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to lose fat blueprint optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Lose Fat Blueprint optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lose fat blueprint baseline.",
     
-    problem: "You are struggling with optimizing lose fat blueprint and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lose Fat Blueprint protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing lose fat blueprint and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Lose Fat Blueprint protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lose fat blueprint.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26820,8 +26820,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-lose-fat-blueprint-1",
-        "name": "AiX Health Lose Fat Blueprint Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Lose Fat Blueprint Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -26870,14 +26870,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-hair-guide",
     category: "Guides",
     title: "Healthy Hair Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy hair guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy hair guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Hair Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy hair guide baseline.",
     
-    problem: "You are struggling with optimizing healthy hair guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Hair Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy hair guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Hair Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy hair guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -26952,8 +26952,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-healthy-hair-guide-1",
-        "name": "AiX Health Healthy Hair Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Hair Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27002,14 +27002,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "morning-routine",
     category: "Guides",
     title: "Morning Routine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to morning routine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to morning routine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Morning Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your morning routine baseline.",
     
-    problem: "You are struggling with optimizing morning routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Morning Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing morning routine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Morning Routine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to morning routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27084,8 +27084,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-morning-routine-1",
-        "name": "AiX Health Morning Routine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Morning Routine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27134,14 +27134,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "night-routine",
     category: "Guides",
     title: "Night Routine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to night routine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to night routine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Night Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your night routine baseline.",
     
-    problem: "You are struggling with optimizing night routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Night Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing night routine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Night Routine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to night routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27216,8 +27216,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-night-routine-1",
-        "name": "AiX Health Night Routine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Night Routine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27266,14 +27266,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "evening-routine",
     category: "Guides",
     title: "Evening Routine Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to evening routine optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to evening routine optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Evening Routine optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your evening routine baseline.",
     
-    problem: "You are struggling with optimizing evening routine and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Evening Routine protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing evening routine and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Evening Routine protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to evening routine.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27348,8 +27348,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-evening-routine-1",
-        "name": "AiX Health Evening Routine Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Evening Routine Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27398,14 +27398,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "supplement-guide",
     category: "Guides",
     title: "Supplement Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to supplement guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to supplement guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Supplement Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your supplement guide baseline.",
     
-    problem: "You are struggling with optimizing supplement guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Supplement Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing supplement guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Supplement Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to supplement guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27480,8 +27480,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-supplement-guide-1",
-        "name": "AiX Health Supplement Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Supplement Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27530,14 +27530,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "supplements",
     category: "Guides",
     title: "Supplements Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to supplements optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to supplements optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Supplements optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your supplements baseline.",
     
-    problem: "You are struggling with optimizing supplements and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Supplements protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing supplements and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Supplements protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to supplements.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27612,8 +27612,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-supplements-1",
-        "name": "AiX Health Supplements Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Supplements Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27662,14 +27662,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-lifestyle",
     category: "Guides",
     title: "Healthy Lifestyle Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy lifestyle optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy lifestyle optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Lifestyle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy lifestyle baseline.",
     
-    problem: "You are struggling with optimizing healthy lifestyle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Lifestyle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy lifestyle and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Lifestyle protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy lifestyle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27744,8 +27744,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-healthy-lifestyle-1",
-        "name": "AiX Health Healthy Lifestyle Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Lifestyle Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27794,14 +27794,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "travel-skincare",
     category: "Guides",
     title: "Travel Skincare Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to travel skincare optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to travel skincare optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Travel Skincare optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your travel skincare baseline.",
     
-    problem: "You are struggling with optimizing travel skincare and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Travel Skincare protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing travel skincare and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Travel Skincare protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to travel skincare.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -27876,8 +27876,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-travel-skincare-1",
-        "name": "AiX Health Travel Skincare Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Travel Skincare Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -27926,14 +27926,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "women",
     category: "Guides",
     title: "Women Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to women optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to women optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Women optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your women baseline.",
     
-    problem: "You are struggling with optimizing women and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Women protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing women and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Women protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to women.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28008,8 +28008,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-women-1",
-        "name": "AiX Health Women Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Women Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28058,14 +28058,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "men",
     category: "Guides",
     title: "Men Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to men optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to men optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Men optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your men baseline.",
     
-    problem: "You are struggling with optimizing men and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Men protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing men and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Men protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to men.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28140,8 +28140,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-men-1",
-        "name": "AiX Health Men Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Men Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28190,14 +28190,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "teens",
     category: "Guides",
     title: "Teens Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to teens optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to teens optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Teens optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your teens baseline.",
     
-    problem: "You are struggling with optimizing teens and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Teens protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing teens and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Teens protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to teens.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28272,8 +28272,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-teens-1",
-        "name": "AiX Health Teens Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Teens Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28322,14 +28322,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "anti-aging-guide",
     category: "Guides",
     title: "Anti Aging Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to anti aging guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to anti aging guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Anti Aging Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your anti aging guide baseline.",
     
-    problem: "You are struggling with optimizing anti aging guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Anti Aging Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing anti aging guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Anti Aging Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to anti aging guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28404,8 +28404,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-anti-aging-guide-1",
-        "name": "AiX Health Anti Aging Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Anti Aging Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28454,14 +28454,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "barrier-repair-guide",
     category: "Guides",
     title: "Barrier Repair Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to barrier repair guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to barrier repair guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Barrier Repair Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your barrier repair guide baseline.",
     
-    problem: "You are struggling with optimizing barrier repair guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Barrier Repair Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing barrier repair guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Barrier Repair Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to barrier repair guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28536,8 +28536,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-barrier-repair-guide-1",
-        "name": "AiX Health Barrier Repair Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Barrier Repair Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28586,14 +28586,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "beginner-skincare",
     category: "Guides",
     title: "Beginner Skincare Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to beginner skincare optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to beginner skincare optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Beginner Skincare optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your beginner skincare baseline.",
     
-    problem: "You are struggling with optimizing beginner skincare and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Beginner Skincare protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing beginner skincare and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Beginner Skincare protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to beginner skincare.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28668,8 +28668,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-beginner-skincare-1",
-        "name": "AiX Health Beginner Skincare Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Beginner Skincare Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28718,14 +28718,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "clear-skin-guide",
     category: "Guides",
     title: "Clear Skin Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to clear skin guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to clear skin guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Clear Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your clear skin guide baseline.",
     
-    problem: "You are struggling with optimizing clear skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Clear Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing clear skin guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Clear Skin Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to clear skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28800,8 +28800,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-clear-skin-guide-1",
-        "name": "AiX Health Clear Skin Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Clear Skin Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28850,14 +28850,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fat-loss-guide",
     category: "Guides",
     title: "Fat Loss Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fat loss guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fat loss guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fat Loss Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fat loss guide baseline.",
     
-    problem: "You are struggling with optimizing fat loss guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fat Loss Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fat loss guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fat Loss Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fat loss guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -28932,8 +28932,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-fat-loss-guide-1",
-        "name": "AiX Health Fat Loss Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fat Loss Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -28982,14 +28982,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "gut-health-guide",
     category: "Guides",
     title: "Gut Health Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to gut health guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to gut health guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Gut Health Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your gut health guide baseline.",
     
-    problem: "You are struggling with optimizing gut health guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Gut Health Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing gut health guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Gut Health Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to gut health guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29064,8 +29064,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-gut-health-guide-1",
-        "name": "AiX Health Gut Health Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Gut Health Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29114,14 +29114,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hair-loss-guide",
     category: "Guides",
     title: "Hair Loss Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hair loss guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hair loss guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hair Loss Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hair loss guide baseline.",
     
-    problem: "You are struggling with optimizing hair loss guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hair Loss Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hair loss guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hair Loss Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hair loss guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29196,8 +29196,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hair-loss-guide-1",
-        "name": "AiX Health Hair Loss Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hair Loss Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29246,14 +29246,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "healthy-skin",
     category: "Guides",
     title: "Healthy Skin Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to healthy skin optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to healthy skin optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Healthy Skin optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your healthy skin baseline.",
     
-    problem: "You are struggling with optimizing healthy skin and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Healthy Skin protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing healthy skin and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Healthy Skin protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to healthy skin.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29328,8 +29328,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-healthy-skin-1",
-        "name": "AiX Health Healthy Skin Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Healthy Skin Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29378,14 +29378,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hormonal-acne-guide",
     category: "Guides",
     title: "Hormonal Acne Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hormonal acne guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hormonal acne guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hormonal Acne Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hormonal acne guide baseline.",
     
-    problem: "You are struggling with optimizing hormonal acne guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hormonal Acne Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hormonal acne guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hormonal Acne Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hormonal acne guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29460,8 +29460,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hormonal-acne-guide-1",
-        "name": "AiX Health Hormonal Acne Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hormonal Acne Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29510,14 +29510,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "how-to-build-muscle",
     category: "Guides",
     title: "How To Build Muscle Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to how to build muscle optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to how to build muscle optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "How To Build Muscle optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your how to build muscle baseline.",
     
-    problem: "You are struggling with optimizing how to build muscle and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the How To Build Muscle protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing how to build muscle and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the How To Build Muscle protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to how to build muscle.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29592,8 +29592,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-how-to-build-muscle-1",
-        "name": "AiX Health How To Build Muscle Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health How To Build Muscle Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29642,14 +29642,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "how-to-lose-fat",
     category: "Guides",
     title: "How To Lose Fat Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to how to lose fat optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to how to lose fat optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "How To Lose Fat optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your how to lose fat baseline.",
     
-    problem: "You are struggling with optimizing how to lose fat and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the How To Lose Fat protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing how to lose fat and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the How To Lose Fat protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to how to lose fat.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29724,8 +29724,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-how-to-lose-fat-1",
-        "name": "AiX Health How To Lose Fat Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health How To Lose Fat Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29774,14 +29774,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hydration-guide",
     category: "Guides",
     title: "Hydration Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hydration guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hydration guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hydration Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hydration guide baseline.",
     
-    problem: "You are struggling with optimizing hydration guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hydration Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hydration guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hydration Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hydration guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29856,8 +29856,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hydration-guide-1",
-        "name": "AiX Health Hydration Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hydration Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -29906,14 +29906,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "hyperpigmentation-guide",
     category: "Guides",
     title: "Hyperpigmentation Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to hyperpigmentation guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to hyperpigmentation guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Hyperpigmentation Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your hyperpigmentation guide baseline.",
     
-    problem: "You are struggling with optimizing hyperpigmentation guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Hyperpigmentation Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing hyperpigmentation guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Hyperpigmentation Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to hyperpigmentation guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -29988,8 +29988,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-hyperpigmentation-guide-1",
-        "name": "AiX Health Hyperpigmentation Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Hyperpigmentation Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30038,14 +30038,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "inflammation-guide",
     category: "Guides",
     title: "Inflammation Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to inflammation guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to inflammation guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Inflammation Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your inflammation guide baseline.",
     
-    problem: "You are struggling with optimizing inflammation guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Inflammation Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing inflammation guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Inflammation Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to inflammation guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30120,8 +30120,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-inflammation-guide-1",
-        "name": "AiX Health Inflammation Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Inflammation Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30170,14 +30170,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "lose-fat",
     category: "Guides",
     title: "Lose Fat Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to lose fat optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to lose fat optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Lose Fat optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your lose fat baseline.",
     
-    problem: "You are struggling with optimizing lose fat and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Lose Fat protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing lose fat and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Lose Fat protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to lose fat.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30252,8 +30252,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-lose-fat-1",
-        "name": "AiX Health Lose Fat Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Lose Fat Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30302,14 +30302,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "mens-skincare-guide",
     category: "Guides",
     title: "Mens Skincare Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to mens skincare guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to mens skincare guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Mens Skincare Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your mens skincare guide baseline.",
     
-    problem: "You are struggling with optimizing mens skincare guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Mens Skincare Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing mens skincare guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Mens Skincare Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to mens skincare guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30384,8 +30384,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-mens-skincare-guide-1",
-        "name": "AiX Health Mens Skincare Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Mens Skincare Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30434,14 +30434,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "muscle-building-nutrition-guide",
     category: "Guides",
     title: "Muscle Building Nutrition Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to muscle building nutrition guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to muscle building nutrition guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Muscle Building Nutrition Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your muscle building nutrition guide baseline.",
     
-    problem: "You are struggling with optimizing muscle building nutrition guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Muscle Building Nutrition Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing muscle building nutrition guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Muscle Building Nutrition Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to muscle building nutrition guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30516,8 +30516,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-muscle-building-nutrition-guide-1",
-        "name": "AiX Health Muscle Building Nutrition Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Muscle Building Nutrition Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30566,14 +30566,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "nutrition-for-skin-guide",
     category: "Guides",
     title: "Nutrition For Skin Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to nutrition for skin guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to nutrition for skin guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Nutrition For Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nutrition for skin guide baseline.",
     
-    problem: "You are struggling with optimizing nutrition for skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nutrition For Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing nutrition for skin guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Nutrition For Skin Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nutrition for skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30648,8 +30648,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-nutrition-for-skin-guide-1",
-        "name": "AiX Health Nutrition For Skin Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Nutrition For Skin Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30698,14 +30698,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "retinol-guide",
     category: "Guides",
     title: "Retinol Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to retinol guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to retinol guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Retinol Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your retinol guide baseline.",
     
-    problem: "You are struggling with optimizing retinol guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Retinol Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing retinol guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Retinol Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to retinol guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30780,8 +30780,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-retinol-guide-1",
-        "name": "AiX Health Retinol Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Retinol Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30830,14 +30830,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "rosacea-guide",
     category: "Guides",
     title: "Rosacea Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to rosacea guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to rosacea guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Rosacea Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your rosacea guide baseline.",
     
-    problem: "You are struggling with optimizing rosacea guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Rosacea Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing rosacea guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Rosacea Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to rosacea guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -30912,8 +30912,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-rosacea-guide-1",
-        "name": "AiX Health Rosacea Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Rosacea Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -30962,14 +30962,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sensitive-skin-guide",
     category: "Guides",
     title: "Sensitive Skin Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sensitive skin guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sensitive skin guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sensitive Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sensitive skin guide baseline.",
     
-    problem: "You are struggling with optimizing sensitive skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sensitive Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sensitive skin guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sensitive Skin Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sensitive skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31044,8 +31044,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-sensitive-skin-guide-1",
-        "name": "AiX Health Sensitive Skin Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sensitive Skin Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31094,14 +31094,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sleep-guide",
     category: "Guides",
     title: "Sleep Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sleep guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sleep guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sleep Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep guide baseline.",
     
-    problem: "You are struggling with optimizing sleep guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sleep guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sleep Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31176,8 +31176,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-sleep-guide-1",
-        "name": "AiX Health Sleep Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sleep Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31226,14 +31226,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "sleep-optimization",
     category: "Guides",
     title: "Sleep Optimization Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to sleep optimization optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to sleep optimization optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Sleep Optimization optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your sleep optimization baseline.",
     
-    problem: "You are struggling with optimizing sleep optimization and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Sleep Optimization protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing sleep optimization and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Sleep Optimization protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to sleep optimization.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31308,8 +31308,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-sleep-optimization-1",
-        "name": "AiX Health Sleep Optimization Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Sleep Optimization Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31358,14 +31358,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "stress-guide",
     category: "Guides",
     title: "Stress Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to stress guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to stress guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Stress Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your stress guide baseline.",
     
-    problem: "You are struggling with optimizing stress guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Stress Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing stress guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Stress Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to stress guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31440,8 +31440,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-stress-guide-1",
-        "name": "AiX Health Stress Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Stress Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31490,14 +31490,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "teen-skincare-guide",
     category: "Guides",
     title: "Teen Skincare Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to teen skincare guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to teen skincare guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Teen Skincare Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your teen skincare guide baseline.",
     
-    problem: "You are struggling with optimizing teen skincare guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Teen Skincare Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing teen skincare guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Teen Skincare Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to teen skincare guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31572,8 +31572,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-teen-skincare-guide-1",
-        "name": "AiX Health Teen Skincare Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Teen Skincare Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31622,14 +31622,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "vitamin-c-guide",
     category: "Guides",
     title: "Vitamin C Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to vitamin c guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to vitamin c guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Vitamin C Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your vitamin c guide baseline.",
     
-    problem: "You are struggling with optimizing vitamin c guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Vitamin C Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing vitamin c guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Vitamin C Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to vitamin c guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31704,8 +31704,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-vitamin-c-guide-1",
-        "name": "AiX Health Vitamin C Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Vitamin C Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31754,14 +31754,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "womens-skincare-guide",
     category: "Guides",
     title: "Womens Skincare Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to womens skincare guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to womens skincare guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Womens Skincare Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your womens skincare guide baseline.",
     
-    problem: "You are struggling with optimizing womens skincare guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Womens Skincare Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing womens skincare guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Womens Skincare Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to womens skincare guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31836,8 +31836,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-womens-skincare-guide-1",
-        "name": "AiX Health Womens Skincare Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Womens Skincare Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -31886,14 +31886,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "workout-skin-guide",
     category: "Guides",
     title: "Workout Skin Guide Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to workout skin guide optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to workout skin guide optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Workout Skin Guide optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your workout skin guide baseline.",
     
-    problem: "You are struggling with optimizing workout skin guide and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Workout Skin Guide protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing workout skin guide and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Workout Skin Guide protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to workout skin guide.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -31968,8 +31968,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-guides-workout-skin-guide-1",
-        "name": "AiX Health Workout Skin Guide Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Workout Skin Guide Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32018,14 +32018,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "expert-articles",
     category: "Community",
     title: "Expert Articles Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to expert articles optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to expert articles optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Expert Articles optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your expert articles baseline.",
     
-    problem: "You are struggling with optimizing expert articles and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Expert Articles protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing expert articles and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Expert Articles protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to expert articles.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32100,8 +32100,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-expert-articles-1",
-        "name": "AiX Health Expert Articles Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Expert Articles Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32150,14 +32150,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "success-stories",
     category: "Community",
     title: "Success Stories Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to success stories optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to success stories optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Success Stories optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your success stories baseline.",
     
-    problem: "You are struggling with optimizing success stories and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Success Stories protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing success stories and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Success Stories protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to success stories.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32232,8 +32232,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-success-stories-1",
-        "name": "AiX Health Success Stories Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Success Stories Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32282,14 +32282,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "transformation-stories",
     category: "Community",
     title: "Transformation Stories Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to transformation stories optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to transformation stories optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Transformation Stories optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your transformation stories baseline.",
     
-    problem: "You are struggling with optimizing transformation stories and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Transformation Stories protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing transformation stories and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Transformation Stories protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to transformation stories.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32364,8 +32364,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-transformation-stories-1",
-        "name": "AiX Health Transformation Stories Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Transformation Stories Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32414,14 +32414,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "challenges",
     category: "Community",
     title: "Challenges Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to challenges optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to challenges optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Challenges optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your challenges baseline.",
     
-    problem: "You are struggling with optimizing challenges and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Challenges protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing challenges and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Challenges protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to challenges.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32496,8 +32496,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-challenges-1",
-        "name": "AiX Health Challenges Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Challenges Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32546,14 +32546,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "events",
     category: "Community",
     title: "Events Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to events optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to events optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Events optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your events baseline.",
     
-    problem: "You are struggling with optimizing events and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Events protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing events and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Events protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to events.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32628,8 +32628,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-events-1",
-        "name": "AiX Health Events Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Events Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32678,14 +32678,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "questions-answers",
     category: "Community",
     title: "Questions Answers Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to questions answers optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to questions answers optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Questions Answers optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your questions answers baseline.",
     
-    problem: "You are struggling with optimizing questions answers and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Questions Answers protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing questions answers and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Questions Answers protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to questions answers.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32760,8 +32760,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-questions-answers-1",
-        "name": "AiX Health Questions Answers Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Questions Answers Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32810,14 +32810,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "dermatologist-tips",
     category: "Community",
     title: "Dermatologist Tips Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to dermatologist tips optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to dermatologist tips optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Dermatologist Tips optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your dermatologist tips baseline.",
     
-    problem: "You are struggling with optimizing dermatologist tips and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Dermatologist Tips protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing dermatologist tips and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Dermatologist Tips protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to dermatologist tips.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -32892,8 +32892,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-dermatologist-tips-1",
-        "name": "AiX Health Dermatologist Tips Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Dermatologist Tips Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -32942,14 +32942,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "fitness-coach-advice",
     category: "Community",
     title: "Fitness Coach Advice Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to fitness coach advice optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to fitness coach advice optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Fitness Coach Advice optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your fitness coach advice baseline.",
     
-    problem: "You are struggling with optimizing fitness coach advice and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Fitness Coach Advice protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing fitness coach advice and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Fitness Coach Advice protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to fitness coach advice.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -33024,8 +33024,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-fitness-coach-advice-1",
-        "name": "AiX Health Fitness Coach Advice Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Fitness Coach Advice Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",
@@ -33074,14 +33074,14 @@ export const editorialContent: Record<string, EditorialArticle> = {
     slug: "nutrition-articles",
     category: "Community",
     title: "Nutrition Articles Protocol & Masterclass",
-    subtitle: "The definitive evidence-based guide to nutrition articles optimization, biological mechanisms, clinical dosing, and human longevity.",
+    subtitle: "The definitive evidence-based guide to nutrition articles optimization, biological mechanisms, research study protocols, and human longevity.",
     heroImage: "/images/healthos_hero_products_1784918027747.png",
     estimatedReadTime: "12 min read",
     scientificConfidence: "High (Grade A Clinical Consensus)",
     introduction: "Nutrition Articles optimization represents one of the most impactful levers in modern preventive medicine and human performance. Distilling peer-reviewed clinical trials, biochemical pathways, and practical protocols, this guide outlines exact strategies to optimize your nutrition articles baseline.",
     
-    problem: "You are struggling with optimizing nutrition articles and seeking a clinical-grade, scientifically-backed approach that delivers measurable biological outcomes.",
-    solution: "By utilizing the Nutrition Articles protocol developed by AiX Health clinical researchers, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
+    problem: "You are struggling with optimizing nutrition articles and seeking a evidence-based, educational approach that delivers measurable biological outcomes.",
+    solution: "By utilizing the Nutrition Articles protocol developed by AiX Health research compilation, you can systematically manipulate key biological pathways to achieve peak physical performance, aesthetic refinement, and extended healthspan.",
     benefits: ["Dramatically improve baseline markers related to nutrition articles.","Optimize metabolic signaling and cellular repair pathways.","Minimize systemic inflammation and bio-cellular stress.","Achieve sustainable long-term physiological adaptations."],
     
     stepByStep: [
@@ -33156,8 +33156,8 @@ export const editorialContent: Record<string, EditorialArticle> = {
     recommendedProducts: [
     {
         "id": "prod-community-nutrition-articles-1",
-        "name": "AiX Health Nutrition Articles Clinical Formula",
-        "brand": "AiX Health Clinical Formulations",
+        "name": "AiX Health Nutrition Articles Educational Formula",
+        "brand": "AiX Health Educational Formulations",
         "image": "/images/healthos_hero_products_1784918027747.png",
         "benefits": [
             "Accelerates tissue repair",

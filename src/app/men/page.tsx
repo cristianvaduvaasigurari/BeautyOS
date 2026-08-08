@@ -15,7 +15,7 @@ export default function Page() {
           Men&apos;s Grooming
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl">
-          Beard care, gym recovery, testosterone support, and DHT management.
+          Beard care, gym recovery, testosterone education, and hair pathway research.
         </p>
       </div>
 
@@ -27,7 +27,7 @@ export default function Page() {
             </div>
             <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors">Premium Article {item}</h3>
             <p className="text-sm text-zinc-400 leading-relaxed mb-6">
-              Dive deep into the clinical research and evidence-based protocols designed for maximum biological optimization.
+              Dive deep into scientific research and evidence-based educational frameworks.
             </p>
             <button className="text-xs font-bold text-white flex items-center gap-2 group-hover:gap-3 transition-all">
               Read Protocol <ArrowRight className="w-4 h-4 text-[#D4AF37]" />

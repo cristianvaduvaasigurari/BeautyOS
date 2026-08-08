@@ -41,7 +41,7 @@ export default function AdminDashboardPage() {
         </h1>
 
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl font-sans">
-          Manage member profiles, active subscriptions, consultation leads, clinical protocols, and platform metrics.
+          Manage member profiles, active subscriptions, consultation leads, educational protocol guides, and platform metrics.
         </p>
       </div>
 

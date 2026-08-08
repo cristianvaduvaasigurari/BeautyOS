@@ -14,24 +14,24 @@ export default function SupplementsHubPage() {
 
   const curatedStacks = [
     {
-      title: "Skeletal Muscle Growth Stack",
+      title: "Skeletal Muscle Growth Research Stack",
       tag: "Hypertrophy & Power",
-      description: "Saturate phosphocreatine stores, elevate muscle protein synthesis (MPS), and control systemic cortisol.",
-      items: ["Creatine Monohydrate (5g)", "Whey Protein Isolate (27g)", "Omega-3 EPA/DHA (2000mg)", "Vitamin D3 + K2 (5000 IU)", "Magnesium Glycinate (400mg)"],
+      description: "Saturate phosphocreatine stores, elevate muscle protein synthesis (MPS), and support systemic recovery.",
+      items: ["Creatine Monohydrate", "Whey Protein Isolate", "Omega-3 EPA/DHA", "Vitamin D3 + K2", "Magnesium Glycinate"],
       targetHref: "/supplements/creatine"
     },
     {
-      title: "Metabolic Fat Loss Stack",
+      title: "Metabolic Research Stack",
       tag: "Metabolism & Satiety",
-      description: "Support mitochondrial beta-oxidation, suppress appetite spikes, and hydrate cellular electrolytes.",
-      items: ["Whey Protein Isolate (30g)", "Soluble Fiber Complex (10g)", "Green Tea EGCG Extract", "Electrolyte Matrix (Sodium/Potassium/Magnesium)"],
+      description: "Support mitochondrial beta-oxidation, metabolic response, and hydrate cellular electrolytes.",
+      items: ["Whey Protein Isolate", "Soluble Fiber Complex", "Green Tea EGCG Extract", "Electrolyte Matrix"],
       targetHref: "/supplements/protein"
     },
     {
       title: "Cellular Longevity & Repair Stack",
       tag: "NAD+ & Sirtuins",
       description: "Re-energize cellular mitochondria, defense against genomic instability, and promote deep restorative sleep.",
-      items: ["NMN (500mg)", "CoQ10 Ubiquinol (200mg)", "Resveratrol Trans-Isomer", "High-EPA Omega-3", "Chelated Magnesium"],
+      items: ["NMN", "CoQ10 Ubiquinol", "Resveratrol Trans-Isomer", "High-EPA Omega-3", "Chelated Magnesium"],
       targetHref: "/supplements/nmn"
     }
   ];
@@ -46,7 +46,7 @@ export default function SupplementsHubPage() {
         </Link>
         
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Pill className="w-4 h-4" /> Clinical Supplement Library & Stacks
+          <Pill className="w-4 h-4" /> Educational Supplement Library & Research Stacks
         </span>
 
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
@@ -55,7 +55,7 @@ export default function SupplementsHubPage() {
         </h1>
 
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl">
-          Scientific evidence ratings, mechanism explanations, optimal dosage timing, interactions, and curated clinical stacks engineered for maximum bio-absorbability.
+          Scientific evidence ratings, mechanism explanations, research literature timings, interactions, and curated educational stacks.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function SupplementsHubPage() {
         <div className="flex items-center justify-between">
           <div className="space-y-1">
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Curated Formulations</span>
-            <h2 className="text-3xl font-bold text-white tracking-tight">Clinical Supplement Stacks</h2>
+            <h2 className="text-3xl font-bold text-white tracking-tight">Educational Supplement Research Stacks</h2>
           </div>
           <Link href="/contact" className="text-xs font-mono text-emerald-400 font-bold hover:underline hidden sm:inline">
             Request Stack Customization →
