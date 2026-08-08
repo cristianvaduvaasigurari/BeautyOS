@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Sparkles, Send, Bot, RefreshCw, CheckCircle2 } from "lucide-react";
+import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
 
 export default function AICoachPage() {
   const [query, setQuery] = useState("");
@@ -116,6 +117,14 @@ export default function AICoachPage() {
     e.preventDefault();
     if (!query.trim()) return;
     setIsGenerating(true);
+
+    sendTelemetryEvent({
+      event: "AI_HIGH_INTENT",
+      sourceRoute: "/ai-coach",
+      category: "AI Coach Query",
+      metadata: { query: query.trim() },
+    });
+
     setTimeout(() => {
       setIsGenerating(false);
       if (!presetQueries.includes(query)) {

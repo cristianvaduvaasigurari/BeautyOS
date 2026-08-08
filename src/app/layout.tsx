@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { HealthOSProvider } from "../context/HealthOSContext";
 import { GlobalLayout } from "../components/GlobalLayout";
+import { VisitorTracker } from "../components/VisitorTracker";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -97,6 +98,7 @@ export default function RootLayout({
     <html lang="en" className="h-full bg-[#0A0A0A]">
       <body className={`${inter.variable} font-sans h-full antialiased bg-[#0A0A0A] text-white selection:bg-emerald-500/30 selection:text-white`}>
         <HealthOSProvider>
+          <VisitorTracker />
           <GlobalLayout>
             <script
               type="application/ld+json"

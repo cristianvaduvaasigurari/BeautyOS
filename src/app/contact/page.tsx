@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, Send, Loader2, CheckCircle2, Zap } from "lucide-react";
+import { CONTACT_CONFIG } from "@/lib/contact/config";
+import { SOCIAL_CONFIG } from "@/lib/contact/social";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -114,6 +116,26 @@ export default function ContactPage() {
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
           Build your personalized health protocol, optimize supplement stacking, or receive scientific guidance tailored directly to your biological goals.
         </p>
+
+        {/* DIRECT CONTACT CHANNELS */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pt-4">
+          <a href={CONTACT_CONFIG.mailtoUrl} className="p-4 rounded-2xl bg-zinc-900/50 border border-white/[0.08] hover:border-emerald-500/40 transition-colors group">
+            <span className="text-[10px] font-mono uppercase text-zinc-500 block mb-1">Email Direct</span>
+            <span className="text-xs font-semibold text-white group-hover:text-emerald-400 truncate block">{CONTACT_CONFIG.email}</span>
+          </a>
+          <a href={CONTACT_CONFIG.telUrl} className="p-4 rounded-2xl bg-zinc-900/50 border border-white/[0.08] hover:border-emerald-500/40 transition-colors group">
+            <span className="text-[10px] font-mono uppercase text-zinc-500 block mb-1">Phone Direct</span>
+            <span className="text-xs font-semibold text-white group-hover:text-emerald-400 block">{CONTACT_CONFIG.phoneInt}</span>
+          </a>
+          <a href={CONTACT_CONFIG.whatsAppUrl} target="_blank" rel="noopener noreferrer" className="p-4 rounded-2xl bg-zinc-900/50 border border-white/[0.08] hover:border-emerald-500/40 transition-colors group">
+            <span className="text-[10px] font-mono uppercase text-zinc-500 block mb-1">WhatsApp</span>
+            <span className="text-xs font-semibold text-emerald-400 block">{CONTACT_CONFIG.whatsApp}</span>
+          </a>
+          <a href={SOCIAL_CONFIG.telegramDirect} target="_blank" rel="noopener noreferrer" className="p-4 rounded-2xl bg-zinc-900/50 border border-white/[0.08] hover:border-emerald-500/40 transition-colors group">
+            <span className="text-[10px] font-mono uppercase text-zinc-500 block mb-1">Telegram Direct</span>
+            <span className="text-xs font-semibold text-sky-400 block">@CristianVaduva</span>
+          </a>
+        </div>
       </div>
 
       <div className="max-w-4xl p-8 sm:p-12 rounded-[32px] bg-gradient-to-br from-[#101114] to-[#17181B] border border-white/[0.08]">

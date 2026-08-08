@@ -19,6 +19,8 @@ import {
   ChevronRight,
   Send
 } from "lucide-react";
+import { ECOSYSTEM_CONFIG } from "@/lib/ecosystem/config";
+import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
 
 interface LandingPageProps {
   onGetStarted: () => void;
@@ -297,6 +299,78 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
               </div>
             );
           })}
+        </div>
+      </section>
+
+      {/* HOMEPAGE ECOSYSTEM SECTION */}
+      <section className="py-24 px-6 max-w-[1440px] mx-auto border-t border-white/[0.08]">
+        <div className="text-center space-y-4 mb-16">
+          <span className="px-3.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold uppercase tracking-wider">
+            Network Intelligence
+          </span>
+          <h2 className="text-4xl sm:text-6xl font-bold text-white tracking-tight">
+            THE AiX ECOSYSTEM
+          </h2>
+          <p className="text-zinc-400 text-base max-w-2xl mx-auto font-sans">
+            AiX Health operates as the health intelligence node within the broader AiX institutional ecosystem.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {ECOSYSTEM_CONFIG.map((service) => (
+            <div
+              key={service.id}
+              className="p-8 rounded-3xl bg-[#0D0E12] border border-white/[0.08] hover:border-emerald-500/30 transition-all flex flex-col justify-between group"
+            >
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/20">
+                    {service.category}
+                  </span>
+                  {service.verified ? (
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                  ) : (
+                    <span className="text-[9px] font-mono text-zinc-600">UNVERIFIED</span>
+                  )}
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                    {service.name}
+                  </h3>
+                  <p className="text-sm text-zinc-400 mt-2 font-sans leading-relaxed">
+                    {service.description}
+                  </p>
+                </div>
+              </div>
+
+              <div className="pt-6 mt-6 border-t border-white/[0.06]">
+                {service.verified ? (
+                  <a
+                    href={service.href}
+                    target={service.target}
+                    rel={service.rel}
+                    onClick={() => {
+                      sendTelemetryEvent({
+                        event: "ECOSYSTEM_CLICK",
+                        sourceRoute: "/",
+                        category: service.category,
+                        metadata: { service: service.name, href: service.href },
+                      });
+                    }}
+                    className="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 font-bold hover:underline"
+                  >
+                    <span>Launch Destination</span>
+                    <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </a>
+                ) : (
+                  <span className="text-xs font-mono text-zinc-600 cursor-not-allowed">
+                    AiX Media: NOT VERIFIED — NOT LINKED
+                  </span>
+                )}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

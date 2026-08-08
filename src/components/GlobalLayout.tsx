@@ -8,6 +8,10 @@ import { Activity, Search, User, Menu, X, ChevronDown, ChevronRight, Zap } from 
 import { FloatingActionButton } from "./FloatingActionButton";
 import { NewsletterBlock } from "./NewsletterBlock";
 import { useHealthOS } from "../context/HealthOSContext";
+import { CONTACT_CONFIG } from "@/lib/contact/config";
+import { SOCIAL_CONFIG } from "@/lib/contact/social";
+import { ECOSYSTEM_CONFIG } from "@/lib/ecosystem/config";
+import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
 
 export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -377,6 +381,19 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                 )}
               </div>
             ))}
+
+            {/* ECOSYSTEM NAV LINK */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setActiveMegaMenu("Ecosystem")}
+            >
+              <button
+                className="py-6 text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1 font-bold cursor-pointer"
+              >
+                Ecosystem
+                <ChevronDown className="w-3 h-3 opacity-50" />
+              </button>
+            </div>
           </nav>
 
           {/* HEADER RIGHT UTILITIES */}
@@ -410,7 +427,72 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
 
         {/* MEGA MENU DROPDOWN */}
         <AnimatePresence>
-          {activeMegaMenu && megaMenuData[activeMegaMenu] && (
+          {activeMegaMenu === "Ecosystem" && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.2 }}
+              className="absolute top-full left-0 right-0 bg-[#0E0F14]/95 backdrop-blur-3xl border-b border-white/[0.1] shadow-2xl overflow-hidden z-50"
+            >
+              <div className="max-w-[1920px] mx-auto px-8 py-10">
+                <div className="flex items-start justify-between border-b border-white/[0.08] pb-6 mb-8">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white tracking-tight">The AiX Ecosystem</h3>
+                    <p className="text-sm text-zinc-400 mt-1 font-sans">Institutional artificial intelligence, financial advisory, real estate, and digital media platforms.</p>
+                  </div>
+                  <span className="text-xs font-mono text-emerald-400 uppercase tracking-widest font-bold">AiX Network</span>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                  {(["INTELLIGENCE", "FINANCE", "REAL ESTATE", "MEDIA", "PERSONAL"] as const).map((cat) => {
+                    const items = ECOSYSTEM_CONFIG.filter((item) => item.category === cat);
+                    return (
+                      <div key={cat} className="space-y-4">
+                        <h4 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">{cat}</h4>
+                        <ul className="space-y-3 text-sm">
+                          {items.map((item) => (
+                            <li key={item.id}>
+                              {item.verified ? (
+                                <a
+                                  href={item.href}
+                                  target={item.target}
+                                  rel={item.rel}
+                                  onClick={() => {
+                                    setActiveMegaMenu(null);
+                                    sendTelemetryEvent({
+                                      event: "ECOSYSTEM_CLICK",
+                                      sourceRoute: pathname,
+                                      category: item.category,
+                                      metadata: { service: item.name, href: item.href },
+                                    });
+                                  }}
+                                  className="text-zinc-300 hover:text-emerald-400 transition-colors flex items-center justify-between group"
+                                >
+                                  <div>
+                                    <span className="font-semibold block">{item.name}</span>
+                                    <span className="text-[10px] text-zinc-500 block font-sans">{item.description}</span>
+                                  </div>
+                                  <ChevronRight className="w-3 h-3 text-zinc-600 group-hover:text-emerald-400 group-hover:translate-x-0.5 transition-all" />
+                                </a>
+                              ) : (
+                                <div className="opacity-50 cursor-not-allowed">
+                                  <span className="font-semibold block text-zinc-400">{item.name}</span>
+                                  <span className="text-[10px] text-zinc-500 block font-sans">AiX Media: NOT VERIFIED — NOT LINKED</span>
+                                </div>
+                              )}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </motion.div>
+          )}
+
+          {activeMegaMenu && activeMegaMenu !== "Ecosystem" && megaMenuData[activeMegaMenu] && (
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
@@ -495,6 +577,41 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                   <ChevronRight className="w-4 h-4 text-zinc-500" />
                 </Link>
               ))}
+            </div>
+
+            {/* MOBILE ECOSYSTEM SECTION */}
+            <div className="pt-4 border-t border-white/[0.08] space-y-3">
+              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h5>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                {ECOSYSTEM_CONFIG.map((item) => (
+                  item.verified ? (
+                    <a
+                      key={item.id}
+                      href={item.href}
+                      target={item.target}
+                      rel={item.rel}
+                      onClick={() => {
+                        setMobileMenuOpen(false);
+                        sendTelemetryEvent({
+                          event: "ECOSYSTEM_CLICK",
+                          sourceRoute: pathname,
+                          category: item.category,
+                          metadata: { service: item.name, href: item.href },
+                        });
+                      }}
+                      className="p-2.5 rounded-xl bg-zinc-900/40 border border-white/[0.06] flex items-center justify-between text-zinc-300 hover:text-emerald-400"
+                    >
+                      <span className="font-semibold">{item.name}</span>
+                      <span className="text-[10px] text-zinc-500 font-mono">{item.category}</span>
+                    </a>
+                  ) : (
+                    <div key={item.id} className="p-2.5 rounded-xl bg-zinc-900/20 border border-white/[0.04] text-zinc-500 opacity-50 flex items-center justify-between">
+                      <span className="font-semibold">AiX Media</span>
+                      <span className="text-[9px] font-mono">UNVERIFIED</span>
+                    </div>
+                  )
+                ))}
+              </div>
             </div>
 
             <div className="pt-4 border-t border-white/[0.08] flex flex-col gap-3">
@@ -629,9 +746,61 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               <p className="text-xs text-zinc-400 max-w-sm font-sans leading-relaxed">
                 The flagship Apple-quality ecosystem for biological youth, skincare science, fitness, nutrition, supplements, longevity, and clinical protocols for men and women.
               </p>
-              <div className="flex items-center gap-3 pt-2 text-xs text-zinc-500 font-mono">
-                <span>Domain: health.cristianvaduva.com</span>
+              
+              {/* CENTRALIZED CONTACT DETAILS */}
+              <div className="space-y-1 pt-2 text-xs font-mono text-zinc-400">
+                <p><span className="text-zinc-500">Email:</span> <a href={CONTACT_CONFIG.mailtoUrl} className="hover:text-emerald-400">{CONTACT_CONFIG.email}</a></p>
+                <p><span className="text-zinc-500">Phone:</span> <a href={CONTACT_CONFIG.telUrl} className="hover:text-emerald-400">{CONTACT_CONFIG.phoneInt} ({CONTACT_CONFIG.phoneRo})</a></p>
+                <p><span className="text-zinc-500">WhatsApp:</span> <a href={CONTACT_CONFIG.whatsAppUrl} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400">{CONTACT_CONFIG.whatsApp}</a></p>
+                <p><span className="text-zinc-500">Office:</span> {CONTACT_CONFIG.office}</p>
               </div>
+
+              {/* SOCIAL LINKS */}
+              <div className="flex flex-wrap items-center gap-3 pt-2 text-xs font-mono text-emerald-400">
+                <a href={SOCIAL_CONFIG.telegramDirect} target="_blank" rel="noopener noreferrer" className="hover:underline">Telegram</a>
+                <span>•</span>
+                <a href={SOCIAL_CONFIG.instagram} target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>
+                <span>•</span>
+                <a href={SOCIAL_CONFIG.facebook} target="_blank" rel="noopener noreferrer" className="hover:underline">Facebook</a>
+                <span>•</span>
+                <a href={SOCIAL_CONFIG.linkedIn} target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>
+                <span>•</span>
+                <a href={SOCIAL_CONFIG.youTube} target="_blank" rel="noopener noreferrer" className="hover:underline">YouTube</a>
+                <span>•</span>
+                <a href={SOCIAL_CONFIG.linktree} target="_blank" rel="noopener noreferrer" className="hover:underline">Linktree</a>
+              </div>
+            </div>
+
+            {/* AiX ECOSYSTEM FOOTER COLUMN */}
+            <div className="space-y-3">
+              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h5>
+              <ul className="space-y-2 text-xs text-zinc-400">
+                {ECOSYSTEM_CONFIG.map((item) => (
+                  <li key={item.id}>
+                    {item.verified ? (
+                      <a
+                        href={item.href}
+                        target={item.target}
+                        rel={item.rel}
+                        onClick={() => {
+                          sendTelemetryEvent({
+                            event: "ECOSYSTEM_CLICK",
+                            sourceRoute: pathname,
+                            category: item.category,
+                            metadata: { service: item.name, href: item.href },
+                          });
+                        }}
+                        className="hover:text-white transition-colors flex items-center justify-between"
+                      >
+                        <span>{item.name}</span>
+                        <span className="text-[9px] text-zinc-600 font-mono">{item.category[0]}</span>
+                      </a>
+                    ) : (
+                      <span className="text-zinc-600 cursor-not-allowed">AiX Media (Unverified)</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
             </div>
 
             <div className="space-y-3">
@@ -659,16 +828,6 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
 
             <div className="space-y-3">
-              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Demographics</h5>
-              <ul className="space-y-2 text-xs text-zinc-400">
-                <li><Link href="/guides/women" className="hover:text-white transition-colors">Women&apos;s Health</Link></li>
-                <li><Link href="/guides/men" className="hover:text-white transition-colors">Men&apos;s Health</Link></li>
-                <li><Link href="/community" className="hover:text-white transition-colors">Community Hub</Link></li>
-                <li><Link href="/dashboard" className="hover:text-white transition-colors">Member Dashboard</Link></li>
-              </ul>
-            </div>
-
-            <div className="space-y-3">
               <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Company & Legal</h5>
               <ul className="space-y-2 text-xs text-zinc-400">
                 <li><Link href="/about" className="hover:text-white transition-colors">About HealthOS</Link></li>
@@ -686,7 +845,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             <div className="flex items-center gap-6">
               <Link href="/privacy" className="hover:text-zinc-300">Privacy</Link>
               <Link href="/terms" className="hover:text-zinc-300">Terms</Link>
-              <a href="https://t.me/cristianvaduva" target="_blank" rel="noreferrer" className="text-emerald-400 hover:underline">Telegram Support</a>
+              <a href={SOCIAL_CONFIG.telegramDirect} target="_blank" rel="noreferrer" className="text-emerald-400 hover:underline">Telegram Support</a>
             </div>
           </div>
 

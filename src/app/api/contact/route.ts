@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { sendTelegramNotification } from '@/lib/telegram/notify';
 
 export async function POST(request: Request) {
   try {
@@ -41,55 +42,32 @@ export async function POST(request: Request) {
       );
     }
 
-    const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-    const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-
-    const text = `
-━━━━━━━━━━━━━━
-🆕 <b>NEW HEALTHOS LEAD</b>
-━━━━━━━━━━━━━━
-<b>Name:</b> ${firstName} ${lastName}
-<b>Email:</b> ${email}
-<b>Phone:</b> ${phone || 'N/A'}
-<b>Country:</b> ${country || 'N/A'}
-<b>Age:</b> ${age || 'N/A'}
-<b>Gender:</b> ${gender || 'N/A'}
-<b>Goal:</b> ${goal || 'N/A'}
-<b>Skin Type:</b> ${skinType || 'N/A'}
-<b>Concern:</b> ${concern || 'N/A'}
-<b>Current Routine:</b> ${currentRoutine || 'N/A'}
-<b>Products Used:</b> ${productsUsed || 'N/A'}
-<b>Supplements Used:</b> ${supplementsUsed || 'N/A'}
-
-<b>Message:</b>
-${message}
-
-<b>Referral Source:</b> ${source || 'Direct'}
-<b>Device:</b> ${device || 'Unknown'}
-<b>Date:</b> ${new Date().toUTCString()}
-━━━━━━━━━━━━━━
-`;
-
-    if (TELEGRAM_BOT_TOKEN && TELEGRAM_CHAT_ID) {
-      const telegramUrl = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
-      const response = await fetch(telegramUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
+    // Attempt Telegram notification safely via central notification service
+    try {
+      await sendTelegramNotification({
+        event: 'LEAD_SUBMISSION',
+        timestamp: new Date().toISOString(),
+        sourceRoute: source || '/contact',
+        submittedFields: {
+          name: `${firstName} ${lastName}`,
+          email,
+          phone: phone || 'N/A',
+          country: country || 'N/A',
+          age: age || 'N/A',
+          gender: gender || 'N/A',
+          goal: goal || 'N/A',
+          skinType: skinType || 'N/A',
+          concern: concern || 'N/A',
+          currentRoutine: currentRoutine || 'N/A',
+          productsUsed: productsUsed || 'N/A',
+          supplementsUsed: supplementsUsed || 'N/A',
+          message,
+          device: device || 'Unknown',
         },
-        body: JSON.stringify({
-          chat_id: TELEGRAM_CHAT_ID,
-          text: text,
-          parse_mode: 'HTML',
-        }),
       });
-
-      if (!response.ok) {
-        console.error('Telegram API error:', await response.text());
-        throw new Error('Failed to send message to Telegram.');
-      }
-    } else {
-      console.warn('No Telegram Bot Token provided. Lead saved to local logs only.', text);
+    } catch (telegramErr) {
+      // Telegram notification failure MUST NOT cause primary user action to fail
+      console.error('[Contact API] Non-blocking Telegram error:', telegramErr);
     }
 
     return NextResponse.json({ success: true, message: 'Lead captured successfully.' }, { status: 200 });
