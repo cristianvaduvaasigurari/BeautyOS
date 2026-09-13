@@ -29,7 +29,7 @@ export const NewsletterBlock = () => {
       <div className="w-full p-8 rounded-[32px] bg-emerald-500/10 border border-emerald-500/20 flex flex-col items-center justify-center text-center animate-fadeIn">
         <CheckCircle2 className="w-10 h-10 text-emerald-400 mb-4" />
         <h3 className="text-xl font-bold text-white mb-2">Welcome to AiX Health Intelligence.</h3>
-        <p className="text-emerald-200/70 text-sm">You have successfully subscribed to clinical health protocols and longevity updates.</p>
+        <p className="text-emerald-200/70 text-sm">You have successfully subscribed to educational health protocols and longevity updates.</p>
       </div>
     );
   }
@@ -76,7 +76,7 @@ export const NewsletterBlock = () => {
               <p className="text-xs text-rose-400 font-medium pl-2">{errorMessage}</p>
             )}
             <p className="text-[10px] text-zinc-500 text-center font-mono tracking-widest uppercase mt-2">
-              Clinical Quality. Zero Spam. Cancel Anytime.
+              Evidence-Based Intelligence. Zero Spam. Free. No Payment Required.
             </p>
           </form>
         </div>

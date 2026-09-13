@@ -822,6 +822,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                 <li><Link href="/about" className="hover:text-white transition-colors">About AiX Health</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact & Support</Link></li>
                 <li><Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
+                <li><Link href="/disclaimer" className="hover:text-white transition-colors">Health Disclaimer</Link></li>
                 <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
                 <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
               </ul>
@@ -829,9 +830,21 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
 
           </div>
 
+          {/* VISIBLE GLOBAL EDUCATION & MEDICAL DISCLAIMER */}
+          <div className="p-5 sm:p-6 rounded-2xl bg-white/[0.02] border border-white/[0.08] text-xs text-zinc-400 font-sans leading-relaxed space-y-1.5">
+            <p className="font-semibold text-emerald-400 font-mono text-[11px] uppercase tracking-wider flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+              Educational & Informational Platform Notice
+            </p>
+            <p>
+              AiX Health provides health education and informational content only. It does not provide medical advice, diagnosis, treatment, prescriptions, or individual medical care. For personal health concerns or before starting any new fitness, nutrition, or supplement protocol, always consult a qualified healthcare professional.
+            </p>
+          </div>
+
           <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 font-mono gap-4">
             <p>© {new Date().getFullYear()} AiX Health. All rights reserved. Educational & Evidence-Based Digital Health Platform.</p>
             <div className="flex items-center gap-6">
+              <Link href="/disclaimer" className="hover:text-zinc-300">Disclaimer</Link>
               <Link href="/privacy" className="hover:text-zinc-300">Privacy</Link>
               <Link href="/terms" className="hover:text-zinc-300">Terms</Link>
               <a href={SOCIAL_CONFIG.telegramDirect} target="_blank" rel="noreferrer" className="text-emerald-400 hover:underline">Telegram Support</a>

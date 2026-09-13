@@ -8,12 +8,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aixhealth.cristianvaduva.com"),
+  metadataBase: new URL("https://health.cristianvaduva.com"),
+  alternates: {
+    canonical: "./",
+  },
   title: {
     template: "%s | AiX Health",
-    default: "AiX Health – Premium Digital Health Education & Intelligence",
+    default: "AiX Health — Health Education & Intelligence",
   },
-  description: "AiX Health provides premium education on skin health, longevity, fitness, nutrition, supplements, and body optimization.",
+  description: "AiX Health provides evidence-based health education, longevity research, fitness science, nutritional frameworks, supplement analysis, and wellness intelligence.",
   keywords: [
     "health education",
     "longevity",
@@ -26,7 +29,7 @@ export const metadata: Metadata = {
     "hormones",
     "health optimization"
   ],
-  authors: [{ name: "AiX Health Science & Research Board" }],
+  authors: [{ name: "AiX Health Editorial & Research Team" }],
   creator: "AiX Health",
   publisher: "AiX Health",
   formatDetection: {
@@ -35,9 +38,9 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "AiX Health – Premium Digital Health Education & Intelligence",
-    description: "Educational platform for skin health, longevity, fitness, nutrition, supplements, and human optimization.",
-    url: "https://aixhealth.cristianvaduva.com",
+    title: "AiX Health — Health Education & Intelligence",
+    description: "Educational platform for skin health, longevity, fitness, nutrition, supplements, and evidence-informed wellness intelligence.",
+    url: "https://health.cristianvaduva.com",
     siteName: "AiX Health",
     images: [
       {
@@ -52,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AiX Health – Premium Digital Health Education & Intelligence",
-    description: "The complete ecosystem for skincare, fitness, nutrition, supplements, and biohacking.",
+    title: "AiX Health — Health Education & Intelligence",
+    description: "Evidence-informed educational platform for skin health, longevity, fitness, nutrition, supplements, and wellness intelligence.",
     images: ["/images/healthos_hero_products_1784918027747.png"],
     creator: "@aixhealth",
   },
@@ -80,8 +83,8 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "AiX Health",
-  url: "https://aixhealth.cristianvaduva.com",
-  logo: "https://aixhealth.cristianvaduva.com/favicon.ico",
+  url: "https://health.cristianvaduva.com",
+  logo: "https://health.cristianvaduva.com/favicon.ico",
   description: "AiX Health provides premium education on skin health, longevity, fitness, nutrition, supplements, and body optimization.",
   sameAs: [
     "https://twitter.com/aixhealth",

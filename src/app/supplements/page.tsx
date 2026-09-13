@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, ArrowLeft, CheckCircle2, Pill } from "lucide-react";
 import { editorialContent, EditorialArticle } from "../../data/editorialContent";
+import { HealthDisclaimer } from "@/components/HealthDisclaimer";
 
 export default function SupplementsHubPage() {
   const [activeTab, setActiveTab] = useState<"All" | "Muscle" | "Fat Loss" | "Longevity">("All");
@@ -40,7 +41,7 @@ export default function SupplementsHubPage() {
     <div className="min-h-screen pt-28 pb-32 px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
       
       {/* Hero Header */}
-      <div className="max-w-4xl space-y-6 mb-16">
+      <div className="max-w-4xl space-y-6 mb-12">
         <Link href="/" className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-zinc-500 hover:text-emerald-400 transition-colors mb-2">
           <ArrowLeft className="w-4 h-4" /> Back to Home
         </Link>
@@ -57,6 +58,11 @@ export default function SupplementsHubPage() {
         <p className="text-xl text-zinc-400 font-light leading-relaxed max-w-3xl">
           Scientific evidence ratings, mechanism explanations, research literature timings, interactions, and curated educational stacks.
         </p>
+      </div>
+
+      {/* Supplement Health Disclaimer */}
+      <div className="max-w-4xl mb-16">
+        <HealthDisclaimer type="SUPPLEMENT" />
       </div>
 
       {/* CURATED STACKS MARKETPLACE SECTION */}

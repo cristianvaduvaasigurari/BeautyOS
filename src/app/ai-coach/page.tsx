@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { Sparkles, Send, Bot, RefreshCw, CheckCircle2, BookOpen, HelpCircle } from "lucide-react";
 import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
+import { HealthDisclaimer } from "@/components/HealthDisclaimer";
 
 export default function AICoachPage() {
   const [query, setQuery] = useState("");
@@ -163,28 +164,25 @@ export default function AICoachPage() {
   return (
     <div className="min-h-screen pt-28 pb-32 px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
       
-      {/* Policy Banner Notice */}
-      <div className="mb-8 p-4 rounded-2xl bg-[#101114] border border-emerald-500/20 text-xs text-zinc-400 font-sans flex items-start gap-3">
-        <BookOpen className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
-        <div>
-          <p className="text-white font-bold mb-1">AiX Health Educational Intelligence Boundary</p>
-          <p>
-            AiX Health is an educational health intelligence platform. The AI Educational Coach explains health concepts, research findings, biological mechanisms, and literature examples. It does not provide medical advice, diagnosis, treatment, or individualized dosing instructions.
-          </p>
-        </div>
-      </div>
-
       {/* Header */}
-      <div className="max-w-3xl space-y-6 mb-12">
+      <div className="max-w-3xl space-y-6 mb-8">
         <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
           <Sparkles className="w-4 h-4 text-emerald-400" /> AiX Health Educational Intelligence Engine
         </span>
         <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
-          AI Educational Health Coach & Science Synthesis.
+          AiX Health Education Coach
         </h1>
-        <p className="text-xl text-zinc-400 font-light leading-relaxed font-sans">
+        <p className="text-xl text-emerald-400 font-mono text-sm tracking-wide uppercase font-bold">
+          Educational information, not individualized medical advice.
+        </p>
+        <p className="text-base text-zinc-400 font-light leading-relaxed font-sans">
           Explore evidence-based research, biological mechanisms, lifestyle frameworks, and educational context for your health questions.
         </p>
+      </div>
+
+      {/* Visible AI Health Disclaimer */}
+      <div className="max-w-4xl mb-10">
+        <HealthDisclaimer type="AI" />
       </div>
 
       {/* Preset Buttons */}

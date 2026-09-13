@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowRight, ArrowLeft, Zap } from "lucide-react";
 import { editorialContent, EditorialArticle } from "../data/editorialContent";
+import { HealthDisclaimer, DisclaimerKey } from "./HealthDisclaimer";
+import { Disclaimers } from "@/lib/legal/disclaimers";
 
 export const CategoryHub = ({ category, title, description }: { category: string, title: string, description: string }) => {
   const [selectedLevel, setSelectedLevel] = useState<"All" | "Beginner" | "Advanced">("All");
@@ -17,6 +19,9 @@ export const CategoryHub = ({ category, title, description }: { category: string
     : selectedLevel === "Beginner" 
       ? articles.slice(0, Math.ceil(articles.length / 2))
       : articles.slice(Math.floor(articles.length / 2));
+
+  const upperCat = category.toUpperCase();
+  const disclaimerType: DisclaimerKey = (upperCat in Disclaimers ? upperCat : "GENERAL") as DisclaimerKey;
 
   return (
     <div className="min-h-screen pt-28 pb-32 px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
@@ -41,8 +46,11 @@ export const CategoryHub = ({ category, title, description }: { category: string
           {description}
         </p>
 
+        {/* Category Educational Disclaimer */}
+        <HealthDisclaimer type={disclaimerType} />
+
         {/* Problem -> Solution Banner */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
           <div className="p-6 rounded-3xl bg-[#101114] border border-white/[0.08] space-y-2">
             <p className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">The Challenge</p>
             <p className="text-sm text-zinc-300">Traditional approaches to {category.toLowerCase()} rely on fragmented recommendations without measuring baseline bio-markers.</p>

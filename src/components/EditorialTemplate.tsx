@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, Clock, CheckCircle2, MessageSquare, AlertTriangle, ListChecks, Target, ShieldCheck, Zap, Activity, Info, Droplets } from "lucide-react";
 import { EditorialArticle } from "../data/editorialContent";
 import { NewsletterBlock } from "./NewsletterBlock";
+import { HealthDisclaimer } from "./HealthDisclaimer";
 
 export const EditorialTemplate = ({ article, backHref, backLabel }: { article: EditorialArticle, backHref: string, backLabel: string }) => {
   return (
@@ -229,6 +230,11 @@ export const EditorialTemplate = ({ article, backHref, backLabel }: { article: E
         )}
 
       </article>
+
+      {/* Visible Article Health Disclaimer */}
+      <div className="max-w-[900px] mx-auto px-6 -mt-8 mb-8">
+        <HealthDisclaimer type="EDUCATION" />
+      </div>
 
       {/* Global Bottom CTA */}
       <div id="action" className="max-w-[900px] mx-auto px-6 mt-4">

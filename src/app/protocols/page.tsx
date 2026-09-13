@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { ArrowLeft, CheckCircle2, Target } from "lucide-react";
+import { HealthDisclaimer } from "@/components/HealthDisclaimer";
 
 export default function ProtocolsLibraryPage() {
   const [activeCategory, setActiveCategory] = useState<"All" | "Fitness" | "Skin" | "Longevity">("All");
@@ -98,6 +99,11 @@ export default function ProtocolsLibraryPage() {
             Request Customized Protocol →
           </Link>
         </div>
+      </div>
+
+      {/* Educational & Medical Disclaimer */}
+      <div className="max-w-4xl mb-12">
+        <HealthDisclaimer type="GENERAL" />
       </div>
 
       {/* Protocols List */}

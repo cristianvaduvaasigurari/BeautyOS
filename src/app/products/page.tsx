@@ -115,7 +115,7 @@ export default function ProductsPage() {
           Curated Excellence.
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl">
-          Discover the world&apos;s most scientifically validated skincare, longevity tools, and nutritional supplements. Evaluated by our clinical board.
+          Discover the world&apos;s most scientifically validated skincare, longevity tools, and nutritional supplements. Evaluated by our research and editorial team.
         </p>
       </div>
 
