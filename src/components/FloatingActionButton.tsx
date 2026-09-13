@@ -8,7 +8,7 @@ export const FloatingActionButton = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 flex flex-col items-end">
+    <div className="fixed bottom-20 right-6 md:bottom-10 md:right-10 z-50 flex flex-col items-end">
       
       {/* Expandable Menu */}
       <div 
