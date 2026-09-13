@@ -27,7 +27,7 @@ export default function AnalyticsPage() {
         
         <div className="flex items-center justify-between flex-wrap gap-4">
           <span className="px-3.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold uppercase tracking-wider flex items-center gap-2">
-            <Activity className="w-4 h-4" /> Apple Health-Grade Biomarker Analytics
+            <Activity className="w-4 h-4" /> Advanced Biomarker Analytics
           </span>
 
           <div className="flex bg-[#101114] border border-white/[0.08] rounded-full p-1 font-mono text-xs">

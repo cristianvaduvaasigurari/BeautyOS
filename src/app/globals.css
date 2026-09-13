@@ -114,6 +114,27 @@ body {
   animation: pulseGlow 6s ease-in-out infinite;
 }
 
+/* Information Ticker (Right to Left) */
+@keyframes ticker {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.animate-ticker {
+  display: flex;
+  width: max-content;
+  animation: ticker 45s linear infinite;
+  will-change: transform;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}
+
 /* Custom Scrollbars */
 ::-webkit-scrollbar {
   width: 6px;

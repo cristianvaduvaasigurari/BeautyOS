@@ -17,7 +17,7 @@ export const ProgressTab: React.FC = () => {
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <span className="text-[10px] font-mono text-[#E5C158] uppercase tracking-widest">
-            Apple Health Analytics • {journalEntries.length} Check-ins Logged
+            Health Analytics • {journalEntries.length} Check-ins Logged
           </span>
           <h1 className="text-2xl font-bold text-white tracking-tight">Progress & Trends</h1>
         </div>
@@ -38,7 +38,7 @@ export const ProgressTab: React.FC = () => {
         </div>
       </div>
 
-      {/* Main Apple Health Area Chart */}
+      {/* Main Health Area Chart */}
       <motion.div
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}

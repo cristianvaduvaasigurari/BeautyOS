@@ -36,7 +36,7 @@ export default function PricingPage() {
         "Everything in Free Plan",
         "Unlimited AI Health Coach Memory Engine",
         "Personalized 90-Day Protocols (Muscle, Fat Loss, Skin)",
-        "Advanced Apple-Style Analytics & Biomarkers",
+        "Advanced Health Analytics & Biomarkers",
         "Custom Supplement Recommendation Engine",
         "Progress Photo Journal & Habit Streaks",
         "Priority Lead & Support Ticket Processing"

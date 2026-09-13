@@ -13,6 +13,21 @@ import { SOCIAL_CONFIG } from "@/lib/contact/social";
 import { ECOSYSTEM_CONFIG } from "@/lib/ecosystem/config";
 import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
 
+const TICKER_ITEMS = [
+  "AIX HEALTH — HEALTH EDUCATION & INTELLIGENCE",
+  "224+ EDUCATIONAL FRAMEWORKS",
+  "LEVEL A–E EVIDENCE TAXONOMY",
+  "AI EDUCATIONAL COACH",
+  "SKIN HEALTH",
+  "HAIR & SCALP",
+  "FITNESS",
+  "NUTRITION",
+  "SUPPLEMENTS",
+  "LONGEVITY",
+  "SCIENCE & GUIDES",
+  "EDUCATIONAL CONTENT ONLY — NOT MEDICAL ADVICE"
+];
+
 export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
@@ -335,13 +350,21 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white font-sans selection:bg-emerald-500/30 selection:text-white flex flex-col">
       
-      {/* TOP ANNOUNCEMENT BAR */}
-      <div className="bg-[#0D0E12] text-white text-[11px] font-mono py-2.5 px-6 text-center border-b border-white/[0.08] flex items-center justify-center gap-2">
-        <span className="px-2 py-0.5 rounded-full bg-emerald-500 text-zinc-950 font-bold text-[9px] uppercase tracking-wider">AiX Health</span>
-        <span>The Apple-Grade Platform for Human Longevity, Fitness, Nutrition & Skincare</span>
-        <Link href="/contact" className="underline text-emerald-400 hover:text-white cursor-pointer ml-2">
-          Talk with an Expert →
-        </Link>
+      {/* TOP INFORMATION TICKER */}
+      <div 
+        className="bg-[#0D0E12] text-zinc-400 text-[10px] sm:text-[11px] font-mono py-2 border-b border-white/[0.08] overflow-hidden select-none whitespace-nowrap flex items-center"
+        aria-label="Platform intelligence updates"
+      >
+        <div className="animate-ticker flex items-center">
+          {[...TICKER_ITEMS, ...TICKER_ITEMS].map((item, idx) => (
+            <span key={idx} className="flex items-center shrink-0">
+              <span className={item.includes("AIX HEALTH") ? "text-emerald-400 font-bold tracking-wider" : item.includes("NOT MEDICAL ADVICE") ? "text-zinc-400 font-medium" : "text-zinc-300 font-medium"}>
+                {item}
+              </span>
+              <span className="text-zinc-600 px-3 sm:px-4">•</span>
+            </span>
+          ))}
+        </div>
       </div>
 
       {/* HEADER */}
@@ -744,7 +767,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                 </span>
               </Link>
               <p className="text-xs text-zinc-400 max-w-sm font-sans leading-relaxed">
-                The flagship Apple-quality ecosystem for biological youth, skincare science, fitness, nutrition, supplements, longevity, and evidence-based protocols for men and women.
+                The flagship health intelligence ecosystem for biological youth, skincare science, fitness, nutrition, supplements, longevity, and evidence-based protocols for men and women.
               </p>
               
               {/* CENTRALIZED CONTACT DETAILS */}

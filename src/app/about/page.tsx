@@ -17,7 +17,7 @@ export default function AboutPage() {
           Engineering Biological Youth & Human Performance.
         </h1>
         <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
-          AiX Health was founded on a singular premise: human health optimization shouldn&apos;t rely on guess work, marketing hype, or fragmented tools. We combine clinical evidence, biological tracking, and Apple-grade design.
+          AiX Health was founded on a singular premise: human health optimization shouldn&apos;t rely on guess work, marketing hype, or fragmented tools. We combine clinical evidence, biological tracking, and institutional-grade design.
         </p>
       </div>
 
