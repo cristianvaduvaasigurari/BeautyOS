@@ -163,7 +163,7 @@ export default function PricingPage() {
                 <CreditCard className="w-5 h-5 text-emerald-400" />
                 <h3 className="text-lg font-bold text-white">Subscribe to {selectedPlanModal}</h3>
               </div>
-              <button onClick={() => setSelectedPlanModal(null)} className="text-zinc-500 hover:text-white font-mono text-sm">✕</button>
+              <button onClick={() => setSelectedPlanModal(null)} aria-label="Close checkout modal" className="text-zinc-500 hover:text-white font-mono text-sm">✕</button>
             </div>
 
             <p className="text-xs text-zinc-400 font-sans">Stripe Secure Checkout integration ready. Your subscription will renew automatically according to your selected billing terms.</p>

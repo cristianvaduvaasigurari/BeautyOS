@@ -278,7 +278,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
                   <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-400 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
                     {sec.tag}
                   </span>
-                  <h3 className="text-xl font-bold text-white">Education First</h3>
+                  <h3 className="text-xl font-bold text-white">{sec.title}</h3>
                   <p className="text-lg text-zinc-400 font-normal leading-relaxed max-w-2xl font-sans">
                     {sec.description}
                   </p>

@@ -55,18 +55,22 @@ export const NewsletterBlock = () => {
         <div className="w-full md:w-auto md:min-w-[400px]">
           <form onSubmit={handleSubmit} className="flex flex-col gap-3">
             <div className="relative">
+              <label htmlFor="newsletter-email" className="sr-only">Email address</label>
               <input
                 type="email"
+                id="newsletter-email"
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email address"
+                aria-label="Enter your email address"
                 className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-6 py-4 text-white placeholder-zinc-500 focus:outline-none focus:border-emerald-500/50 transition-colors"
                 disabled={status === "loading"}
               />
               <button 
                 type="submit" 
                 disabled={status === "loading" || !email}
+                aria-label="Subscribe to newsletter"
                 className="absolute right-2 top-2 bottom-2 bg-emerald-500 text-zinc-950 px-6 rounded-lg font-bold text-xs hover:bg-emerald-400 transition-colors flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {status === "loading" ? <Loader2 className="w-4 h-4 animate-spin" /> : <>Join <ArrowRight className="w-3 h-3" /></>}

@@ -209,8 +209,11 @@ export default function AICoachPage() {
       <form onSubmit={handleGenerate} className="mb-12 relative max-w-4xl">
         <div className="relative flex items-center">
           <Bot className="w-6 h-6 text-emerald-400 absolute left-5 pointer-events-none" />
+          <label htmlFor="ai-coach-query" className="sr-only">Ask AiX Health Educational Coach</label>
           <input
             type="text"
+            id="ai-coach-query"
+            aria-label="Ask AiX Health Educational Coach"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Ask AiX Health (e.g. 'What does research say about energy balance and protein?')"

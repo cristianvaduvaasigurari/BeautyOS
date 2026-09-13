@@ -87,18 +87,18 @@ export default function AccountSecurityPage() {
 
           <form onSubmit={handlePasswordChange} className="space-y-4">
             <div className="space-y-2">
-              <label className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Current Password</label>
-              <input type="password" required value={currentPassword} onChange={e => setCurrentPassword(e.target.value)} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500/50" />
+              <label htmlFor="security-currentPassword" className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Current Password</label>
+              <input id="security-currentPassword" type="password" required value={currentPassword} onChange={e => setCurrentPassword(e.target.value)} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500/50" />
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-2">
-                <label className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">New Password</label>
-                <input type="password" required value={newPassword} onChange={e => setNewPassword(e.target.value)} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500/50" />
+                <label htmlFor="security-newPassword" className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">New Password</label>
+                <input id="security-newPassword" type="password" required value={newPassword} onChange={e => setNewPassword(e.target.value)} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500/50" />
               </div>
               <div className="space-y-2">
-                <label className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Confirm New Password</label>
-                <input type="password" required value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500/50" />
+                <label htmlFor="security-confirmPassword" className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Confirm New Password</label>
+                <input id="security-confirmPassword" type="password" required value={confirmPassword} onChange={e => setConfirmPassword(e.target.value)} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:border-emerald-500/50" />
               </div>
             </div>
 

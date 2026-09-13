@@ -150,38 +150,38 @@ export default function ContactPage() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">First Name *</label>
-              <input required type="text" name="firstName" value={formData.firstName} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. Alex" />
+              <label htmlFor="contact-firstName" className="text-xs font-mono uppercase tracking-widest text-zinc-500">First Name *</label>
+              <input id="contact-firstName" required type="text" name="firstName" value={formData.firstName} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. Alex" />
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Last Name *</label>
-              <input required type="text" name="lastName" value={formData.lastName} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. Morgan" />
+              <label htmlFor="contact-lastName" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Last Name *</label>
+              <input id="contact-lastName" required type="text" name="lastName" value={formData.lastName} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. Morgan" />
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Email *</label>
-              <input required type="email" name="email" value={formData.email} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="alex@example.com" />
+              <label htmlFor="contact-email" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Email *</label>
+              <input id="contact-email" required type="email" name="email" value={formData.email} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="alex@example.com" />
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Phone</label>
-              <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="+1 (555) 000-0000" />
+              <label htmlFor="contact-phone" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Phone</label>
+              <input id="contact-phone" type="tel" name="phone" value={formData.phone} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="+1 (555) 000-0000" />
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Country</label>
-              <input type="text" name="country" value={formData.country} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. US" />
+              <label htmlFor="contact-country" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Country</label>
+              <input id="contact-country" type="text" name="country" value={formData.country} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. US" />
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Age</label>
-              <input type="number" name="age" value={formData.age} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. 32" />
+              <label htmlFor="contact-age" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Age</label>
+              <input id="contact-age" type="number" name="age" value={formData.age} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. 32" />
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Gender</label>
-              <select name="gender" value={formData.gender} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors appearance-none">
+              <label htmlFor="contact-gender" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Gender</label>
+              <select id="contact-gender" name="gender" value={formData.gender} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors appearance-none">
                 <option value="">Select...</option>
                 <option value="Female">Female</option>
                 <option value="Male">Male</option>
@@ -192,8 +192,8 @@ export default function ContactPage() {
           </div>
 
           <div className="space-y-2">
-            <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Primary Goal</label>
-            <select name="goal" value={formData.goal} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors appearance-none">
+            <label htmlFor="contact-goal" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Primary Goal</label>
+            <select id="contact-goal" name="goal" value={formData.goal} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors appearance-none">
               <option value="">Select your main focus...</option>
               <option value="Skincare & Barrier Health">Skincare & Barrier Health</option>
               <option value="Hair Growth & Scalp Microbiome">Hair Growth & Scalp Microbiome</option>
@@ -206,8 +206,8 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Skin / Health Profile</label>
-              <select name="skinType" value={formData.skinType} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors appearance-none">
+              <label htmlFor="contact-skinType" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Skin / Health Profile</label>
+              <select id="contact-skinType" name="skinType" value={formData.skinType} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors appearance-none">
                 <option value="">Select...</option>
                 <option value="Oily">Oily</option>
                 <option value="Dry">Dry</option>
@@ -217,28 +217,28 @@ export default function ContactPage() {
               </select>
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Primary Health Concern</label>
-              <input type="text" name="concern" value={formData.concern} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. Acne, Muscle Loss, Sleep Depth, Fatigue" />
+              <label htmlFor="contact-concern" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Primary Health Concern</label>
+              <input id="contact-concern" type="text" name="concern" value={formData.concern} onChange={handleChange} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors" placeholder="e.g. Acne, Muscle Loss, Sleep Depth, Fatigue" />
             </div>
           </div>
 
           <div className="space-y-2">
-            <label className="text-xs font-mono uppercase tracking-widest text-zinc-500">Message / Request *</label>
-            <textarea required name="message" value={formData.message} onChange={handleChange} rows={5} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors resize-none" placeholder="Detail your current daily routine, goals, and specific questions..."></textarea>
+            <label htmlFor="contact-message" className="text-xs font-mono uppercase tracking-widest text-zinc-500">Message / Request *</label>
+            <textarea id="contact-message" required name="message" value={formData.message} onChange={handleChange} rows={5} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors resize-none" placeholder="Detail your current daily routine, goals, and specific questions..."></textarea>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="space-y-2">
-              <label className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Current Routine</label>
-              <textarea name="currentRoutine" value={formData.currentRoutine} onChange={handleChange} rows={3} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors text-sm" placeholder="AM/PM routines..."></textarea>
+              <label htmlFor="contact-currentRoutine" className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Current Routine</label>
+              <textarea id="contact-currentRoutine" name="currentRoutine" value={formData.currentRoutine} onChange={handleChange} rows={3} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors text-sm" placeholder="AM/PM routines..."></textarea>
             </div>
             <div className="space-y-2">
-              <label className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Products Used</label>
-              <textarea name="productsUsed" value={formData.productsUsed} onChange={handleChange} rows={3} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors text-sm" placeholder="List key products/actives..."></textarea>
+              <label htmlFor="contact-productsUsed" className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Products Used</label>
+              <textarea id="contact-productsUsed" name="productsUsed" value={formData.productsUsed} onChange={handleChange} rows={3} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors text-sm" placeholder="List key products/actives..."></textarea>
             </div>
             <div className="space-y-2">
-              <label className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Supplements Used</label>
-              <textarea name="supplementsUsed" value={formData.supplementsUsed} onChange={handleChange} rows={3} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors text-sm" placeholder="List daily supplements..."></textarea>
+              <label htmlFor="contact-supplementsUsed" className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">Supplements Used</label>
+              <textarea id="contact-supplementsUsed" name="supplementsUsed" value={formData.supplementsUsed} onChange={handleChange} rows={3} className="w-full bg-[#0A0A0A] border border-white/[0.08] rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500/50 transition-colors text-sm" placeholder="List daily supplements..."></textarea>
             </div>
           </div>
 

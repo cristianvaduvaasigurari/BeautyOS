@@ -401,6 +401,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             <button 
               onClick={() => setSearchOpen(true)}
               className="p-2 rounded-xl bg-zinc-900/80 border border-white/[0.08] hover:border-emerald-500/40 text-zinc-400 hover:text-white transition-colors flex items-center gap-2 text-xs font-mono"
+              aria-label="Search"
             >
               <Search className="w-4 h-4" />
               <span className="hidden sm:inline">Search...</span>
@@ -411,13 +412,14 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               Consultation
             </Link>
 
-            <Link href={userSession ? "/dashboard" : "/dashboard"} className="p-2 rounded-xl bg-zinc-900 border border-white/[0.08] hover:border-white/20 text-zinc-300 hover:text-white transition-colors">
+            <Link href={userSession ? "/dashboard" : "/dashboard"} className="p-2 rounded-xl bg-zinc-900 border border-white/[0.08] hover:border-white/20 text-zinc-300 hover:text-white transition-colors" aria-label="Account Dashboard">
               <User className="w-4 h-4" />
             </Link>
 
             <button 
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="lg:hidden p-2 rounded-xl bg-zinc-900 border border-white/[0.08] text-zinc-300"
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
@@ -647,8 +649,11 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             >
               <div className="p-6 border-b border-white/[0.08] flex items-center gap-3">
                 <Search className="w-5 h-5 text-emerald-400" />
+                <label htmlFor="global-search-input" className="sr-only">Search articles, guides, supplements, science</label>
                 <input 
                   type="text"
+                  id="global-search-input"
+                  aria-label="Search articles, guides, supplements, science"
                   placeholder="Search articles, guides, supplements, science..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
@@ -658,6 +663,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                 <button 
                   onClick={() => setSearchOpen(false)}
                   className="p-1 rounded-lg bg-zinc-800 text-zinc-400 hover:text-white"
+                  aria-label="Close search"
                 >
                   <X className="w-4 h-4" />
                 </button>

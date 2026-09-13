@@ -80,6 +80,7 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
       {isModal && onClose && (
         <button
           onClick={onClose}
+          aria-label="Close authentication modal"
           className="absolute top-5 right-5 text-zinc-400 hover:text-white p-1 rounded-full bg-zinc-900 border border-white/[0.06] cursor-pointer"
         >
           <X className="w-4 h-4" />
@@ -110,8 +111,9 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
       <form onSubmit={handleSubmit} className="space-y-4 text-xs font-sans">
         {isSignUp && (
           <div className="space-y-1.5">
-            <label className="block text-zinc-300 font-medium">Full Name</label>
+            <label htmlFor="auth-fullName" className="block text-zinc-300 font-medium">Full Name</label>
             <input
+              id="auth-fullName"
               type="text"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
@@ -123,9 +125,10 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         )}
 
         <div className="space-y-1.5">
-          <label className="block text-zinc-300 font-medium">Email Address</label>
+          <label htmlFor="auth-email" className="block text-zinc-300 font-medium">Email Address</label>
           <div className="relative">
             <input
+              id="auth-email"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -138,9 +141,10 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
         </div>
 
         <div className="space-y-1.5">
-          <label className="block text-zinc-300 font-medium">Password</label>
+          <label htmlFor="auth-password" className="block text-zinc-300 font-medium">Password</label>
           <div className="relative">
             <input
+              id="auth-password"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
