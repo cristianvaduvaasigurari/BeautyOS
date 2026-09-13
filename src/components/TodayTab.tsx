@@ -71,7 +71,7 @@ export const TodayTab: React.FC = () => {
           <h1 className="text-2xl font-bold text-white font-sans tracking-tight">Today&apos;s Barrier Status</h1>
           <p className="text-xs text-[#A1A1AA] max-w-[240px] leading-relaxed">
             {currentSkinIndex >= 85 && "Skin barrier is hydrated and balanced. Maintain daily SPF photoprotection."}
-            {currentSkinIndex >= 70 && currentSkinIndex < 85 && "Overall skin status is stable. Continue prescribed AM/PM routine."}
+            {currentSkinIndex >= 70 && currentSkinIndex < 85 && "Overall skin status is stable. Continue scheduled AM/PM routine."}
             {currentSkinIndex < 70 && "Skin barrier is compromised. Pause active exfoliants and layer ceramides."}
           </p>
         </div>

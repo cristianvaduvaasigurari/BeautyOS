@@ -53,7 +53,7 @@ export function calculateHealthScore(inputs: HealthScoreInputs): HealthScoreResu
   const recommendations: string[] = [];
   if (sleepScore < 80) recommendations.push("Increase sleep duration to 8h for optimal neural recovery.");
   if (nutritionScore < 80) recommendations.push("Increase protein intake to hit your 2.2g/kg daily target.");
-  if (!inputs.trainingCompleted) recommendations.push("Complete today's prescribed strength session.");
+  if (!inputs.trainingCompleted) recommendations.push("Complete today's scheduled strength session.");
   if (recoveryScore < 70) recommendations.push("Add 15 minutes of foam rolling or contrast hydrotherapy.");
   if (consistencyScore < 50) recommendations.push("Maintain daily check-ins to build compounding protocol adherence.");
 
