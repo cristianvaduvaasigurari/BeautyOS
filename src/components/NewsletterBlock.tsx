@@ -70,7 +70,6 @@ export const NewsletterBlock = () => {
               <button 
                 type="submit" 
                 disabled={status === "loading" || !email}
-                aria-label="Subscribe to newsletter"
                 className="absolute right-2 top-2 bottom-2 bg-emerald-500 text-zinc-950 px-6 rounded-lg font-bold text-xs hover:bg-emerald-400 transition-colors flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {status === "loading" ? <Loader2 className="w-4 h-4 animate-spin" /> : <>Join <ArrowRight className="w-3 h-3" /></>}
@@ -79,7 +78,7 @@ export const NewsletterBlock = () => {
             {status === "error" && (
               <p className="text-xs text-rose-400 font-medium pl-2">{errorMessage}</p>
             )}
-            <p className="text-[10px] text-zinc-500 text-center font-mono tracking-widest uppercase mt-2">
+            <p className="text-[10px] text-zinc-400 text-center font-mono tracking-widest uppercase mt-2">
               Evidence-Based Intelligence. Zero Spam. Free. No Payment Required.
             </p>
           </form>

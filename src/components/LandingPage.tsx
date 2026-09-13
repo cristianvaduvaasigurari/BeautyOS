@@ -187,15 +187,15 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onGetStarted }) => {
           <div className="pt-12 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto border-t border-white/[0.08] text-left">
             <div>
               <p className="text-2xl font-bold font-mono text-white">224+</p>
-              <p className="text-xs text-zinc-500 uppercase tracking-widest font-mono">Educational Frameworks</p>
+              <p className="text-xs text-zinc-400 uppercase tracking-widest font-mono">Educational Frameworks</p>
             </div>
             <div>
               <p className="text-2xl font-bold font-mono text-white">Level A–E</p>
-              <p className="text-xs text-zinc-500 uppercase tracking-widest font-mono">Evidence Level Taxonomy</p>
+              <p className="text-xs text-zinc-400 uppercase tracking-widest font-mono">Evidence Level Taxonomy</p>
             </div>
             <div>
               <p className="text-2xl font-bold font-mono text-white">24/7</p>
-              <p className="text-xs text-zinc-500 uppercase tracking-widest font-mono">AI Educational Coach</p>
+              <p className="text-xs text-zinc-400 uppercase tracking-widest font-mono">AI Educational Coach</p>
             </div>
           </div>
 

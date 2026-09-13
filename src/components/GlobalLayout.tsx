@@ -749,10 +749,10 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
               
               {/* CENTRALIZED CONTACT DETAILS */}
               <div className="space-y-1 pt-2 text-xs font-mono text-zinc-400">
-                <p><span className="text-zinc-500">Email:</span> <a href={CONTACT_CONFIG.mailtoUrl} className="hover:text-emerald-400">{CONTACT_CONFIG.email}</a></p>
-                <p><span className="text-zinc-500">Phone:</span> <a href={CONTACT_CONFIG.telUrl} className="hover:text-emerald-400">{CONTACT_CONFIG.phoneInt} ({CONTACT_CONFIG.phoneRo})</a></p>
-                <p><span className="text-zinc-500">WhatsApp:</span> <a href={CONTACT_CONFIG.whatsAppUrl} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400">{CONTACT_CONFIG.whatsApp}</a></p>
-                <p><span className="text-zinc-500">Office:</span> {CONTACT_CONFIG.office}</p>
+                <p><span className="text-zinc-400">Email:</span> <a href={CONTACT_CONFIG.mailtoUrl} className="hover:text-emerald-400">{CONTACT_CONFIG.email}</a></p>
+                <p><span className="text-zinc-400">Phone:</span> <a href={CONTACT_CONFIG.telUrl} className="hover:text-emerald-400">{CONTACT_CONFIG.phoneInt} ({CONTACT_CONFIG.phoneRo})</a></p>
+                <p><span className="text-zinc-400">WhatsApp:</span> <a href={CONTACT_CONFIG.whatsAppUrl} target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400">{CONTACT_CONFIG.whatsApp}</a></p>
+                <p><span className="text-zinc-400">Office:</span> {CONTACT_CONFIG.office}</p>
               </div>
 
               {/* SOCIAL LINKS */}
@@ -773,7 +773,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
 
             {/* AiX ECOSYSTEM FOOTER COLUMN */}
             <div className="space-y-3">
-              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h5>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h3>
               <ul className="space-y-2 text-xs text-zinc-400">
                 {ECOSYSTEM_CONFIG.map((item) => (
                   <li key={item.id}>
@@ -799,7 +799,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
 
             <div className="space-y-3">
-              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Verticals</h5>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Verticals</h3>
               <ul className="space-y-2 text-xs text-zinc-400">
                 <li><Link href="/skin" className="hover:text-white transition-colors">Skin Health</Link></li>
                 <li><Link href="/hair" className="hover:text-white transition-colors">Hair & Scalp</Link></li>
@@ -812,7 +812,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
 
             <div className="space-y-3">
-              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Science & Guides</h5>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Science & Guides</h3>
               <ul className="space-y-2 text-xs text-zinc-400">
                 <li><Link href="/science" className="hover:text-white transition-colors">Science Hub</Link></li>
                 <li><Link href="/guides" className="hover:text-white transition-colors">All Guides</Link></li>
@@ -823,7 +823,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
 
             <div className="space-y-3">
-              <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Company & Legal</h5>
+              <h3 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">Company & Legal</h3>
               <ul className="space-y-2 text-xs text-zinc-400">
                 <li><Link href="/about" className="hover:text-white transition-colors">About AiX Health</Link></li>
                 <li><Link href="/contact" className="hover:text-white transition-colors">Contact & Support</Link></li>
@@ -847,7 +847,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             </p>
           </div>
 
-          <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 font-mono gap-4">
+          <div className="pt-8 border-t border-white/[0.06] flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-400 font-mono gap-4">
             <p>© {new Date().getFullYear()} AiX Health. All rights reserved. Educational & Evidence-Based Digital Health Platform.</p>
             <div className="flex items-center gap-6">
               <Link href="/disclaimer" className="hover:text-zinc-300">Disclaimer</Link>
