@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import { sendTelegramNotification } from '@/lib/telegram/notify';
+import { getSupabaseServerClient } from '@/lib/supabaseServer';
+import { buildSecurityEventMessage, sendRawTelegramHtml } from '@/lib/telegram/visitorIntelligenceFormatter';
 
 // Simple in-memory rate limiter for lead submissions: 5 requests per IP per minute
 const contactRateLimits = new Map<string, { count: number; expiresAt: number }>();
@@ -33,6 +35,17 @@ export async function POST(request: Request) {
   try {
     const clientIp = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown-ip';
     if (isRateLimited(clientIp)) {
+      const secMsg = buildSecurityEventMessage({
+        severity: 'MEDIUM',
+        eventType: 'RATE_LIMIT_TRIGGERED',
+        endpoint: '/api/contact',
+        ipHash: clientIp.slice(0, 8) + '...',
+        timestamp: new Date().toISOString(),
+        action: 'Contact request throttled',
+        status: 'MITIGATED',
+      });
+      sendRawTelegramHtml(secMsg).catch(() => {});
+
       return NextResponse.json(
         { error: 'Too many requests. Please wait a minute before submitting again.' },
         { status: 429 }
@@ -78,6 +91,24 @@ export async function POST(request: Request) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       return NextResponse.json({ error: 'Invalid email address format.' }, { status: 400 });
+    }
+
+    // Safely persist lead in Supabase database
+    const supabase = getSupabaseServerClient();
+    if (supabase) {
+      try {
+        await supabase.from('leads').insert({
+          first_name: firstName,
+          last_name: lastName,
+          email,
+          phone: phone || null,
+          goal: goal || null,
+          message,
+          source: source || '/contact',
+        });
+      } catch (dbErr) {
+        console.error('[Contact API] Non-blocking DB insert error:', dbErr);
+      }
     }
 
     // Attempt Telegram notification safely via central notification service
@@ -129,4 +160,3 @@ export async function PUT() {
 export async function DELETE() {
   return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
 }
-

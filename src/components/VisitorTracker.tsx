@@ -1,17 +1,22 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
+import { sendVisitorEvent } from "@/lib/analytics/visitorIntelligence";
 import { sendTelemetryEvent } from "@/lib/analytics/telemetry";
-
 
 export function VisitorTracker() {
   const pathname = usePathname();
+  const pageEnterTimeRef = useRef<number>(0);
+  const milestonesReachedRef = useRef<Set<number>>(new Set());
 
   useEffect(() => {
     if (!pathname) return;
 
-    // Format page title from pathname
+    pageEnterTimeRef.current = Date.now();
+    milestonesReachedRef.current = new Set();
+
+    // Format readable page title
     let pageTitle = "AiX Health";
     if (pathname === "/") {
       pageTitle = "AiX Health Homepage";
@@ -35,22 +40,82 @@ export function VisitorTracker() {
     else if (pathname.startsWith("/pricing")) category = "PRICING";
     else if (pathname.startsWith("/dashboard")) category = "DASHBOARD";
 
-    let eventType: "VISITOR_PAGE_VIEW" | "VISITOR_PRODUCT_VIEW" | "VISITOR_PROGRAM_VIEW" | "AI_HIGH_INTENT" = "VISITOR_PAGE_VIEW";
+    let legacyEventType: "VISITOR_PAGE_VIEW" | "VISITOR_PRODUCT_VIEW" | "VISITOR_PROGRAM_VIEW" | "AI_HIGH_INTENT" = "VISITOR_PAGE_VIEW";
     if (pathname.includes("/supplements/") || pathname.includes("/ingredients/")) {
-      eventType = "VISITOR_PRODUCT_VIEW";
+      legacyEventType = "VISITOR_PRODUCT_VIEW";
     } else if (pathname.includes("/guides/") || pathname.includes("/protocols/")) {
-      eventType = "VISITOR_PROGRAM_VIEW";
+      legacyEventType = "VISITOR_PROGRAM_VIEW";
     } else if (pathname === "/ai-coach") {
-      eventType = "AI_HIGH_INTENT";
+      legacyEventType = "AI_HIGH_INTENT";
     }
 
-    // Track route navigation
+    // 1. Dispatch Visitor Intelligence v2 PAGE_VIEW
+    sendVisitorEvent("PAGE_VIEW", {
+      path: pathname,
+      title: pageTitle,
+    });
+
+    // Specific content view triggers
+    if (pathname.startsWith("/ai-coach")) {
+      sendVisitorEvent("AI_COACH_OPENED", { path: pathname });
+    } else if (pathname.startsWith("/protocols") || pathname.startsWith("/guides")) {
+      sendVisitorEvent("PROTOCOL_VIEWED", { path: pathname });
+    } else if (pathname.startsWith("/supplements") || pathname.startsWith("/ingredients")) {
+      sendVisitorEvent("SUPPLEMENT_VIEWED", { path: pathname });
+    } else if (pathname.startsWith("/nutrition")) {
+      sendVisitorEvent("NUTRITION_VIEWED", { path: pathname });
+    } else if (pathname.startsWith("/fitness")) {
+      sendVisitorEvent("FITNESS_VIEWED", { path: pathname });
+    }
+
+    // 2. Legacy Telemetry event
     sendTelemetryEvent({
-      event: eventType,
+      event: legacyEventType,
       sourceRoute: pathname,
       category,
       pageTitle,
     });
+
+    // 3. Scroll tracking at 25%, 50%, 75%, 90%
+    const handleScroll = () => {
+      if (typeof window === "undefined") return;
+      const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (scrollHeight <= 0) return;
+
+      const scrollPercentage = Math.round((window.scrollY / scrollHeight) * 100);
+      const thresholds = [25, 50, 75, 90];
+
+      for (const threshold of thresholds) {
+        if (scrollPercentage >= threshold && !milestonesReachedRef.current.has(threshold)) {
+          milestonesReachedRef.current.add(threshold);
+          sendVisitorEvent("SCROLL", {
+            path: pathname,
+            scrollDepth: threshold,
+          });
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    // 4. Page exit tracking
+    const handleExit = () => {
+      const durationSeconds = pageEnterTimeRef.current > 0
+        ? Math.round((Date.now() - pageEnterTimeRef.current) / 1000)
+        : 0;
+      sendVisitorEvent("PAGE_EXIT", {
+        path: pathname,
+        durationSeconds,
+      });
+    };
+
+    window.addEventListener("beforeunload", handleExit);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("beforeunload", handleExit);
+      handleExit();
+    };
   }, [pathname]);
 
   return null;

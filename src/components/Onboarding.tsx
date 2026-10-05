@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useAiXHealth } from "../context/HealthOSContext";
 import { ArrowRight, Check, Activity } from "lucide-react";
+import { sendVisitorEvent } from "@/lib/analytics/visitorIntelligence";
 
 export const Onboarding: React.FC = () => {
   const { submitOnboarding } = useAiXHealth();
@@ -12,6 +13,10 @@ export const Onboarding: React.FC = () => {
   const [sensitivity, setSensitivity] = useState<"Low" | "Medium" | "High">("Low");
   const [selectedConcerns, setSelectedConcerns] = useState<string[]>([]);
   const [selectedGoals, setSelectedGoals] = useState<string[]>([]);
+
+  useEffect(() => {
+    sendVisitorEvent('ONBOARDING_STARTED', { path: '/onboarding' });
+  }, []);
 
   const concernsList = [
     "Acne & Skin Clarity",
@@ -37,8 +42,22 @@ export const Onboarding: React.FC = () => {
 
   const handleNext = () => {
     if (step < 4) {
+      sendVisitorEvent('ONBOARDING_STEP_COMPLETED', {
+        path: '/onboarding',
+        metadata: { step, nextStep: step + 1 },
+      });
       setStep(step + 1);
     } else {
+      sendVisitorEvent('ONBOARDING_COMPLETED', {
+        path: '/onboarding',
+        conversionType: 'ONBOARDING_COMPLETED',
+        metadata: {
+          skinType,
+          sensitivity,
+          concernsCount: selectedConcerns.length,
+          goalsCount: selectedGoals.length,
+        },
+      });
       submitOnboarding({
         skinType,
         sensitivity,
