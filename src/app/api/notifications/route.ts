@@ -15,14 +15,16 @@ const sanitizeString = (val: unknown, maxLen = 200): string => {
 
 export async function POST(request: Request) {
   try {
-    // Optional internal secret validation for cron / backend dispatcher triggers
+    // Fail-closed authorization: require secret or bearer token
     const expectedSecret = process.env.INTERNAL_API_SECRET || process.env.CRON_SECRET;
-    if (expectedSecret) {
-      const authHeader = request.headers.get('authorization');
-      const providedSecret = authHeader ? authHeader.replace(/^Bearer\s+/i, '') : request.headers.get('x-internal-secret');
-      if (providedSecret !== expectedSecret) {
-        return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
-      }
+    const authHeader = request.headers.get('authorization');
+    const providedSecret = authHeader ? authHeader.replace(/^Bearer\s+/i, '') : request.headers.get('x-internal-secret');
+
+    if (!expectedSecret || !providedSecret || providedSecret !== expectedSecret) {
+      return NextResponse.json(
+        { error: 'Unauthorized: notification dispatcher requires valid internal authorization.' },
+        { status: 401 }
+      );
     }
 
     let body: Record<string, unknown>;

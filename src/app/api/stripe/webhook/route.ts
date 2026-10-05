@@ -50,8 +50,11 @@ export async function POST(request: Request) {
       const signature = request.headers.get('stripe-signature');
       const isValid = verifyStripeSignature(body, signature, webhookSecret);
       if (!isValid) {
-        return NextResponse.json({ error: 'Invalid Stripe signature' }, { status: 400 });
+        return NextResponse.json({ error: 'Invalid or missing Stripe signature' }, { status: 400 });
       }
+    } else if (process.env.NODE_ENV === 'production') {
+      // In production, unconfigured webhook endpoint must fail closed
+      return NextResponse.json({ error: 'Stripe webhook endpoint is inactive' }, { status: 503 });
     }
 
     let event: { type: string; data: { object: { id: string; customer?: string; status?: string } } };
