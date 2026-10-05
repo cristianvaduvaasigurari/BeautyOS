@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState, useEffect, useCallback } from "react";
 import { supabase } from "../lib/supabaseClient";
 import { trackBetaEvent } from "../lib/analytics";
 
@@ -187,6 +187,7 @@ interface AiXHealthContextType {
   toggleRoutineStep: (stepId: string, isMorning: boolean) => void;
   addCustomProductToCabinet: (brand: string, name: string, category: Product["category"], ingredientNames: string[], pao: number, openedDate: string, placements: ("morning" | "evening")[]) => void;
   clearAllUserData: () => void;
+  refreshUserData: () => Promise<void>;
 }
 
 let idCounter = 0;
@@ -222,23 +223,82 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   const [recommendations, setRecommendations] = useState<HealthRecommendation[]>([]);
   const [currentSkinIndex, setCurrentSkinIndex] = useState<number>(85);
 
+  // Cross-device synchronization function: fetches server state if user is logged in
+  const refreshUserData = useCallback(async () => {
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      if (session?.user?.id) {
+        const userId = session.user.id;
+        
+        // Fetch user profile
+        const { data: profileData } = await supabase
+          .from("users_profile")
+          .select("*")
+          .eq("user_id", userId)
+          .maybeSingle();
+
+        if (profileData) {
+          const profile: HealthProfile = {
+            id: profileData.id || `hp_${userId}`,
+            profileId: userId,
+            skinType: profileData.skin_type || "Normal",
+            sensitivity: profileData.sensitivity || "Low",
+            concerns: profileData.concerns || [],
+            goals: profileData.goals || [],
+          };
+          setSkinProfile(profile);
+          setIsOnboarded(true);
+        }
+
+        // Fetch daily checkins / metrics
+        const { data: metricsData } = await supabase
+          .from("health_metrics")
+          .select("*")
+          .eq("user_id", userId)
+          .order("date", { ascending: false })
+          .limit(30);
+
+        if (metricsData && metricsData.length > 0) {
+          const entries: JournalEntry[] = (metricsData as Record<string, unknown>[]).map((m) => ({
+            id: (m.id as string) || generateId("je"),
+            userId: (m.user_id as string) || userId,
+            date: (m.date as string) || new Date().toISOString().split("T")[0],
+            hydration: Math.min(5, Math.max(1, Math.round(((m.hydration_ml as number) || 2000) / 500))),
+            redness: 1,
+            irritation: 1,
+            sleep: (m.sleep_hours as number) || 8,
+            water: (m.hydration_ml as number) || 2000,
+            notes: "",
+            skinIndex: (m.energy_score as number) || 85,
+          }));
+          setJournalEntries(entries);
+          if (entries[0]) {
+            setCurrentSkinIndex(entries[0].skinIndex);
+          }
+        }
+      }
+    } catch (err) {
+      console.debug("[HealthOSContext] Cross-device sync fetch completed:", err);
+    }
+  }, []);
+
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
       setUserSession(session);
-      if (!session) {
-        const token = localStorage.getItem("sb-access-token");
-        if (token) {
-          setUserSession({ user: { id: "user_mock_123", email: "mock@healthos.local" } });
-        }
+      if (session) {
+        refreshUserData();
       }
     });
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setUserSession(session);
+      if (session) {
+        refreshUserData();
+      }
     });
 
     return () => subscription.unsubscribe();
-  }, []);
+  }, [refreshUserData]);
 
   useEffect(() => {
     const handleOnline = () => setSyncStatus((prev) => (prev === "offline" ? "syncing" : prev));
@@ -262,6 +322,7 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     };
   }, []);
 
+  // Offline / Optimistic sync queue processor
   useEffect(() => {
     if (syncStatus === "offline" || syncQueue.length === 0) {
       if (syncStatus !== "offline") {
@@ -309,6 +370,7 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     };
   }, [syncQueue, syncStatus]);
 
+  // Initial load from local storage
   useEffect(() => {
     const timer = setTimeout(() => {
       const storedProfile = localStorage.getItem("health_profile");
@@ -336,6 +398,7 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     return () => clearTimeout(timer);
   }, []);
 
+  // Sync to local storage for offline resilience
   useEffect(() => {
     if (!isOnboarded) return;
     localStorage.setItem("health_profile", JSON.stringify(skinProfile));
@@ -423,15 +486,33 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   };
 
   const submitOnboarding = (assessment: Omit<HealthProfile, "id" | "profileId">) => {
+    const userId = userSession?.user?.id || "anon";
     const newProfile: HealthProfile = {
       id: generateId("hp"),
-      profileId: userSession?.user?.id || "anon",
+      profileId: userId,
       ...assessment,
     };
     setSkinProfile(newProfile);
     setIsOnboarded(true);
 
     trackBetaEvent("onboarding_completed", { skinType: assessment.skinType });
+
+    // If authenticated, persist directly to Supabase users_profile
+    if (userSession?.user?.id) {
+      Promise.resolve(
+        supabase
+          .from("users_profile")
+          .upsert({
+            user_id: userSession.user.id,
+            skin_type: assessment.skinType,
+            sensitivity: assessment.sensitivity,
+            concerns: assessment.concerns,
+            goals: assessment.goals,
+            updated_at: new Date().toISOString(),
+          })
+      ).catch(() => {});
+    }
+
     pushToSyncQueue("health_profiles", "INSERT", newProfile);
   };
 
@@ -445,10 +526,11 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     base += Math.min(10, (checkin.water / 250) * 1.2);
 
     const calculatedIndex = Math.min(100, Math.max(15, Math.round(base)));
+    const userId = userSession?.user?.id || "anon";
 
     const newEntry: JournalEntry = {
       id: generateId("je"),
-      userId: userSession?.user?.id || "anon",
+      userId,
       date: dateStr,
       skinIndex: calculatedIndex,
       ...checkin,
@@ -458,6 +540,22 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     setCurrentSkinIndex(calculatedIndex);
 
     trackBetaEvent("skin_checkin_logged", { skinIndex: calculatedIndex });
+
+    // If authenticated, persist to health_metrics table in Supabase
+    if (userSession?.user?.id) {
+      Promise.resolve(
+        supabase
+          .from("health_metrics")
+          .upsert({
+            user_id: userSession.user.id,
+            date: dateStr,
+            sleep_hours: checkin.sleep,
+            hydration_ml: checkin.water,
+            energy_score: calculatedIndex,
+          })
+      ).catch(() => {});
+    }
+
     pushToSyncQueue("journal_entries", "INSERT", newEntry);
   };
 
@@ -470,10 +568,11 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     const expireStr = opened.toISOString().split("T")[0];
 
     const { fitScore, alerts } = calculateProductFitAndAlerts(catalogItem.ingredients, skinProfile);
+    const userId = userSession?.user?.id || "anon";
 
     const newUserProd: UserProduct = {
       id: generateId("up"),
-      userId: userSession?.user?.id || "anon",
+      userId,
       productId,
       openedAt: openedDate,
       expiresAt: expireStr,
@@ -555,9 +654,29 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
   const signOutUser = () => {
     supabase.auth.signOut();
-    localStorage.clear();
+    // Clear user account data while preserving anonymous visitor ID for continuous analytics
+    const keysToRemove = [
+      "health_profile",
+      "user_cabinet",
+      "morning_steps",
+      "evening_steps",
+      "journal_entries",
+      "progress_photos",
+      "health_events",
+      "offline_sync_queue",
+      "user_fullname",
+      "sb-access-token",
+    ];
+    keysToRemove.forEach((k) => localStorage.removeItem(k));
     setUserSession(null);
     setIsOnboarded(false);
+    setSkinProfile(null);
+    setUserCabinet([]);
+    setMorningSteps([]);
+    setEveningSteps([]);
+    setJournalEntries([]);
+    setProgressPhotos([]);
+    setEvents([]);
   };
 
   const clearAllUserData = () => {
@@ -570,7 +689,18 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     setEvents([]);
     setIsOnboarded(false);
     setActiveTab("today");
-    localStorage.clear();
+    const keysToRemove = [
+      "health_profile",
+      "user_cabinet",
+      "morning_steps",
+      "evening_steps",
+      "journal_entries",
+      "progress_photos",
+      "health_events",
+      "offline_sync_queue",
+      "user_fullname",
+    ];
+    keysToRemove.forEach((k) => localStorage.removeItem(k));
   };
 
   return (
@@ -599,6 +729,7 @@ export const AiXHealthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
         toggleRoutineStep,
         addCustomProductToCabinet,
         clearAllUserData,
+        refreshUserData,
       }}
     >
       {children}

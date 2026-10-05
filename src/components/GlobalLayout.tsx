@@ -719,12 +719,12 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
       </AnimatePresence>
 
       {/* MAIN CONTENT AREA */}
-      <main className="flex-grow">
+      <main className="flex-grow pb-20 lg:pb-0">
         {children}
       </main>
 
       {/* MOBILE BOTTOM NAVIGATION BAR */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#0E0F14]/95 border-t border-white/[0.08] backdrop-blur-2xl px-2 py-2 flex items-center justify-around font-mono text-[10px] uppercase">
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-[#0E0F14]/95 border-t border-white/[0.08] backdrop-blur-2xl px-2 py-2 pb-[max(0.5rem,env(safe-area-inset-bottom,0px))] flex items-center justify-around font-mono text-[10px] uppercase">
         <Link href="/" className={`flex flex-col items-center gap-1 px-3 py-1 rounded-xl transition-colors ${pathname === "/" ? "text-emerald-400 font-bold" : "text-zinc-400 hover:text-white"}`}>
           <Activity className="w-4 h-4" />
           <span>Home</span>

@@ -84,7 +84,7 @@ export const Onboarding: React.FC = () => {
     switch (step) {
       case 1:
         return (
-          <div className="space-y-5 animate-fadeIn">
+          <div className="space-y-4 sm:space-y-5 animate-fadeIn">
             <h2 className="text-xl font-bold text-white tracking-tight">Welcome to AiX Health</h2>
             <p className="text-xs text-zinc-400 font-sans leading-relaxed">
               Let&apos;s configure your biological baseline. What should we call you?
@@ -100,11 +100,11 @@ export const Onboarding: React.FC = () => {
         );
       case 2:
         return (
-          <div className="space-y-5 animate-fadeIn">
+          <div className="space-y-4 sm:space-y-5 animate-fadeIn">
             <h2 className="text-xl font-bold text-white tracking-tight">Tissue & Sensitivity Profile</h2>
             <p className="text-xs text-zinc-400 font-sans leading-relaxed">Select your skin / tissue type and reactivity level.</p>
             
-            <div className="space-y-3">
+            <div className="space-y-2.5 sm:space-y-3">
               <label className="text-[10px] font-mono text-emerald-400 uppercase tracking-widest font-bold">Skin / Tissue Type</label>
               <div className="grid grid-cols-2 gap-2">
                 {(["Normal", "Dry", "Oily", "Combination"] as const).map((t) => (
@@ -112,7 +112,7 @@ export const Onboarding: React.FC = () => {
                     key={t}
                     type="button"
                     onClick={() => setSkinType(t)}
-                    className={`py-3 px-4 rounded-xl border text-xs font-semibold transition-all ${
+                    className={`py-3 px-3 sm:px-4 rounded-xl border text-xs font-semibold transition-all ${
                       skinType === t ? "bg-emerald-500 text-zinc-950 border-emerald-500" : "bg-[#0A0A0A] text-zinc-300 border-white/[0.08] hover:border-white/20"
                     }`}
                   >
@@ -122,7 +122,7 @@ export const Onboarding: React.FC = () => {
               </div>
             </div>
 
-            <div className="space-y-3 pt-2">
+            <div className="space-y-2.5 sm:space-y-3 pt-2">
               <label className="text-[10px] font-mono text-emerald-400 uppercase tracking-widest font-bold">Sensitivity Index</label>
               <div className="grid grid-cols-3 gap-2">
                 {(["Low", "Medium", "High"] as const).map((s) => (
@@ -130,7 +130,7 @@ export const Onboarding: React.FC = () => {
                     key={s}
                     type="button"
                     onClick={() => setSensitivity(s)}
-                    className={`py-3 px-4 rounded-xl border text-xs font-semibold transition-all ${
+                    className={`py-3 px-2 sm:px-4 rounded-xl border text-xs font-semibold transition-all ${
                       sensitivity === s ? "bg-emerald-500 text-zinc-950 border-emerald-500" : "bg-[#0A0A0A] text-zinc-300 border-white/[0.08] hover:border-white/20"
                     }`}
                   >
@@ -143,10 +143,10 @@ export const Onboarding: React.FC = () => {
         );
       case 3:
         return (
-          <div className="space-y-5 animate-fadeIn">
+          <div className="space-y-4 sm:space-y-5 animate-fadeIn">
             <h2 className="text-xl font-bold text-white tracking-tight">Health & Physiological Concerns</h2>
             <p className="text-xs text-zinc-400 font-sans leading-relaxed">Select all areas you want to optimize or target.</p>
-            <div className="grid grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
               {concernsList.map((c) => {
                 const active = selectedConcerns.includes(c);
                 return (
@@ -168,10 +168,10 @@ export const Onboarding: React.FC = () => {
         );
       case 4:
         return (
-          <div className="space-y-5 animate-fadeIn">
+          <div className="space-y-4 sm:space-y-5 animate-fadeIn">
             <h2 className="text-xl font-bold text-white tracking-tight">Primary Optimization Goals</h2>
             <p className="text-xs text-zinc-400 font-sans leading-relaxed">Choose the outcomes you want AiX Health to help you achieve.</p>
-            <div className="grid grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[220px] overflow-y-auto pr-1">
               {goalsList.map((g) => {
                 const active = selectedGoals.includes(g);
                 return (
@@ -197,8 +197,8 @@ export const Onboarding: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center p-6 text-zinc-100 font-sans">
-      <div className="w-full max-w-md bg-[#101114] border border-white/[0.08] rounded-[32px] p-8 shadow-2xl flex flex-col gap-6 relative overflow-hidden backdrop-blur-xl">
+    <div className="min-h-screen bg-[#0A0A0A] flex flex-col items-center justify-center p-4 sm:p-6 text-zinc-100 font-sans">
+      <div className="w-full max-w-md bg-[#101114] border border-white/[0.08] rounded-[28px] sm:rounded-[32px] p-6 sm:p-8 shadow-2xl flex flex-col gap-5 sm:gap-6 relative overflow-hidden backdrop-blur-xl">
         
         <div className="flex items-center justify-between pb-4 border-b border-white/[0.08]">
           <div className="flex items-center gap-2">
@@ -212,7 +212,7 @@ export const Onboarding: React.FC = () => {
 
         <button
           onClick={handleNext}
-          className="w-full py-4 rounded-xl bg-emerald-500 text-zinc-950 font-bold text-xs hover:bg-emerald-400 transition-all font-mono flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20"
+          className="w-full py-3.5 sm:py-4 rounded-xl bg-emerald-500 text-zinc-950 font-bold text-xs hover:bg-emerald-400 transition-all font-mono flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/20"
         >
           <span>{step === 4 ? "Complete Setup & Launch Dashboard" : "Continue"}</span>
           <ArrowRight className="w-4 h-4" />

@@ -162,38 +162,39 @@ export default function AICoachPage() {
     : generatedResponses["I want to lose 10kg while keeping my muscle."];
 
   return (
-    <div className="min-h-screen pt-28 pb-32 px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
+    <div className="min-h-screen pt-24 sm:pt-28 pb-32 px-4 sm:px-6 max-w-[1440px] mx-auto animate-fadeIn text-white font-sans">
       
       {/* Header */}
-      <div className="max-w-3xl space-y-6 mb-8">
-        <span className="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
-          <Sparkles className="w-4 h-4 text-emerald-400" /> AiX Health Educational Intelligence Engine
+      <div className="max-w-3xl space-y-4 sm:space-y-6 mb-8">
+        <span className="flex items-center gap-2 text-[10px] sm:text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 w-fit">
+          <Sparkles className="w-3.5 h-3.5 text-emerald-400" /> AiX Health Educational Intelligence Engine
         </span>
-        <h1 className="text-5xl sm:text-7xl font-bold tracking-tight text-white leading-[1.02]">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white leading-[1.05]">
           AiX Health Education Coach
         </h1>
-        <p className="text-xl text-emerald-400 font-mono text-sm tracking-wide uppercase font-bold">
+        <p className="text-emerald-400 font-mono text-xs sm:text-sm tracking-wide uppercase font-bold">
           Educational information, not individualized medical advice.
         </p>
-        <p className="text-base text-zinc-400 font-light leading-relaxed font-sans">
+        <p className="text-sm sm:text-base text-zinc-400 font-light leading-relaxed font-sans">
           Explore evidence-based research, biological mechanisms, lifestyle frameworks, and educational context for your health questions.
         </p>
       </div>
 
       {/* Visible AI Health Disclaimer */}
-      <div className="max-w-4xl mb-10">
+      <div className="max-w-4xl mb-8 sm:mb-10">
         <HealthDisclaimer type="AI" />
       </div>
 
       {/* Preset Buttons */}
       <div className="mb-8 space-y-3">
-        <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 font-bold">Suggested Educational Topics:</p>
-        <div className="flex flex-wrap gap-3">
+        <p className="text-[10px] sm:text-xs font-mono uppercase tracking-widest text-zinc-500 font-bold">Suggested Educational Topics:</p>
+        <div className="flex flex-wrap gap-2.5 sm:gap-3">
           {presetQueries.map((p) => (
             <button
               key={p}
+              type="button"
               onClick={() => handleSelectPreset(p)}
-              className={`px-4 py-2 rounded-2xl text-xs font-sans transition-all text-left border ${
+              className={`px-3.5 sm:px-4 py-2 rounded-2xl text-xs font-sans transition-all text-left border ${
                 activePreset === p 
                   ? "bg-emerald-500/10 border-emerald-500 text-emerald-400 font-bold" 
                   : "bg-[#101114] border-white/[0.08] text-zinc-400 hover:text-white"
@@ -205,24 +206,26 @@ export default function AICoachPage() {
         </div>
       </div>
 
-      {/* Search Input */}
-      <form onSubmit={handleGenerate} className="mb-12 relative max-w-4xl">
-        <div className="relative flex items-center">
-          <Bot className="w-6 h-6 text-emerald-400 absolute left-5 pointer-events-none" />
-          <label htmlFor="ai-coach-query" className="sr-only">Ask AiX Health Educational Coach</label>
-          <input
-            type="text"
-            id="ai-coach-query"
-            aria-label="Ask AiX Health Educational Coach"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Ask AiX Health (e.g. 'What does research say about energy balance and protein?')"
-            className="w-full bg-[#101114] border border-white/[0.12] focus:border-emerald-500/50 rounded-3xl pl-14 pr-36 py-5 text-white placeholder-zinc-500 text-base font-sans focus:outline-none shadow-2xl transition-colors"
-          />
+      {/* Search Input Form */}
+      <form onSubmit={handleGenerate} className="mb-10 sm:mb-12 relative max-w-4xl">
+        <div className="relative flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-0">
+          <div className="relative flex-1 flex items-center">
+            <Bot className="w-5 h-5 sm:w-6 sm:h-6 text-emerald-400 absolute left-4 sm:left-5 pointer-events-none" />
+            <label htmlFor="ai-coach-query" className="sr-only">Ask AiX Health Educational Coach</label>
+            <input
+              type="text"
+              id="ai-coach-query"
+              aria-label="Ask AiX Health Educational Coach"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Ask AiX Health (e.g. 'What does research say about energy balance and protein?')"
+              className="w-full bg-[#101114] border border-white/[0.12] focus:border-emerald-500/50 rounded-2xl sm:rounded-3xl pl-12 sm:pl-14 pr-4 sm:pr-36 py-4 sm:py-5 text-white placeholder-zinc-500 text-sm sm:text-base font-sans focus:outline-none shadow-2xl transition-colors"
+            />
+          </div>
           <button
             type="submit"
             disabled={isGenerating}
-            className="absolute right-3 px-6 py-3 rounded-2xl bg-emerald-500 text-zinc-950 font-bold font-mono text-xs uppercase tracking-wider hover:bg-emerald-400 transition-colors flex items-center gap-2 cursor-pointer shadow-lg shadow-emerald-500/20 disabled:opacity-50"
+            className="sm:absolute sm:right-3 px-5 sm:px-6 py-3.5 sm:py-3 rounded-2xl bg-emerald-500 text-zinc-950 font-bold font-mono text-xs uppercase tracking-wider hover:bg-emerald-400 transition-colors flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-500/20 disabled:opacity-50"
           >
             {isGenerating ? (
               <><RefreshCw className="w-4 h-4 animate-spin" /> Synthesizing...</>
@@ -234,27 +237,27 @@ export default function AICoachPage() {
       </form>
 
       {/* Educational Response Panel */}
-      <div className="max-w-4xl p-8 sm:p-12 rounded-[40px] bg-gradient-to-br from-[#101114] via-[#141519] to-[#0A0A0A] border border-emerald-500/30 space-y-8 shadow-2xl relative overflow-hidden">
+      <div className="max-w-4xl p-6 sm:p-10 md:p-12 rounded-[32px] sm:rounded-[40px] bg-gradient-to-br from-[#101114] via-[#141519] to-[#0A0A0A] border border-emerald-500/30 space-y-6 sm:space-y-8 shadow-2xl relative overflow-hidden">
         
         <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-white/[0.08] pb-6 gap-4">
           <div className="space-y-1">
             <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400 font-bold">Educational Guidance & Research Context</span>
-            <h3 className="text-2xl font-bold text-white tracking-tight">{currentPlan.title}</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">{currentPlan.title}</h3>
           </div>
-          <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono font-bold w-fit">
+          <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] sm:text-xs font-mono font-bold w-fit">
             {currentPlan.evidenceLevel}
           </span>
         </div>
 
-        <p className="text-zinc-300 font-sans text-sm leading-relaxed border-l-2 border-emerald-500 pl-4">
+        <p className="text-zinc-300 font-sans text-xs sm:text-sm leading-relaxed border-l-2 border-emerald-500 pl-4">
           {currentPlan.summary}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           
-          <div className="p-6 rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
+          <div className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
             <h4 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4" /> Core Biological Concepts
+              <CheckCircle2 className="w-4 h-4 shrink-0" /> Core Biological Concepts
             </h4>
             <ul className="space-y-2 text-xs text-zinc-300 font-sans list-disc list-inside">
               {currentPlan.concepts.map((item, idx) => (
@@ -263,9 +266,9 @@ export default function AICoachPage() {
             </ul>
           </div>
 
-          <div className="p-6 rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
+          <div className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
             <h4 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold flex items-center gap-2">
-              <BookOpen className="w-4 h-4" /> Literature Examples & Research
+              <BookOpen className="w-4 h-4 shrink-0" /> Literature Examples & Research
             </h4>
             <ul className="space-y-2 text-xs text-zinc-300 font-sans list-disc list-inside">
               {currentPlan.evidence.map((item, idx) => (
@@ -274,9 +277,9 @@ export default function AICoachPage() {
             </ul>
           </div>
 
-          <div className="p-6 rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
+          <div className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
             <h4 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4" /> Research Context & Factors
+              <CheckCircle2 className="w-4 h-4 shrink-0" /> Research Context & Factors
             </h4>
             <ul className="space-y-2 text-xs text-zinc-300 font-sans list-disc list-inside">
               {currentPlan.researchContext.map((item, idx) => (
@@ -285,9 +288,9 @@ export default function AICoachPage() {
             </ul>
           </div>
 
-          <div className="p-6 rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
+          <div className="p-5 sm:p-6 rounded-2xl sm:rounded-3xl bg-[#0A0A0A] border border-white/[0.08] space-y-3">
             <h4 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold flex items-center gap-2">
-              <HelpCircle className="w-4 h-4" /> Questions for a Qualified Professional
+              <HelpCircle className="w-4 h-4 shrink-0" /> Questions for a Qualified Professional
             </h4>
             <ul className="space-y-2 text-xs text-zinc-300 font-sans list-disc list-inside">
               {currentPlan.questionsForProfessional.map((item, idx) => (
@@ -298,9 +301,9 @@ export default function AICoachPage() {
 
         </div>
 
-        <div className="pt-6 border-t border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="pt-6 border-t border-white/[0.08] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-xs text-zinc-500 font-mono">Want to discuss your personal health history with a licensed healthcare professional?</p>
-          <Link href="/contact" className="px-6 py-3 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs font-mono uppercase tracking-wider hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20">
+          <Link href="/contact" className="w-full sm:w-auto text-center px-6 py-3 rounded-full bg-emerald-500 text-zinc-950 font-bold text-xs font-mono uppercase tracking-wider hover:bg-emerald-400 transition-colors shadow-lg shadow-emerald-500/20">
             Educational Contact Support →
           </Link>
         </div>
