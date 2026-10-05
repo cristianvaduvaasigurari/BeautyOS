@@ -44,12 +44,6 @@ export const Auth: React.FC<AuthProps> = ({ onClose, isModal = false }) => {
           password,
         });
         if (error) {
-          if (email === "admin@healthos.local" && password === "healthos123") {
-            localStorage.setItem("sb-access-token", "mock-token-123");
-            window.dispatchEvent(new Event("storage"));
-            if (onClose) onClose();
-            return;
-          }
           throw error;
         }
       }

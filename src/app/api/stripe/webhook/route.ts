@@ -1,39 +1,79 @@
 import { NextResponse } from 'next/server';
+import crypto from 'crypto';
+
+function verifyStripeSignature(rawBody: string, signatureHeader: string | null, secret: string): boolean {
+  if (!signatureHeader || !secret) return false;
+  
+  try {
+    const parts = signatureHeader.split(',');
+    let timestamp = '';
+    const signatures: string[] = [];
+
+    for (const part of parts) {
+      const [key, value] = part.trim().split('=');
+      if (key === 't') timestamp = value;
+      if (key === 'v1') signatures.push(value);
+    }
+
+    if (!timestamp || signatures.length === 0) return false;
+
+    // Reject events older than 5 minutes to prevent replay attacks
+    const eventAge = Math.floor(Date.now() / 1000) - parseInt(timestamp, 10);
+    if (Math.abs(eventAge) > 300) return false;
+
+    const signedPayload = `${timestamp}.${rawBody}`;
+    const expectedSignature = crypto
+      .createHmac('sha256', secret)
+      .update(signedPayload, 'utf8')
+      .digest('hex');
+
+    return signatures.some(sig => {
+      try {
+        const a = Buffer.from(sig, 'hex');
+        const b = Buffer.from(expectedSignature, 'hex');
+        return a.length === b.length && crypto.timingSafeEqual(a, b);
+      } catch {
+        return false;
+      }
+    });
+  } catch {
+    return false;
+  }
+}
 
 export async function POST(request: Request) {
   try {
     const body = await request.text();
+    const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 
-    // Architectural Stripe Webhook Event Processor
-    // In production environment with STRIPE_WEBHOOK_SECRET set, verify event signature
+    if (webhookSecret) {
+      const signature = request.headers.get('stripe-signature');
+      const isValid = verifyStripeSignature(body, signature, webhookSecret);
+      if (!isValid) {
+        return NextResponse.json({ error: 'Invalid Stripe signature' }, { status: 400 });
+      }
+    }
+
     let event: { type: string; data: { object: { id: string; customer?: string; status?: string } } };
-    
     try {
       event = JSON.parse(body);
     } catch {
-      event = {
-        type: 'customer.subscription.updated',
-        data: { object: { id: 'sub_mock_123', customer: 'cus_mock_123', status: 'active' } }
-      };
+      return NextResponse.json({ error: 'Malformed JSON payload' }, { status: 400 });
     }
 
-    console.log(`[AiX Health Stripe Webhook] Received Event Type: ${event.type}`);
+    if (!event || !event.type || typeof event.type !== 'string') {
+      return NextResponse.json({ error: 'Invalid event format' }, { status: 400 });
+    }
 
     switch (event.type) {
       case 'customer.subscription.created':
-        console.log(`[Stripe Sync] New subscription created: ${event.data.object.id}`);
-        break;
       case 'customer.subscription.updated':
-        console.log(`[Stripe Sync] Subscription updated: ${event.data.object.id}, status: ${event.data.object.status}`);
-        break;
       case 'customer.subscription.deleted':
-        console.log(`[Stripe Sync] Subscription cancelled: ${event.data.object.id}`);
-        break;
       case 'invoice.payment_failed':
-        console.log(`[Stripe Sync] Payment failed for customer: ${event.data.object.customer}`);
         break;
       default:
-        console.log(`[Stripe Sync] Unhandled event type: ${event.type}`);
+        // Acknowledge unhandled event types gracefully
+        break;
     }
 
     return NextResponse.json({ received: true, eventType: event.type }, { status: 200 });
@@ -43,3 +83,16 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'Webhook Handler Failed' }, { status: 400 });
   }
 }
+
+export async function GET() {
+  return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
+}
+
+export async function PUT() {
+  return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
+}
+
+export async function DELETE() {
+  return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
+}
+

@@ -1,6 +1,17 @@
 import { TelegramNotificationPayload } from './types';
 
 /**
+ * Escapes special HTML characters to prevent Telegram HTML parsing failures and HTML injection.
+ */
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+/**
  * Server-side Telegram Notification Service
  * Formats and dispatches visitor intelligence and high-intent alerts to Telegram.
  * NEVER exposes secrets to client-side code.
@@ -64,24 +75,38 @@ export async function sendTelegramNotification(
     let fieldsText = '';
     if (payload.submittedFields && Object.keys(payload.submittedFields).length > 0) {
       fieldsText = '\n<b>Details:</b>\n' + Object.entries(payload.submittedFields)
-        .map(([k, v]) => `• <b>${k}:</b> ${typeof v === 'object' ? JSON.stringify(v) : String(v)}`)
+        .map(([k, v]) => {
+          const safeKey = escapeHtml(String(k));
+          const safeVal = escapeHtml(typeof v === 'object' ? JSON.stringify(v) : String(v));
+          return `• <b>${safeKey}:</b> ${safeVal}`;
+        })
         .join('\n');
     }
 
     let journeyText = '';
     if (payload.journey && payload.journey.length > 0) {
-      journeyText = `\n<b>Recent Journey:</b>\n` + payload.journey.map((step, idx) => `${idx + 1}. <code>${step}</code>`).join('\n');
+      journeyText = `\n<b>Recent Journey:</b>\n` + payload.journey.map((step, idx) => `${idx + 1}. <code>${escapeHtml(String(step))}</code>`).join('\n');
     }
+
+    const safeVisitor = escapeHtml(String(payload.anonymousSessionId || 'visitor_anon'));
+    const safePageTitle = payload.pageTitle ? escapeHtml(String(payload.pageTitle)) : '';
+    const safeRoute = escapeHtml(String(payload.sourceRoute));
+    const safePreviousPage = payload.previousPage ? escapeHtml(String(payload.previousPage)) : '';
+    const safeCategory = payload.category ? escapeHtml(String(payload.category)) : '';
+    const safeSessionDuration = payload.sessionDuration ? escapeHtml(String(payload.sessionDuration)) : '';
+    const safeReferrerSource = payload.referrerSource ? escapeHtml(String(payload.referrerSource)) : '';
+    const safeEvent = escapeHtml(String(payload.event));
+    const safeTimestamp = escapeHtml(String(payload.timestamp));
 
     const text = `
 ━━━━━━━━━━━━━━━━━━
 ${icon} <b>${headerTitle}</b>
 ━━━━━━━━━━━━━━━━━━
 
-<b>Visitor:</b> <code>${payload.anonymousSessionId || 'visitor_anon'}</code>
-${payload.pageTitle ? `<b>Page:</b> ${payload.pageTitle}\n` : ''}<b>Route:</b> <code>${payload.sourceRoute}</code>
-${payload.previousPage ? `<b>Previous Page:</b> <code>${payload.previousPage}</code>\n` : ''}${payload.category ? `<b>Category:</b> ${payload.category}\n` : ''}${payload.sessionDuration ? `<b>Session Duration:</b> ${payload.sessionDuration}\n` : ''}${payload.referrerSource ? `<b>Source:</b> ${payload.referrerSource}\n` : ''}<b>Event:</b> <code>${payload.event}</code>
-<b>Time:</b> ${payload.timestamp}${fieldsText}${journeyText}
+<b>Visitor:</b> <code>${safeVisitor}</code>
+${safePageTitle ? `<b>Page:</b> ${safePageTitle}\n` : ''}<b>Route:</b> <code>${safeRoute}</code>
+${safePreviousPage ? `<b>Previous Page:</b> <code>${safePreviousPage}</code>\n` : ''}${safeCategory ? `<b>Category:</b> ${safeCategory}\n` : ''}${safeSessionDuration ? `<b>Session Duration:</b> ${safeSessionDuration}\n` : ''}${safeReferrerSource ? `<b>Source:</b> ${safeReferrerSource}\n` : ''}<b>Event:</b> <code>${safeEvent}</code>
+<b>Time:</b> ${safeTimestamp}${fieldsText}${journeyText}
 
 ━━━━━━━━━━━━━━━━━━
 `;

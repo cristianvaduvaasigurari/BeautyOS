@@ -1,45 +1,83 @@
 import { NextResponse } from 'next/server';
 import { sendTelegramNotification } from '@/lib/telegram/notify';
 
+// Simple in-memory rate limiter for lead submissions: 5 requests per IP per minute
+const contactRateLimits = new Map<string, { count: number; expiresAt: number }>();
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const record = contactRateLimits.get(ip);
+  if (!record || now > record.expiresAt) {
+    contactRateLimits.set(ip, { count: 1, expiresAt: now + 60000 });
+    // Garbage collect expired entries if map grows
+    if (contactRateLimits.size > 2000) {
+      for (const [key, val] of contactRateLimits.entries()) {
+        if (now > val.expiresAt) contactRateLimits.delete(key);
+      }
+    }
+    return false;
+  }
+  if (record.count >= 5) {
+    return true;
+  }
+  record.count += 1;
+  return false;
+}
+
+const sanitizeString = (val: unknown, maxLen = 500): string => {
+  if (typeof val !== 'string') return '';
+  return val.trim().slice(0, maxLen);
+};
+
 export async function POST(request: Request) {
   try {
-    const body = await request.json();
-    const {
-      firstName,
-      lastName,
-      email,
-      phone,
-      country,
-      age,
-      gender,
-      goal,
-      skinType,
-      concern,
-      currentRoutine,
-      productsUsed,
-      supplementsUsed,
-      message,
-      source,
-      device
-    } = body;
-
-    const MAX_LENGTH = 2000;
-    const isTooLong = Object.values(body).some(
-      (val) => typeof val === "string" && val.length > MAX_LENGTH
-    );
-
-    if (isTooLong) {
+    const clientIp = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown-ip';
+    if (isRateLimited(clientIp)) {
       return NextResponse.json(
-        { error: 'Payload too large.' },
-        { status: 413 }
+        { error: 'Too many requests. Please wait a minute before submitting again.' },
+        { status: 429 }
       );
     }
 
+    let body: Record<string, unknown>;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json({ error: 'Invalid JSON payload.' }, { status: 400 });
+    }
+
+    if (!body || typeof body !== 'object') {
+      return NextResponse.json({ error: 'Invalid body.' }, { status: 400 });
+    }
+
+    const firstName = sanitizeString(body.firstName, 100);
+    const lastName = sanitizeString(body.lastName, 100);
+    const email = sanitizeString(body.email, 255);
+    const phone = sanitizeString(body.phone, 50);
+    const country = sanitizeString(body.country, 100);
+    const age = sanitizeString(body.age, 20);
+    const gender = sanitizeString(body.gender, 50);
+    const goal = sanitizeString(body.goal, 150);
+    const skinType = sanitizeString(body.skinType, 50);
+    const concern = sanitizeString(body.concern, 200);
+    const currentRoutine = sanitizeString(body.currentRoutine, 500);
+    const productsUsed = sanitizeString(body.productsUsed, 500);
+    const supplementsUsed = sanitizeString(body.supplementsUsed, 500);
+    const message = sanitizeString(body.message, 2000);
+    const source = sanitizeString(body.source, 150);
+    const device = sanitizeString(body.device, 100);
+
     if (!firstName || !lastName || !email || !message) {
       return NextResponse.json(
-        { error: 'Missing required fields.' },
+        { error: 'Missing required fields (firstName, lastName, email, message).' },
         { status: 400 }
       );
+    }
+
+    // Basic email sanity check
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      return NextResponse.json({ error: 'Invalid email address format.' }, { status: 400 });
     }
 
     // Attempt Telegram notification safely via central notification service
@@ -74,8 +112,21 @@ export async function POST(request: Request) {
   } catch (error) {
     console.error('Contact API Error:', error);
     return NextResponse.json(
-      { error: 'Internal Server Error', details: error instanceof Error ? error.message : 'Unknown error' },
+      { error: 'Internal Server Error' },
       { status: 500 }
     );
   }
 }
+
+export async function GET() {
+  return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
+}
+
+export async function PUT() {
+  return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
+}
+
+export async function DELETE() {
+  return NextResponse.json({ error: 'Method Not Allowed' }, { status: 405 });
+}
+

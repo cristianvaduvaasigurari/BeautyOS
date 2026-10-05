@@ -118,6 +118,8 @@ ALTER TABLE public.daily_checkins ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.protocol_progress ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.ai_conversations ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.subscriptions ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.payments ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.leads ENABLE ROW LEVEL SECURITY;
 
 CREATE POLICY "Users access own profile" ON public.users_profile FOR ALL USING (auth.uid() = user_id);
 CREATE POLICY "Users access own metrics" ON public.health_metrics FOR ALL USING (auth.uid() = user_id);
@@ -125,3 +127,7 @@ CREATE POLICY "Users access own checkins" ON public.daily_checkins FOR ALL USING
 CREATE POLICY "Users access own protocol progress" ON public.protocol_progress FOR ALL USING (auth.uid() = user_id);
 CREATE POLICY "Users access own AI conversations" ON public.ai_conversations FOR ALL USING (auth.uid() = user_id);
 CREATE POLICY "Users access own subscription" ON public.subscriptions FOR ALL USING (auth.uid() = user_id);
+CREATE POLICY "Users access own payments" ON public.payments FOR ALL USING (auth.uid() = user_id);
+CREATE POLICY "Leads insert allowed" ON public.leads FOR INSERT WITH CHECK (true);
+CREATE POLICY "Leads select denied to anon" ON public.leads FOR SELECT USING (auth.role() = 'service_role');
+

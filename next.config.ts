@@ -45,6 +45,14 @@ const securityHeaders = [
     value: "camera=(), microphone=(), geolocation=(), payment=(), usb=(), accelerometer=(), gyroscope=(), magnetometer=(), browsing-topics=()",
   },
   {
+    key: "Cross-Origin-Opener-Policy",
+    value: "same-origin-allow-popups",
+  },
+  {
+    key: "Cross-Origin-Resource-Policy",
+    value: "same-origin",
+  },
+  {
     key: "X-DNS-Prefetch-Control",
     value: "on",
   },
@@ -55,6 +63,7 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
   turbopack: {
     root: path.resolve(__dirname),
   },
@@ -78,3 +87,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
