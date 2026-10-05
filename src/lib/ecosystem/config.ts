@@ -1,7 +1,7 @@
 export interface EcosystemItem {
   id: string;
   name: string;
-  category: "INTELLIGENCE" | "FINANCE" | "REAL ESTATE" | "MEDIA" | "PERSONAL";
+  category: "INTELLIGENCE" | "FINANCE" | "REAL ESTATE" | "AVIATION" | "CONSTRUCTION" | "MEDIA" | "PERSONAL";
   description: string;
   href: string;
   external: boolean;
@@ -99,6 +99,43 @@ export const ECOSYSTEM_CONFIG: EcosystemItem[] = [
     category: "REAL ESTATE",
     description: "Luxury Real Estate Intelligence",
     href: "https://aixluxury.com",
+    external: true,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    verified: true,
+  },
+  {
+    id: "dubai",
+    name: "Dubai",
+    category: "REAL ESTATE",
+    description: "Dubai Real Estate & Investment Intelligence",
+    href: "https://dubai.cristianvaduva.com",
+    external: true,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    verified: true,
+  },
+
+  // AVIATION
+  {
+    id: "air",
+    name: "AIR",
+    category: "AVIATION",
+    description: "Private Aviation & Intelligence",
+    href: "https://fly.cristianvaduva.com",
+    external: true,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    verified: true,
+  },
+
+  // CONSTRUCTION
+  {
+    id: "constructions",
+    name: "CONSTRUCTIONS",
+    category: "CONSTRUCTION",
+    description: "Construction & Developer Intelligence",
+    href: "https://constructions.cristianvaduva.com",
     external: true,
     target: "_blank",
     rel: "noopener noreferrer",

@@ -37,6 +37,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
   const { userSession } = useAiXHealth();
 
   const isDashboardRoute = pathname.startsWith("/dashboard") || pathname.startsWith("/progress") || pathname.startsWith("/products");
+  const isExcludedFromFab = isDashboardRoute || pathname.startsWith("/onboarding");
 
   const navLinks = [
     { label: "Skin", href: "/skin" },
@@ -469,8 +470,8 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
                   <span className="text-xs font-mono text-emerald-400 uppercase tracking-widest font-bold">AiX Network</span>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-                  {(["INTELLIGENCE", "FINANCE", "REAL ESTATE", "MEDIA", "PERSONAL"] as const).map((cat) => {
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-6">
+                  {(["INTELLIGENCE", "FINANCE", "REAL ESTATE", "AVIATION", "CONSTRUCTION", "MEDIA", "PERSONAL"] as const).map((cat) => {
                     const items = ECOSYSTEM_CONFIG.filter((item) => item.category === cat);
                     return (
                       <div key={cat} className="space-y-4">
@@ -600,7 +601,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
             {/* MOBILE ECOSYSTEM SECTION */}
             <div className="pt-4 border-t border-white/[0.08] space-y-4">
               <h5 className="text-xs font-mono uppercase tracking-widest text-emerald-400 font-bold">AiX Ecosystem</h5>
-              {(["INTELLIGENCE", "FINANCE", "REAL ESTATE", "MEDIA", "PERSONAL"] as const).map((cat) => {
+              {(["INTELLIGENCE", "FINANCE", "REAL ESTATE", "AVIATION", "CONSTRUCTION", "MEDIA", "PERSONAL"] as const).map((cat) => {
                 const items = ECOSYSTEM_CONFIG.filter((item) => item.category === cat);
                 return (
                   <div key={cat} className="space-y-2">
@@ -747,7 +748,7 @@ export const GlobalLayout = ({ children }: { children: React.ReactNode }) => {
       </div>
 
       {/* FLOATING ACTION BUTTON */}
-      {!isDashboardRoute && <FloatingActionButton />}
+      {!isExcludedFromFab && <FloatingActionButton />}
 
       {/* GLOBAL FOOTER */}
       <footer className="bg-[#050506] border-t border-white/[0.08] pt-16 pb-12 mt-20">
